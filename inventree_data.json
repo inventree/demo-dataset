@@ -1,3 +1,3938 @@
-{
-    
-}
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
+      "last_login": "2021-06-20T05:54:28.698Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-06-20T05:52:40.528Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 1,
+    "fields": {
+      "key": "INVENTREE_LATEST_VERSION",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 2,
+    "fields": {
+      "key": "INVENTREE_INSTANCE_TITLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 3,
+    "fields": {
+      "key": "BARCODE_ENABLE",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 4,
+    "fields": {
+      "key": "REPORT_ENABLE_TEST_REPORT",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 5,
+    "fields": {
+      "key": "PART_RECENT_COUNT",
+      "value": "10"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 6,
+    "fields": {
+      "key": "STOCK_RECENT_COUNT",
+      "value": "10"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 7,
+    "fields": {
+      "key": "STOCK_ENABLE_EXPIRY",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 8,
+    "fields": {
+      "key": "PURCHASEORDER_REFERENCE_PREFIX",
+      "value": "PO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 9,
+    "fields": {
+      "key": "SALESORDER_REFERENCE_PREFIX",
+      "value": "SO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 10,
+    "fields": {
+      "key": "BUILDORDER_REFERENCE_PREFIX",
+      "value": "BO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 11,
+    "fields": {
+      "key": "STOCK_GROUP_BY_PART",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 12,
+    "fields": {
+      "key": "STOCK_STALE_DAYS",
+      "value": "90"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 13,
+    "fields": {
+      "key": "INVENTREE_DOWNLOAD_FROM_URL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 14,
+    "fields": {
+      "key": "STOCK_OWNERSHIP_CONTROL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 15,
+    "fields": {
+      "key": "INVENTREE_INSTANCE",
+      "value": "InvenTree Demo Server"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 16,
+    "fields": {
+      "key": "INVENTREE_BASE_URL",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 17,
+    "fields": {
+      "key": "INVENTREE_COMPANY_NAME",
+      "value": "My company name"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 18,
+    "fields": {
+      "key": "REPORT_DEFAULT_PAGE_SIZE",
+      "value": "A4"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 19,
+    "fields": {
+      "key": "REPORT_DEBUG_MODE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 20,
+    "fields": {
+      "key": "PART_IPN_REGEX",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 21,
+    "fields": {
+      "key": "PART_ALLOW_DUPLICATE_IPN",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 22,
+    "fields": {
+      "key": "PART_ALLOW_EDIT_IPN",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 23,
+    "fields": {
+      "key": "PART_SHOW_QUANTITY_IN_FORMS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 24,
+    "fields": {
+      "key": "PART_TEMPLATE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 25,
+    "fields": {
+      "key": "PART_ASSEMBLY",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 26,
+    "fields": {
+      "key": "PART_COMPONENT",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 27,
+    "fields": {
+      "key": "PART_TRACKABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 28,
+    "fields": {
+      "key": "PART_PURCHASEABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 29,
+    "fields": {
+      "key": "PART_SALABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 30,
+    "fields": {
+      "key": "PART_VIRTUAL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 31,
+    "fields": {
+      "key": "PART_COPY_BOM",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 32,
+    "fields": {
+      "key": "PART_COPY_PARAMETERS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 33,
+    "fields": {
+      "key": "PART_COPY_TESTS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 34,
+    "fields": {
+      "key": "PART_CATEGORY_PARAMETERS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 35,
+    "fields": {
+      "key": "PART_INTERNAL_PRICE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 36,
+    "fields": {
+      "key": "PART_BOM_USE_INTERNAL_PRICE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 37,
+    "fields": {
+      "key": "STOCK_ALLOW_EXPIRED_SALE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 38,
+    "fields": {
+      "key": "STOCK_ALLOW_EXPIRED_BUILD",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 39,
+    "fields": {
+      "key": "BUILDORDER_REFERENCE_REGEX",
+      "value": ""
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 1,
+    "fields": {
+      "name": "DigiKey",
+      "description": "DigiKey Electronics",
+      "website": "https://www.digikey.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_1_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 2,
+    "fields": {
+      "name": "Mouser",
+      "description": "Mouser Electronics",
+      "website": "https://mouser.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_2_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "AUD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 3,
+    "fields": {
+      "name": "Arrow",
+      "description": "Arrow Electronics",
+      "website": "https://www.arrow.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_3_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "AUD"
+    }
+  },
+  {
+    "model": "label.stockitemlabel",
+    "pk": 1,
+    "fields": {
+      "name": "QR Code",
+      "description": "Simple QR code label",
+      "label": "label/inventree/stockitem/qr.html",
+      "enabled": true,
+      "width": 24.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "label.stocklocationlabel",
+    "pk": 1,
+    "fields": {
+      "name": "QR Code",
+      "description": "Simple QR code label",
+      "label": "label/inventree/stocklocation/qr.html",
+      "enabled": true,
+      "width": 24.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "label.stocklocationlabel",
+    "pk": 2,
+    "fields": {
+      "name": "QR and text",
+      "description": "Label with QR code and name of location",
+      "label": "label/inventree/stocklocation/qr_and_text.html",
+      "enabled": true,
+      "width": 50.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "description": "Electronic components and systems",
+      "parent": null,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 1,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Mechanical",
+      "description": "Mechanical components",
+      "parent": null,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 1,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Fasteners",
+      "description": "Screws / nuts / bolts / etc",
+      "parent": 2,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Passives",
+      "description": "Passive components",
+      "parent": 1,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 2,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Resistors",
+      "description": "Resistors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": "passive resistor",
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Capacitors",
+      "description": "Capacitors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": "passive capacitor",
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Inductors",
+      "description": "Inductors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 1,
+    "fields": {
+      "name": "R_10R_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10R resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 2,
+    "fields": {
+      "name": "R_10R_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10R resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 3,
+    "fields": {
+      "name": "R_10R_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10R resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 3,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 4,
+    "fields": {
+      "name": "R_100R_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100R resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 4,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 5,
+    "fields": {
+      "name": "R_100R_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100R resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 5,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 6,
+    "fields": {
+      "name": "R_100R_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100R resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 6,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 7,
+    "fields": {
+      "name": "R_220R_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220R resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 7,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 8,
+    "fields": {
+      "name": "R_220R_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220R resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 8,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 9,
+    "fields": {
+      "name": "R_220R_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220R resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 9,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 10,
+    "fields": {
+      "name": "R_470R_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "470R resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 10,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 11,
+    "fields": {
+      "name": "R_470R_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "470R resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 11,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 12,
+    "fields": {
+      "name": "R_470R_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "470R resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 12,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 13,
+    "fields": {
+      "name": "R_550R_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "550R resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 13,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 14,
+    "fields": {
+      "name": "R_550R_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "550R resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 14,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 15,
+    "fields": {
+      "name": "R_550R_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "550R resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 15,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 16,
+    "fields": {
+      "name": "R_1K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "1K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 16,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 17,
+    "fields": {
+      "name": "R_1K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "1K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 17,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 18,
+    "fields": {
+      "name": "R_1K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "1K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 18,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 19,
+    "fields": {
+      "name": "R_2.2K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "2.2K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 19,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 20,
+    "fields": {
+      "name": "R_2.2K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "2.2K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 20,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 21,
+    "fields": {
+      "name": "R_2.2K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "2.2K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 21,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 22,
+    "fields": {
+      "name": "R_4.7K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "4.7K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 22,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 23,
+    "fields": {
+      "name": "R_4.7K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "4.7K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 23,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 24,
+    "fields": {
+      "name": "R_4.7K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "4.7K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 24,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 25,
+    "fields": {
+      "name": "R_5.6K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "5.6K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 25,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 26,
+    "fields": {
+      "name": "R_5.6K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "5.6K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 26,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 27,
+    "fields": {
+      "name": "R_5.6K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "5.6K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 27,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 28,
+    "fields": {
+      "name": "R_10K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 28,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 29,
+    "fields": {
+      "name": "R_10K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 29,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 30,
+    "fields": {
+      "name": "R_10K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "10K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 30,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 31,
+    "fields": {
+      "name": "R_22K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "22K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 31,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 32,
+    "fields": {
+      "name": "R_22K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "22K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 32,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 33,
+    "fields": {
+      "name": "R_22K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "22K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 33,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 34,
+    "fields": {
+      "name": "R_47K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "47K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 34,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 35,
+    "fields": {
+      "name": "R_47K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "47K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 35,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 36,
+    "fields": {
+      "name": "R_47K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "47K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 36,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 37,
+    "fields": {
+      "name": "R_56K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "56K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 37,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 38,
+    "fields": {
+      "name": "R_56K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "56K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 38,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 39,
+    "fields": {
+      "name": "R_56K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "56K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 39,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 40,
+    "fields": {
+      "name": "R_68K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "68K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 40,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 41,
+    "fields": {
+      "name": "R_68K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "68K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 41,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 42,
+    "fields": {
+      "name": "R_68K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "68K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 42,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 43,
+    "fields": {
+      "name": "R_100K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 43,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 44,
+    "fields": {
+      "name": "R_100K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 44,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 45,
+    "fields": {
+      "name": "R_100K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "100K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 45,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 46,
+    "fields": {
+      "name": "R_220K_0402_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220K resistor in 0402 SMD package",
+      "keywords": "resistor smd 0402",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0402.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 46,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 47,
+    "fields": {
+      "name": "R_220K_0603_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220K resistor in 0603 SMD package",
+      "keywords": "resistor smd 0603",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0603.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 47,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 48,
+    "fields": {
+      "name": "R_220K_0805_1%",
+      "is_template": false,
+      "variant_of": null,
+      "description": "220K resistor in 0805 SMD package",
+      "keywords": "resistor smd 0805",
+      "category": 5,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/0805.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-06-20",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 48,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 1,
+    "fields": {
+      "name": "Package",
+      "units": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 2,
+    "fields": {
+      "name": "Resistance",
+      "units": "Ohms"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 3,
+    "fields": {
+      "name": "Tolerance",
+      "units": "%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1,
+    "fields": {
+      "part": 1,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 2,
+    "fields": {
+      "part": 1,
+      "template": 2,
+      "data": "10R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 3,
+    "fields": {
+      "part": 1,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 4,
+    "fields": {
+      "part": 2,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 5,
+    "fields": {
+      "part": 2,
+      "template": 2,
+      "data": "10R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 6,
+    "fields": {
+      "part": 2,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 7,
+    "fields": {
+      "part": 3,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 8,
+    "fields": {
+      "part": 3,
+      "template": 2,
+      "data": "10R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 9,
+    "fields": {
+      "part": 3,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 10,
+    "fields": {
+      "part": 4,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 11,
+    "fields": {
+      "part": 4,
+      "template": 2,
+      "data": "100R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 12,
+    "fields": {
+      "part": 4,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 13,
+    "fields": {
+      "part": 5,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 14,
+    "fields": {
+      "part": 5,
+      "template": 2,
+      "data": "100R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 15,
+    "fields": {
+      "part": 5,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 16,
+    "fields": {
+      "part": 6,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 17,
+    "fields": {
+      "part": 6,
+      "template": 2,
+      "data": "100R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 18,
+    "fields": {
+      "part": 6,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 19,
+    "fields": {
+      "part": 7,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 20,
+    "fields": {
+      "part": 7,
+      "template": 2,
+      "data": "220R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 21,
+    "fields": {
+      "part": 7,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 22,
+    "fields": {
+      "part": 8,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 23,
+    "fields": {
+      "part": 8,
+      "template": 2,
+      "data": "220R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 24,
+    "fields": {
+      "part": 8,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 25,
+    "fields": {
+      "part": 9,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 26,
+    "fields": {
+      "part": 9,
+      "template": 2,
+      "data": "220R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 27,
+    "fields": {
+      "part": 9,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 28,
+    "fields": {
+      "part": 10,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 29,
+    "fields": {
+      "part": 10,
+      "template": 2,
+      "data": "470R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 30,
+    "fields": {
+      "part": 10,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 31,
+    "fields": {
+      "part": 11,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 32,
+    "fields": {
+      "part": 11,
+      "template": 2,
+      "data": "470R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 33,
+    "fields": {
+      "part": 11,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 34,
+    "fields": {
+      "part": 12,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 35,
+    "fields": {
+      "part": 12,
+      "template": 2,
+      "data": "470R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 36,
+    "fields": {
+      "part": 12,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 37,
+    "fields": {
+      "part": 13,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 38,
+    "fields": {
+      "part": 13,
+      "template": 2,
+      "data": "550R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 39,
+    "fields": {
+      "part": 13,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 40,
+    "fields": {
+      "part": 14,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 41,
+    "fields": {
+      "part": 14,
+      "template": 2,
+      "data": "550R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 42,
+    "fields": {
+      "part": 14,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 43,
+    "fields": {
+      "part": 15,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 44,
+    "fields": {
+      "part": 15,
+      "template": 2,
+      "data": "550R"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 45,
+    "fields": {
+      "part": 15,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 46,
+    "fields": {
+      "part": 16,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 47,
+    "fields": {
+      "part": 16,
+      "template": 2,
+      "data": "1K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 48,
+    "fields": {
+      "part": 16,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 49,
+    "fields": {
+      "part": 17,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 50,
+    "fields": {
+      "part": 17,
+      "template": 2,
+      "data": "1K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 51,
+    "fields": {
+      "part": 17,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 52,
+    "fields": {
+      "part": 18,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 53,
+    "fields": {
+      "part": 18,
+      "template": 2,
+      "data": "1K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 54,
+    "fields": {
+      "part": 18,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 55,
+    "fields": {
+      "part": 19,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 56,
+    "fields": {
+      "part": 19,
+      "template": 2,
+      "data": "2.2K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 57,
+    "fields": {
+      "part": 19,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 58,
+    "fields": {
+      "part": 20,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 59,
+    "fields": {
+      "part": 20,
+      "template": 2,
+      "data": "2.2K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 60,
+    "fields": {
+      "part": 20,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 61,
+    "fields": {
+      "part": 21,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 62,
+    "fields": {
+      "part": 21,
+      "template": 2,
+      "data": "2.2K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 63,
+    "fields": {
+      "part": 21,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 64,
+    "fields": {
+      "part": 22,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 65,
+    "fields": {
+      "part": 22,
+      "template": 2,
+      "data": "4.7K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 66,
+    "fields": {
+      "part": 22,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 67,
+    "fields": {
+      "part": 23,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 68,
+    "fields": {
+      "part": 23,
+      "template": 2,
+      "data": "4.7K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 69,
+    "fields": {
+      "part": 23,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 70,
+    "fields": {
+      "part": 24,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 71,
+    "fields": {
+      "part": 24,
+      "template": 2,
+      "data": "4.7K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 72,
+    "fields": {
+      "part": 24,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 73,
+    "fields": {
+      "part": 25,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 74,
+    "fields": {
+      "part": 25,
+      "template": 2,
+      "data": "5.6K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 75,
+    "fields": {
+      "part": 25,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 76,
+    "fields": {
+      "part": 26,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 77,
+    "fields": {
+      "part": 26,
+      "template": 2,
+      "data": "5.6K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 78,
+    "fields": {
+      "part": 26,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 79,
+    "fields": {
+      "part": 27,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 80,
+    "fields": {
+      "part": 27,
+      "template": 2,
+      "data": "5.6K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 81,
+    "fields": {
+      "part": 27,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 82,
+    "fields": {
+      "part": 28,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 83,
+    "fields": {
+      "part": 28,
+      "template": 2,
+      "data": "10K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 84,
+    "fields": {
+      "part": 28,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 85,
+    "fields": {
+      "part": 29,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 86,
+    "fields": {
+      "part": 29,
+      "template": 2,
+      "data": "10K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 87,
+    "fields": {
+      "part": 29,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 88,
+    "fields": {
+      "part": 30,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 89,
+    "fields": {
+      "part": 30,
+      "template": 2,
+      "data": "10K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 90,
+    "fields": {
+      "part": 30,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 91,
+    "fields": {
+      "part": 31,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 92,
+    "fields": {
+      "part": 31,
+      "template": 2,
+      "data": "22K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 93,
+    "fields": {
+      "part": 31,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 94,
+    "fields": {
+      "part": 32,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 95,
+    "fields": {
+      "part": 32,
+      "template": 2,
+      "data": "22K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 96,
+    "fields": {
+      "part": 32,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 97,
+    "fields": {
+      "part": 33,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 98,
+    "fields": {
+      "part": 33,
+      "template": 2,
+      "data": "22K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 99,
+    "fields": {
+      "part": 33,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 100,
+    "fields": {
+      "part": 34,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 101,
+    "fields": {
+      "part": 34,
+      "template": 2,
+      "data": "47K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 102,
+    "fields": {
+      "part": 34,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 103,
+    "fields": {
+      "part": 35,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 104,
+    "fields": {
+      "part": 35,
+      "template": 2,
+      "data": "47K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 105,
+    "fields": {
+      "part": 35,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 106,
+    "fields": {
+      "part": 36,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 107,
+    "fields": {
+      "part": 36,
+      "template": 2,
+      "data": "47K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 108,
+    "fields": {
+      "part": 36,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 109,
+    "fields": {
+      "part": 37,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 110,
+    "fields": {
+      "part": 37,
+      "template": 2,
+      "data": "56K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 111,
+    "fields": {
+      "part": 37,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 112,
+    "fields": {
+      "part": 38,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 113,
+    "fields": {
+      "part": 38,
+      "template": 2,
+      "data": "56K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 114,
+    "fields": {
+      "part": 38,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 115,
+    "fields": {
+      "part": 39,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 116,
+    "fields": {
+      "part": 39,
+      "template": 2,
+      "data": "56K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 117,
+    "fields": {
+      "part": 39,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 118,
+    "fields": {
+      "part": 40,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 119,
+    "fields": {
+      "part": 40,
+      "template": 2,
+      "data": "68K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 120,
+    "fields": {
+      "part": 40,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 121,
+    "fields": {
+      "part": 41,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 122,
+    "fields": {
+      "part": 41,
+      "template": 2,
+      "data": "68K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 123,
+    "fields": {
+      "part": 41,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 124,
+    "fields": {
+      "part": 42,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 125,
+    "fields": {
+      "part": 42,
+      "template": 2,
+      "data": "68K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 126,
+    "fields": {
+      "part": 42,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 127,
+    "fields": {
+      "part": 43,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 128,
+    "fields": {
+      "part": 43,
+      "template": 2,
+      "data": "100K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 129,
+    "fields": {
+      "part": 43,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 130,
+    "fields": {
+      "part": 44,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 131,
+    "fields": {
+      "part": 44,
+      "template": 2,
+      "data": "100K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 132,
+    "fields": {
+      "part": 44,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 133,
+    "fields": {
+      "part": 45,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 134,
+    "fields": {
+      "part": 45,
+      "template": 2,
+      "data": "100K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 135,
+    "fields": {
+      "part": 45,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 136,
+    "fields": {
+      "part": 46,
+      "template": 1,
+      "data": "0402"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 137,
+    "fields": {
+      "part": 46,
+      "template": 2,
+      "data": "220K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 138,
+    "fields": {
+      "part": 46,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 139,
+    "fields": {
+      "part": 47,
+      "template": 1,
+      "data": "0603"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 140,
+    "fields": {
+      "part": 47,
+      "template": 2,
+      "data": "220K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 141,
+    "fields": {
+      "part": 47,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 142,
+    "fields": {
+      "part": 48,
+      "template": 1,
+      "data": "0805"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 143,
+    "fields": {
+      "part": 48,
+      "template": 2,
+      "data": "220K"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 144,
+    "fields": {
+      "part": 48,
+      "template": 3,
+      "data": "1%"
+    }
+  },
+  {
+    "model": "report.testreport",
+    "pk": 1,
+    "fields": {
+      "name": "InvenTree Test Report",
+      "template": "report/inventree/test/inventree_test_report.html",
+      "description": "Stock item test report",
+      "revision": 2,
+      "filename_pattern": "report.pdf",
+      "enabled": true,
+      "filters": "",
+      "include_installed": false
+    }
+  },
+  {
+    "model": "report.buildreport",
+    "pk": 1,
+    "fields": {
+      "name": "InvenTree Build Order",
+      "template": "report/inventree/build/inventree_build_order.html",
+      "description": "Build Order job sheet",
+      "revision": 2,
+      "filename_pattern": "report.pdf",
+      "enabled": true,
+      "filters": ""
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 1,
+    "fields": {
+      "name": "Factory",
+      "description": "",
+      "parent": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 2,
+    "fields": {
+      "name": "Storage Room A",
+      "description": "Storage Room A (purple door)",
+      "parent": 1,
+      "owner": null,
+      "lft": 8,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 3,
+    "fields": {
+      "name": "Storage Room B",
+      "description": "Storage Room B (green door)",
+      "parent": 1,
+      "owner": null,
+      "lft": 10,
+      "rght": 11,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 4,
+    "fields": {
+      "name": "Office Block",
+      "description": "Office block inside factory",
+      "parent": 1,
+      "owner": null,
+      "lft": 2,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 5,
+    "fields": {
+      "name": "Room 101",
+      "description": "",
+      "parent": 4,
+      "owner": null,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 6,
+    "fields": {
+      "name": "Room 404",
+      "description": "",
+      "parent": 4,
+      "owner": null,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 2
+    }
+  }
+]
