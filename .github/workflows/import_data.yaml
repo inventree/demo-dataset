@@ -31,5 +31,5 @@ jobs:
           git clone --depth 1 https://github.com/inventree/inventree inventree
           cd inventree
           invoke install
-          invoke import-records $GITHUB_WORKSPACE/inventree_data.json
+          invoke import-records -f $GITHUB_WORKSPACE/inventree_data.json
 
