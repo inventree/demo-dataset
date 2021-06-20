@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": null,
+      "last_login": "2021-06-20T05:54:28.698Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -15,6 +15,636 @@
       "date_joined": "2021-06-20T05:52:40.528Z",
       "groups": [],
       "user_permissions": []
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 1,
+    "fields": {
+      "key": "INVENTREE_LATEST_VERSION",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 2,
+    "fields": {
+      "key": "INVENTREE_INSTANCE_TITLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 3,
+    "fields": {
+      "key": "BARCODE_ENABLE",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 4,
+    "fields": {
+      "key": "REPORT_ENABLE_TEST_REPORT",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 5,
+    "fields": {
+      "key": "PART_RECENT_COUNT",
+      "value": "10"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 6,
+    "fields": {
+      "key": "STOCK_RECENT_COUNT",
+      "value": "10"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 7,
+    "fields": {
+      "key": "STOCK_ENABLE_EXPIRY",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 8,
+    "fields": {
+      "key": "PURCHASEORDER_REFERENCE_PREFIX",
+      "value": "PO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 9,
+    "fields": {
+      "key": "SALESORDER_REFERENCE_PREFIX",
+      "value": "SO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 10,
+    "fields": {
+      "key": "BUILDORDER_REFERENCE_PREFIX",
+      "value": "BO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 11,
+    "fields": {
+      "key": "STOCK_GROUP_BY_PART",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 12,
+    "fields": {
+      "key": "STOCK_STALE_DAYS",
+      "value": "90"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 13,
+    "fields": {
+      "key": "INVENTREE_DOWNLOAD_FROM_URL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 14,
+    "fields": {
+      "key": "STOCK_OWNERSHIP_CONTROL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 15,
+    "fields": {
+      "key": "INVENTREE_INSTANCE",
+      "value": "InvenTree Demo Server"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 16,
+    "fields": {
+      "key": "INVENTREE_BASE_URL",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 17,
+    "fields": {
+      "key": "INVENTREE_COMPANY_NAME",
+      "value": "My company name"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 18,
+    "fields": {
+      "key": "REPORT_DEFAULT_PAGE_SIZE",
+      "value": "A4"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 19,
+    "fields": {
+      "key": "REPORT_DEBUG_MODE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 20,
+    "fields": {
+      "key": "PART_IPN_REGEX",
+      "value": ""
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 21,
+    "fields": {
+      "key": "PART_ALLOW_DUPLICATE_IPN",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 22,
+    "fields": {
+      "key": "PART_ALLOW_EDIT_IPN",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 23,
+    "fields": {
+      "key": "PART_SHOW_QUANTITY_IN_FORMS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 24,
+    "fields": {
+      "key": "PART_TEMPLATE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 25,
+    "fields": {
+      "key": "PART_ASSEMBLY",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 26,
+    "fields": {
+      "key": "PART_COMPONENT",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 27,
+    "fields": {
+      "key": "PART_TRACKABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 28,
+    "fields": {
+      "key": "PART_PURCHASEABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 29,
+    "fields": {
+      "key": "PART_SALABLE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 30,
+    "fields": {
+      "key": "PART_VIRTUAL",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 31,
+    "fields": {
+      "key": "PART_COPY_BOM",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 32,
+    "fields": {
+      "key": "PART_COPY_PARAMETERS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 33,
+    "fields": {
+      "key": "PART_COPY_TESTS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 34,
+    "fields": {
+      "key": "PART_CATEGORY_PARAMETERS",
+      "value": "True"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 35,
+    "fields": {
+      "key": "PART_INTERNAL_PRICE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 36,
+    "fields": {
+      "key": "PART_BOM_USE_INTERNAL_PRICE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 37,
+    "fields": {
+      "key": "STOCK_ALLOW_EXPIRED_SALE",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 38,
+    "fields": {
+      "key": "STOCK_ALLOW_EXPIRED_BUILD",
+      "value": "False"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 39,
+    "fields": {
+      "key": "BUILDORDER_REFERENCE_REGEX",
+      "value": ""
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 1,
+    "fields": {
+      "name": "DigiKey",
+      "description": "DigiKey Electronics",
+      "website": "https://www.digikey.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_1_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 2,
+    "fields": {
+      "name": "Mouser",
+      "description": "Mouser Electronics",
+      "website": "https://mouser.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_2_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "AUD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 3,
+    "fields": {
+      "name": "Arrow",
+      "description": "Arrow Electronics",
+      "website": "https://www.arrow.com/",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_3_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "AUD"
+    }
+  },
+  {
+    "model": "label.stockitemlabel",
+    "pk": 1,
+    "fields": {
+      "name": "QR Code",
+      "description": "Simple QR code label",
+      "label": "label/inventree/stockitem/qr.html",
+      "enabled": true,
+      "width": 24.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "label.stocklocationlabel",
+    "pk": 1,
+    "fields": {
+      "name": "QR Code",
+      "description": "Simple QR code label",
+      "label": "label/inventree/stocklocation/qr.html",
+      "enabled": true,
+      "width": 24.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "label.stocklocationlabel",
+    "pk": 2,
+    "fields": {
+      "name": "QR and text",
+      "description": "Label with QR code and name of location",
+      "label": "label/inventree/stocklocation/qr_and_text.html",
+      "enabled": true,
+      "width": 50.0,
+      "height": 24.0,
+      "filename_pattern": "label.pdf",
+      "filters": ""
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "description": "Electronic components and systems",
+      "parent": null,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 1,
+      "rght": 10,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 2,
+    "fields": {
+      "name": "Mechanical",
+      "description": "Mechanical components",
+      "parent": null,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 1,
+      "rght": 4,
+      "tree_id": 2,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 3,
+    "fields": {
+      "name": "Fasteners",
+      "description": "Screws / nuts / bolts / etc",
+      "parent": 2,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 4,
+    "fields": {
+      "name": "Passives",
+      "description": "Passive components",
+      "parent": 1,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 2,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 5,
+    "fields": {
+      "name": "Resistors",
+      "description": "Resistors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": "passive resistor",
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 6,
+    "fields": {
+      "name": "Capacitors",
+      "description": "Capacitors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": "passive capacitor",
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 7,
+    "fields": {
+      "name": "Inductors",
+      "description": "Inductors",
+      "parent": 4,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "report.testreport",
+    "pk": 1,
+    "fields": {
+      "name": "InvenTree Test Report",
+      "template": "report/inventree/test/inventree_test_report.html",
+      "description": "Stock item test report",
+      "revision": 2,
+      "filename_pattern": "report.pdf",
+      "enabled": true,
+      "filters": "",
+      "include_installed": false
+    }
+  },
+  {
+    "model": "report.buildreport",
+    "pk": 1,
+    "fields": {
+      "name": "InvenTree Build Order",
+      "template": "report/inventree/build/inventree_build_order.html",
+      "description": "Build Order job sheet",
+      "revision": 2,
+      "filename_pattern": "report.pdf",
+      "enabled": true,
+      "filters": ""
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 1,
+    "fields": {
+      "name": "Factory",
+      "description": "",
+      "parent": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 2,
+    "fields": {
+      "name": "Storage Room A",
+      "description": "Storage Room A (purple door)",
+      "parent": 1,
+      "owner": null,
+      "lft": 8,
+      "rght": 9,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 3,
+    "fields": {
+      "name": "Storage Room B",
+      "description": "Storage Room B (green door)",
+      "parent": 1,
+      "owner": null,
+      "lft": 10,
+      "rght": 11,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 4,
+    "fields": {
+      "name": "Office Block",
+      "description": "Office block inside factory",
+      "parent": 1,
+      "owner": null,
+      "lft": 2,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 5,
+    "fields": {
+      "name": "Room 101",
+      "description": "",
+      "parent": 4,
+      "owner": null,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 6,
+    "fields": {
+      "name": "Room 404",
+      "description": "",
+      "parent": 4,
+      "owner": null,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 1,
+      "level": 2
     }
   }
 ]
