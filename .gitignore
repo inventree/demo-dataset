@@ -1,0 +1,3 @@
+# Ignore media files which are auto-generated
+/media/label/inventree/
+/media/report/inventree/
