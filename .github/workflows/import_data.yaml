@@ -14,7 +14,7 @@ jobs:
     env:
       INVENTREE_DB_ENGINE: sqlite3
       INVENTREE_DB_NAME: inventree_db.sqlite3
-      INVENTREE_MEDIA_ROOT: /path/to/media
+      INVENTREE_MEDIA_ROOT: ${{ GITHUB_WORKSPACE }}/path/to/media
 
     steps:
       - name: Checkout Code
@@ -31,4 +31,5 @@ jobs:
           git clone --depth 1 https://github.com/inventree/inventree inventree
           cd inventree
           invoke install
+          invoke import-records ${{ GITHUB_WORKSPACE }}/inventree_data.json
 
