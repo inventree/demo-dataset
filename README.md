@@ -1,2 +1,7 @@
-# demo-dataset
-Dataset for the InvenTree demo website
+# InvenTree Demo Dataset
+
+This repository contains demo data for the [InvenTree project](https://inventree.readthedocs.io).
+
+The demo dataset can be used to populate an InvenTree database for demonstration purposes. It may also be useful if you are developing and/or testing new features for InvenTree.
+
+To setup InvenTree with this dataset, refer to the [InvenTree Instructions](https://inventree.readthedocs.io/en/latest/start/demo/).
