@@ -33,4 +33,5 @@ jobs:
       - name: Import Database Records
         run: |
           cd inventree
+          invoke migrate
           invoke import-records -f $GITHUB_WORKSPACE/inventree_data.json
