@@ -31,5 +31,6 @@ jobs:
           cd inventree
           invoke install
       - name: Import Database Records
+        run: |
           cd inventree
           invoke import-records -f $GITHUB_WORKSPACE/inventree_data.json
