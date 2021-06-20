@@ -537,6 +537,30 @@
     }
   },
   {
+    "model": "part.partparametertemplate",
+    "pk": 1,
+    "fields": {
+      "name": "Package",
+      "units": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 2,
+    "fields": {
+      "name": "Resistance",
+      "units": "Ohms"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 3,
+    "fields": {
+      "name": "Tolerance",
+      "units": "%"
+    }
+  },
+  {
     "model": "report.testreport",
     "pk": 1,
     "fields": {
