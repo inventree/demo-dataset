@@ -1,7 +1,7 @@
 # InvenTree Demo Dataset
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-![Build](https://github.com/inventree/demo-datasert/actions/workflows/import_data.yaml/badge.svg)
+![Build](https://github.com/inventree/demo-dataset/actions/workflows/import_data.yaml/badge.svg)
 
 This repository contains demo data for the [InvenTree project](https://inventree.readthedocs.io).
 
