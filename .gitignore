@@ -5,3 +5,12 @@
 # Temp files
 *.json.tmp
 *.tmp.json
+
+# InvenTree project files
+env/
+static/
+*.sqlite3
+*.journal
+*.yaml
+*.yml
+*.txt
