@@ -807,7 +807,107 @@
       "email": null,
       "contact": "",
       "link": "",
-      "image": "",
+      "image": "company_images/company_22_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 23,
+    "fields": {
+      "name": "AVX Corporation",
+      "description": "",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_23_img.png",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 25,
+    "fields": {
+      "name": "W\u00fcrth Elektronik",
+      "description": "",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_25_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 26,
+    "fields": {
+      "name": "TDK Corporation",
+      "description": "",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_26_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 27,
+    "fields": {
+      "name": "Murata Electronics",
+      "description": "",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_27_img.png",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 28,
+    "fields": {
+      "name": "KEMET",
+      "description": "",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": null,
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_28_img.jpg",
       "notes": "",
       "is_customer": false,
       "is_supplier": false,
@@ -2593,6 +2693,204 @@
       "part": 42,
       "manufacturer": 5,
       "MPN": "RC0805FR-0768K1L",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 172,
+    "fields": {
+      "part": 52,
+      "manufacturer": 22,
+      "MPN": "CL05B104KA5NNNC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 173,
+    "fields": {
+      "part": 52,
+      "manufacturer": 22,
+      "MPN": "CL05B104KP5NNNC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 174,
+    "fields": {
+      "part": 55,
+      "manufacturer": 22,
+      "MPN": "CL10B104KB8NNNL",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 175,
+    "fields": {
+      "part": 55,
+      "manufacturer": 22,
+      "MPN": "CL10B104MB8NNNC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 176,
+    "fields": {
+      "part": 58,
+      "manufacturer": 23,
+      "MPN": "08055C104KAT4A",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 177,
+    "fields": {
+      "part": 58,
+      "manufacturer": 23,
+      "MPN": "08053C104KAT2A",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 178,
+    "fields": {
+      "part": 49,
+      "manufacturer": 23,
+      "MPN": "04025C101KAT2A",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 179,
+    "fields": {
+      "part": 49,
+      "manufacturer": 23,
+      "MPN": "0402YC101KAT2A",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 180,
+    "fields": {
+      "part": 50,
+      "manufacturer": 23,
+      "MPN": "06031C101JAT2A",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 182,
+    "fields": {
+      "part": 51,
+      "manufacturer": 25,
+      "MPN": "885012207080",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 183,
+    "fields": {
+      "part": 51,
+      "manufacturer": 25,
+      "MPN": "885342207001",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 184,
+    "fields": {
+      "part": 54,
+      "manufacturer": 26,
+      "MPN": "CGJ X7R E1 KIT",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 185,
+    "fields": {
+      "part": 54,
+      "manufacturer": 27,
+      "MPN": "GRM15-KIT-X5R-X7R-DE",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 186,
+    "fields": {
+      "part": 57,
+      "manufacturer": 22,
+      "MPN": "CL10B106MQ8NRNC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 187,
+    "fields": {
+      "part": 57,
+      "manufacturer": 28,
+      "MPN": "C0603C104K5RECAUTO",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 188,
+    "fields": {
+      "part": 60,
+      "manufacturer": 26,
+      "MPN": "CGA4J1X7R0J106K125AC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 189,
+    "fields": {
+      "part": 60,
+      "manufacturer": 26,
+      "MPN": "C2012X7R1A106M125AC",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 190,
+    "fields": {
+      "part": 59,
+      "manufacturer": 22,
+      "MPN": "CL21B105KPFNNNE",
       "link": null,
       "description": null
     }
@@ -5183,6 +5481,294 @@
       "manufacturer_part": 171,
       "link": "https://www.digikey.com/product-detail/en/yageo/RC0805FR-0768K1L/311-68.1KCRTR-ND/728100",
       "description": "RES SMD 68.1K OHM 1% 1/8W 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 177,
+    "fields": {
+      "part": 52,
+      "supplier": 1,
+      "SKU": "1276-6720-2-ND",
+      "manufacturer_part": 172,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05B104KA5NNNC/1276-6720-2-ND/5961204",
+      "description": "CAP CER 0.1UF 25V X7R 0402",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 178,
+    "fields": {
+      "part": 52,
+      "supplier": 1,
+      "SKU": "1276-1002-2-ND",
+      "manufacturer_part": 173,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL05B104KP5NNNC/1276-1002-2-ND/3886660",
+      "description": "CAP CER 0.1UF 10V X7R 0402",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 179,
+    "fields": {
+      "part": 55,
+      "supplier": 1,
+      "SKU": "1276-CL10B104KB8NNNLTR-ND",
+      "manufacturer_part": 174,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104KB8NNNL/1276-CL10B104KB8NNNLTR-ND/3894274",
+      "description": "CAP CER 0.1UF 50V X7R 0603",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 180,
+    "fields": {
+      "part": 55,
+      "supplier": 1,
+      "SKU": "1276-1941-2-ND",
+      "manufacturer_part": 175,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B104MB8NNNC/1276-1941-2-ND/3887599",
+      "description": "CAP CER 0.1UF 50V X7R 0603",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 181,
+    "fields": {
+      "part": 58,
+      "supplier": 1,
+      "SKU": "478-10836-2-ND",
+      "manufacturer_part": 176,
+      "link": "https://www.digikey.com/product-detail/en/avx-corporation/08055C104KAT4A/478-10836-2-ND/6816312",
+      "description": "CAP CER 0.1UF 50V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 182,
+    "fields": {
+      "part": 58,
+      "supplier": 1,
+      "SKU": "478-3755-2-ND",
+      "manufacturer_part": 177,
+      "link": "https://www.digikey.com/product-detail/en/avx-corporation/08053C104KAT2A/478-3755-2-ND/1116281",
+      "description": "CAP CER 0.1UF 25V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 183,
+    "fields": {
+      "part": 49,
+      "supplier": 1,
+      "SKU": "478-1089-2-ND",
+      "manufacturer_part": 178,
+      "link": "https://www.digikey.com/product-detail/en/avx-corporation/04025C101KAT2A/478-1089-2-ND/563199",
+      "description": "CAP CER 100PF 50V X7R 0402",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 184,
+    "fields": {
+      "part": 49,
+      "supplier": 1,
+      "SKU": "478-7887-2-ND",
+      "manufacturer_part": 179,
+      "link": "https://www.digikey.com/product-detail/en/avx-corporation/0402YC101KAT2A/478-7887-2-ND/1597795",
+      "description": "CAP CER 100PF 16V X7R 0402",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 185,
+    "fields": {
+      "part": 50,
+      "supplier": 1,
+      "SKU": "478-12671-2-ND",
+      "manufacturer_part": 180,
+      "link": "https://www.digikey.com/product-detail/en/avx-corporation/06031C101JAT2A/478-12671-2-ND/1598651",
+      "description": "CAP CER 100PF 100V X7R 0603",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 187,
+    "fields": {
+      "part": 51,
+      "supplier": 1,
+      "SKU": "732-8062-2-ND",
+      "manufacturer_part": 182,
+      "link": "https://www.digikey.com/product-detail/en/w-rth-elektronik/885012207080/732-8062-2-ND/5453917",
+      "description": "CAP CER 100PF 50V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 188,
+    "fields": {
+      "part": 51,
+      "supplier": 1,
+      "SKU": "732-12161-2-ND",
+      "manufacturer_part": 183,
+      "link": "https://www.digikey.com/product-detail/en/w-rth-elektronik/885342207001/732-12161-2-ND/9345973",
+      "description": "CAP CER 100PF 200V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 189,
+    "fields": {
+      "part": 54,
+      "supplier": 1,
+      "SKU": "445-8924-KIT-ND",
+      "manufacturer_part": 184,
+      "link": "https://www.digikey.com/product-detail/en/tdk-corporation/CGJ-X7R-E1-KIT/445-8924-KIT-ND/3516555",
+      "description": "CAP KIT CER 1000PF-10UF 230PCS",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 190,
+    "fields": {
+      "part": 54,
+      "supplier": 1,
+      "SKU": "490-12152-ND",
+      "manufacturer_part": 185,
+      "link": "https://www.digikey.com/product-detail/en/murata-electronics/GRM15-KIT-X5R-X7R-DE/490-12152-ND/5414393",
+      "description": "CAP KIT CER 1000PF-10UF 1340PCS",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 191,
+    "fields": {
+      "part": 57,
+      "supplier": 1,
+      "SKU": "1276-1948-2-ND",
+      "manufacturer_part": 186,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B106MQ8NRNC/1276-1948-2-ND/3887606",
+      "description": "CAP CER 10UF 6.3V X7R 0603",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 192,
+    "fields": {
+      "part": 57,
+      "supplier": 1,
+      "SKU": "399-14105-2-ND",
+      "manufacturer_part": 187,
+      "link": "https://www.digikey.com/product-detail/en/kemet/C0603C104K5RECAUTO/399-14105-2-ND/6575893",
+      "description": "CAP CER 0.10UF 50V X7R 0603",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 193,
+    "fields": {
+      "part": 60,
+      "supplier": 1,
+      "SKU": "445-6971-2-ND",
+      "manufacturer_part": 188,
+      "link": "https://www.digikey.com/product-detail/en/tdk-corporation/CGA4J1X7R0J106K125AC/445-6971-2-ND/2672864",
+      "description": "CAP CER 10UF 6.3V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 194,
+    "fields": {
+      "part": 60,
+      "supplier": 1,
+      "SKU": "445-7592-2-ND",
+      "manufacturer_part": 189,
+      "link": "https://www.digikey.com/product-detail/en/tdk-corporation/C2012X7R1A106M125AC/445-7592-2-ND/2733027",
+      "description": "CAP CER 10UF 10V X7R 0805",
+      "note": null,
+      "base_cost": "0.000",
+      "packaging": null,
+      "multiple": 1
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 195,
+    "fields": {
+      "part": 59,
+      "supplier": 1,
+      "SKU": "1276-1275-2-ND",
+      "manufacturer_part": 190,
+      "link": "https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B105KPFNNNE/1276-1275-2-ND/3886933",
+      "description": "CAP CER 1UF 10V X7R 0805",
       "note": null,
       "base_cost": "0.000",
       "packaging": null,
