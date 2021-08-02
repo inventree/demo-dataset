@@ -4,7 +4,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2021-07-28T12:51:26.950Z",
+      "last_login": "2021-08-02T13:14:16.179Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -21,7 +21,7 @@
     "model": "common.inventreesetting",
     "pk": 1,
     "fields": {
-      "value": "0.4.0",
+      "value": "0.4.2",
       "key": "INVENTREE_LATEST_VERSION"
     }
   },
@@ -351,6 +351,22 @@
     "fields": {
       "value": "False",
       "key": "PART_SHOW_IMPORT"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 43,
+    "fields": {
+      "value": "False",
+      "key": "PART_CREATE_INITIAL"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 44,
+    "fields": {
+      "value": "True",
+      "key": "PART_SHOW_PRICE_IN_FORMS"
     }
   },
   {
@@ -911,6 +927,26 @@
       "notes": "",
       "is_customer": false,
       "is_supplier": false,
+      "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 29,
+    "fields": {
+      "name": "Texas Instruments",
+      "description": "",
+      "website": "https://www.ti.com/",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_29_img.jpg",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": true,
       "is_manufacturer": true,
       "currency": "USD"
     }
@@ -2893,6 +2929,17 @@
       "MPN": "CL21B105KPFNNNE",
       "link": null,
       "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 191,
+    "fields": {
+      "part": 61,
+      "manufacturer": 29,
+      "MPN": "MAX232IDR",
+      "link": "",
+      "description": "MAX232IDR"
     }
   },
   {
@@ -5776,6 +5823,22 @@
     }
   },
   {
+    "model": "company.supplierpart",
+    "pk": 196,
+    "fields": {
+      "part": 61,
+      "supplier": 1,
+      "SKU": "2156-MAX232IDR-ND",
+      "manufacturer_part": 191,
+      "link": "https://www.digikey.com/en/products/detail/texas-instruments/MAX232IDR/13523247",
+      "description": "",
+      "note": "",
+      "base_cost": "0.000",
+      "packaging": "",
+      "multiple": 1
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -5841,7 +5904,7 @@
       "default_location": null,
       "default_keywords": null,
       "lft": 1,
-      "rght": 10,
+      "rght": 16,
       "tree_id": 1,
       "level": 0
     }
@@ -5885,8 +5948,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": null,
-      "lft": 2,
-      "rght": 9,
+      "lft": 8,
+      "rght": 15,
       "tree_id": 1,
       "level": 1
     }
@@ -5900,8 +5963,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive resistor",
-      "lft": 7,
-      "rght": 8,
+      "lft": 13,
+      "rght": 14,
       "tree_id": 1,
       "level": 2
     }
@@ -5915,8 +5978,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive capacitor",
-      "lft": 3,
-      "rght": 4,
+      "lft": 9,
+      "rght": 10,
       "tree_id": 1,
       "level": 2
     }
@@ -5928,6 +5991,51 @@
       "name": "Inductors",
       "description": "Inductors",
       "parent": 4,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 11,
+      "rght": 12,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 8,
+    "fields": {
+      "name": "IC",
+      "description": "Integrated Circuits",
+      "parent": 1,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 2,
+      "rght": 7,
+      "tree_id": 1,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 9,
+    "fields": {
+      "name": "Interface",
+      "description": "Drivers, receivers, transceivers",
+      "parent": 8,
+      "default_location": null,
+      "default_keywords": null,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 11,
+    "fields": {
+      "name": "MCU",
+      "description": "Microcontrollers and processors",
+      "parent": 8,
       "default_location": null,
       "default_keywords": null,
       "lft": 5,
@@ -8397,6 +8505,293 @@
     }
   },
   {
+    "model": "part.part",
+    "pk": 61,
+    "fields": {
+      "name": "MAX232IDR",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Dual RS232 transceiver in SOIC-16 package",
+      "keywords": null,
+      "category": 9,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/soic-16.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 61,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 62,
+    "fields": {
+      "name": "MCP2561SN",
+      "is_template": false,
+      "variant_of": null,
+      "description": "High speed CAN transceiver in SOIC-8 package",
+      "keywords": null,
+      "category": 9,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/soic-8.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 62,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 63,
+    "fields": {
+      "name": "M3x8 SHCS",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Socket head cap screw, M3 thread, 8.0mm",
+      "keywords": "screw",
+      "category": 3,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/SHCS.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 63,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 64,
+    "fields": {
+      "name": "M2x6 SHCS",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Socket head cap screw, M2 thread, 6.0mm",
+      "keywords": "screw",
+      "category": 3,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/SHCS.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 64,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 65,
+    "fields": {
+      "name": "M2x4 SHCS",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Socket head cap screw, M2 thread, 4.0mm",
+      "keywords": "screw",
+      "category": 3,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/SHCS.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 65,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 66,
+    "fields": {
+      "name": "M3x8 Torx",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Torx head screw, M3 thread, 8.0mm",
+      "keywords": "screw",
+      "category": 3,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/torx.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 66,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 67,
+    "fields": {
+      "name": "M3x10 Torx",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Torx head screw, M3 thread, 10.0mm",
+      "keywords": "screw",
+      "category": 3,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/torx.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": null,
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-08-02",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 67,
+      "level": 0
+    }
+  },
+  {
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
@@ -8418,6 +8813,22 @@
     "fields": {
       "name": "Tolerance",
       "units": "%"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 4,
+    "fields": {
+      "name": "Length",
+      "units": "mm"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 5,
+    "fields": {
+      "name": "Thread",
+      "units": ""
     }
   },
   {
@@ -9714,6 +10125,96 @@
       "part": 48,
       "template": 3,
       "data": "1%"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 145,
+    "fields": {
+      "part": 63,
+      "template": 4,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 146,
+    "fields": {
+      "part": 63,
+      "template": 5,
+      "data": "M3"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 147,
+    "fields": {
+      "part": 64,
+      "template": 4,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 148,
+    "fields": {
+      "part": 64,
+      "template": 5,
+      "data": "M2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 149,
+    "fields": {
+      "part": 65,
+      "template": 4,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 150,
+    "fields": {
+      "part": 65,
+      "template": 5,
+      "data": "M2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 151,
+    "fields": {
+      "part": 66,
+      "template": 4,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 152,
+    "fields": {
+      "part": 66,
+      "template": 5,
+      "data": "M3"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 153,
+    "fields": {
+      "part": 67,
+      "template": 4,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 154,
+    "fields": {
+      "part": 67,
+      "template": 5,
+      "data": "M3"
     }
   },
   {
@@ -15366,6 +15867,82 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 172,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 66,
+      "supplier_part": null,
+      "location": 3,
+      "packaging": "bag",
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "link": "",
+      "batch": null,
+      "quantity": "580.00000",
+      "updated": "2021-08-02",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": "0.2800",
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 146,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 173,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 65,
+      "supplier_part": null,
+      "location": 3,
+      "packaging": "box",
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "link": "",
+      "batch": null,
+      "quantity": "5000.00000",
+      "updated": "2021-08-02",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 147,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -15883,7 +16460,7 @@
     "fields": {
       "tracking_type": 1,
       "item": 34,
-      "date": "2021-07-28T14:37:56.000Z",
+      "date": "2021-07-28T14:37:56Z",
       "notes": "",
       "user": null,
       "deltas": {
@@ -17682,6 +18259,38 @@
         "status": 55,
         "location": 8,
         "quantity": 500.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 172,
+    "fields": {
+      "tracking_type": 1,
+      "item": 172,
+      "date": "2021-08-02T13:35:56.313Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 3,
+        "quantity": 580.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 173,
+    "fields": {
+      "tracking_type": 1,
+      "item": 173,
+      "date": "2021-08-02T13:36:47.681Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 3,
+        "quantity": 5000.0
       }
     }
   }
