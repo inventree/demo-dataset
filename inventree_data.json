@@ -1121,7 +1121,7 @@
     "model": "common.inventreeusersetting",
     "pk": 65,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "STICKY_HEADER",
       "user": 4
     }
@@ -1337,7 +1337,7 @@
     "model": "common.inventreeusersetting",
     "pk": 89,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "FORMS_CLOSE_USING_ESCAPE",
       "user": 4
     }
