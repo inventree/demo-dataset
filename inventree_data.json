@@ -16,6 +16,14 @@
     }
   },
   {
+    "model": "auth.group",
+    "pk": 3,
+    "fields": {
+      "name": "all access",
+      "permissions": []
+    }
+  },
+  {
     "model": "auth.user",
     "pk": 1,
     "fields": {
@@ -69,6 +77,26 @@
       "date_joined": "2021-11-07T22:35:58Z",
       "groups": [
         2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$pbHvzfVrKhB4pv6asbGt3h$DEkXQ/Jlv4LtQJyBhosGnDYRkN0cs+HUVcQYe3lOyA0=",
+      "last_login": "2021-11-08T03:40:46.421Z",
+      "is_superuser": false,
+      "username": "allaccess",
+      "first_name": "Ally",
+      "last_name": "Access",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-11-08T03:29:40Z",
+      "groups": [
+        3
       ],
       "user_permissions": []
     }
@@ -463,6 +491,54 @@
     "fields": {
       "value": "False",
       "key": "LOGIN_ENABLE_SSO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 49,
+    "fields": {
+      "value": "False",
+      "key": "LOGIN_MAIL_REQUIRED"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 50,
+    "fields": {
+      "value": "False",
+      "key": "LOGIN_SIGNUP_MAIL_TWICE"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 51,
+    "fields": {
+      "value": "True",
+      "key": "LOGIN_SIGNUP_PWD_TWICE"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 52,
+    "fields": {
+      "value": "True",
+      "key": "LOGIN_SIGNUP_SSO_AUTO"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 53,
+    "fields": {
+      "value": "",
+      "key": "SIGNUP_GROUP"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 54,
+    "fields": {
+      "value": "True",
+      "key": "PART_SHOW_PRICE_IN_BOM"
     }
   },
   {
@@ -985,6 +1061,231 @@
       "value": "True",
       "key": "HOMEPAGE_SO_OVERDUE",
       "user": 3
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 59,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_SHOW_STOCK_LEVELS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 60,
+    "fields": {
+      "value": "False",
+      "key": "SEARCH_HIDE_INACTIVE_PARTS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 61,
+    "fields": {
+      "value": "True",
+      "key": "LABEL_INLINE",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 62,
+    "fields": {
+      "value": "False",
+      "key": "REPORT_INLINE",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 63,
+    "fields": {
+      "value": "True",
+      "key": "FORMS_CLOSE_USING_ESCAPE",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 64,
+    "fields": {
+      "value": "True",
+      "key": "PART_SHOW_QUANTITY_IN_FORMS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 65,
+    "fields": {
+      "value": "False",
+      "key": "STICKY_HEADER",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 66,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_PART_STARRED",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 67,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_CATEGORY_STARRED",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 68,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_PART_LATEST",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 69,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_BOM_VALIDATION",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 70,
+    "fields": {
+      "value": "10",
+      "key": "PART_RECENT_COUNT",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 71,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_RECENT",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 72,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_LOW",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 73,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_DEPLETED",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 74,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_NEEDED",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 75,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_EXPIRED",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 76,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_STOCK_STALE",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 77,
+    "fields": {
+      "value": "10",
+      "key": "STOCK_RECENT_COUNT",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 78,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_BUILD_PENDING",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 79,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_BUILD_OVERDUE",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 80,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_PO_OUTSTANDING",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 81,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_PO_OVERDUE",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 82,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_SO_OUTSTANDING",
+      "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 83,
+    "fields": {
+      "value": "True",
+      "key": "HOMEPAGE_SO_OVERDUE",
+      "user": 4
     }
   },
   {
@@ -9285,18 +9586,18 @@
       "is_template": false,
       "variant_of": null,
       "description": "Small board for converting electricity into magic smoke",
-      "keywords": null,
+      "keywords": "",
       "category": 12,
       "IPN": "002.01-PCB",
       "revision": "A",
-      "link": null,
+      "link": "",
       "image": "part_images/pcb.jpeg",
       "default_location": null,
       "default_supplier": null,
       "default_expiry": 0,
       "minimum_stock": 0,
-      "units": null,
-      "assembly": false,
+      "units": "",
+      "assembly": true,
       "component": true,
       "trackable": false,
       "purchaseable": false,
@@ -19240,6 +19541,102 @@
       "can_add": false,
       "can_change": false,
       "can_delete": false
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 17,
+    "fields": {
+      "name": "admin",
+      "group": 3,
+      "can_view": true,
+      "can_add": false,
+      "can_change": false,
+      "can_delete": false
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 18,
+    "fields": {
+      "name": "part_category",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 19,
+    "fields": {
+      "name": "part",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 20,
+    "fields": {
+      "name": "stock_location",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 21,
+    "fields": {
+      "name": "stock",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 22,
+    "fields": {
+      "name": "build",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 23,
+    "fields": {
+      "name": "purchase_order",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
+    }
+  },
+  {
+    "model": "users.ruleset",
+    "pk": 24,
+    "fields": {
+      "name": "sales_order",
+      "group": 3,
+      "can_view": true,
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
     }
   }
 ]
