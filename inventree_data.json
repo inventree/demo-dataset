@@ -531,14 +531,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 40,
-    "fields": {
-      "value": "USD",
-      "key": "INVENTREE_DEFAULT_CURRENCY"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 41,
     "fields": {
       "value": "True",
