@@ -28,7 +28,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2021-11-12T00:49:45.496Z",
+      "last_login": "2021-11-15T12:57:48.896Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -10711,7 +10711,7 @@
       "active": true,
       "virtual": false,
       "notes": null,
-      "bom_checksum": "b'\\t\\xd02\\xc89\\xd3\\xb4!\\xc9;\\xa6\\x92\\x80\\x91\\xccZ'",
+      "bom_checksum": "b'\\xfb\\xf5\\xe3\\xce!z\\xc6\\xfa\\xa6\\xbe\\xec)\\x148{\\xb1'",
       "bom_checked_by": 1,
       "bom_checked_date": "2021-11-15",
       "creation_date": "2021-11-15",
@@ -12527,13 +12527,13 @@
     "pk": 15,
     "fields": {
       "part": 87,
-      "sub_part": 85,
+      "sub_part": 82,
       "quantity": "1.00000",
       "optional": false,
       "overage": "",
       "reference": "Enclosure",
       "note": "",
-      "checksum": "b'.\\xd6\\xef\\x04|\\xf5\\x9e\\x9b\\xcf\\xea\\xe8\\xd7\\x82\\xec\\xc0\\x1d'",
+      "checksum": "b'\\xb3\\xa0\\xbbCKT6\\xd7\\x14\\xac1\\x85g\\xf2\\xe0_'",
       "inherited": false,
       "allow_variants": false
     }
@@ -12664,6 +12664,22 @@
       "checksum": "b'A:(\\x0e\\xe3\\xe5\\x14wDl\\xc5\\x02\\xed&do'",
       "inherited": false,
       "allow_variants": true
+    }
+  },
+  {
+    "model": "part.bomitemsubstitute",
+    "pk": 1,
+    "fields": {
+      "bom_item": 15,
+      "part": 84
+    }
+  },
+  {
+    "model": "part.bomitemsubstitute",
+    "pk": 2,
+    "fields": {
+      "bom_item": 15,
+      "part": 83
     }
   },
   {
