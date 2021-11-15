@@ -28,7 +28,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2021-11-09T22:44:39.773Z",
+      "last_login": "2021-11-12T00:49:45.496Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -251,14 +251,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 1,
-    "fields": {
-      "value": "0.5.4",
-      "key": "INVENTREE_LATEST_VERSION"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 2,
     "fields": {
       "value": "False",
@@ -279,22 +271,6 @@
     "fields": {
       "value": "True",
       "key": "REPORT_ENABLE_TEST_REPORT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 5,
-    "fields": {
-      "value": "10",
-      "key": "PART_RECENT_COUNT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 6,
-    "fields": {
-      "value": "10",
-      "key": "STOCK_RECENT_COUNT"
     }
   },
   {
@@ -427,14 +403,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 23,
-    "fields": {
-      "value": "True",
-      "key": "PART_SHOW_QUANTITY_IN_FORMS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 24,
     "fields": {
       "value": "False",
@@ -469,7 +437,7 @@
     "model": "common.inventreesetting",
     "pk": 28,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "PART_PURCHASEABLE"
     }
   },
@@ -679,6 +647,14 @@
     "fields": {
       "value": "False",
       "key": "PART_SHOW_PRICE_IN_BOM"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 55,
+    "fields": {
+      "value": "",
+      "key": "REPORT_ENABLE"
     }
   },
   {
@@ -1928,6 +1904,26 @@
       "is_customer": true,
       "is_supplier": false,
       "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 31,
+    "fields": {
+      "name": "Hammond Manufacturing",
+      "description": "Manufacturers of electronic enclosures, project boxes",
+      "website": "https://www.hammfg.com/",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_31_img.gif",
+      "notes": "",
+      "is_customer": false,
+      "is_supplier": false,
+      "is_manufacturer": true,
       "currency": "USD"
     }
   },
@@ -3920,6 +3916,61 @@
       "MPN": "MAX232IDR",
       "link": "",
       "description": "MAX232IDR"
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 192,
+    "fields": {
+      "part": 82,
+      "manufacturer": 31,
+      "MPN": "1551ABK",
+      "link": null,
+      "description": null
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 193,
+    "fields": {
+      "part": 84,
+      "manufacturer": 31,
+      "MPN": "1551ACLR",
+      "link": "",
+      "description": ""
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 194,
+    "fields": {
+      "part": 83,
+      "manufacturer": 31,
+      "MPN": "1551AGY",
+      "link": "",
+      "description": ""
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 195,
+    "fields": {
+      "part": 85,
+      "manufacturer": 31,
+      "MPN": "1591BTBU",
+      "link": "https://www.hammfg.com/part/1591BTBU?referer=1190",
+      "description": ""
+    }
+  },
+  {
+    "model": "company.manufacturerpart",
+    "pk": 196,
+    "fields": {
+      "part": 86,
+      "manufacturer": 31,
+      "MPN": "1553WDBK",
+      "link": null,
+      "description": null
     }
   },
   {
@@ -6819,6 +6870,22 @@
     }
   },
   {
+    "model": "company.supplierpart",
+    "pk": 197,
+    "fields": {
+      "part": 85,
+      "supplier": 1,
+      "SKU": "HM876-ND",
+      "manufacturer_part": 195,
+      "link": "https://www.digikey.com.au/en/products/detail/hammond-manufacturing/1591BTBU/409880?s=N4IgTCBcDaIIwFYCccBCAVVBVEBdAvkA",
+      "description": "",
+      "note": "",
+      "base_cost": "0.000",
+      "packaging": "",
+      "multiple": 1
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -6884,7 +6951,7 @@
       "default_location": null,
       "default_keywords": null,
       "lft": 1,
-      "rght": 20,
+      "rght": 22,
       "tree_id": 1,
       "level": 0
     }
@@ -6899,7 +6966,7 @@
       "default_location": null,
       "default_keywords": null,
       "lft": 1,
-      "rght": 6,
+      "rght": 8,
       "tree_id": 2,
       "level": 0
     }
@@ -6913,8 +6980,8 @@
       "parent": 2,
       "default_location": null,
       "default_keywords": null,
-      "lft": 2,
-      "rght": 3,
+      "lft": 4,
+      "rght": 5,
       "tree_id": 2,
       "level": 1
     }
@@ -6928,8 +6995,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": null,
-      "lft": 12,
-      "rght": 19,
+      "lft": 14,
+      "rght": 21,
       "tree_id": 1,
       "level": 1
     }
@@ -6943,8 +7010,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive resistor",
-      "lft": 17,
-      "rght": 18,
+      "lft": 19,
+      "rght": 20,
       "tree_id": 1,
       "level": 2
     }
@@ -6958,8 +7025,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive capacitor",
-      "lft": 13,
-      "rght": 14,
+      "lft": 15,
+      "rght": 16,
       "tree_id": 1,
       "level": 2
     }
@@ -6973,8 +7040,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": null,
-      "lft": 15,
-      "rght": 16,
+      "lft": 17,
+      "rght": 18,
       "tree_id": 1,
       "level": 2
     }
@@ -7063,9 +7130,39 @@
       "parent": 2,
       "default_location": null,
       "default_keywords": "",
-      "lft": 4,
-      "rght": 5,
+      "lft": 6,
+      "rght": 7,
       "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 15,
+    "fields": {
+      "name": "Enclosures",
+      "description": "Enclosures, boxes, etc",
+      "parent": 2,
+      "default_location": null,
+      "default_keywords": "",
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 16,
+    "fields": {
+      "name": "PCBA",
+      "description": "PCB assemblies",
+      "parent": 1,
+      "default_location": null,
+      "default_keywords": "",
+      "lft": 12,
+      "rght": 13,
+      "tree_id": 1,
       "level": 1
     }
   },
@@ -9835,7 +9932,7 @@
       "default_expiry": 0,
       "minimum_stock": 0,
       "units": "",
-      "assembly": true,
+      "assembly": false,
       "component": true,
       "trackable": false,
       "purchaseable": false,
@@ -9975,7 +10072,7 @@
       "base_cost": "0.000",
       "multiple": 1,
       "lft": 1,
-      "rght": 12,
+      "rght": 18,
       "tree_id": 71,
       "level": 0
     }
@@ -10016,7 +10113,7 @@
       "base_cost": "0.000",
       "multiple": 1,
       "lft": 2,
-      "rght": 3,
+      "rght": 9,
       "tree_id": 71,
       "level": 1
     }
@@ -10056,8 +10153,8 @@
       "responsible": null,
       "base_cost": "0.000",
       "multiple": 1,
-      "lft": 4,
-      "rght": 5,
+      "lft": 10,
+      "rght": 11,
       "tree_id": 71,
       "level": 1
     }
@@ -10097,8 +10194,8 @@
       "responsible": null,
       "base_cost": "0.000",
       "multiple": 1,
-      "lft": 6,
-      "rght": 7,
+      "lft": 12,
+      "rght": 13,
       "tree_id": 71,
       "level": 1
     }
@@ -10138,8 +10235,8 @@
       "responsible": null,
       "base_cost": "0.000",
       "multiple": 1,
-      "lft": 8,
-      "rght": 9,
+      "lft": 14,
+      "rght": 15,
       "tree_id": 71,
       "level": 1
     }
@@ -10179,8 +10276,8 @@
       "responsible": null,
       "base_cost": "0.000",
       "multiple": 1,
-      "lft": 10,
-      "rght": 11,
+      "lft": 16,
+      "rght": 17,
       "tree_id": 71,
       "level": 1
     }
@@ -10190,7 +10287,7 @@
     "pk": 77,
     "fields": {
       "name": "Widget Assembly",
-      "is_template": false,
+      "is_template": true,
       "variant_of": null,
       "description": "An assembled widget",
       "keywords": "",
@@ -10212,18 +10309,491 @@
       "active": true,
       "virtual": false,
       "notes": null,
-      "bom_checksum": "b'c\\x1a\\xc0\\xc8\\xbc\\xe3u\\xdac\\xb1d\\xfae\\r\\xafW'",
+      "bom_checksum": "b'B\\xbb8\\x91\\xd4MS\\x12\\x7fJe\\xd1\\x0b\\xf2\\x01t'",
       "bom_checked_by": 1,
-      "bom_checked_date": "2021-11-10",
+      "bom_checked_date": "2021-11-15",
       "creation_date": "2021-11-10",
       "creation_user": 1,
       "responsible": null,
       "base_cost": "0.000",
       "multiple": 1,
       "lft": 1,
-      "rght": 2,
+      "rght": 4,
       "tree_id": 72,
       "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 78,
+    "fields": {
+      "name": "Red Widget",
+      "is_template": true,
+      "variant_of": 72,
+      "description": "A red widget with 00 variation",
+      "keywords": "",
+      "category": 14,
+      "IPN": "widget.red.00",
+      "revision": "00",
+      "link": "",
+      "image": "part_images/red.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 71,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 79,
+    "fields": {
+      "name": "Red Widget",
+      "is_template": true,
+      "variant_of": 72,
+      "description": "A red widget with 01 variation",
+      "keywords": "",
+      "category": 14,
+      "IPN": "widget.red.01",
+      "revision": "01",
+      "link": "",
+      "image": "part_images/red.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 5,
+      "rght": 6,
+      "tree_id": 71,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 80,
+    "fields": {
+      "name": "Red Widget",
+      "is_template": true,
+      "variant_of": 72,
+      "description": "A red widget with 02 variation",
+      "keywords": "",
+      "category": 14,
+      "IPN": "widget.red.02",
+      "revision": "02",
+      "link": "",
+      "image": "part_images/red.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 7,
+      "rght": 8,
+      "tree_id": 71,
+      "level": 2
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 81,
+    "fields": {
+      "name": "Widget Assembly Variant",
+      "is_template": true,
+      "variant_of": 77,
+      "description": "An assembled widget which is a variant of a template",
+      "keywords": "",
+      "category": 14,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/assembly.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 3,
+      "units": "",
+      "assembly": true,
+      "component": true,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": true,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "b'`_v}Y\\x9b{/\\xf7\\xa1\\x80G\\x08U\\xac\\x1c'",
+      "bom_checked_by": 1,
+      "bom_checked_date": "2021-11-15",
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 72,
+      "level": 1
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 82,
+    "fields": {
+      "name": "1551ABK",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Small plastic enclosure, black",
+      "keywords": "",
+      "category": 15,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/1551mini-photo.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 73,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 83,
+    "fields": {
+      "name": "1551AGY",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Plastic enclosure, grey",
+      "keywords": "",
+      "category": 15,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/1551agy.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 74,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 84,
+    "fields": {
+      "name": "1551ACLR",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Small plastic enclosure, clear",
+      "keywords": "",
+      "category": 15,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/1551aclr.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 75,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 85,
+    "fields": {
+      "name": "1591BTBU",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Blue plastic enclosure",
+      "keywords": "",
+      "category": 15,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/1591btbuab.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 76,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 86,
+    "fields": {
+      "name": "1553WDBK",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Water tight handheld enclosure",
+      "keywords": "",
+      "category": 15,
+      "IPN": "",
+      "revision": "",
+      "link": "",
+      "image": "part_images/1553wdbkab.jpg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 77,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 87,
+    "fields": {
+      "name": "Doohickey",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Assembled electronics module which performs some unknown function",
+      "keywords": "",
+      "category": 1,
+      "IPN": "D.123",
+      "revision": "",
+      "link": "",
+      "image": "",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 5,
+      "units": "",
+      "assembly": true,
+      "component": true,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "b'\\t\\xd02\\xc89\\xd3\\xb4!\\xc9;\\xa6\\x92\\x80\\x91\\xccZ'",
+      "bom_checked_by": 1,
+      "bom_checked_date": "2021-11-15",
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 78,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 88,
+    "fields": {
+      "name": "Widget Board (assembled)",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Assembled PCB for converting electricity into magic smoke",
+      "keywords": "",
+      "category": 16,
+      "IPN": "002.01-PCBA",
+      "revision": "",
+      "link": "",
+      "image": "part_images/pcb.jpeg",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": true,
+      "component": true,
+      "trackable": false,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "b\"\\xf7\\xaf\\xac\\xb3\\xa1\\xa5$\\xf4P0\\xad[o\\x07\\xb3'\"",
+      "bom_checked_by": 1,
+      "bom_checked_date": "2021-11-15",
+      "creation_date": "2021-11-15",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 79,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.partattachment",
+    "pk": 1,
+    "fields": {
+      "attachment": "part_files/85/1591BTBU.pdf",
+      "comment": "Datasheet",
+      "user": null,
+      "upload_date": "2021-11-15",
+      "part": 85
+    }
+  },
+  {
+    "model": "part.partattachment",
+    "pk": 2,
+    "fields": {
+      "attachment": "part_files/85/1591BTBU.zip",
+      "comment": "3D model",
+      "user": null,
+      "upload_date": "2021-11-15",
+      "part": 85
     }
   },
   {
@@ -10272,6 +10842,22 @@
     "fields": {
       "name": "Thread",
       "units": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 6,
+    "fields": {
+      "name": "Width",
+      "units": "mm"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 7,
+    "fields": {
+      "name": "Height",
+      "units": "mm"
     }
   },
   {
@@ -11661,6 +12247,114 @@
     }
   },
   {
+    "model": "part.partparameter",
+    "pk": 155,
+    "fields": {
+      "part": 82,
+      "template": 4,
+      "data": "35"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 156,
+    "fields": {
+      "part": 82,
+      "template": 6,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 157,
+    "fields": {
+      "part": 82,
+      "template": 7,
+      "data": "15"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 158,
+    "fields": {
+      "part": 83,
+      "template": 7,
+      "data": "15"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 159,
+    "fields": {
+      "part": 83,
+      "template": 4,
+      "data": "35"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 160,
+    "fields": {
+      "part": 83,
+      "template": 6,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 161,
+    "fields": {
+      "part": 84,
+      "template": 7,
+      "data": "15"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 162,
+    "fields": {
+      "part": 84,
+      "template": 4,
+      "data": "35"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 163,
+    "fields": {
+      "part": 84,
+      "template": 6,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 164,
+    "fields": {
+      "part": 86,
+      "template": 4,
+      "data": "147"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 165,
+    "fields": {
+      "part": 86,
+      "template": 6,
+      "data": "90"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 166,
+    "fields": {
+      "part": 86,
+      "template": 7,
+      "data": "25"
+    }
+  },
+  {
     "model": "part.bomitem",
     "pk": 1,
     "fields": {
@@ -11671,9 +12365,9 @@
       "overage": "",
       "reference": "R",
       "note": "",
-      "checksum": "b'i\\x0b\\xc3\\x08\\x0fH2X\\xce}6\\xcf\\xed\\x1f\\xaat'",
-      "inherited": false,
-      "allow_variants": false
+      "checksum": "b'\\x17\\xe7\\x16Q\\x92zC%\\xf5\\x98\\xec\\x1a9\\xc7C\\x7f'",
+      "inherited": true,
+      "allow_variants": true
     }
   },
   {
@@ -11687,8 +12381,8 @@
       "overage": "",
       "reference": "P",
       "note": "",
-      "checksum": "b'\\x0c\\xc6TU\\x93Y\\x1a\\x02\\x9b\\x86\\xef\\xe6\\xaf\\xb9g\\x8d'",
-      "inherited": false,
+      "checksum": "b'>oO\\xa9T|\\xab7\\x06Zm\\x0c\\xba\\x929\\x8f'",
+      "inherited": true,
       "allow_variants": false
     }
   },
@@ -11767,9 +12461,217 @@
       "overage": "",
       "reference": "Screws",
       "note": "",
-      "checksum": "b'f\"\\x82v\\xb1\\xe6\\xe7W\\x9bP2\\xac\\xb7\\xab\\x91\\xd4'",
+      "checksum": "b'o\\x99\\x92\\x0f\\x91|l\\x94\\xd4\\xf8\\xa1\\xe0H\\xf2\\xcfj'",
+      "inherited": true,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 10,
+    "fields": {
+      "part": 81,
+      "sub_part": 74,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "B",
+      "note": "",
+      "checksum": "b'\\x0c\\x10\\x02\\x8e\\xd8-\\xfd\\xc6\\xe3\\x83\\xc7\\xb1\\x15z\\xa7\\xc1'",
       "inherited": false,
       "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 11,
+    "fields": {
+      "part": 81,
+      "sub_part": 73,
+      "quantity": "6.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "G",
+      "note": "",
+      "checksum": "b'\\x06~\\xb5d\\xf1^K\\xbfZ\\xf3\\xfbQ:\\x86\\x88h'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 12,
+    "fields": {
+      "part": 81,
+      "sub_part": 30,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "Resistors",
+      "note": "",
+      "checksum": "b'\\xba\\x04\\xe9\\xb4\\x92t\\x17\\xe8U\\x9e\\xa2\\x07\\x18\\x0b\\xe7\\xd0'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 13,
+    "fields": {
+      "part": 81,
+      "sub_part": 59,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "Capacitors",
+      "note": "",
+      "checksum": "b'51b2\\xa7QC<\\xdet\\x8b\\x8e\\x95\\xe4\\x01\\xd6'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 15,
+    "fields": {
+      "part": 87,
+      "sub_part": 85,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "Enclosure",
+      "note": "",
+      "checksum": "b'.\\xd6\\xef\\x04|\\xf5\\x9e\\x9b\\xcf\\xea\\xe8\\xd7\\x82\\xec\\xc0\\x1d'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 16,
+    "fields": {
+      "part": 87,
+      "sub_part": 66,
+      "quantity": "4.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "Screws",
+      "note": "",
+      "checksum": "b'`\\xea\\xd8\\x97\\xb1\\x1e\\x01\\x99\\xc50pWj\\x17h\\xe5'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 17,
+    "fields": {
+      "part": 87,
+      "sub_part": 67,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "Large screw",
+      "note": "",
+      "checksum": "b\"[:'3\\xb9\\x89\\xd9\\x94.9\\xcb\\xd7K\\xd2\\xe5\\xc5\"",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 18,
+    "fields": {
+      "part": 88,
+      "sub_part": 68,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "PCB",
+      "note": "",
+      "checksum": "b'r\\xd4\\xd2.#\\x88\\x80!\\xa6`\\x11\\xc8w\\xcc\\xbdV'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 19,
+    "fields": {
+      "part": 88,
+      "sub_part": 69,
+      "quantity": "2.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "J1, J2",
+      "note": "",
+      "checksum": "b'a{!v\\xf7\";\\xf4\\xb7\\xea\\x8aR>\\xf8\\xf9\\x8d'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 20,
+    "fields": {
+      "part": 88,
+      "sub_part": 55,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "C1, C2, C5, C9, C12",
+      "note": "",
+      "checksum": "b'\\xec`\\\\\\x8c\\x8b\\xd12\\x06\\xd7>\\x9aD~\\x8a\\x07\\\\'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 21,
+    "fields": {
+      "part": 88,
+      "sub_part": 1,
+      "quantity": "2.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "R1, R4",
+      "note": "",
+      "checksum": "b'\\x02\\xda\\xed\\xb4wY\\xf4\\xb0\\xb5\\xebEv\\xd74\\x13R'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 22,
+    "fields": {
+      "part": 88,
+      "sub_part": 47,
+      "quantity": "2.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "R2. R3",
+      "note": "",
+      "checksum": "b'\\x92\\xd4\\xa0:M\\x11\\x1b\\n?\\x9c\\x06\\x85\\xb8ya\\xa5'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 23,
+    "fields": {
+      "part": 87,
+      "sub_part": 88,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "PCBA",
+      "note": "Assembled board",
+      "checksum": "b'A:(\\x0e\\xe3\\xe5\\x14wDl\\xc5\\x02\\xed&do'",
+      "inherited": false,
+      "allow_variants": true
     }
   },
   {
@@ -18867,7 +19769,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 175,
+      "tree_id": 174,
       "level": 0
     }
   },
@@ -18907,7 +19809,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 176,
+      "tree_id": 175,
       "level": 0
     }
   },
@@ -18947,7 +19849,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 177,
+      "tree_id": 176,
       "level": 0
     }
   },
@@ -18987,7 +19889,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 178,
+      "tree_id": 177,
       "level": 0
     }
   },
@@ -19027,7 +19929,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 179,
+      "tree_id": 178,
       "level": 0
     }
   },
@@ -19067,7 +19969,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 180,
+      "tree_id": 179,
       "level": 0
     }
   },
@@ -19107,7 +20009,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 181,
+      "tree_id": 180,
       "level": 0
     }
   },
@@ -19147,7 +20049,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 182,
+      "tree_id": 181,
       "level": 0
     }
   },
@@ -19187,7 +20089,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 183,
+      "tree_id": 182,
       "level": 0
     }
   },
@@ -19227,7 +20129,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 184,
+      "tree_id": 183,
       "level": 0
     }
   },
@@ -19267,7 +20169,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 185,
+      "tree_id": 184,
       "level": 0
     }
   },
@@ -19307,7 +20209,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 186,
+      "tree_id": 185,
       "level": 0
     }
   },
@@ -19347,7 +20249,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 187,
+      "tree_id": 186,
       "level": 0
     }
   },
@@ -19387,7 +20289,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 188,
+      "tree_id": 187,
       "level": 0
     }
   },
@@ -19427,7 +20329,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 189,
+      "tree_id": 188,
       "level": 0
     }
   },
@@ -19462,6 +20364,46 @@
       "notes": null,
       "purchase_price_currency": "USD",
       "purchase_price": null,
+      "owner": null,
+      "scheduled_for_deletion": false,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 189,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 220,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 85,
+      "supplier_part": 197,
+      "location": 3,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "15.00000",
+      "updated": "2021-11-15",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": "7.5000",
       "owner": null,
       "scheduled_for_deletion": false,
       "infinite": false,
@@ -23209,6 +24151,22 @@
         "status": 10,
         "location": 1,
         "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 273,
+    "fields": {
+      "tracking_type": 1,
+      "item": 220,
+      "date": "2021-11-15T12:26:51.367Z",
+      "notes": "",
+      "user": null,
+      "deltas": {
+        "status": 10,
+        "location": 3,
+        "quantity": 15.0
       }
     }
   },
