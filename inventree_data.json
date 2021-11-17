@@ -1883,7 +1883,7 @@
     "model": "company.company",
     "pk": 30,
     "fields": {
-      "name": "Customer",
+      "name": "Customer A",
       "description": "A company we sell things to",
       "website": "",
       "address": "10 Address Street, City, Country ZIP",
@@ -1891,7 +1891,7 @@
       "email": "",
       "contact": "",
       "link": "",
-      "image": "",
+      "image": "company_images/company_30_img.png",
       "notes": "",
       "is_customer": true,
       "is_supplier": false,
@@ -1916,6 +1916,86 @@
       "is_customer": false,
       "is_supplier": false,
       "is_manufacturer": true,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 32,
+    "fields": {
+      "name": "Customer B",
+      "description": "Another company we sell things to",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_32_img.png",
+      "notes": "",
+      "is_customer": true,
+      "is_supplier": false,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 33,
+    "fields": {
+      "name": "Customer C",
+      "description": "Another company we sell things to",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_33_img.png",
+      "notes": "",
+      "is_customer": true,
+      "is_supplier": false,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 34,
+    "fields": {
+      "name": "Customer D",
+      "description": "Another company we sell things to",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_34_img.png",
+      "notes": "",
+      "is_customer": true,
+      "is_supplier": false,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
+    "model": "company.company",
+    "pk": 35,
+    "fields": {
+      "name": "Customer E",
+      "description": "Another company we sell things to",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_35_img.png",
+      "notes": "",
+      "is_customer": true,
+      "is_supplier": false,
+      "is_manufacturer": false,
       "currency": "USD"
     }
   },
@@ -24175,6 +24255,20 @@
         "status": 10,
         "location": 3,
         "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 274,
+    "fields": {
+      "tracking_type": 5,
+      "item": 220,
+      "date": "2021-11-17T03:07:08.216Z",
+      "notes": "",
+      "user": null,
+      "deltas": {
+        "status": 85
       }
     }
   },
