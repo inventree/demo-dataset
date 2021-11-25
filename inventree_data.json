@@ -14100,6 +14100,38 @@
     }
   },
   {
+    "model": "part.partrelated",
+    "pk": 1,
+    "fields": {
+      "part_1": 89,
+      "part_2": 92
+    }
+  },
+  {
+    "model": "part.partrelated",
+    "pk": 2,
+    "fields": {
+      "part_1": 89,
+      "part_2": 93
+    }
+  },
+  {
+    "model": "part.partrelated",
+    "pk": 3,
+    "fields": {
+      "part_1": 89,
+      "part_2": 90
+    }
+  },
+  {
+    "model": "part.partrelated",
+    "pk": 4,
+    "fields": {
+      "part_1": 89,
+      "part_2": 91
+    }
+  },
+  {
     "model": "report.testreport",
     "pk": 1,
     "fields": {
