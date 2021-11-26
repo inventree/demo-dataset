@@ -28,7 +28,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2021-11-17T10:42:44.700Z",
+      "last_login": "2021-11-25T10:52:15.328Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -7138,6 +7138,48 @@
     }
   },
   {
+    "model": "order.purchaseorder",
+    "pk": 1,
+    "fields": {
+      "reference_int": 1,
+      "description": "Ordering some parts",
+      "link": "",
+      "creation_date": "2021-11-26",
+      "created_by": 1,
+      "responsible": 2,
+      "notes": "",
+      "reference": "0001",
+      "status": 20,
+      "supplier": 1,
+      "supplier_reference": "",
+      "received_by": null,
+      "issue_date": "2021-11-26",
+      "target_date": "2021-12-10",
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.purchaseorder",
+    "pk": 2,
+    "fields": {
+      "reference_int": 2,
+      "description": "Paint supplies",
+      "link": "",
+      "creation_date": "2021-11-26",
+      "created_by": 1,
+      "responsible": null,
+      "notes": "",
+      "reference": "0002",
+      "status": 20,
+      "supplier": 36,
+      "supplier_reference": "",
+      "received_by": null,
+      "issue_date": "2021-11-26",
+      "target_date": null,
+      "complete_date": null
+    }
+  },
+  {
     "model": "order.salesorder",
     "pk": 1,
     "fields": {
@@ -7155,6 +7197,145 @@
       "target_date": null,
       "shipment_date": null,
       "shipped_by": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 1,
+    "fields": {
+      "quantity": "1000.00000",
+      "reference": "",
+      "notes": "",
+      "order": 1,
+      "part": 12,
+      "received": "0.00000",
+      "purchase_price_currency": "USD",
+      "purchase_price": "0.0500",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 2,
+    "fields": {
+      "quantity": "4000.00000",
+      "reference": "",
+      "notes": "",
+      "order": 1,
+      "part": 16,
+      "received": "0.00000",
+      "purchase_price_currency": "USD",
+      "purchase_price": "0.0310",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 3,
+    "fields": {
+      "quantity": "50.00000",
+      "reference": "",
+      "notes": "",
+      "order": 1,
+      "part": 63,
+      "received": "0.00000",
+      "purchase_price_currency": "USD",
+      "purchase_price": "0.7500",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 4,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "order": 2,
+      "part": 199,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "1.0000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 5,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "order": 2,
+      "part": 200,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "1.1000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 6,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "order": 2,
+      "part": 201,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "1.2000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 7,
+    "fields": {
+      "quantity": "250.00000",
+      "reference": "",
+      "notes": "Need a lot of pink paint",
+      "order": 2,
+      "part": 202,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "0.9000",
+      "destination": 4
+    }
+  },
+  {
+    "model": "order.salesorderlineitem",
+    "pk": 1,
+    "fields": {
+      "quantity": "3.00000",
+      "reference": "",
+      "notes": "Blue chairs",
+      "order": 1,
+      "part": 108,
+      "sale_price_currency": "USD",
+      "sale_price": "50.0000"
+    }
+  },
+  {
+    "model": "order.salesordershipment",
+    "pk": 1,
+    "fields": {
+      "order": 1,
+      "shipment_date": null,
+      "checked_by": null,
+      "reference": "001",
+      "notes": ""
+    }
+  },
+  {
+    "model": "order.salesorderallocation",
+    "pk": 1,
+    "fields": {
+      "line": 1,
+      "shipment": 1,
+      "item": 231,
+      "quantity": "3.00000"
     }
   },
   {
@@ -14129,6 +14310,14 @@
     "fields": {
       "part_1": 89,
       "part_2": 91
+    }
+  },
+  {
+    "model": "part.partrelated",
+    "pk": 5,
+    "fields": {
+      "part_1": 84,
+      "part_2": 82
     }
   },
   {
