@@ -9,6 +9,7 @@
 # InvenTree project files
 env/
 static/
+pgdb/
 *.sqlite3
 *.journal
 *.yaml
