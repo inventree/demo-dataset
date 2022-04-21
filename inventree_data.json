@@ -12219,13 +12219,13 @@
     "model": "part.part",
     "pk": 110,
     "fields": {
-      "name": "Test Board",
+      "name": "Test Board 1",
       "is_template": false,
       "variant_of": null,
       "description": "Board with a lot of SMT parts on it",
       "keywords": "",
       "category": 16,
-      "IPN": "",
+      "IPN": "TB1",
       "revision": "",
       "link": "",
       "image": "part_images/pcba.png",
@@ -12253,6 +12253,88 @@
       "lft": 1,
       "rght": 2,
       "tree_id": 92,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 111,
+    "fields": {
+      "name": "Test Board 2",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Board with a lot of SMT parts on it, but slightly different",
+      "keywords": "",
+      "category": 16,
+      "IPN": "TB2",
+      "revision": "",
+      "link": "",
+      "image": "part_images/pcba.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": true,
+      "component": false,
+      "trackable": false,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-04-21",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 93,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 112,
+    "fields": {
+      "name": "Test Board 3",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Board with a lot of SMT parts on it, but even more slightly different",
+      "keywords": "",
+      "category": 16,
+      "IPN": "TB3",
+      "revision": "",
+      "link": "",
+      "image": "part_images/pcba.png",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": true,
+      "component": false,
+      "trackable": false,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-04-21",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 94,
       "level": 0
     }
   },
@@ -15614,6 +15696,1926 @@
       "part": 110,
       "sub_part": 60,
       "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 228,
+    "fields": {
+      "part": 111,
+      "sub_part": 1,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 229,
+    "fields": {
+      "part": 111,
+      "sub_part": 2,
+      "quantity": "21.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 230,
+    "fields": {
+      "part": 111,
+      "sub_part": 3,
+      "quantity": "18.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 231,
+    "fields": {
+      "part": 111,
+      "sub_part": 4,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 232,
+    "fields": {
+      "part": 111,
+      "sub_part": 5,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 233,
+    "fields": {
+      "part": 111,
+      "sub_part": 6,
+      "quantity": "21.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 234,
+    "fields": {
+      "part": 111,
+      "sub_part": 7,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 235,
+    "fields": {
+      "part": 111,
+      "sub_part": 8,
+      "quantity": "16.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 236,
+    "fields": {
+      "part": 111,
+      "sub_part": 9,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 237,
+    "fields": {
+      "part": 111,
+      "sub_part": 10,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 238,
+    "fields": {
+      "part": 111,
+      "sub_part": 11,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 239,
+    "fields": {
+      "part": 111,
+      "sub_part": 12,
+      "quantity": "21.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 240,
+    "fields": {
+      "part": 111,
+      "sub_part": 13,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 241,
+    "fields": {
+      "part": 111,
+      "sub_part": 14,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 242,
+    "fields": {
+      "part": 111,
+      "sub_part": 15,
+      "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 243,
+    "fields": {
+      "part": 111,
+      "sub_part": 16,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 244,
+    "fields": {
+      "part": 111,
+      "sub_part": 17,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 245,
+    "fields": {
+      "part": 111,
+      "sub_part": 18,
+      "quantity": "20.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 246,
+    "fields": {
+      "part": 111,
+      "sub_part": 19,
+      "quantity": "20.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 247,
+    "fields": {
+      "part": 111,
+      "sub_part": 20,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 248,
+    "fields": {
+      "part": 111,
+      "sub_part": 21,
+      "quantity": "18.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 249,
+    "fields": {
+      "part": 111,
+      "sub_part": 22,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 250,
+    "fields": {
+      "part": 111,
+      "sub_part": 23,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 251,
+    "fields": {
+      "part": 111,
+      "sub_part": 24,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 252,
+    "fields": {
+      "part": 111,
+      "sub_part": 25,
+      "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 253,
+    "fields": {
+      "part": 111,
+      "sub_part": 26,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 254,
+    "fields": {
+      "part": 111,
+      "sub_part": 27,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 255,
+    "fields": {
+      "part": 111,
+      "sub_part": 28,
+      "quantity": "19.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 256,
+    "fields": {
+      "part": 111,
+      "sub_part": 29,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 257,
+    "fields": {
+      "part": 111,
+      "sub_part": 30,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 258,
+    "fields": {
+      "part": 111,
+      "sub_part": 31,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 259,
+    "fields": {
+      "part": 111,
+      "sub_part": 32,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 260,
+    "fields": {
+      "part": 111,
+      "sub_part": 33,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 261,
+    "fields": {
+      "part": 111,
+      "sub_part": 34,
+      "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 262,
+    "fields": {
+      "part": 111,
+      "sub_part": 35,
+      "quantity": "17.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 263,
+    "fields": {
+      "part": 111,
+      "sub_part": 36,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 264,
+    "fields": {
+      "part": 111,
+      "sub_part": 37,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 265,
+    "fields": {
+      "part": 111,
+      "sub_part": 38,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 266,
+    "fields": {
+      "part": 111,
+      "sub_part": 39,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 267,
+    "fields": {
+      "part": 111,
+      "sub_part": 40,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 268,
+    "fields": {
+      "part": 111,
+      "sub_part": 41,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 269,
+    "fields": {
+      "part": 111,
+      "sub_part": 42,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 270,
+    "fields": {
+      "part": 111,
+      "sub_part": 43,
+      "quantity": "18.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 271,
+    "fields": {
+      "part": 111,
+      "sub_part": 44,
+      "quantity": "20.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 272,
+    "fields": {
+      "part": 111,
+      "sub_part": 45,
+      "quantity": "19.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 273,
+    "fields": {
+      "part": 111,
+      "sub_part": 46,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 274,
+    "fields": {
+      "part": 111,
+      "sub_part": 47,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 275,
+    "fields": {
+      "part": 111,
+      "sub_part": 48,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 276,
+    "fields": {
+      "part": 111,
+      "sub_part": 49,
+      "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 277,
+    "fields": {
+      "part": 111,
+      "sub_part": 50,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 278,
+    "fields": {
+      "part": 111,
+      "sub_part": 51,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 279,
+    "fields": {
+      "part": 111,
+      "sub_part": 52,
+      "quantity": "21.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 280,
+    "fields": {
+      "part": 111,
+      "sub_part": 53,
+      "quantity": "23.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 281,
+    "fields": {
+      "part": 111,
+      "sub_part": 54,
+      "quantity": "12.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 282,
+    "fields": {
+      "part": 111,
+      "sub_part": 55,
+      "quantity": "14.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 283,
+    "fields": {
+      "part": 111,
+      "sub_part": 56,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 284,
+    "fields": {
+      "part": 111,
+      "sub_part": 57,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 285,
+    "fields": {
+      "part": 111,
+      "sub_part": 58,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 286,
+    "fields": {
+      "part": 111,
+      "sub_part": 59,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 287,
+    "fields": {
+      "part": 111,
+      "sub_part": 60,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 288,
+    "fields": {
+      "part": 112,
+      "sub_part": 1,
+      "quantity": "20.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 289,
+    "fields": {
+      "part": 112,
+      "sub_part": 2,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 290,
+    "fields": {
+      "part": 112,
+      "sub_part": 3,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 291,
+    "fields": {
+      "part": 112,
+      "sub_part": 4,
+      "quantity": "21.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 292,
+    "fields": {
+      "part": 112,
+      "sub_part": 5,
+      "quantity": "19.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 293,
+    "fields": {
+      "part": 112,
+      "sub_part": 6,
+      "quantity": "13.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 294,
+    "fields": {
+      "part": 112,
+      "sub_part": 7,
+      "quantity": "34.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 295,
+    "fields": {
+      "part": 112,
+      "sub_part": 8,
+      "quantity": "32.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 296,
+    "fields": {
+      "part": 112,
+      "sub_part": 9,
+      "quantity": "40.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 297,
+    "fields": {
+      "part": 112,
+      "sub_part": 10,
+      "quantity": "31.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 298,
+    "fields": {
+      "part": 112,
+      "sub_part": 11,
+      "quantity": "16.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 299,
+    "fields": {
+      "part": 112,
+      "sub_part": 12,
+      "quantity": "26.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 300,
+    "fields": {
+      "part": 112,
+      "sub_part": 13,
+      "quantity": "27.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 301,
+    "fields": {
+      "part": 112,
+      "sub_part": 14,
+      "quantity": "41.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 302,
+    "fields": {
+      "part": 112,
+      "sub_part": 15,
+      "quantity": "26.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 303,
+    "fields": {
+      "part": 112,
+      "sub_part": 16,
+      "quantity": "7.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 304,
+    "fields": {
+      "part": 112,
+      "sub_part": 17,
+      "quantity": "36.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 305,
+    "fields": {
+      "part": 112,
+      "sub_part": 18,
+      "quantity": "7.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 306,
+    "fields": {
+      "part": 112,
+      "sub_part": 19,
+      "quantity": "41.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 307,
+    "fields": {
+      "part": 112,
+      "sub_part": 20,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 308,
+    "fields": {
+      "part": 112,
+      "sub_part": 21,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 309,
+    "fields": {
+      "part": 112,
+      "sub_part": 22,
+      "quantity": "12.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 310,
+    "fields": {
+      "part": 112,
+      "sub_part": 23,
+      "quantity": "12.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 311,
+    "fields": {
+      "part": 112,
+      "sub_part": 24,
+      "quantity": "17.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 312,
+    "fields": {
+      "part": 112,
+      "sub_part": 25,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 313,
+    "fields": {
+      "part": 112,
+      "sub_part": 26,
+      "quantity": "16.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 314,
+    "fields": {
+      "part": 112,
+      "sub_part": 27,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 315,
+    "fields": {
+      "part": 112,
+      "sub_part": 28,
+      "quantity": "10.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 316,
+    "fields": {
+      "part": 112,
+      "sub_part": 29,
+      "quantity": "27.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 317,
+    "fields": {
+      "part": 112,
+      "sub_part": 30,
+      "quantity": "9.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 318,
+    "fields": {
+      "part": 112,
+      "sub_part": 31,
+      "quantity": "36.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 319,
+    "fields": {
+      "part": 112,
+      "sub_part": 32,
+      "quantity": "24.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 320,
+    "fields": {
+      "part": 112,
+      "sub_part": 33,
+      "quantity": "7.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 321,
+    "fields": {
+      "part": 112,
+      "sub_part": 34,
+      "quantity": "39.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 322,
+    "fields": {
+      "part": 112,
+      "sub_part": 35,
+      "quantity": "45.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 323,
+    "fields": {
+      "part": 112,
+      "sub_part": 36,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 324,
+    "fields": {
+      "part": 112,
+      "sub_part": 37,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 325,
+    "fields": {
+      "part": 112,
+      "sub_part": 38,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 326,
+    "fields": {
+      "part": 112,
+      "sub_part": 39,
+      "quantity": "15.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 327,
+    "fields": {
+      "part": 112,
+      "sub_part": 40,
+      "quantity": "32.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 328,
+    "fields": {
+      "part": 112,
+      "sub_part": 41,
+      "quantity": "33.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 329,
+    "fields": {
+      "part": 112,
+      "sub_part": 42,
+      "quantity": "34.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 330,
+    "fields": {
+      "part": 112,
+      "sub_part": 43,
+      "quantity": "8.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 331,
+    "fields": {
+      "part": 112,
+      "sub_part": 44,
+      "quantity": "11.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 332,
+    "fields": {
+      "part": 112,
+      "sub_part": 45,
+      "quantity": "31.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 333,
+    "fields": {
+      "part": 112,
+      "sub_part": 46,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 334,
+    "fields": {
+      "part": 112,
+      "sub_part": 47,
+      "quantity": "27.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 335,
+    "fields": {
+      "part": 112,
+      "sub_part": 48,
+      "quantity": "5.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 336,
+    "fields": {
+      "part": 112,
+      "sub_part": 49,
+      "quantity": "38.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 337,
+    "fields": {
+      "part": 112,
+      "sub_part": 50,
+      "quantity": "31.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 338,
+    "fields": {
+      "part": 112,
+      "sub_part": 51,
+      "quantity": "35.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 339,
+    "fields": {
+      "part": 112,
+      "sub_part": 52,
+      "quantity": "17.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 340,
+    "fields": {
+      "part": 112,
+      "sub_part": 53,
+      "quantity": "26.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 341,
+    "fields": {
+      "part": 112,
+      "sub_part": 54,
+      "quantity": "22.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 342,
+    "fields": {
+      "part": 112,
+      "sub_part": 55,
+      "quantity": "32.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 343,
+    "fields": {
+      "part": 112,
+      "sub_part": 56,
+      "quantity": "19.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 344,
+    "fields": {
+      "part": 112,
+      "sub_part": 57,
+      "quantity": "25.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 345,
+    "fields": {
+      "part": 112,
+      "sub_part": 58,
+      "quantity": "31.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 346,
+    "fields": {
+      "part": 112,
+      "sub_part": 59,
+      "quantity": "45.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "",
+      "checksum": "",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 347,
+    "fields": {
+      "part": 112,
+      "sub_part": 60,
+      "quantity": "7.00000",
       "optional": false,
       "overage": "",
       "reference": "",
