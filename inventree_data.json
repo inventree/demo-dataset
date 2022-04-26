@@ -28,7 +28,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2022-04-21T13:09:48.541Z",
+      "last_login": "2022-04-26T10:31:33.753Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -757,6 +757,22 @@
     "fields": {
       "value": "False",
       "key": "ENABLE_PLUGINS_URL"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 65,
+    "fields": {
+      "value": "{{ year }}-{{ month }}-{{ day }}",
+      "key": "STOCK_BATCH_CODE_TEMPLATE"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 66,
+    "fields": {
+      "value": "False",
+      "key": "PLUGIN_ON_STARTUP"
     }
   },
   {
@@ -1593,6 +1609,78 @@
     "fields": {
       "value": "True",
       "key": "LABEL_ENABLE",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 94,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_PARTS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 95,
+    "fields": {
+      "value": "False",
+      "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 96,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_STOCK",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 97,
+    "fields": {
+      "value": "False",
+      "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 98,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 99,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 100,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 101,
+    "fields": {
+      "value": "True",
+      "key": "NOTIFICATION_SEND_EMAILS",
       "user": 1
     }
   },
@@ -26014,7 +26102,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 209,
+      "tree_id": 210,
       "level": 0
     }
   },
@@ -26053,7 +26141,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 209,
+      "tree_id": 211,
       "level": 0
     }
   },
@@ -26092,7 +26180,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 209,
+      "tree_id": 212,
       "level": 0
     }
   },
@@ -26131,7 +26219,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 209,
+      "tree_id": 213,
       "level": 0
     }
   },
@@ -26170,7 +26258,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 214,
       "level": 0
     }
   },
@@ -26209,7 +26297,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 215,
       "level": 0
     }
   },
@@ -26248,7 +26336,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 216,
       "level": 0
     }
   },
@@ -26287,7 +26375,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 217,
       "level": 0
     }
   },
@@ -26326,7 +26414,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 218,
       "level": 0
     }
   },
@@ -26365,7 +26453,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 219,
       "level": 0
     }
   },
@@ -26404,7 +26492,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 220,
       "level": 0
     }
   },
@@ -26443,7 +26531,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 221,
       "level": 0
     }
   },
@@ -26482,7 +26570,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 222,
       "level": 0
     }
   },
@@ -26521,7 +26609,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 223,
       "level": 0
     }
   },
@@ -26560,7 +26648,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 224,
       "level": 0
     }
   },
@@ -26599,7 +26687,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 225,
       "level": 0
     }
   },
@@ -26638,7 +26726,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 226,
       "level": 0
     }
   },
@@ -26677,7 +26765,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 227,
       "level": 0
     }
   },
@@ -26716,7 +26804,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 228,
       "level": 0
     }
   },
@@ -26755,7 +26843,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 229,
       "level": 0
     }
   },
@@ -26794,7 +26882,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 230,
       "level": 0
     }
   },
@@ -26833,7 +26921,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 231,
       "level": 0
     }
   },
@@ -26872,7 +26960,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 232,
       "level": 0
     }
   },
@@ -26911,7 +26999,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 233,
       "level": 0
     }
   },
@@ -26950,7 +27038,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 234,
       "level": 0
     }
   },
@@ -26989,7 +27077,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 235,
       "level": 0
     }
   },
@@ -27028,7 +27116,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 236,
       "level": 0
     }
   },
@@ -27067,7 +27155,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 237,
       "level": 0
     }
   },
@@ -27106,7 +27194,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 238,
       "level": 0
     }
   },
@@ -27145,7 +27233,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 239,
       "level": 0
     }
   },
@@ -27184,7 +27272,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 240,
       "level": 0
     }
   },
@@ -27223,7 +27311,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 241,
       "level": 0
     }
   },
@@ -27262,7 +27350,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 242,
       "level": 0
     }
   },
@@ -27301,7 +27389,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 243,
       "level": 0
     }
   },
@@ -27340,7 +27428,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 244,
       "level": 0
     }
   },
@@ -27379,7 +27467,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 245,
       "level": 0
     }
   },
@@ -27418,7 +27506,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 246,
       "level": 0
     }
   },
@@ -27457,7 +27545,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 247,
       "level": 0
     }
   },
@@ -27496,7 +27584,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 248,
       "level": 0
     }
   },
@@ -27535,7 +27623,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 249,
       "level": 0
     }
   },
@@ -27574,7 +27662,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 250,
       "level": 0
     }
   },
@@ -27613,7 +27701,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 251,
       "level": 0
     }
   },
@@ -27652,7 +27740,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 252,
       "level": 0
     }
   },
@@ -27691,7 +27779,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 253,
       "level": 0
     }
   },
@@ -27730,7 +27818,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 254,
       "level": 0
     }
   },
@@ -27769,7 +27857,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 255,
       "level": 0
     }
   },
@@ -27808,7 +27896,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 256,
       "level": 0
     }
   },
@@ -27847,7 +27935,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 257,
       "level": 0
     }
   },
@@ -27886,7 +27974,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 210,
+      "tree_id": 258,
       "level": 0
     }
   },
@@ -27925,7 +28013,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 211,
+      "tree_id": 259,
       "level": 0
     }
   },
@@ -27964,7 +28052,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 212,
+      "tree_id": 260,
       "level": 0
     }
   },
@@ -28003,7 +28091,7 @@
       "infinite": false,
       "lft": 1,
       "rght": 2,
-      "tree_id": 213,
+      "tree_id": 261,
       "level": 0
     }
   },
