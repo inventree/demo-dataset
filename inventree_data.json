@@ -28,7 +28,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2022-04-26T10:31:33.753Z",
+      "last_login": "2022-04-27T00:34:27.625Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -170,6 +170,66 @@
     }
   },
   {
+    "model": "build.build",
+    "pk": 3,
+    "fields": {
+      "reference_int": 3,
+      "reference": "0003",
+      "title": "TB2 Build",
+      "parent": null,
+      "part": 111,
+      "sales_order": null,
+      "take_from": 7,
+      "destination": 1,
+      "quantity": 10,
+      "completed": 6,
+      "status": 20,
+      "batch": "",
+      "creation_date": "2022-04-27",
+      "target_date": null,
+      "completion_date": null,
+      "completed_by": null,
+      "issued_by": 1,
+      "responsible": 2,
+      "link": "",
+      "notes": "",
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 3,
+      "level": 0
+    }
+  },
+  {
+    "model": "build.build",
+    "pk": 4,
+    "fields": {
+      "reference_int": 4,
+      "reference": "0004",
+      "title": "TB3 Build",
+      "parent": null,
+      "part": 112,
+      "sales_order": null,
+      "take_from": null,
+      "destination": null,
+      "quantity": 25,
+      "completed": 20,
+      "status": 20,
+      "batch": "",
+      "creation_date": "2022-04-27",
+      "target_date": null,
+      "completion_date": null,
+      "completed_by": null,
+      "issued_by": 1,
+      "responsible": 3,
+      "link": "",
+      "notes": "",
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 4,
+      "level": 0
+    }
+  },
+  {
     "model": "build.builditem",
     "pk": 1,
     "fields": {
@@ -277,6 +337,1106 @@
       "stock_item": 186,
       "quantity": "1.00000",
       "install_into": 206
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 11,
+    "fields": {
+      "build": 3,
+      "bom_item": 243,
+      "stock_item": 7,
+      "quantity": "150.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 12,
+    "fields": {
+      "build": 3,
+      "bom_item": 244,
+      "stock_item": 9,
+      "quantity": "100.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 13,
+    "fields": {
+      "build": 3,
+      "bom_item": 245,
+      "stock_item": 12,
+      "quantity": "200.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 14,
+    "fields": {
+      "build": 3,
+      "bom_item": 246,
+      "stock_item": 17,
+      "quantity": "200.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 15,
+    "fields": {
+      "build": 3,
+      "bom_item": 247,
+      "stock_item": 19,
+      "quantity": "130.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 16,
+    "fields": {
+      "build": 3,
+      "bom_item": 248,
+      "stock_item": 22,
+      "quantity": "180.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 17,
+    "fields": {
+      "build": 3,
+      "bom_item": 249,
+      "stock_item": 106,
+      "quantity": "240.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 18,
+    "fields": {
+      "build": 3,
+      "bom_item": 250,
+      "stock_item": 39,
+      "quantity": "100.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 19,
+    "fields": {
+      "build": 3,
+      "bom_item": 251,
+      "stock_item": 43,
+      "quantity": "240.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 20,
+    "fields": {
+      "build": 3,
+      "bom_item": 252,
+      "stock_item": 47,
+      "quantity": "140.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 21,
+    "fields": {
+      "build": 3,
+      "bom_item": 253,
+      "stock_item": 49,
+      "quantity": "230.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 22,
+    "fields": {
+      "build": 3,
+      "bom_item": 254,
+      "stock_item": 50,
+      "quantity": "150.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 23,
+    "fields": {
+      "build": 3,
+      "bom_item": 255,
+      "stock_item": 2,
+      "quantity": "190.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 24,
+    "fields": {
+      "build": 3,
+      "bom_item": 257,
+      "stock_item": 80,
+      "quantity": "100.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 25,
+    "fields": {
+      "build": 3,
+      "bom_item": 258,
+      "stock_item": 103,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 26,
+    "fields": {
+      "build": 3,
+      "bom_item": 259,
+      "stock_item": 33,
+      "quantity": "230.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 27,
+    "fields": {
+      "build": 3,
+      "bom_item": 260,
+      "stock_item": 36,
+      "quantity": "240.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 28,
+    "fields": {
+      "build": 3,
+      "bom_item": 264,
+      "stock_item": 53,
+      "quantity": "110.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 29,
+    "fields": {
+      "build": 3,
+      "bom_item": 265,
+      "stock_item": 57,
+      "quantity": "230.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 30,
+    "fields": {
+      "build": 3,
+      "bom_item": 266,
+      "stock_item": 61,
+      "quantity": "240.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 31,
+    "fields": {
+      "build": 3,
+      "bom_item": 267,
+      "stock_item": 66,
+      "quantity": "230.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 32,
+    "fields": {
+      "build": 3,
+      "bom_item": 268,
+      "stock_item": 70,
+      "quantity": "100.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 33,
+    "fields": {
+      "build": 3,
+      "bom_item": 269,
+      "stock_item": 121,
+      "quantity": "130.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 34,
+    "fields": {
+      "build": 3,
+      "bom_item": 273,
+      "stock_item": 23,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 35,
+    "fields": {
+      "build": 3,
+      "bom_item": 274,
+      "stock_item": 27,
+      "quantity": "220.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 36,
+    "fields": {
+      "build": 3,
+      "bom_item": 275,
+      "stock_item": 30,
+      "quantity": "150.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 37,
+    "fields": {
+      "build": 3,
+      "bom_item": 277,
+      "stock_item": 158,
+      "quantity": "230.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 38,
+    "fields": {
+      "build": 3,
+      "bom_item": 278,
+      "stock_item": 154,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 39,
+    "fields": {
+      "build": 3,
+      "bom_item": 279,
+      "stock_item": 148,
+      "quantity": "210.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 40,
+    "fields": {
+      "build": 3,
+      "bom_item": 282,
+      "stock_item": 149,
+      "quantity": "140.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 41,
+    "fields": {
+      "build": 3,
+      "bom_item": 284,
+      "stock_item": 161,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 42,
+    "fields": {
+      "build": 3,
+      "bom_item": 285,
+      "stock_item": 150,
+      "quantity": "110.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 43,
+    "fields": {
+      "build": 3,
+      "bom_item": 287,
+      "stock_item": 155,
+      "quantity": "150.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 44,
+    "fields": {
+      "build": 3,
+      "bom_item": 256,
+      "stock_item": 4,
+      "quantity": "240.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 45,
+    "fields": {
+      "build": 3,
+      "bom_item": 271,
+      "stock_item": 72,
+      "quantity": "200.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 46,
+    "fields": {
+      "build": 3,
+      "bom_item": 276,
+      "stock_item": 152,
+      "quantity": "140.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 47,
+    "fields": {
+      "build": 4,
+      "bom_item": 289,
+      "stock_item": 293,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 48,
+    "fields": {
+      "build": 4,
+      "bom_item": 290,
+      "stock_item": 294,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 49,
+    "fields": {
+      "build": 4,
+      "bom_item": 291,
+      "stock_item": 295,
+      "quantity": "525.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 50,
+    "fields": {
+      "build": 4,
+      "bom_item": 292,
+      "stock_item": 296,
+      "quantity": "475.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 51,
+    "fields": {
+      "build": 4,
+      "bom_item": 293,
+      "stock_item": 297,
+      "quantity": "325.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 52,
+    "fields": {
+      "build": 4,
+      "bom_item": 294,
+      "stock_item": 298,
+      "quantity": "850.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 53,
+    "fields": {
+      "build": 4,
+      "bom_item": 295,
+      "stock_item": 299,
+      "quantity": "800.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 54,
+    "fields": {
+      "build": 4,
+      "bom_item": 296,
+      "stock_item": 300,
+      "quantity": "1000.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 55,
+    "fields": {
+      "build": 4,
+      "bom_item": 297,
+      "stock_item": 301,
+      "quantity": "775.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 56,
+    "fields": {
+      "build": 4,
+      "bom_item": 298,
+      "stock_item": 302,
+      "quantity": "400.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 57,
+    "fields": {
+      "build": 4,
+      "bom_item": 299,
+      "stock_item": 303,
+      "quantity": "650.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 58,
+    "fields": {
+      "build": 4,
+      "bom_item": 300,
+      "stock_item": 304,
+      "quantity": "675.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 59,
+    "fields": {
+      "build": 4,
+      "bom_item": 301,
+      "stock_item": 305,
+      "quantity": "1025.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 60,
+    "fields": {
+      "build": 4,
+      "bom_item": 302,
+      "stock_item": 306,
+      "quantity": "650.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 61,
+    "fields": {
+      "build": 4,
+      "bom_item": 303,
+      "stock_item": 7,
+      "quantity": "175.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 62,
+    "fields": {
+      "build": 4,
+      "bom_item": 304,
+      "stock_item": 9,
+      "quantity": "900.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 63,
+    "fields": {
+      "build": 4,
+      "bom_item": 305,
+      "stock_item": 12,
+      "quantity": "175.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 64,
+    "fields": {
+      "build": 4,
+      "bom_item": 306,
+      "stock_item": 17,
+      "quantity": "1025.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 65,
+    "fields": {
+      "build": 4,
+      "bom_item": 307,
+      "stock_item": 19,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 66,
+    "fields": {
+      "build": 4,
+      "bom_item": 308,
+      "stock_item": 22,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 67,
+    "fields": {
+      "build": 4,
+      "bom_item": 309,
+      "stock_item": 106,
+      "quantity": "300.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 68,
+    "fields": {
+      "build": 4,
+      "bom_item": 310,
+      "stock_item": 39,
+      "quantity": "300.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 69,
+    "fields": {
+      "build": 4,
+      "bom_item": 311,
+      "stock_item": 43,
+      "quantity": "425.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 70,
+    "fields": {
+      "build": 4,
+      "bom_item": 312,
+      "stock_item": 47,
+      "quantity": "550.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 71,
+    "fields": {
+      "build": 4,
+      "bom_item": 313,
+      "stock_item": 49,
+      "quantity": "400.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 72,
+    "fields": {
+      "build": 4,
+      "bom_item": 314,
+      "stock_item": 50,
+      "quantity": "275.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 73,
+    "fields": {
+      "build": 4,
+      "bom_item": 315,
+      "stock_item": 2,
+      "quantity": "250.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 74,
+    "fields": {
+      "build": 4,
+      "bom_item": 317,
+      "stock_item": 80,
+      "quantity": "225.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 75,
+    "fields": {
+      "build": 4,
+      "bom_item": 318,
+      "stock_item": 103,
+      "quantity": "750.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 76,
+    "fields": {
+      "build": 4,
+      "bom_item": 318,
+      "stock_item": 104,
+      "quantity": "150.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 77,
+    "fields": {
+      "build": 4,
+      "bom_item": 319,
+      "stock_item": 33,
+      "quantity": "600.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 78,
+    "fields": {
+      "build": 4,
+      "bom_item": 320,
+      "stock_item": 36,
+      "quantity": "175.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 79,
+    "fields": {
+      "build": 4,
+      "bom_item": 321,
+      "stock_item": 307,
+      "quantity": "975.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 80,
+    "fields": {
+      "build": 4,
+      "bom_item": 322,
+      "stock_item": 308,
+      "quantity": "1125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 81,
+    "fields": {
+      "build": 4,
+      "bom_item": 323,
+      "stock_item": 309,
+      "quantity": "275.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 82,
+    "fields": {
+      "build": 4,
+      "bom_item": 324,
+      "stock_item": 53,
+      "quantity": "550.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 83,
+    "fields": {
+      "build": 4,
+      "bom_item": 325,
+      "stock_item": 57,
+      "quantity": "275.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 84,
+    "fields": {
+      "build": 4,
+      "bom_item": 326,
+      "stock_item": 61,
+      "quantity": "375.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 85,
+    "fields": {
+      "build": 4,
+      "bom_item": 327,
+      "stock_item": 66,
+      "quantity": "770.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 86,
+    "fields": {
+      "build": 4,
+      "bom_item": 327,
+      "stock_item": 67,
+      "quantity": "30.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 87,
+    "fields": {
+      "build": 4,
+      "bom_item": 328,
+      "stock_item": 70,
+      "quantity": "825.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 88,
+    "fields": {
+      "build": 4,
+      "bom_item": 329,
+      "stock_item": 121,
+      "quantity": "850.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 89,
+    "fields": {
+      "build": 4,
+      "bom_item": 330,
+      "stock_item": 310,
+      "quantity": "200.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 90,
+    "fields": {
+      "build": 4,
+      "bom_item": 332,
+      "stock_item": 311,
+      "quantity": "775.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 91,
+    "fields": {
+      "build": 4,
+      "bom_item": 333,
+      "stock_item": 23,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 92,
+    "fields": {
+      "build": 4,
+      "bom_item": 334,
+      "stock_item": 27,
+      "quantity": "675.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 93,
+    "fields": {
+      "build": 4,
+      "bom_item": 335,
+      "stock_item": 30,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 94,
+    "fields": {
+      "build": 4,
+      "bom_item": 337,
+      "stock_item": 158,
+      "quantity": "775.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 95,
+    "fields": {
+      "build": 4,
+      "bom_item": 338,
+      "stock_item": 154,
+      "quantity": "750.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 96,
+    "fields": {
+      "build": 4,
+      "bom_item": 338,
+      "stock_item": 159,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 97,
+    "fields": {
+      "build": 4,
+      "bom_item": 339,
+      "stock_item": 148,
+      "quantity": "290.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 98,
+    "fields": {
+      "build": 4,
+      "bom_item": 340,
+      "stock_item": 312,
+      "quantity": "650.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 99,
+    "fields": {
+      "build": 4,
+      "bom_item": 341,
+      "stock_item": 313,
+      "quantity": "550.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 100,
+    "fields": {
+      "build": 4,
+      "bom_item": 342,
+      "stock_item": 149,
+      "quantity": "800.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 101,
+    "fields": {
+      "build": 4,
+      "bom_item": 343,
+      "stock_item": 314,
+      "quantity": "475.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 102,
+    "fields": {
+      "build": 4,
+      "bom_item": 344,
+      "stock_item": 161,
+      "quantity": "625.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 103,
+    "fields": {
+      "build": 4,
+      "bom_item": 345,
+      "stock_item": 150,
+      "quantity": "775.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 104,
+    "fields": {
+      "build": 4,
+      "bom_item": 346,
+      "stock_item": 315,
+      "quantity": "1125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 105,
+    "fields": {
+      "build": 4,
+      "bom_item": 347,
+      "stock_item": 155,
+      "quantity": "175.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 106,
+    "fields": {
+      "build": 4,
+      "bom_item": 288,
+      "stock_item": 292,
+      "quantity": "500.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 107,
+    "fields": {
+      "build": 4,
+      "bom_item": 316,
+      "stock_item": 4,
+      "quantity": "675.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 108,
+    "fields": {
+      "build": 4,
+      "bom_item": 331,
+      "stock_item": 72,
+      "quantity": "275.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 109,
+    "fields": {
+      "build": 4,
+      "bom_item": 336,
+      "stock_item": 152,
+      "quantity": "860.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 110,
+    "fields": {
+      "build": 4,
+      "bom_item": 336,
+      "stock_item": 153,
+      "quantity": "90.00000",
+      "install_into": null
     }
   },
   {
@@ -28096,6 +29256,1059 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 292,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 1,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3774.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 262,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 293,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 2,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2632.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 263,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 294,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 3,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3147.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 264,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 295,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 4,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3951.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 265,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 296,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 5,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3176.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 266,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 297,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 6,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3088.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 267,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 298,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 7,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2366.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 268,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 299,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 8,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2528.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 269,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 300,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 9,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2022.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 270,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 301,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 10,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3061.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 271,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 302,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 11,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2085.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 272,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 303,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 12,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3283.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 273,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 304,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 13,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2697.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 274,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 305,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 14,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3858.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 275,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 306,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 15,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3278.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 276,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 307,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 34,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2889.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 277,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 308,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 35,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2037.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 278,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 309,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 36,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2382.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 279,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 310,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 43,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3990.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 280,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 311,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 45,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3920.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 281,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 312,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 53,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2885.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 282,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 313,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 54,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3585.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 283,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 314,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 56,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "2516.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 284,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 315,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 59,
+      "supplier_part": null,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-4-27",
+      "quantity": "3942.00000",
+      "updated": "2022-04-27",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 285,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 316,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 111,
+      "supplier_part": null,
+      "location": 1,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "BX-123",
+      "quantity": "4.00000",
+      "updated": "2022-04-27",
+      "build": 3,
+      "is_building": true,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 286,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 317,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 111,
+      "supplier_part": null,
+      "location": 1,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "BX-124",
+      "quantity": "6.00000",
+      "updated": "2022-04-27",
+      "build": 3,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 287,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 318,
+    "fields": {
+      "uid": "",
+      "parent": null,
+      "part": 112,
+      "supplier_part": null,
+      "location": 5,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "BO-20",
+      "quantity": "20.00000",
+      "updated": "2022-04-27",
+      "build": 4,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 288,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -32997,6 +35210,34 @@
         "status": 10,
         "location": 2,
         "quantity": 1540.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 346,
+    "fields": {
+      "tracking_type": 55,
+      "item": 317,
+      "date": "2022-04-27T01:00:26.011Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 347,
+    "fields": {
+      "tracking_type": 55,
+      "item": 318,
+      "date": "2022-04-27T01:00:50.467Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10
       }
     }
   },
