@@ -13619,6 +13619,42 @@
     }
   },
   {
+    "model": "part.parttesttemplate",
+    "pk": 1,
+    "fields": {
+      "part": 77,
+      "test_name": "Paint",
+      "description": "Paint has been applied",
+      "required": true,
+      "requires_value": true,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 2,
+    "fields": {
+      "part": 77,
+      "test_name": "Sticker",
+      "description": "Applied QC sticker",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 3,
+    "fields": {
+      "part": 77,
+      "test_name": "Commissioning",
+      "description": "Automated commissioning checks have been performed",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
@@ -35239,6 +35275,90 @@
       "deltas": {
         "status": 10
       }
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 1,
+    "fields": {
+      "stock_item": 205,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-27T02:11:02.172Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 2,
+    "fields": {
+      "stock_item": 205,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-27T02:11:02.671Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 3,
+    "fields": {
+      "stock_item": 205,
+      "test": "Paint",
+      "result": true,
+      "value": "Red",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-27T02:11:08.451Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 4,
+    "fields": {
+      "stock_item": 219,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-27T02:11:15.144Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 5,
+    "fields": {
+      "stock_item": 219,
+      "test": "Sticker",
+      "result": false,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-27T02:11:22.162Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 6,
+    "fields": {
+      "stock_item": 218,
+      "test": "Paint",
+      "result": true,
+      "value": "Blue",
+      "attachment": "",
+      "notes": "Applied blue paint",
+      "user": 1,
+      "date": "2022-04-27T02:11:36.546Z"
     }
   },
   {
