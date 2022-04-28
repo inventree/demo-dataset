@@ -35675,6 +35675,160 @@
     }
   },
   {
+    "model": "stock.stockitemtestresult",
+    "pk": 14,
+    "fields": {
+      "stock_item": 212,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:24.507Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 15,
+    "fields": {
+      "stock_item": 212,
+      "test": "Paint",
+      "result": false,
+      "value": "Painting failed",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:33.896Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 16,
+    "fields": {
+      "stock_item": 209,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:43.333Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 17,
+    "fields": {
+      "stock_item": 209,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:44.155Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 18,
+    "fields": {
+      "stock_item": 209,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:44.646Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 19,
+    "fields": {
+      "stock_item": 209,
+      "test": "Paint",
+      "result": true,
+      "value": "Red",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:56.417Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 20,
+    "fields": {
+      "stock_item": 207,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:04.013Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 21,
+    "fields": {
+      "stock_item": 207,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:04.543Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 22,
+    "fields": {
+      "stock_item": 206,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:08.281Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 23,
+    "fields": {
+      "stock_item": 206,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:09.009Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 24,
+    "fields": {
+      "stock_item": 206,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:09.598Z"
+    }
+  },
+  {
     "model": "users.ruleset",
     "pk": 1,
     "fields": {
