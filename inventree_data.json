@@ -86,7 +86,7 @@
     "pk": 4,
     "fields": {
       "password": "pbkdf2_sha256$260000$pbHvzfVrKhB4pv6asbGt3h$DEkXQ/Jlv4LtQJyBhosGnDYRkN0cs+HUVcQYe3lOyA0=",
-      "last_login": "2022-04-28T05:43:27.361Z",
+      "last_login": "2022-04-28T12:50:26.373Z",
       "is_superuser": false,
       "username": "allaccess",
       "first_name": "Ally",
@@ -122,7 +122,7 @@
       "take_from": null,
       "destination": 1,
       "quantity": 15,
-      "completed": 0,
+      "completed": 1,
       "status": 20,
       "batch": null,
       "creation_date": "2021-11-10",
@@ -249,94 +249,6 @@
       "stock_item": 172,
       "quantity": "75.00000",
       "install_into": null
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 3,
-    "fields": {
-      "build": 1,
-      "bom_item": 3,
-      "stock_item": 175,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 4,
-    "fields": {
-      "build": 1,
-      "bom_item": 4,
-      "stock_item": 182,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 5,
-    "fields": {
-      "build": 1,
-      "bom_item": 3,
-      "stock_item": 204,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 6,
-    "fields": {
-      "build": 1,
-      "bom_item": 3,
-      "stock_item": 176,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 7,
-    "fields": {
-      "build": 1,
-      "bom_item": 3,
-      "stock_item": 178,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 8,
-    "fields": {
-      "build": 1,
-      "bom_item": 3,
-      "stock_item": 179,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 9,
-    "fields": {
-      "build": 1,
-      "bom_item": 4,
-      "stock_item": 183,
-      "quantity": "1.00000",
-      "install_into": 206
-    }
-  },
-  {
-    "model": "build.builditem",
-    "pk": 10,
-    "fields": {
-      "build": 1,
-      "bom_item": 4,
-      "stock_item": 186,
-      "quantity": "1.00000",
-      "install_into": 206
     }
   },
   {
@@ -1437,6 +1349,270 @@
       "stock_item": 153,
       "quantity": "90.00000",
       "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 111,
+    "fields": {
+      "build": 1,
+      "bom_item": 6,
+      "stock_item": 315,
+      "quantity": "125.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 114,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 242,
+      "quantity": "1.00000",
+      "install_into": 208
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 115,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 238,
+      "quantity": "2.00000",
+      "install_into": 208
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 116,
+    "fields": {
+      "build": 1,
+      "bom_item": 3,
+      "stock_item": 177,
+      "quantity": "1.00000",
+      "install_into": 208
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 118,
+    "fields": {
+      "build": 1,
+      "bom_item": 6,
+      "stock_item": 315,
+      "quantity": "2.00000",
+      "install_into": null
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 120,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 201,
+      "quantity": "3.00000",
+      "install_into": 209
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 121,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 202,
+      "quantity": "3.00000",
+      "install_into": 211
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 122,
+    "fields": {
+      "build": 1,
+      "bom_item": 4,
+      "stock_item": 181,
+      "quantity": "1.00000",
+      "install_into": 211
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 123,
+    "fields": {
+      "build": 1,
+      "bom_item": 4,
+      "stock_item": 233,
+      "quantity": "5.00000",
+      "install_into": 211
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 124,
+    "fields": {
+      "build": 1,
+      "bom_item": 3,
+      "stock_item": 232,
+      "quantity": "5.00000",
+      "install_into": 211
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 125,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 187,
+      "quantity": "3.00000",
+      "install_into": 212
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 126,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 187,
+      "quantity": "2.00000",
+      "install_into": 210
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 127,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 234,
+      "quantity": "2.00000",
+      "install_into": 210
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 128,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 187,
+      "quantity": "4.00000",
+      "install_into": 215
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 129,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 201,
+      "quantity": "2.00000",
+      "install_into": 215
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 130,
+    "fields": {
+      "build": 1,
+      "bom_item": 4,
+      "stock_item": 185,
+      "quantity": "1.00000",
+      "install_into": 215
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 133,
+    "fields": {
+      "build": 1,
+      "bom_item": 3,
+      "stock_item": 232,
+      "quantity": "1.00000",
+      "install_into": 208
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 134,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 202,
+      "quantity": "3.00000",
+      "install_into": 213
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 135,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 187,
+      "quantity": "4.00000",
+      "install_into": 213
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 136,
+    "fields": {
+      "build": 1,
+      "bom_item": 3,
+      "stock_item": 232,
+      "quantity": "4.00000",
+      "install_into": 213
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 137,
+    "fields": {
+      "build": 1,
+      "bom_item": 4,
+      "stock_item": 184,
+      "quantity": "1.00000",
+      "install_into": 213
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 138,
+    "fields": {
+      "build": 1,
+      "bom_item": 1,
+      "stock_item": 240,
+      "quantity": "1.00000",
+      "install_into": 207
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 139,
+    "fields": {
+      "build": 1,
+      "bom_item": 2,
+      "stock_item": 187,
+      "quantity": "2.00000",
+      "install_into": 207
+    }
+  },
+  {
+    "model": "build.builditem",
+    "pk": 140,
+    "fields": {
+      "build": 1,
+      "bom_item": 4,
+      "stock_item": 233,
+      "quantity": "6.00000",
+      "install_into": 207
     }
   },
   {
@@ -24902,14 +25078,14 @@
       "supplier_part": null,
       "location": 5,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "1",
       "serial_int": 1,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -24941,14 +25117,14 @@
       "supplier_part": null,
       "location": 5,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "2",
       "serial_int": 2,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25019,14 +25195,14 @@
       "supplier_part": null,
       "location": 5,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "4",
       "serial_int": 4,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25058,14 +25234,14 @@
       "supplier_part": null,
       "location": 5,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "5",
       "serial_int": 5,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25136,14 +25312,14 @@
       "supplier_part": null,
       "location": 6,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "11",
       "serial_int": 11,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25175,14 +25351,14 @@
       "supplier_part": null,
       "location": 6,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "12",
       "serial_int": 12,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25292,14 +25468,14 @@
       "supplier_part": null,
       "location": 6,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "15",
       "serial_int": 15,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-09",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -25916,14 +26092,14 @@
       "supplier_part": null,
       "location": null,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "99",
       "serial_int": 99,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2021-11-10",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -26001,9 +26177,9 @@
       "link": "",
       "batch": null,
       "quantity": "1.00000",
-      "updated": "2021-11-10",
+      "updated": "2022-04-28",
       "build": 1,
-      "is_building": true,
+      "is_building": false,
       "purchase_order": null,
       "sales_order": null,
       "expiry_date": null,
@@ -27281,14 +27457,14 @@
       "supplier_part": null,
       "location": 5,
       "packaging": "",
-      "belongs_to": null,
+      "belongs_to": 206,
       "customer": null,
       "serial": "100",
       "serial_int": 100,
       "link": "",
       "batch": "",
       "quantity": "1.00000",
-      "updated": "2022-04-21",
+      "updated": "2022-04-28",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -35493,6 +35669,272 @@
     }
   },
   {
+    "model": "stock.stockitemtracking",
+    "pk": 351,
+    "fields": {
+      "tracking_type": 30,
+      "item": 175,
+      "date": "2022-04-28T12:58:31.724Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 352,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.731Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 175
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 353,
+    "fields": {
+      "tracking_type": 30,
+      "item": 182,
+      "date": "2022-04-28T12:58:31.751Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 354,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.758Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 182
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 355,
+    "fields": {
+      "tracking_type": 30,
+      "item": 204,
+      "date": "2022-04-28T12:58:31.775Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 356,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.779Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 204
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 357,
+    "fields": {
+      "tracking_type": 30,
+      "item": 176,
+      "date": "2022-04-28T12:58:31.796Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 358,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.803Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 176
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 359,
+    "fields": {
+      "tracking_type": 30,
+      "item": 178,
+      "date": "2022-04-28T12:58:31.822Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 360,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.826Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 178
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 361,
+    "fields": {
+      "tracking_type": 30,
+      "item": 179,
+      "date": "2022-04-28T12:58:31.843Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 362,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.847Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 179
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 363,
+    "fields": {
+      "tracking_type": 30,
+      "item": 183,
+      "date": "2022-04-28T12:58:31.863Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 364,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.870Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 183
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 365,
+    "fields": {
+      "tracking_type": 30,
+      "item": 186,
+      "date": "2022-04-28T12:58:31.887Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 366,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.892Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 186
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 367,
+    "fields": {
+      "tracking_type": 30,
+      "item": 239,
+      "date": "2022-04-28T12:58:31.908Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 206
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 368,
+    "fields": {
+      "tracking_type": 35,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.912Z",
+      "notes": "",
+      "user": 4,
+      "deltas": {
+        "stockitem": 239
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 369,
+    "fields": {
+      "tracking_type": 55,
+      "item": 206,
+      "date": "2022-04-28T12:58:31.943Z",
+      "notes": "Completed a build output manually",
+      "user": 4,
+      "deltas": {
+        "status": 10
+      }
+    }
+  },
+  {
     "model": "stock.stockitemtestresult",
     "pk": 1,
     "fields": {
@@ -35672,6 +36114,160 @@
       "notes": "",
       "user": 4,
       "date": "2022-04-28T06:30:42.716Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 14,
+    "fields": {
+      "stock_item": 212,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:24.507Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 15,
+    "fields": {
+      "stock_item": 212,
+      "test": "Paint",
+      "result": false,
+      "value": "Painting failed",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:33.896Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 16,
+    "fields": {
+      "stock_item": 209,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:43.333Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 17,
+    "fields": {
+      "stock_item": 209,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:44.155Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 18,
+    "fields": {
+      "stock_item": 209,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:44.646Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 19,
+    "fields": {
+      "stock_item": 209,
+      "test": "Paint",
+      "result": true,
+      "value": "Red",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:25:56.417Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 20,
+    "fields": {
+      "stock_item": 207,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:04.013Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 21,
+    "fields": {
+      "stock_item": 207,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:04.543Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 22,
+    "fields": {
+      "stock_item": 206,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:08.281Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 23,
+    "fields": {
+      "stock_item": 206,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:09.009Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 24,
+    "fields": {
+      "stock_item": 206,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-04-28T11:26:09.598Z"
     }
   },
   {
