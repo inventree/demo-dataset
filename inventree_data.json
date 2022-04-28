@@ -13690,6 +13690,18 @@
     }
   },
   {
+    "model": "part.parttesttemplate",
+    "pk": 4,
+    "fields": {
+      "part": 77,
+      "test_name": "Optional",
+      "description": "An optional test (not required)",
+      "required": false,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
@@ -35562,6 +35574,104 @@
       "notes": "Applied blue paint",
       "user": 1,
       "date": "2022-04-27T02:11:36.546Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 7,
+    "fields": {
+      "stock_item": 216,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:33.989Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 8,
+    "fields": {
+      "stock_item": 216,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:34.615Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 9,
+    "fields": {
+      "stock_item": 216,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:35.681Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 10,
+    "fields": {
+      "stock_item": 215,
+      "test": "Sticker",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:39.032Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 11,
+    "fields": {
+      "stock_item": 215,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:39.538Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 12,
+    "fields": {
+      "stock_item": 217,
+      "test": "Commissioning",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:42.076Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 13,
+    "fields": {
+      "stock_item": 217,
+      "test": "Optional",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 4,
+      "date": "2022-04-28T06:30:42.716Z"
     }
   },
   {
