@@ -14032,7 +14032,7 @@
       "minimum_stock": 0,
       "units": "",
       "assembly": true,
-      "component": false,
+      "component": true,
       "trackable": false,
       "purchaseable": false,
       "salable": false,
@@ -14073,7 +14073,7 @@
       "minimum_stock": 0,
       "units": "",
       "assembly": true,
-      "component": false,
+      "component": true,
       "trackable": false,
       "purchaseable": false,
       "salable": false,
@@ -14114,7 +14114,7 @@
       "minimum_stock": 0,
       "units": "",
       "assembly": true,
-      "component": false,
+      "component": true,
       "trackable": false,
       "purchaseable": false,
       "salable": false,
@@ -14132,6 +14132,47 @@
       "lft": 1,
       "rght": 2,
       "tree_id": 94,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 113,
+    "fields": {
+      "name": "Master Assembly",
+      "is_template": false,
+      "variant_of": null,
+      "description": "High level assembly of subassemblies",
+      "keywords": "",
+      "category": 16,
+      "IPN": "MAST",
+      "revision": "",
+      "link": "",
+      "image": "",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": true,
+      "component": false,
+      "trackable": true,
+      "purchaseable": false,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "b'\\xcc)\\xbf\\x97\\x8d/\\xd3\\x0e\\xac]\\x83\\xe8=sa\\xca'",
+      "bom_checked_by": 4,
+      "bom_checked_date": "2022-04-29",
+      "creation_date": "2022-04-29",
+      "creation_user": 4,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 95,
       "level": 0
     }
   },
@@ -19466,6 +19507,118 @@
       "reference": "",
       "note": "",
       "checksum": "b'N2\\xdce\\xb1\\x82\\xe1\\x1b\\x8a\\x031\\x9e\\xa2lK>'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 348,
+    "fields": {
+      "part": 113,
+      "sub_part": 88,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "PCB1",
+      "note": "",
+      "checksum": "b'\\xce\\x99\\xe5\\x93\\x88\\x1b\\xdd\\x14\\x1a\\xd5K\\xee\\xf2\\xe6\\xccU'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 349,
+    "fields": {
+      "part": 113,
+      "sub_part": 110,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "TB1",
+      "note": "",
+      "checksum": "b'W\\x89<\\x0e\\xfa:m\\xd8\\x0bF\\x0b\\r\\x818p\\xb8'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 350,
+    "fields": {
+      "part": 113,
+      "sub_part": 111,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "TB2",
+      "note": "",
+      "checksum": "b':\\xdc5\\xca\\xdf\\xea\\x05\\xdc8o\\x02\\xc8\\xdb)\\x1bF'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 351,
+    "fields": {
+      "part": 113,
+      "sub_part": 112,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "TB3",
+      "note": "",
+      "checksum": "b'\\xa7\\x91\\x90\\xd8\\r\\xd7\\xa8\\xf5\\x862K\\xd3\\x80I\\xe1y'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 352,
+    "fields": {
+      "part": 113,
+      "sub_part": 77,
+      "quantity": "2.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "W1",
+      "note": "",
+      "checksum": "b'%\\xa6\\xec\\xe3\\xe1Sdx\\x1c\\x85p\\x05\\xff\\xcd\\xe5Y'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 353,
+    "fields": {
+      "part": 113,
+      "sub_part": 87,
+      "quantity": "3.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "D1",
+      "note": "Doohicket",
+      "checksum": "b'\\x0c\\x1d\\xc2\\xbbq\\xb0\\xe9\\xdf\\x1f\\x15\\xf4@\\x90\\x1f\\xa6\\xcd'",
+      "inherited": false,
+      "allow_variants": false
+    }
+  },
+  {
+    "model": "part.bomitem",
+    "pk": 354,
+    "fields": {
+      "part": 113,
+      "sub_part": 83,
+      "quantity": "1.00000",
+      "optional": false,
+      "overage": "",
+      "reference": "",
+      "note": "Enclosure",
+      "checksum": "b'\\x13\\xc7#b\\x84\\xbc\\xb3\\xc6\\xe5\\xeb\\xbd+=\\x0b\\xaab'",
       "inherited": false,
       "allow_variants": false
     }
