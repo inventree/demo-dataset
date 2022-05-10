@@ -14424,6 +14424,42 @@
     }
   },
   {
+    "model": "part.parttesttemplate",
+    "pk": 5,
+    "fields": {
+      "part": 71,
+      "test_name": "Test A",
+      "description": "This widget has passed test sequence A",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 6,
+    "fields": {
+      "part": 71,
+      "test_name": "Test B",
+      "description": "This widget has passed test sequence B",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 7,
+    "fields": {
+      "part": 71,
+      "test_name": "Test C",
+      "description": "This widget has passed test sequence C",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
@@ -39280,6 +39316,118 @@
       "notes": "",
       "user": 1,
       "date": "2022-04-28T11:26:09.598Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 25,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test A",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:13.234Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 26,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": true,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:13.699Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 28,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test A",
+      "result": false,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:21.129Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 29,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": false,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:38.707Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 30,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": false,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:40.888Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 31,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": false,
+      "value": "",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:43.122Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 32,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": false,
+      "value": "12",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:47.589Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 33,
+    "fields": {
+      "stock_item": 177,
+      "test": "Test B",
+      "result": true,
+      "value": "Finally passed",
+      "attachment": "",
+      "notes": "",
+      "user": 1,
+      "date": "2022-05-10T03:44:59.939Z"
     }
   },
   {
