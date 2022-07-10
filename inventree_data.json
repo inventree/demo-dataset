@@ -1965,7 +1965,7 @@
     "model": "common.inventreesetting",
     "pk": 2,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "INVENTREE_INSTANCE_TITLE"
     }
   },
@@ -2053,7 +2053,7 @@
     "model": "common.inventreesetting",
     "pk": 16,
     "fields": {
-      "value": "",
+      "value": "https://demo.inventree.org",
       "key": "INVENTREE_BASE_URL"
     }
   },
@@ -2061,7 +2061,7 @@
     "model": "common.inventreesetting",
     "pk": 17,
     "fields": {
-      "value": "My company name",
+      "value": "InvenTree",
       "key": "INVENTREE_COMPANY_NAME"
     }
   },
@@ -2285,7 +2285,7 @@
     "model": "common.inventreesetting",
     "pk": 47,
     "fields": {
-      "value": "True",
+      "value": "False",
       "key": "LOGIN_ENABLE_PWD_FORGOT"
     }
   },
@@ -2317,7 +2317,7 @@
     "model": "common.inventreesetting",
     "pk": 51,
     "fields": {
-      "value": "True",
+      "value": "False",
       "key": "LOGIN_SIGNUP_PWD_TWICE"
     }
   },
@@ -2325,7 +2325,7 @@
     "model": "common.inventreesetting",
     "pk": 52,
     "fields": {
-      "value": "True",
+      "value": "False",
       "key": "LOGIN_SIGNUP_SSO_AUTO"
     }
   },
@@ -2349,7 +2349,7 @@
     "model": "common.inventreesetting",
     "pk": 55,
     "fields": {
-      "value": "",
+      "value": "True",
       "key": "REPORT_ENABLE"
     }
   },
@@ -2453,7 +2453,7 @@
     "model": "common.inventreesetting",
     "pk": 69,
     "fields": {
-      "value": "0.7.4",
+      "value": "0.7.0",
       "key": "INVENTREE_LATEST_VERSION"
     }
   },
@@ -2469,24 +2469,24 @@
     "model": "common.inventreesetting",
     "pk": 71,
     "fields": {
-      "value": "SO{ref:04d}",
-      "key": "SALESORDER_REFERENCE_PATTERN"
+      "value": "BO{ref:04d}",
+      "key": "BUILDORDER_REFERENCE_PATTERN"
     }
   },
   {
     "model": "common.inventreesetting",
     "pk": 72,
     "fields": {
-      "value": "PO{ref:04d}",
-      "key": "PURCHASEORDER_REFERENCE_PATTERN"
+      "value": "SO{ref:04d}",
+      "key": "SALESORDER_REFERENCE_PATTERN"
     }
   },
   {
     "model": "common.inventreesetting",
     "pk": 73,
     "fields": {
-      "value": "BO{ref:04d}",
-      "key": "BUILDORDER_REFERENCE_PATTERN"
+      "value": "PO{ref:04d}",
+      "key": "PURCHASEORDER_REFERENCE_PATTERN"
     }
   },
   {
@@ -2495,6 +2495,22 @@
     "fields": {
       "value": "True",
       "key": "LABEL_ENABLE"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 75,
+    "fields": {
+      "value": "300",
+      "key": "LABEL_DPI"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 76,
+    "fields": {
+      "value": "False",
+      "key": "REPORT_ATTACH_TEST_REPORT"
     }
   },
   {
@@ -3530,22 +3546,6 @@
       "value": "True",
       "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
       "user": 1
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 1,
-    "fields": {
-      "target_content_type": 22,
-      "target_object_id": 5,
-      "source_content_type": 4,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "order.overdue_sales_order",
-      "name": "Overdue Sales Order",
-      "message": "Sales order SO0005 - Customer B is now overdue",
-      "creation": "2022-07-10T12:24:52.180Z",
-      "read": false
     }
   },
   {
@@ -73666,7 +73666,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2022-07-10T12:33:32.198Z",
+      "last_login": "2022-07-10T13:10:32.222Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -73743,7 +73743,7 @@
     "model": "sites.site",
     "pk": 1,
     "fields": {
-      "domain": "",
+      "domain": "https://demo.inventree.org",
       "name": "InvenTree Demo"
     }
   }
