@@ -2453,7 +2453,7 @@
     "model": "common.inventreesetting",
     "pk": 69,
     "fields": {
-      "value": "0.7.0",
+      "value": "0.7.4",
       "key": "INVENTREE_LATEST_VERSION"
     }
   },
@@ -2511,6 +2511,14 @@
     "fields": {
       "value": "False",
       "key": "REPORT_ATTACH_TEST_REPORT"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 77,
+    "fields": {
+      "value": "True",
+      "key": "INVENTREE_REQUIRE_CONFIRM"
     }
   },
   {
@@ -3546,6 +3554,54 @@
       "value": "True",
       "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
       "user": 1
+    }
+  },
+  {
+    "model": "common.notificationmessage",
+    "pk": 1,
+    "fields": {
+      "target_content_type": 73,
+      "target_object_id": 1,
+      "source_content_type": 65,
+      "source_object_id": 1,
+      "user": 1,
+      "category": "inventree.error_log",
+      "name": "Server Error",
+      "message": "An error has been logged by the server.",
+      "creation": "2022-07-14T13:32:21.231Z",
+      "read": false
+    }
+  },
+  {
+    "model": "common.notificationmessage",
+    "pk": 2,
+    "fields": {
+      "target_content_type": 73,
+      "target_object_id": 2,
+      "source_content_type": 65,
+      "source_object_id": 1,
+      "user": 1,
+      "category": "inventree.error_log",
+      "name": "Server Error",
+      "message": "An error has been logged by the server.",
+      "creation": "2022-07-14T13:32:29.932Z",
+      "read": false
+    }
+  },
+  {
+    "model": "common.notificationmessage",
+    "pk": 3,
+    "fields": {
+      "target_content_type": 73,
+      "target_object_id": 3,
+      "source_content_type": 65,
+      "source_object_id": 1,
+      "user": 1,
+      "category": "inventree.error_log",
+      "name": "Server Error",
+      "message": "An error has been logged by the server.",
+      "creation": "2022-07-14T13:32:30.008Z",
+      "read": false
     }
   },
   {
@@ -14633,7 +14689,7 @@
       "default_location": null,
       "default_keywords": null,
       "lft": 1,
-      "rght": 22,
+      "rght": 24,
       "tree_id": 1,
       "level": 0
     }
@@ -14680,8 +14736,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": null,
-      "lft": 10,
-      "rght": 17,
+      "lft": 12,
+      "rght": 19,
       "tree_id": 1,
       "level": 1
     }
@@ -14696,8 +14752,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive resistor",
-      "lft": 15,
-      "rght": 16,
+      "lft": 17,
+      "rght": 18,
       "tree_id": 1,
       "level": 2
     }
@@ -14712,8 +14768,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": "passive capacitor",
-      "lft": 11,
-      "rght": 12,
+      "lft": 13,
+      "rght": 14,
       "tree_id": 1,
       "level": 2
     }
@@ -14728,8 +14784,8 @@
       "parent": 4,
       "default_location": null,
       "default_keywords": null,
-      "lft": 13,
-      "rght": 14,
+      "lft": 15,
+      "rght": 16,
       "tree_id": 1,
       "level": 2
     }
@@ -14744,8 +14800,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": null,
-      "lft": 4,
-      "rght": 9,
+      "lft": 6,
+      "rght": 11,
       "tree_id": 1,
       "level": 1
     }
@@ -14760,8 +14816,8 @@
       "parent": 8,
       "default_location": null,
       "default_keywords": null,
-      "lft": 5,
-      "rght": 6,
+      "lft": 7,
+      "rght": 8,
       "tree_id": 1,
       "level": 2
     }
@@ -14776,8 +14832,8 @@
       "parent": 8,
       "default_location": null,
       "default_keywords": null,
-      "lft": 7,
-      "rght": 8,
+      "lft": 9,
+      "rght": 10,
       "tree_id": 1,
       "level": 2
     }
@@ -14792,8 +14848,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": null,
-      "lft": 18,
-      "rght": 19,
+      "lft": 20,
+      "rght": 21,
       "tree_id": 1,
       "level": 1
     }
@@ -14809,7 +14865,7 @@
       "default_location": null,
       "default_keywords": null,
       "lft": 2,
-      "rght": 3,
+      "rght": 5,
       "tree_id": 1,
       "level": 1
     }
@@ -14856,8 +14912,8 @@
       "parent": 1,
       "default_location": null,
       "default_keywords": "",
-      "lft": 20,
-      "rght": 21,
+      "lft": 22,
+      "rght": 23,
       "tree_id": 1,
       "level": 1
     }
@@ -14924,6 +14980,22 @@
       "rght": 2,
       "tree_id": 4,
       "level": 0
+    }
+  },
+  {
+    "model": "part.partcategory",
+    "pk": 21,
+    "fields": {
+      "metadata": null,
+      "name": "Pin Headers",
+      "description": "Pin headers and sockets",
+      "parent": 13,
+      "default_location": null,
+      "default_keywords": "",
+      "lft": 3,
+      "rght": 4,
+      "tree_id": 1,
+      "level": 2
     }
   },
   {
@@ -29753,6 +29825,2274 @@
     }
   },
   {
+    "model": "part.part",
+    "pk": 841,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x02x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 2 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 336,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 842,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x03x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 3 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 337,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 843,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x04x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 4 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 338,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 844,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x05x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 5 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 339,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 845,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x06x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 6 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 340,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 846,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x07x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 7 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 341,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 847,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x08x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 8 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/8x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 342,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 848,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x09x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 9 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/9x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 343,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 849,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x10x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 10 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/10x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 344,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 850,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x02x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 2 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 345,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 851,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x03x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 3 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 346,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 852,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x04x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 4 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 347,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 853,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x05x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 5 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 348,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 854,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x06x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 6 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 349,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 855,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x07x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 7 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 350,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 856,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x08x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 8 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/8x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 351,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 857,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x09x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 9 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/9x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 352,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 858,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x10x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 10 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/10x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 353,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 859,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x02x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 2 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 354,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 860,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x03x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 3 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 355,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 861,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x04x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 4 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 356,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 862,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x05x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 5 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 357,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 863,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x06x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 6 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 358,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 864,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x07x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 7 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 359,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 865,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x08x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 8 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/8x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 360,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 866,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x09x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 9 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/9x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 361,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 867,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_1x10x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 1 rows, 10 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/10x1.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 362,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 868,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x02x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 2 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 363,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 869,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x03x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 3 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 364,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 870,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x04x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 4 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 365,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 871,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x05x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 5 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 366,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 872,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x06x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 6 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 367,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 873,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x07x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 7 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 368,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 874,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x08x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 8 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 369,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 875,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x09x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 9 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 370,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 876,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x10x1.27mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 10 positions, 1.27mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 371,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 877,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x02x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 2 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 372,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 878,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x03x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 3 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 373,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 879,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x04x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 4 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 374,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 880,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x05x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 5 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 375,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 881,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x06x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 6 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 376,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 882,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x07x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 7 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 377,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 883,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x08x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 8 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 378,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 884,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x09x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 9 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 379,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 885,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x10x2.0mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 10 positions, 2.0mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 380,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 886,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x02x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 2 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 381,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 887,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x03x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 3 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/3x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 382,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 888,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x04x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 4 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/4x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 383,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 889,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x05x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 5 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/5x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 384,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 890,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x06x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 6 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/6x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 385,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 891,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x07x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 7 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/7x2.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 386,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 892,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x08x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 8 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 387,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 893,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x09x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 9 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 388,
+      "level": 0
+    }
+  },
+  {
+    "model": "part.part",
+    "pk": 894,
+    "fields": {
+      "metadata": null,
+      "name": "PinHeader_2x10x2.54mm",
+      "is_template": false,
+      "variant_of": null,
+      "description": "Male pin header connector, 2 rows, 10 positions, 2.54mm pitch, vertical",
+      "keywords": "pin header connector",
+      "category": 21,
+      "IPN": null,
+      "revision": null,
+      "link": null,
+      "image": "part_images/2xlong.webp",
+      "default_location": null,
+      "default_supplier": null,
+      "default_expiry": 0,
+      "minimum_stock": 0,
+      "units": "",
+      "assembly": false,
+      "component": true,
+      "trackable": false,
+      "purchaseable": true,
+      "salable": false,
+      "active": true,
+      "virtual": false,
+      "notes": null,
+      "bom_checksum": "",
+      "bom_checked_by": null,
+      "bom_checked_date": null,
+      "creation_date": "2022-07-14",
+      "creation_user": 1,
+      "responsible": null,
+      "base_cost": "0.000",
+      "multiple": 1,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 389,
+      "level": 0
+    }
+  },
+  {
     "model": "part.partattachment",
     "pk": 1,
     "fields": {
@@ -29945,6 +32285,30 @@
     "pk": 10,
     "fields": {
       "name": "Material",
+      "units": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 11,
+    "fields": {
+      "name": "Pitch",
+      "units": "mm"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 12,
+    "fields": {
+      "name": "Positions",
+      "units": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 13,
+    "fields": {
+      "name": "Rows",
       "units": ""
     }
   },
@@ -38076,6 +40440,1464 @@
     }
   },
   {
+    "model": "part.partparameter",
+    "pk": 1627,
+    "fields": {
+      "part": 841,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1628,
+    "fields": {
+      "part": 841,
+      "template": 12,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1629,
+    "fields": {
+      "part": 841,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1630,
+    "fields": {
+      "part": 842,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1631,
+    "fields": {
+      "part": 842,
+      "template": 12,
+      "data": "3"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1632,
+    "fields": {
+      "part": 842,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1633,
+    "fields": {
+      "part": 843,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1634,
+    "fields": {
+      "part": 843,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1635,
+    "fields": {
+      "part": 843,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1636,
+    "fields": {
+      "part": 844,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1637,
+    "fields": {
+      "part": 844,
+      "template": 12,
+      "data": "5"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1638,
+    "fields": {
+      "part": 844,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1639,
+    "fields": {
+      "part": 845,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1640,
+    "fields": {
+      "part": 845,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1641,
+    "fields": {
+      "part": 845,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1642,
+    "fields": {
+      "part": 846,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1643,
+    "fields": {
+      "part": 846,
+      "template": 12,
+      "data": "7"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1644,
+    "fields": {
+      "part": 846,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1645,
+    "fields": {
+      "part": 847,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1646,
+    "fields": {
+      "part": 847,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1647,
+    "fields": {
+      "part": 847,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1648,
+    "fields": {
+      "part": 848,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1649,
+    "fields": {
+      "part": 848,
+      "template": 12,
+      "data": "9"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1650,
+    "fields": {
+      "part": 848,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1651,
+    "fields": {
+      "part": 849,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1652,
+    "fields": {
+      "part": 849,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1653,
+    "fields": {
+      "part": 849,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1654,
+    "fields": {
+      "part": 850,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1655,
+    "fields": {
+      "part": 850,
+      "template": 12,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1656,
+    "fields": {
+      "part": 850,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1657,
+    "fields": {
+      "part": 851,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1658,
+    "fields": {
+      "part": 851,
+      "template": 12,
+      "data": "3"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1659,
+    "fields": {
+      "part": 851,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1660,
+    "fields": {
+      "part": 852,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1661,
+    "fields": {
+      "part": 852,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1662,
+    "fields": {
+      "part": 852,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1663,
+    "fields": {
+      "part": 853,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1664,
+    "fields": {
+      "part": 853,
+      "template": 12,
+      "data": "5"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1665,
+    "fields": {
+      "part": 853,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1666,
+    "fields": {
+      "part": 854,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1667,
+    "fields": {
+      "part": 854,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1668,
+    "fields": {
+      "part": 854,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1669,
+    "fields": {
+      "part": 855,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1670,
+    "fields": {
+      "part": 855,
+      "template": 12,
+      "data": "7"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1671,
+    "fields": {
+      "part": 855,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1672,
+    "fields": {
+      "part": 856,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1673,
+    "fields": {
+      "part": 856,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1674,
+    "fields": {
+      "part": 856,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1675,
+    "fields": {
+      "part": 857,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1676,
+    "fields": {
+      "part": 857,
+      "template": 12,
+      "data": "9"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1677,
+    "fields": {
+      "part": 857,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1678,
+    "fields": {
+      "part": 858,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1679,
+    "fields": {
+      "part": 858,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1680,
+    "fields": {
+      "part": 858,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1681,
+    "fields": {
+      "part": 859,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1682,
+    "fields": {
+      "part": 859,
+      "template": 12,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1683,
+    "fields": {
+      "part": 859,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1684,
+    "fields": {
+      "part": 860,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1685,
+    "fields": {
+      "part": 860,
+      "template": 12,
+      "data": "3"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1686,
+    "fields": {
+      "part": 860,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1687,
+    "fields": {
+      "part": 861,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1688,
+    "fields": {
+      "part": 861,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1689,
+    "fields": {
+      "part": 861,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1690,
+    "fields": {
+      "part": 862,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1691,
+    "fields": {
+      "part": 862,
+      "template": 12,
+      "data": "5"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1692,
+    "fields": {
+      "part": 862,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1693,
+    "fields": {
+      "part": 863,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1694,
+    "fields": {
+      "part": 863,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1695,
+    "fields": {
+      "part": 863,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1696,
+    "fields": {
+      "part": 864,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1697,
+    "fields": {
+      "part": 864,
+      "template": 12,
+      "data": "7"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1698,
+    "fields": {
+      "part": 864,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1699,
+    "fields": {
+      "part": 865,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1700,
+    "fields": {
+      "part": 865,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1701,
+    "fields": {
+      "part": 865,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1702,
+    "fields": {
+      "part": 866,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1703,
+    "fields": {
+      "part": 866,
+      "template": 12,
+      "data": "9"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1704,
+    "fields": {
+      "part": 866,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1705,
+    "fields": {
+      "part": 867,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1706,
+    "fields": {
+      "part": 867,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1707,
+    "fields": {
+      "part": 867,
+      "template": 13,
+      "data": "1"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1708,
+    "fields": {
+      "part": 868,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1709,
+    "fields": {
+      "part": 868,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1710,
+    "fields": {
+      "part": 868,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1711,
+    "fields": {
+      "part": 869,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1712,
+    "fields": {
+      "part": 869,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1713,
+    "fields": {
+      "part": 869,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1714,
+    "fields": {
+      "part": 870,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1715,
+    "fields": {
+      "part": 870,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1716,
+    "fields": {
+      "part": 870,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1717,
+    "fields": {
+      "part": 871,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1718,
+    "fields": {
+      "part": 871,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1719,
+    "fields": {
+      "part": 871,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1720,
+    "fields": {
+      "part": 872,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1721,
+    "fields": {
+      "part": 872,
+      "template": 12,
+      "data": "12"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1722,
+    "fields": {
+      "part": 872,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1723,
+    "fields": {
+      "part": 873,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1724,
+    "fields": {
+      "part": 873,
+      "template": 12,
+      "data": "14"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1725,
+    "fields": {
+      "part": 873,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1726,
+    "fields": {
+      "part": 874,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1727,
+    "fields": {
+      "part": 874,
+      "template": 12,
+      "data": "16"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1728,
+    "fields": {
+      "part": 874,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1729,
+    "fields": {
+      "part": 875,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1730,
+    "fields": {
+      "part": 875,
+      "template": 12,
+      "data": "18"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1731,
+    "fields": {
+      "part": 875,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1732,
+    "fields": {
+      "part": 876,
+      "template": 11,
+      "data": "1.27"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1733,
+    "fields": {
+      "part": 876,
+      "template": 12,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1734,
+    "fields": {
+      "part": 876,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1735,
+    "fields": {
+      "part": 877,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1736,
+    "fields": {
+      "part": 877,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1737,
+    "fields": {
+      "part": 877,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1738,
+    "fields": {
+      "part": 878,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1739,
+    "fields": {
+      "part": 878,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1740,
+    "fields": {
+      "part": 878,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1741,
+    "fields": {
+      "part": 879,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1742,
+    "fields": {
+      "part": 879,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1743,
+    "fields": {
+      "part": 879,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1744,
+    "fields": {
+      "part": 880,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1745,
+    "fields": {
+      "part": 880,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1746,
+    "fields": {
+      "part": 880,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1747,
+    "fields": {
+      "part": 881,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1748,
+    "fields": {
+      "part": 881,
+      "template": 12,
+      "data": "12"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1749,
+    "fields": {
+      "part": 881,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1750,
+    "fields": {
+      "part": 882,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1751,
+    "fields": {
+      "part": 882,
+      "template": 12,
+      "data": "14"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1752,
+    "fields": {
+      "part": 882,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1753,
+    "fields": {
+      "part": 883,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1754,
+    "fields": {
+      "part": 883,
+      "template": 12,
+      "data": "16"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1755,
+    "fields": {
+      "part": 883,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1756,
+    "fields": {
+      "part": 884,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1757,
+    "fields": {
+      "part": 884,
+      "template": 12,
+      "data": "18"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1758,
+    "fields": {
+      "part": 884,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1759,
+    "fields": {
+      "part": 885,
+      "template": 11,
+      "data": "2.0"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1760,
+    "fields": {
+      "part": 885,
+      "template": 12,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1761,
+    "fields": {
+      "part": 885,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1762,
+    "fields": {
+      "part": 886,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1763,
+    "fields": {
+      "part": 886,
+      "template": 12,
+      "data": "4"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1764,
+    "fields": {
+      "part": 886,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1765,
+    "fields": {
+      "part": 887,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1766,
+    "fields": {
+      "part": 887,
+      "template": 12,
+      "data": "6"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1767,
+    "fields": {
+      "part": 887,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1768,
+    "fields": {
+      "part": 888,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1769,
+    "fields": {
+      "part": 888,
+      "template": 12,
+      "data": "8"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1770,
+    "fields": {
+      "part": 888,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1771,
+    "fields": {
+      "part": 889,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1772,
+    "fields": {
+      "part": 889,
+      "template": 12,
+      "data": "10"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1773,
+    "fields": {
+      "part": 889,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1774,
+    "fields": {
+      "part": 890,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1775,
+    "fields": {
+      "part": 890,
+      "template": 12,
+      "data": "12"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1776,
+    "fields": {
+      "part": 890,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1777,
+    "fields": {
+      "part": 891,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1778,
+    "fields": {
+      "part": 891,
+      "template": 12,
+      "data": "14"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1779,
+    "fields": {
+      "part": 891,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1780,
+    "fields": {
+      "part": 892,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1781,
+    "fields": {
+      "part": 892,
+      "template": 12,
+      "data": "16"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1782,
+    "fields": {
+      "part": 892,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1783,
+    "fields": {
+      "part": 893,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1784,
+    "fields": {
+      "part": 893,
+      "template": 12,
+      "data": "18"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1785,
+    "fields": {
+      "part": 893,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1786,
+    "fields": {
+      "part": 894,
+      "template": 11,
+      "data": "2.54"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1787,
+    "fields": {
+      "part": 894,
+      "template": 12,
+      "data": "20"
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1788,
+    "fields": {
+      "part": 894,
+      "template": 13,
+      "data": "2"
+    }
+  },
+  {
     "model": "part.bomitem",
     "pk": 1,
     "fields": {
@@ -41914,7 +45736,7 @@
       "parent": null,
       "owner": null,
       "lft": 1,
-      "rght": 4,
+      "rght": 6,
       "tree_id": 1,
       "level": 0
     }
@@ -41928,8 +45750,8 @@
       "description": "Storage for component reels",
       "parent": 7,
       "owner": null,
-      "lft": 2,
-      "rght": 3,
+      "lft": 4,
+      "rght": 5,
       "tree_id": 1,
       "level": 1
     }
@@ -41946,6 +45768,21 @@
       "lft": 2,
       "rght": 3,
       "tree_id": 2,
+      "level": 1
+    }
+  },
+  {
+    "model": "stock.stocklocation",
+    "pk": 10,
+    "fields": {
+      "metadata": null,
+      "name": "Parts Bins",
+      "description": "Storage for loose components",
+      "parent": 7,
+      "owner": null,
+      "lft": 2,
+      "rght": 3,
+      "tree_id": 1,
       "level": 1
     }
   },
@@ -64590,6 +68427,1726 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 661,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 842,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "11.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 566,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 662,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 843,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "10.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 567,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 663,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 844,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "25.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 568,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 665,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 846,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "19.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 570,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 666,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 847,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "21.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 571,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 667,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 848,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "22.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 572,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 668,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 849,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "8.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 573,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 669,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 850,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "22.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 574,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 670,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 851,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "25.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 575,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 671,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 852,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "22.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 576,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 673,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 854,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "18.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 578,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 674,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 855,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "23.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 579,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 675,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 856,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "6.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 580,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 676,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 857,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "25.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 581,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 677,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 858,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "18.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 582,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 678,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 859,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "8.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 583,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 679,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 860,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "15.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 584,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 680,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 861,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "3.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 585,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 682,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 863,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "8.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 587,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 683,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 864,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "15.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 588,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 684,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 865,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "24.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 589,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 685,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 866,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "25.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 590,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 686,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 867,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "18.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 591,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 687,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 868,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "22.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 592,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 689,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 870,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "15.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 594,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 690,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 871,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "19.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 595,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 691,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 872,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "23.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 596,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 694,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 875,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "4.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 599,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 695,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 876,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "10.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 600,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 696,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 877,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "12.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 601,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 698,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 879,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "8.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 603,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 699,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 880,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "9.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 604,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 700,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 881,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "5.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 605,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 702,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 883,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "11.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 607,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 703,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 884,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "15.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 608,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 704,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 885,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "23.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 609,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 705,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 886,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "9.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 610,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 707,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 888,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "3.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 612,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 708,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 889,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "20.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 613,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 709,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 890,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "14.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 614,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 711,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 892,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "17.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 616,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 712,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 893,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "20.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 617,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 713,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": null,
+      "part": 894,
+      "supplier_part": null,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "2022-7-14",
+      "quantity": "2.00000",
+      "updated": "2022-07-14",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 618,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -72370,6 +77927,694 @@
     }
   },
   {
+    "model": "stock.stockitemtracking",
+    "pk": 547,
+    "fields": {
+      "tracking_type": 1,
+      "item": 661,
+      "date": "2022-07-14T13:54:19.700Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 11.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 548,
+    "fields": {
+      "tracking_type": 1,
+      "item": 662,
+      "date": "2022-07-14T13:54:20.006Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 10.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 549,
+    "fields": {
+      "tracking_type": 1,
+      "item": 663,
+      "date": "2022-07-14T13:54:20.318Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 25.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 551,
+    "fields": {
+      "tracking_type": 1,
+      "item": 665,
+      "date": "2022-07-14T13:54:20.941Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 19.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 552,
+    "fields": {
+      "tracking_type": 1,
+      "item": 666,
+      "date": "2022-07-14T13:54:21.255Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 21.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 553,
+    "fields": {
+      "tracking_type": 1,
+      "item": 667,
+      "date": "2022-07-14T13:54:21.549Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 22.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 554,
+    "fields": {
+      "tracking_type": 1,
+      "item": 668,
+      "date": "2022-07-14T13:54:21.890Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 8.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 555,
+    "fields": {
+      "tracking_type": 1,
+      "item": 669,
+      "date": "2022-07-14T13:54:22.224Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 22.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 556,
+    "fields": {
+      "tracking_type": 1,
+      "item": 670,
+      "date": "2022-07-14T13:54:22.532Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 25.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 557,
+    "fields": {
+      "tracking_type": 1,
+      "item": 671,
+      "date": "2022-07-14T13:54:22.840Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 22.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 559,
+    "fields": {
+      "tracking_type": 1,
+      "item": 673,
+      "date": "2022-07-14T13:54:23.427Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 18.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 560,
+    "fields": {
+      "tracking_type": 1,
+      "item": 674,
+      "date": "2022-07-14T13:54:23.745Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 23.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 561,
+    "fields": {
+      "tracking_type": 1,
+      "item": 675,
+      "date": "2022-07-14T13:54:24.069Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 6.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 562,
+    "fields": {
+      "tracking_type": 1,
+      "item": 676,
+      "date": "2022-07-14T13:54:24.408Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 25.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 563,
+    "fields": {
+      "tracking_type": 1,
+      "item": 677,
+      "date": "2022-07-14T13:54:24.679Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 18.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 564,
+    "fields": {
+      "tracking_type": 1,
+      "item": 678,
+      "date": "2022-07-14T13:54:25.016Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 8.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 565,
+    "fields": {
+      "tracking_type": 1,
+      "item": 679,
+      "date": "2022-07-14T13:54:25.331Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 566,
+    "fields": {
+      "tracking_type": 1,
+      "item": 680,
+      "date": "2022-07-14T13:54:25.671Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 3.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 568,
+    "fields": {
+      "tracking_type": 1,
+      "item": 682,
+      "date": "2022-07-14T13:54:26.323Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 8.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 569,
+    "fields": {
+      "tracking_type": 1,
+      "item": 683,
+      "date": "2022-07-14T13:54:26.628Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 570,
+    "fields": {
+      "tracking_type": 1,
+      "item": 684,
+      "date": "2022-07-14T13:54:26.956Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 24.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 571,
+    "fields": {
+      "tracking_type": 1,
+      "item": 685,
+      "date": "2022-07-14T13:54:27.278Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 25.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 572,
+    "fields": {
+      "tracking_type": 1,
+      "item": 686,
+      "date": "2022-07-14T13:54:27.609Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 18.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 573,
+    "fields": {
+      "tracking_type": 1,
+      "item": 687,
+      "date": "2022-07-14T13:54:27.862Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 22.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 575,
+    "fields": {
+      "tracking_type": 1,
+      "item": 689,
+      "date": "2022-07-14T13:54:28.434Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 576,
+    "fields": {
+      "tracking_type": 1,
+      "item": 690,
+      "date": "2022-07-14T13:54:28.747Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 19.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 577,
+    "fields": {
+      "tracking_type": 1,
+      "item": 691,
+      "date": "2022-07-14T13:54:29.038Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 23.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 580,
+    "fields": {
+      "tracking_type": 1,
+      "item": 694,
+      "date": "2022-07-14T13:54:29.951Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 4.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 581,
+    "fields": {
+      "tracking_type": 1,
+      "item": 695,
+      "date": "2022-07-14T13:54:30.282Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 10.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 582,
+    "fields": {
+      "tracking_type": 1,
+      "item": 696,
+      "date": "2022-07-14T13:54:30.589Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 12.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 584,
+    "fields": {
+      "tracking_type": 1,
+      "item": 698,
+      "date": "2022-07-14T13:54:31.250Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 8.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 585,
+    "fields": {
+      "tracking_type": 1,
+      "item": 699,
+      "date": "2022-07-14T13:54:31.591Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 9.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 586,
+    "fields": {
+      "tracking_type": 1,
+      "item": 700,
+      "date": "2022-07-14T13:54:31.917Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 5.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 588,
+    "fields": {
+      "tracking_type": 1,
+      "item": 702,
+      "date": "2022-07-14T13:54:32.599Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 11.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 589,
+    "fields": {
+      "tracking_type": 1,
+      "item": 703,
+      "date": "2022-07-14T13:54:32.909Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 590,
+    "fields": {
+      "tracking_type": 1,
+      "item": 704,
+      "date": "2022-07-14T13:54:33.247Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 23.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 591,
+    "fields": {
+      "tracking_type": 1,
+      "item": 705,
+      "date": "2022-07-14T13:54:33.577Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 9.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 593,
+    "fields": {
+      "tracking_type": 1,
+      "item": 707,
+      "date": "2022-07-14T13:54:34.221Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 3.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 594,
+    "fields": {
+      "tracking_type": 1,
+      "item": 708,
+      "date": "2022-07-14T13:54:34.618Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 20.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 595,
+    "fields": {
+      "tracking_type": 1,
+      "item": 709,
+      "date": "2022-07-14T13:54:35.226Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 14.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 597,
+    "fields": {
+      "tracking_type": 1,
+      "item": 711,
+      "date": "2022-07-14T13:54:35.901Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 17.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 598,
+    "fields": {
+      "tracking_type": 1,
+      "item": 712,
+      "date": "2022-07-14T13:54:36.191Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 20.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 599,
+    "fields": {
+      "tracking_type": 1,
+      "item": 713,
+      "date": "2022-07-14T13:54:36.467Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 10,
+        "quantity": 2.0
+      }
+    }
+  },
+  {
     "model": "stock.stockitemtestresult",
     "pk": 1,
     "fields": {
@@ -73666,7 +79911,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2022-07-10T13:10:32.222Z",
+      "last_login": "2022-07-14T13:32:20.902Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
