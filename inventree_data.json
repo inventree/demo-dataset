@@ -2261,7 +2261,7 @@
     "model": "common.inventreesetting",
     "pk": 44,
     "fields": {
-      "value": "True",
+      "value": "False",
       "key": "PART_SHOW_PRICE_IN_FORMS"
     }
   },
@@ -2341,7 +2341,7 @@
     "model": "common.inventreesetting",
     "pk": 54,
     "fields": {
-      "value": "True",
+      "value": "False",
       "key": "PART_SHOW_PRICE_IN_BOM"
     }
   },
@@ -2519,6 +2519,14 @@
     "fields": {
       "value": "True",
       "key": "INVENTREE_REQUIRE_CONFIRM"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 78,
+    "fields": {
+      "value": "1",
+      "key": "INVENTREE_DOWNLOAD_IMAGE_MAX_SIZE"
     }
   },
   {
@@ -27171,7 +27179,7 @@
       "price_currency": "USD",
       "price": "0.0101",
       "part": 85,
-      "updated": "2022-07-15T04:35:18.000Z"
+      "updated": "2022-07-15T04:35:18Z"
     }
   },
   {
@@ -33507,7 +33515,7 @@
       "price_currency": "CAD",
       "price": "0.0212",
       "part": 967,
-      "updated": "2022-07-15T04:36:16.000Z"
+      "updated": "2022-07-15T04:36:16Z"
     }
   },
   {
@@ -117661,7 +117669,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2022-07-14T13:32:20.902Z",
+      "last_login": "2022-07-27T04:34:34.529Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",

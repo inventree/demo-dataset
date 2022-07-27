@@ -10,6 +10,7 @@ jobs:
       INVENTREE_DB_ENGINE: sqlite3
       INVENTREE_DB_NAME: inventree_db.sqlite3
       INVENTREE_MEDIA_ROOT: $GITHUB_WORKSPACE/path/to/media
+      INVENTREE_STATIC_ROOT: $GITHUB_WORKSPACE/path/to/static
 
     steps:
       - name: Checkout Code
