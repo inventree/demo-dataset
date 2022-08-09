@@ -5,9 +5,21 @@
 
 This repository contains demo data for the [InvenTree project](https://inventree.readthedocs.io).
 
+Check out the [InvenTre Demo](https://demo.inventree.org) which uses this dataset (reloaded daily)
+
 The demo dataset can be used to populate an InvenTree database for demonstration purposes. It may also be useful if you are developing and/or testing new features for InvenTree.
 
-To setup InvenTree with this dataset, refer to the [InvenTree Instructions](https://inventree.readthedocs.io/en/latest/start/demo/).
+## Login Details
+
+Multiple default accounts are provided, as detailed below. Each account is afforded a different set of permissions, so users can see the InvenTree roles/permission system in action
+
+| Username | Password | Description |
+| --- | --- | --- |
+| allaccess | nolimits | View / create / edit all pages and items |
+| reader | readonly | Can view all pages but cannot create, edit or delete database records |
+| engineer | partsonly | Can manage parts, view stock, but no access to purchase orders or sales orders |
+| admin | inventree | Superuser account, access all areas plus administrator actions |
+
 
 ## Contribute
 
