@@ -5,7 +5,7 @@
 
 This repository contains demo data for the [InvenTree project](https://inventree.readthedocs.io).
 
-Check out the [InvenTre Demo](https://demo.inventree.org) which uses this dataset (reloaded daily)
+Check out the [InvenTree Demo](https://demo.inventree.org) which uses this dataset (reloaded daily)
 
 The demo dataset can be used to populate an InvenTree database for demonstration purposes. It may also be useful if you are developing and/or testing new features for InvenTree.
 
