@@ -37613,6 +37613,28 @@
     }
   },
   {
+    "model": "order.purchaseorder",
+    "pk": 5,
+    "fields": {
+      "metadata": null,
+      "reference_int": 5,
+      "description": "Ordering paint in various quantities",
+      "link": "",
+      "creation_date": "2022-09-07",
+      "created_by": 1,
+      "responsible": null,
+      "notes": null,
+      "reference": "PO0005",
+      "status": 20,
+      "supplier": 36,
+      "supplier_reference": "",
+      "received_by": null,
+      "issue_date": "2022-09-07",
+      "target_date": "2023-11-16",
+      "complete_date": null
+    }
+  },
+  {
     "model": "order.salesorder",
     "pk": 1,
     "fields": {
@@ -37859,6 +37881,102 @@
       "purchase_price_currency": "USD",
       "purchase_price": "12.5000",
       "destination": 7
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 11,
+    "fields": {
+      "quantity": "13.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 202,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "12.3000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 12,
+    "fields": {
+      "quantity": "12.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 201,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "12.3000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 13,
+    "fields": {
+      "quantity": "3.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 1008,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "107.5000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 14,
+    "fields": {
+      "quantity": "5.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 1011,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "210.3000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 15,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 1011,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "201.2000",
+      "destination": null
+    }
+  },
+  {
+    "model": "order.purchaseorderlineitem",
+    "pk": 16,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 5,
+      "part": 1016,
+      "received": "0.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "2.5500",
+      "destination": null
     }
   },
   {
