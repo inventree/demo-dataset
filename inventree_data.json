@@ -37294,11 +37294,11 @@
       "notes": "",
       "reference": "SO0001",
       "customer": 30,
-      "status": 10,
+      "status": 20,
       "customer_reference": "",
       "target_date": null,
-      "shipment_date": null,
-      "shipped_by": null
+      "shipment_date": "2022-09-07",
+      "shipped_by": 1
     }
   },
   {
@@ -37381,6 +37381,27 @@
       "status": 10,
       "customer_reference": "",
       "target_date": "2022-07-09",
+      "shipment_date": null,
+      "shipped_by": null
+    }
+  },
+  {
+    "model": "order.salesorder",
+    "pk": 6,
+    "fields": {
+      "metadata": null,
+      "reference_int": 6,
+      "description": "Selling more stuff to this customer",
+      "link": "",
+      "creation_date": "2022-09-07",
+      "created_by": 1,
+      "responsible": null,
+      "notes": null,
+      "reference": "SO0006",
+      "customer": 32,
+      "status": 10,
+      "customer_reference": "",
+      "target_date": null,
       "shipment_date": null,
       "shipped_by": null
     }
@@ -37699,7 +37720,7 @@
       "part": 108,
       "sale_price_currency": "USD",
       "sale_price": "50.0000",
-      "shipped": "0.00000"
+      "shipped": "3.00000"
     }
   },
   {
@@ -37838,15 +37859,45 @@
     }
   },
   {
+    "model": "order.salesorderlineitem",
+    "pk": 12,
+    "fields": {
+      "quantity": "5.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 6,
+      "part": 109,
+      "sale_price_currency": "USD",
+      "sale_price": null,
+      "shipped": "0.00000"
+    }
+  },
+  {
+    "model": "order.salesorderlineitem",
+    "pk": 13,
+    "fields": {
+      "quantity": "15.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 6,
+      "part": 105,
+      "sale_price_currency": "USD",
+      "sale_price": "107.5000",
+      "shipped": "15.00000"
+    }
+  },
+  {
     "model": "order.salesordershipment",
     "pk": 1,
     "fields": {
       "order": 1,
-      "shipment_date": null,
+      "shipment_date": "2022-09-07",
       "checked_by": null,
       "reference": "001",
       "notes": "",
-      "tracking_number": "",
+      "tracking_number": "TRK-555",
       "invoice_number": "",
       "link": ""
     }
@@ -37876,6 +37927,34 @@
       "notes": "",
       "tracking_number": "",
       "invoice_number": "INV-123-BBQ",
+      "link": ""
+    }
+  },
+  {
+    "model": "order.salesordershipment",
+    "pk": 4,
+    "fields": {
+      "order": 6,
+      "shipment_date": null,
+      "checked_by": null,
+      "reference": "1",
+      "notes": null,
+      "tracking_number": "",
+      "invoice_number": "",
+      "link": ""
+    }
+  },
+  {
+    "model": "order.salesordershipment",
+    "pk": 5,
+    "fields": {
+      "order": 6,
+      "shipment_date": "2022-09-07",
+      "checked_by": null,
+      "reference": "2",
+      "notes": null,
+      "tracking_number": "TRK-12345-66",
+      "invoice_number": "",
       "link": ""
     }
   },
@@ -37927,7 +38006,7 @@
     "fields": {
       "line": 1,
       "shipment": 1,
-      "item": 231,
+      "item": 994,
       "quantity": "3.00000"
     }
   },
@@ -37959,6 +38038,26 @@
       "shipment": 3,
       "item": 417,
       "quantity": "25.00000"
+    }
+  },
+  {
+    "model": "order.salesorderallocation",
+    "pk": 5,
+    "fields": {
+      "line": 12,
+      "shipment": 4,
+      "item": 415,
+      "quantity": "5.00000"
+    }
+  },
+  {
+    "model": "order.salesorderallocation",
+    "pk": 6,
+    "fields": {
+      "line": 13,
+      "shipment": 5,
+      "item": 993,
+      "quantity": "15.00000"
     }
   },
   {
@@ -77016,8 +77115,8 @@
       "serial_int": 0,
       "link": "",
       "batch": "",
-      "quantity": "57.00000",
-      "updated": "2021-11-17",
+      "quantity": "42.00000",
+      "updated": "2022-09-07",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -77056,8 +77155,8 @@
       "serial_int": 0,
       "link": "",
       "batch": "",
-      "quantity": "17.00000",
-      "updated": "2021-11-17",
+      "quantity": "14.00000",
+      "updated": "2022-09-07",
       "build": null,
       "is_building": false,
       "purchase_order": null,
@@ -104680,6 +104779,86 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 993,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": 230,
+      "part": 105,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": 32,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "15.00000",
+      "updated": "2022-09-07",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": 6,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 50,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 197,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 994,
+    "fields": {
+      "metadata": null,
+      "uid": "",
+      "parent": 231,
+      "part": 108,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": 30,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "3.00000",
+      "updated": "2022-09-07",
+      "build": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": 1,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "infinite": false,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 198,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -117609,6 +117788,126 @@
         "location": 10,
         "quantity": 97.0,
         "purchaseorder": 6
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 879,
+    "fields": {
+      "tracking_type": 1,
+      "item": 993,
+      "date": "2022-09-07T06:49:57.375Z",
+      "notes": "",
+      "user": null,
+      "deltas": {
+        "status": 50,
+        "location": 2,
+        "quantity": 57.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 880,
+    "fields": {
+      "tracking_type": 40,
+      "item": 993,
+      "date": "2022-09-07T06:49:57.390Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "stockitem": 230
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 881,
+    "fields": {
+      "tracking_type": 12,
+      "item": 230,
+      "date": "2022-09-07T06:49:57.405Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "removed": 15.0,
+        "quantity": 42.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 882,
+    "fields": {
+      "tracking_type": 100,
+      "item": 993,
+      "date": "2022-09-07T06:49:57.417Z",
+      "notes": null,
+      "user": 1,
+      "deltas": {
+        "customer": 32,
+        "customer_name": "Customer B"
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 883,
+    "fields": {
+      "tracking_type": 1,
+      "item": 994,
+      "date": "2022-09-07T06:50:45.698Z",
+      "notes": "",
+      "user": null,
+      "deltas": {
+        "status": 10,
+        "location": 5,
+        "quantity": 17.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 884,
+    "fields": {
+      "tracking_type": 40,
+      "item": 994,
+      "date": "2022-09-07T06:50:45.706Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "stockitem": 231
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 885,
+    "fields": {
+      "tracking_type": 12,
+      "item": 231,
+      "date": "2022-09-07T06:50:45.719Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "removed": 3.0,
+        "quantity": 14.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 886,
+    "fields": {
+      "tracking_type": 100,
+      "item": 994,
+      "date": "2022-09-07T06:50:45.733Z",
+      "notes": null,
+      "user": 1,
+      "deltas": {
+        "customer": 30,
+        "customer_name": "Customer A"
       }
     }
   },
