@@ -2538,6 +2538,30 @@
     }
   },
   {
+    "model": "common.inventreesetting",
+    "pk": 80,
+    "fields": {
+      "value": "1",
+      "key": "INVENTREE_TREE_DEPTH"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 81,
+    "fields": {
+      "value": "",
+      "key": "STOCK_LOCATION_DEFAULT_ICON"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 82,
+    "fields": {
+      "value": "False",
+      "key": "PLUGIN_CHECK_SIGNATURES"
+    }
+  },
+  {
     "model": "common.inventreeusersetting",
     "pk": 1,
     "fields": {
@@ -3570,406 +3594,6 @@
       "value": "True",
       "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
       "user": 1
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 1,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 1,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-07-14T13:32:21.231Z",
-      "read": true
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 2,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 2,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-07-14T13:32:29.932Z",
-      "read": true
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 3,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 3,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-07-14T13:32:30.008Z",
-      "read": true
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 4,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 1,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:13.743Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 5,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 2,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:13.796Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 6,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 3,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:45.795Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 7,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 4,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:46.051Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 8,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 5,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:46.742Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 9,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 6,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:46.937Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 10,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 7,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:47.273Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 11,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 8,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:47.368Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 12,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 9,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:47.386Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 13,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 10,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:54:47.461Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 14,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 11,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:03.846Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 15,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 12,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:03.902Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 16,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 13,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:21.843Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 17,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 14,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:21.912Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 18,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 15,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:38.585Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 19,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 16,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:55:38.650Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 20,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 17,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:04.306Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 21,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 18,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:04.381Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 22,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 19,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:37.597Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 23,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 20,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:37.662Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 24,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 21,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:54.966Z",
-      "read": false
-    }
-  },
-  {
-    "model": "common.notificationmessage",
-    "pk": 25,
-    "fields": {
-      "target_content_type": 73,
-      "target_object_id": 22,
-      "source_content_type": 65,
-      "source_object_id": 1,
-      "user": 1,
-      "category": "inventree.error_log",
-      "name": "Server Error",
-      "message": "An error has been logged by the server.",
-      "creation": "2022-09-07T03:56:55.040Z",
-      "read": false
     }
   },
   {
@@ -118977,7 +118601,7 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 1,
+    "pk": 20,
     "fields": {
       "key": "simpleactionplugin",
       "name": "SimpleActionPlugin",
@@ -118986,16 +118610,7 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 2,
-    "fields": {
-      "key": "digikeybarcode",
-      "name": "DigikeyBarcode",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 3,
+    "pk": 21,
     "fields": {
       "key": "inventreebarcode",
       "name": "InvenTreeBarcode",
@@ -119004,79 +118619,7 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 4,
-    "fields": {
-      "key": "nointegrationplugin",
-      "name": "NoIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 5,
-    "fields": {
-      "key": "wrongintegrationplugin",
-      "name": "WrongIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 6,
-    "fields": {
-      "key": "sample-api-caller",
-      "name": "Sample API Caller",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 7,
-    "fields": {
-      "key": "broken",
-      "name": "Test",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 8,
-    "fields": {
-      "key": "event",
-      "name": "EventPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 9,
-    "fields": {
-      "key": "sample",
-      "name": "SampleIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 10,
-    "fields": {
-      "key": "schedule",
-      "name": "ScheduledTasksPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 11,
-    "fields": {
-      "key": "brother",
-      "name": "Brother",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 12,
+    "pk": 22,
     "fields": {
       "key": "corenotificationsplugin",
       "name": "CoreNotificationsPlugin",
@@ -119085,7 +118628,7 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 13,
+    "pk": 23,
     "fields": {
       "key": "sampleevent",
       "name": "EventPlugin",
@@ -119094,7 +118637,43 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 14,
+    "pk": 24,
+    "fields": {
+      "key": "nointegrationplugin",
+      "name": "NoIntegrationPlugin",
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 25,
+    "fields": {
+      "key": "wrongintegrationplugin",
+      "name": "WrongIntegrationPlugin",
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 26,
+    "fields": {
+      "key": "sample-api-caller",
+      "name": "Sample API Caller",
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 27,
+    "fields": {
+      "key": "broken",
+      "name": "Test",
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 28,
     "fields": {
       "key": "samplepanel",
       "name": "CustomPanelExample",
@@ -119103,7 +118682,7 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 15,
+    "pk": 29,
     "fields": {
       "key": "samplelabel",
       "name": "Label Printer",
@@ -119112,16 +118691,25 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 16,
+    "pk": 30,
     "fields": {
-      "key": "samplelocate",
-      "name": "SampleLocatePlugin",
+      "key": "sample",
+      "name": "SampleIntegrationPlugin",
       "active": false
     }
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 17,
+    "pk": 31,
+    "fields": {
+      "key": "schedule",
+      "name": "ScheduledTasksPlugin",
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 32,
     "fields": {
       "key": "version",
       "name": "version",
@@ -119130,19 +118718,10 @@
   },
   {
     "model": "plugin.pluginconfig",
-    "pk": 18,
+    "pk": 33,
     "fields": {
-      "key": "aoi",
-      "name": "AOI Reporting",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 19,
-    "fields": {
-      "key": "esccommissioning",
-      "name": "ESC Commissioning",
+      "key": "samplelocate",
+      "name": "SampleLocatePlugin",
       "active": false
     }
   },
