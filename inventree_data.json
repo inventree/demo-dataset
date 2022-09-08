@@ -4257,6 +4257,26 @@
     }
   },
   {
+    "model": "company.company",
+    "pk": 42,
+    "fields": {
+      "name": "Wirey",
+      "description": "Supplier of wire",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_42_img.jpg",
+      "notes": null,
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
     "model": "company.manufacturerpart",
     "pk": 1,
     "fields": {
@@ -20672,6 +20692,177 @@
       "base_cost": "0.000",
       "packaging": "",
       "pack_size": "0.25000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1018,
+    "fields": {
+      "part": 896,
+      "supplier": 42,
+      "SKU": "WIRE.BLK.10AWG",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Black 10AWG silicone wire",
+      "note": "Sold in 1m lengths",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "1.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1019,
+    "fields": {
+      "part": 896,
+      "supplier": 42,
+      "SKU": "WIRE.BLK.10AWG.100M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Black 10AWG silicone wire",
+      "note": "Sold in 100m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "100.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1020,
+    "fields": {
+      "part": 896,
+      "supplier": 42,
+      "SKU": "WIRE.BLK.10AWG.500M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Black 10AWG silicone wire",
+      "note": "Sold in 500m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "500.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1021,
+    "fields": {
+      "part": 895,
+      "supplier": 42,
+      "SKU": "WIRE.RED.10AWG",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Red 10AWG silicon wire",
+      "note": "Sold in 1m lengths",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "1.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1022,
+    "fields": {
+      "part": 895,
+      "supplier": 42,
+      "SKU": "WIRE.RED.10AWG.100M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Red 10AWG silicon wire",
+      "note": "Sold in 100m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "100.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1023,
+    "fields": {
+      "part": 895,
+      "supplier": 42,
+      "SKU": "WIRE.RED.10AWG.500M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "Red 10AWG silicon wire",
+      "note": "Sold in 500m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "500.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1024,
+    "fields": {
+      "part": 897,
+      "supplier": 42,
+      "SKU": "WIRE.WHT.10AWG",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "White 10AWG silicone wire",
+      "note": "Sold in 1m lengths",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "1.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1025,
+    "fields": {
+      "part": 897,
+      "supplier": 42,
+      "SKU": "WIRE.WHT.10AWG.100M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "White 10AWG silicone wire",
+      "note": "Sold in 100m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "100.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
+    "model": "company.supplierpart",
+    "pk": 1026,
+    "fields": {
+      "part": 897,
+      "supplier": 42,
+      "SKU": "WIRE.WHT.10AWG.500M",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "White 10AWG silicone wire",
+      "note": "Sold in 500m spool",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "500.00000",
       "multiple": 1,
       "available": "0.000",
       "availability_updated": null
