@@ -2,6 +2,9 @@
 /media/label/inventree/
 /media/report/inventree/
 
+# Ignore backup dir
+/backup/
+
 # Temp files
 *.json.tmp
 *.tmp.json
