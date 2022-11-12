@@ -4456,6 +4456,27 @@
     }
   },
   {
+    "model": "company.company",
+    "pk": 43,
+    "fields": {
+      "metadata": null,
+      "name": "PCBWOY",
+      "description": "PCB fabricator / supplier",
+      "website": "",
+      "address": "",
+      "phone": "",
+      "email": "",
+      "contact": "",
+      "link": "",
+      "image": "company_images/company_43_img.png",
+      "notes": null,
+      "is_customer": false,
+      "is_supplier": true,
+      "is_manufacturer": false,
+      "currency": "USD"
+    }
+  },
+  {
     "model": "company.manufacturerpart",
     "pk": 1,
     "fields": {
@@ -22578,6 +22599,27 @@
     }
   },
   {
+    "model": "company.supplierpart",
+    "pk": 1027,
+    "fields": {
+      "barcode_data": "",
+      "barcode_hash": "",
+      "part": 68,
+      "supplier": 43,
+      "SKU": "PCB-002.01",
+      "manufacturer_part": null,
+      "link": "",
+      "description": "",
+      "note": "",
+      "base_cost": "0.000",
+      "packaging": "",
+      "pack_size": "1.00000",
+      "multiple": 1,
+      "available": "0.000",
+      "availability_updated": null
+    }
+  },
+  {
     "model": "company.supplierpricebreak",
     "pk": 2,
     "fields": {
@@ -33512,6 +33554,28 @@
     }
   },
   {
+    "model": "company.supplierpricebreak",
+    "pk": 1492,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "2.560000",
+      "part": 196,
+      "updated": "2022-11-12T04:10:20.197Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1493,
+    "fields": {
+      "quantity": "20.00000",
+      "price_currency": "USD",
+      "price": "2.350000",
+      "part": 196,
+      "updated": "2022-11-12T04:10:26.058Z"
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -33755,6 +33819,28 @@
       "issue_date": "2022-10-21",
       "target_date": "2022-10-30",
       "complete_date": "2022-10-21"
+    }
+  },
+  {
+    "model": "order.purchaseorder",
+    "pk": 9,
+    "fields": {
+      "metadata": null,
+      "reference_int": 9,
+      "description": "Purchasing some PCBs",
+      "link": "",
+      "creation_date": "2022-11-12",
+      "created_by": 1,
+      "responsible": 5,
+      "notes": null,
+      "reference": "PO0009",
+      "status": 30,
+      "supplier": 43,
+      "supplier_reference": "BPQ-001-XYZ",
+      "received_by": 1,
+      "issue_date": "2022-11-12",
+      "target_date": "2022-11-25",
+      "complete_date": "2022-11-12"
     }
   },
   {
@@ -34204,6 +34290,22 @@
     }
   },
   {
+    "model": "order.purchaseorderlineitem",
+    "pk": 22,
+    "fields": {
+      "quantity": "100.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 9,
+      "part": 1027,
+      "received": "100.00000",
+      "purchase_price_currency": "EUR",
+      "purchase_price": "2.750000",
+      "destination": null
+    }
+  },
+  {
     "model": "order.purchaseorderextraline",
     "pk": 1,
     "fields": {
@@ -34215,6 +34317,20 @@
       "price_currency": "USD",
       "price": "25.000000",
       "order": 4
+    }
+  },
+  {
+    "model": "order.purchaseorderextraline",
+    "pk": 2,
+    "fields": {
+      "quantity": "1.00000",
+      "reference": "Shipping",
+      "notes": "",
+      "target_date": null,
+      "context": null,
+      "price_currency": "EUR",
+      "price": "50.000000",
+      "order": 9
     }
   },
   {
@@ -37920,7 +38036,7 @@
       "assembly": false,
       "component": true,
       "trackable": false,
-      "purchaseable": false,
+      "purchaseable": true,
       "salable": false,
       "active": true,
       "virtual": false,
@@ -38805,9 +38921,9 @@
       "active": true,
       "virtual": false,
       "notes": null,
-      "bom_checksum": "b'4@\\xda\\xd51\\x9e]J\\xb5\\xcc!\\xc6\\xd2\\xdf\\xbc]'",
-      "bom_checked_by": 4,
-      "bom_checked_date": "2022-04-29",
+      "bom_checksum": "b'\\x84\\x86\\x1a/\\xeb\\x97\\xde-?\\xfb^B\\xe1\\x8b3j'",
+      "bom_checked_by": 1,
+      "bom_checked_date": "2022-11-12",
       "creation_date": "2021-11-15",
       "creation_user": 1,
       "responsible": null,
@@ -53748,7 +53864,7 @@
     "pk": 20,
     "fields": {
       "currency": "USD",
-      "updated": "2022-11-12T01:38:39.340Z",
+      "updated": "2022-11-12T04:14:30.696Z",
       "scheduled_for_update": false,
       "part": 68,
       "bom_cost_min_currency": "USD",
@@ -53756,9 +53872,9 @@
       "bom_cost_max_currency": "USD",
       "bom_cost_max": null,
       "purchase_cost_min_currency": "USD",
-      "purchase_cost_min": null,
+      "purchase_cost_min": "2.851647",
       "purchase_cost_max_currency": "USD",
-      "purchase_cost_max": null,
+      "purchase_cost_max": "2.851647",
       "internal_cost_min_currency": "USD",
       "internal_cost_min": null,
       "internal_cost_max_currency": "USD",
@@ -53772,9 +53888,9 @@
       "variant_cost_max_currency": "USD",
       "variant_cost_max": null,
       "overall_min_currency": "USD",
-      "overall_min": null,
+      "overall_min": "2.851647",
       "overall_max_currency": "USD",
-      "overall_max": null,
+      "overall_max": "2.851647",
       "sale_price_min_currency": "USD",
       "sale_price_min": null,
       "sale_price_max_currency": "USD",
@@ -54462,7 +54578,7 @@
     "pk": 37,
     "fields": {
       "currency": "USD",
-      "updated": "2022-11-12T01:38:39.597Z",
+      "updated": "2022-11-12T04:10:26.304Z",
       "scheduled_for_update": false,
       "part": 61,
       "bom_cost_min_currency": "USD",
@@ -54478,17 +54594,17 @@
       "internal_cost_max_currency": "USD",
       "internal_cost_max": null,
       "supplier_price_min_currency": "USD",
-      "supplier_price_min": null,
+      "supplier_price_min": "2.350000",
       "supplier_price_max_currency": "USD",
-      "supplier_price_max": null,
+      "supplier_price_max": "2.560000",
       "variant_cost_min_currency": "USD",
       "variant_cost_min": null,
       "variant_cost_max_currency": "USD",
       "variant_cost_max": null,
       "overall_min_currency": "USD",
-      "overall_min": null,
+      "overall_min": "2.350000",
       "overall_max_currency": "USD",
-      "overall_max": null,
+      "overall_max": "2.560000",
       "sale_price_min_currency": "USD",
       "sale_price_min": null,
       "sale_price_max_currency": "USD",
@@ -80756,7 +80872,7 @@
       "overage": "",
       "reference": "",
       "note": "",
-      "checksum": "b'\\x14\\xfb=3\\xb9\\xbf\\x8d\\xdb\\xbe\\xdf\\xabr\\xb7\\x05g\\xd7'",
+      "checksum": "b'\\xe8\\x7f\\xa7\\xdb\"^\\x8c\\xd8\\xf3\\r\\xac3\\xb2\\xce\\x16\\xea'",
       "inherited": false,
       "allow_variants": true
     }
@@ -119932,6 +120048,46 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 996,
+    "fields": {
+      "metadata": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "parent": null,
+      "part": 68,
+      "supplier_part": 1027,
+      "location": 7,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "100.00000",
+      "updated": "2022-11-12",
+      "build": null,
+      "is_building": false,
+      "purchase_order": 9,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "notes": null,
+      "purchase_price_currency": "EUR",
+      "purchase_price": "2.750000",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 888,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -132998,6 +133154,23 @@
         "location": 1,
         "quantity": 500.0,
         "purchaseorder": 8
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 888,
+    "fields": {
+      "tracking_type": 70,
+      "item": 996,
+      "date": "2022-11-12T04:14:30.343Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "location": 7,
+        "quantity": 100.0,
+        "purchaseorder": 9
       }
     }
   },
