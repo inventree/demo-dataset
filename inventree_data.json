@@ -33576,6 +33576,105 @@
     }
   },
   {
+    "model": "company.supplierpricebreak",
+    "pk": 1494,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "3.000000",
+      "part": 1018,
+      "updated": "2022-11-12T05:00:07.523Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1495,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "250.000000",
+      "part": 1019,
+      "updated": "2022-11-12T05:00:16.361Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1496,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "1000.000000",
+      "part": 1020,
+      "updated": "2022-11-12T05:00:22.734Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1497,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "3.500000",
+      "part": 1021,
+      "updated": "2022-11-12T05:00:52.516Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1498,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "275.000000",
+      "part": 1022,
+      "updated": "2022-11-12T05:00:57.433Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1499,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "985.000000",
+      "part": 1023,
+      "updated": "2022-11-12T05:01:05.112Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1500,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "3.500000",
+      "part": 1024,
+      "updated": "2022-11-12T05:01:16.243Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1501,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "255.000000",
+      "part": 1025,
+      "updated": "2022-11-12T05:01:21.549Z"
+    }
+  },
+  {
+    "model": "company.supplierpricebreak",
+    "pk": 1502,
+    "fields": {
+      "quantity": "1.00000",
+      "price_currency": "USD",
+      "price": "1025.000000",
+      "part": 1026,
+      "updated": "2022-11-12T05:01:26.505Z"
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -70202,7 +70301,7 @@
     "pk": 411,
     "fields": {
       "currency": "USD",
-      "updated": "2022-11-12T01:44:48.581Z",
+      "updated": "2022-11-12T05:01:05.360Z",
       "scheduled_for_update": false,
       "part": 895,
       "bom_cost_min_currency": "USD",
@@ -70218,17 +70317,17 @@
       "internal_cost_max_currency": "USD",
       "internal_cost_max": null,
       "supplier_price_min_currency": "USD",
-      "supplier_price_min": null,
+      "supplier_price_min": "1.970000",
       "supplier_price_max_currency": "USD",
-      "supplier_price_max": null,
+      "supplier_price_max": "3.500000",
       "variant_cost_min_currency": "USD",
       "variant_cost_min": null,
       "variant_cost_max_currency": "USD",
       "variant_cost_max": null,
       "overall_min_currency": "USD",
-      "overall_min": null,
+      "overall_min": "1.970000",
       "overall_max_currency": "USD",
-      "overall_max": null,
+      "overall_max": "3.500000",
       "sale_price_min_currency": "USD",
       "sale_price_min": null,
       "sale_price_max_currency": "USD",
@@ -70244,7 +70343,7 @@
     "pk": 412,
     "fields": {
       "currency": "USD",
-      "updated": "2022-11-12T01:44:48.594Z",
+      "updated": "2022-11-12T05:00:23.127Z",
       "scheduled_for_update": false,
       "part": 896,
       "bom_cost_min_currency": "USD",
@@ -70260,17 +70359,17 @@
       "internal_cost_max_currency": "USD",
       "internal_cost_max": null,
       "supplier_price_min_currency": "USD",
-      "supplier_price_min": null,
+      "supplier_price_min": "2.000000",
       "supplier_price_max_currency": "USD",
-      "supplier_price_max": null,
+      "supplier_price_max": "3.000000",
       "variant_cost_min_currency": "USD",
       "variant_cost_min": null,
       "variant_cost_max_currency": "USD",
       "variant_cost_max": null,
       "overall_min_currency": "USD",
-      "overall_min": null,
+      "overall_min": "2.000000",
       "overall_max_currency": "USD",
-      "overall_max": null,
+      "overall_max": "3.000000",
       "sale_price_min_currency": "USD",
       "sale_price_min": null,
       "sale_price_max_currency": "USD",
@@ -70286,7 +70385,7 @@
     "pk": 413,
     "fields": {
       "currency": "USD",
-      "updated": "2022-11-12T01:44:48.848Z",
+      "updated": "2022-11-12T05:01:26.917Z",
       "scheduled_for_update": false,
       "part": 897,
       "bom_cost_min_currency": "USD",
@@ -70302,17 +70401,17 @@
       "internal_cost_max_currency": "USD",
       "internal_cost_max": null,
       "supplier_price_min_currency": "USD",
-      "supplier_price_min": null,
+      "supplier_price_min": "2.050000",
       "supplier_price_max_currency": "USD",
-      "supplier_price_max": null,
+      "supplier_price_max": "3.500000",
       "variant_cost_min_currency": "USD",
       "variant_cost_min": null,
       "variant_cost_max_currency": "USD",
       "variant_cost_max": null,
       "overall_min_currency": "USD",
-      "overall_min": null,
+      "overall_min": "2.050000",
       "overall_max_currency": "USD",
-      "overall_max": null,
+      "overall_max": "3.500000",
       "sale_price_min_currency": "USD",
       "sale_price_min": null,
       "sale_price_max_currency": "USD",
