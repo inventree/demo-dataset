@@ -2686,7 +2686,7 @@
     "model": "common.inventreesetting",
     "pk": 100,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "STOCKTAKE_ENABLE"
     }
   },
@@ -3775,6 +3775,15 @@
       "value": "True",
       "key": "DISPLAY_STOCKTAKE_TAB",
       "user": 4
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 130,
+    "fields": {
+      "value": "",
+      "key": "LABEL_DEFAULT_PRINTER",
+      "user": 1
     }
   },
   {
@@ -72534,6 +72543,6198 @@
       "cost_min": null,
       "cost_max_currency": "USD",
       "cost_max": null
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 43,
+    "fields": {
+      "part": 1,
+      "item_count": 7,
+      "quantity": "3030.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "571.318000",
+      "cost_max_currency": "USD",
+      "cost_max": "1008.666400"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 44,
+    "fields": {
+      "part": 2,
+      "item_count": 7,
+      "quantity": "1943.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "261.808191",
+      "cost_max_currency": "USD",
+      "cost_max": "788.637921"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 45,
+    "fields": {
+      "part": 3,
+      "item_count": 5,
+      "quantity": "2491.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "378.088738",
+      "cost_max_currency": "USD",
+      "cost_max": "1232.923936"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 46,
+    "fields": {
+      "part": 4,
+      "item_count": 7,
+      "quantity": "3153.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "472.452867",
+      "cost_max_currency": "USD",
+      "cost_max": "1542.079140"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 47,
+    "fields": {
+      "part": 5,
+      "item_count": 5,
+      "quantity": "2280.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "327.080228",
+      "cost_max_currency": "USD",
+      "cost_max": "1943.536868"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 48,
+    "fields": {
+      "part": 6,
+      "item_count": 5,
+      "quantity": "2287.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "237.949895",
+      "cost_max_currency": "USD",
+      "cost_max": "1784.549373"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 49,
+    "fields": {
+      "part": 7,
+      "item_count": 5,
+      "quantity": "1507.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "158.064312",
+      "cost_max_currency": "USD",
+      "cost_max": "381.287964"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 50,
+    "fields": {
+      "part": 8,
+      "item_count": 5,
+      "quantity": "1957.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1435.860468",
+      "cost_max_currency": "USD",
+      "cost_max": "1823.986548"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 51,
+    "fields": {
+      "part": 9,
+      "item_count": 5,
+      "quantity": "1720.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1170.820191",
+      "cost_max_currency": "USD",
+      "cost_max": "1485.092191"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 52,
+    "fields": {
+      "part": 10,
+      "item_count": 5,
+      "quantity": "2022.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "759.570356",
+      "cost_max_currency": "USD",
+      "cost_max": "1685.569065"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 53,
+    "fields": {
+      "part": 11,
+      "item_count": 5,
+      "quantity": "1633.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "315.510654",
+      "cost_max_currency": "USD",
+      "cost_max": "995.252934"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 54,
+    "fields": {
+      "part": 12,
+      "item_count": 5,
+      "quantity": "2455.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "203.071152",
+      "cost_max_currency": "USD",
+      "cost_max": "598.091085"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 55,
+    "fields": {
+      "part": 13,
+      "item_count": 6,
+      "quantity": "2267.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "615.313399",
+      "cost_max_currency": "USD",
+      "cost_max": "2123.493871"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 56,
+    "fields": {
+      "part": 14,
+      "item_count": 5,
+      "quantity": "2925.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "165.677068",
+      "cost_max_currency": "USD",
+      "cost_max": "879.546756"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 57,
+    "fields": {
+      "part": 15,
+      "item_count": 5,
+      "quantity": "2839.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "536.601799",
+      "cost_max_currency": "USD",
+      "cost_max": "1543.352047"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 58,
+    "fields": {
+      "part": 16,
+      "item_count": 7,
+      "quantity": "3427.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "700.206405",
+      "cost_max_currency": "USD",
+      "cost_max": "1428.303905"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 59,
+    "fields": {
+      "part": 17,
+      "item_count": 8,
+      "quantity": "6719.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "3003.929350",
+      "cost_max_currency": "USD",
+      "cost_max": "5875.518850"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 60,
+    "fields": {
+      "part": 18,
+      "item_count": 11,
+      "quantity": "10297.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1637.261856",
+      "cost_max_currency": "USD",
+      "cost_max": "8856.901856"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 61,
+    "fields": {
+      "part": 19,
+      "item_count": 9,
+      "quantity": "11303.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1469.008477",
+      "cost_max_currency": "USD",
+      "cost_max": "4067.208477"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 62,
+    "fields": {
+      "part": 20,
+      "item_count": 8,
+      "quantity": "3634.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "428.038179",
+      "cost_max_currency": "USD",
+      "cost_max": "856.014079"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 63,
+    "fields": {
+      "part": 21,
+      "item_count": 10,
+      "quantity": "6521.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "997.328326",
+      "cost_max_currency": "USD",
+      "cost_max": "3629.752826"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 64,
+    "fields": {
+      "part": 22,
+      "item_count": 8,
+      "quantity": "11152.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1872.906235",
+      "cost_max_currency": "USD",
+      "cost_max": "10166.658235"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 65,
+    "fields": {
+      "part": 23,
+      "item_count": 10,
+      "quantity": "19625.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "4378.912500",
+      "cost_max_currency": "USD",
+      "cost_max": "14860.162500"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 66,
+    "fields": {
+      "part": 24,
+      "item_count": 9,
+      "quantity": "5015.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "925.207563",
+      "cost_max_currency": "USD",
+      "cost_max": "1729.293963"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 67,
+    "fields": {
+      "part": 25,
+      "item_count": 7,
+      "quantity": "1691.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "249.924722",
+      "cost_max_currency": "USD",
+      "cost_max": "587.057622"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 68,
+    "fields": {
+      "part": 26,
+      "item_count": 9,
+      "quantity": "7211.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1051.276486",
+      "cost_max_currency": "USD",
+      "cost_max": "3905.739986"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 69,
+    "fields": {
+      "part": 27,
+      "item_count": 10,
+      "quantity": "5529.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "882.559243",
+      "cost_max_currency": "USD",
+      "cost_max": "2461.176493"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 70,
+    "fields": {
+      "part": 28,
+      "item_count": 10,
+      "quantity": "4312.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "606.364556",
+      "cost_max_currency": "USD",
+      "cost_max": "2187.091706"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 71,
+    "fields": {
+      "part": 29,
+      "item_count": 9,
+      "quantity": "9054.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1374.264717",
+      "cost_max_currency": "USD",
+      "cost_max": "5404.154317"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 72,
+    "fields": {
+      "part": 30,
+      "item_count": 6,
+      "quantity": "822.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "150.838338",
+      "cost_max_currency": "USD",
+      "cost_max": "436.436838"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 73,
+    "fields": {
+      "part": 31,
+      "item_count": 8,
+      "quantity": "2049.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1078.486499",
+      "cost_max_currency": "USD",
+      "cost_max": "1753.111499"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 74,
+    "fields": {
+      "part": 32,
+      "item_count": 8,
+      "quantity": "2196.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "754.874592",
+      "cost_max_currency": "USD",
+      "cost_max": "1288.747592"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 75,
+    "fields": {
+      "part": 33,
+      "item_count": 7,
+      "quantity": "2072.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "180.744110",
+      "cost_max_currency": "USD",
+      "cost_max": "616.945310"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 76,
+    "fields": {
+      "part": 34,
+      "item_count": 5,
+      "quantity": "2460.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "221.102473",
+      "cost_max_currency": "USD",
+      "cost_max": "736.261733"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 77,
+    "fields": {
+      "part": 35,
+      "item_count": 8,
+      "quantity": "1679.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "347.917792",
+      "cost_max_currency": "USD",
+      "cost_max": "823.691132"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 78,
+    "fields": {
+      "part": 36,
+      "item_count": 6,
+      "quantity": "2090.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "401.354624",
+      "cost_max_currency": "USD",
+      "cost_max": "1269.155904"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 79,
+    "fields": {
+      "part": 37,
+      "item_count": 10,
+      "quantity": "3913.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "717.254877",
+      "cost_max_currency": "USD",
+      "cost_max": "1757.519577"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 80,
+    "fields": {
+      "part": 38,
+      "item_count": 8,
+      "quantity": "15041.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1575.703658",
+      "cost_max_currency": "USD",
+      "cost_max": "6412.809008"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 81,
+    "fields": {
+      "part": 39,
+      "item_count": 9,
+      "quantity": "9079.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1112.276789",
+      "cost_max_currency": "USD",
+      "cost_max": "3191.197589"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 82,
+    "fields": {
+      "part": 40,
+      "item_count": 9,
+      "quantity": "3216.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "558.683624",
+      "cost_max_currency": "USD",
+      "cost_max": "2072.059274"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 83,
+    "fields": {
+      "part": 41,
+      "item_count": 8,
+      "quantity": "2742.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "418.566804",
+      "cost_max_currency": "USD",
+      "cost_max": "717.551804"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 84,
+    "fields": {
+      "part": 42,
+      "item_count": 7,
+      "quantity": "3735.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "501.645204",
+      "cost_max_currency": "USD",
+      "cost_max": "2681.295904"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 85,
+    "fields": {
+      "part": 43,
+      "item_count": 6,
+      "quantity": "3450.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "879.114015",
+      "cost_max_currency": "USD",
+      "cost_max": "3009.823515"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 86,
+    "fields": {
+      "part": 44,
+      "item_count": 9,
+      "quantity": "2321.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "435.816197",
+      "cost_max_currency": "USD",
+      "cost_max": "785.702197"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 87,
+    "fields": {
+      "part": 45,
+      "item_count": 8,
+      "quantity": "3227.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "512.100493",
+      "cost_max_currency": "USD",
+      "cost_max": "1599.966253"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 88,
+    "fields": {
+      "part": 46,
+      "item_count": 11,
+      "quantity": "18090.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "2249.763249",
+      "cost_max_currency": "USD",
+      "cost_max": "12407.307249"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 89,
+    "fields": {
+      "part": 47,
+      "item_count": 7,
+      "quantity": "2197.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "355.246769",
+      "cost_max_currency": "USD",
+      "cost_max": "1221.501829"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 90,
+    "fields": {
+      "part": 48,
+      "item_count": 10,
+      "quantity": "5534.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1039.486684",
+      "cost_max_currency": "USD",
+      "cost_max": "2117.857684"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 91,
+    "fields": {
+      "part": 49,
+      "item_count": 8,
+      "quantity": "8902.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1204.972641",
+      "cost_max_currency": "USD",
+      "cost_max": "5252.875457"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 92,
+    "fields": {
+      "part": 50,
+      "item_count": 6,
+      "quantity": "2134.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "313.370154",
+      "cost_max_currency": "USD",
+      "cost_max": "492.316328"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 93,
+    "fields": {
+      "part": 51,
+      "item_count": 8,
+      "quantity": "2058.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "243.515859",
+      "cost_max_currency": "USD",
+      "cost_max": "669.997859"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 94,
+    "fields": {
+      "part": 52,
+      "item_count": 7,
+      "quantity": "860.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "92.395432",
+      "cost_max_currency": "USD",
+      "cost_max": "208.313432"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 95,
+    "fields": {
+      "part": 53,
+      "item_count": 7,
+      "quantity": "1781.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "426.777857",
+      "cost_max_currency": "USD",
+      "cost_max": "1159.867407"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 96,
+    "fields": {
+      "part": 54,
+      "item_count": 7,
+      "quantity": "3376.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "954.438620",
+      "cost_max_currency": "USD",
+      "cost_max": "2393.954870"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 97,
+    "fields": {
+      "part": 55,
+      "item_count": 6,
+      "quantity": "1439.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "115.846507",
+      "cost_max_currency": "USD",
+      "cost_max": "559.272007"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 98,
+    "fields": {
+      "part": 56,
+      "item_count": 6,
+      "quantity": "2397.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "314.831700",
+      "cost_max_currency": "USD",
+      "cost_max": "947.930292"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 99,
+    "fields": {
+      "part": 57,
+      "item_count": 8,
+      "quantity": "2121.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "283.513435",
+      "cost_max_currency": "USD",
+      "cost_max": "941.917685"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 100,
+    "fields": {
+      "part": 58,
+      "item_count": 7,
+      "quantity": "3296.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "571.453086",
+      "cost_max_currency": "USD",
+      "cost_max": "777.877476"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 101,
+    "fields": {
+      "part": 59,
+      "item_count": 4,
+      "quantity": "3506.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "371.091842",
+      "cost_max_currency": "USD",
+      "cost_max": "780.287442"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 102,
+    "fields": {
+      "part": 60,
+      "item_count": 9,
+      "quantity": "9039.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1392.267438",
+      "cost_max_currency": "USD",
+      "cost_max": "7887.497438"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 103,
+    "fields": {
+      "part": 61,
+      "item_count": 1,
+      "quantity": "1525.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "3583.750000",
+      "cost_max_currency": "USD",
+      "cost_max": "3904.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 104,
+    "fields": {
+      "part": 62,
+      "item_count": 2,
+      "quantity": "1762.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "2202.500000",
+      "cost_max_currency": "USD",
+      "cost_max": "2202.500000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 105,
+    "fields": {
+      "part": 65,
+      "item_count": 1,
+      "quantity": "5000.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "2694.165000",
+      "cost_max_currency": "USD",
+      "cost_max": "2694.165000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 106,
+    "fields": {
+      "part": 66,
+      "item_count": 1,
+      "quantity": "560.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "156.800000",
+      "cost_max_currency": "USD",
+      "cost_max": "156.800000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 107,
+    "fields": {
+      "part": 67,
+      "item_count": 1,
+      "quantity": "1495.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "910.493870",
+      "cost_max_currency": "USD",
+      "cost_max": "910.493870"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 108,
+    "fields": {
+      "part": 68,
+      "item_count": 2,
+      "quantity": "255.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "747.940991",
+      "cost_max_currency": "USD",
+      "cost_max": "747.940991"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 109,
+    "fields": {
+      "part": 69,
+      "item_count": 1,
+      "quantity": "370.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "92.500000",
+      "cost_max_currency": "USD",
+      "cost_max": "92.500000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 110,
+    "fields": {
+      "part": 71,
+      "item_count": 16,
+      "quantity": "129.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "9030.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "11481.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 111,
+    "fields": {
+      "part": 72,
+      "item_count": 7,
+      "quantity": "65.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "5590.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "5785.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 112,
+    "fields": {
+      "part": 78,
+      "item_count": 2,
+      "quantity": "2.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "172.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "172.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 113,
+    "fields": {
+      "part": 79,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "440.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "440.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 114,
+    "fields": {
+      "part": 80,
+      "item_count": 2,
+      "quantity": "38.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "3382.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "3382.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 115,
+    "fields": {
+      "part": 73,
+      "item_count": 4,
+      "quantity": "17.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1286.390000",
+      "cost_max_currency": "USD",
+      "cost_max": "1286.390000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 116,
+    "fields": {
+      "part": 74,
+      "item_count": 2,
+      "quantity": "11.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "924.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "924.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 117,
+    "fields": {
+      "part": 75,
+      "item_count": 2,
+      "quantity": "31.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "2486.200000",
+      "cost_max_currency": "USD",
+      "cost_max": "2647.400000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 118,
+    "fields": {
+      "part": 76,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "350.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "375.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 119,
+    "fields": {
+      "part": 77,
+      "item_count": 166,
+      "quantity": "166.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "241915.593100",
+      "cost_max_currency": "USD",
+      "cost_max": "248687.957350"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 120,
+    "fields": {
+      "part": 81,
+      "item_count": 165,
+      "quantity": "165.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "240458.270250",
+      "cost_max_currency": "USD",
+      "cost_max": "247189.837125"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 121,
+    "fields": {
+      "part": 82,
+      "item_count": 1,
+      "quantity": "145.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 122,
+    "fields": {
+      "part": 85,
+      "item_count": 1,
+      "quantity": "15.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "112.500000",
+      "cost_max_currency": "USD",
+      "cost_max": "112.500000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 123,
+    "fields": {
+      "part": 87,
+      "item_count": 5,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "413.240880",
+      "cost_max_currency": "USD",
+      "cost_max": "605.338465"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 124,
+    "fields": {
+      "part": 88,
+      "item_count": 55,
+      "quantity": "55.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "4450.553250",
+      "cost_max_currency": "USD",
+      "cost_max": "6477.152385"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 125,
+    "fields": {
+      "part": 89,
+      "item_count": 3,
+      "quantity": "535.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "5428.104872",
+      "cost_max_currency": "USD",
+      "cost_max": "5509.698432"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 126,
+    "fields": {
+      "part": 90,
+      "item_count": 2,
+      "quantity": "32.27500",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "3465.813099",
+      "cost_max_currency": "USD",
+      "cost_max": "3700.574567"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 127,
+    "fields": {
+      "part": 91,
+      "item_count": 3,
+      "quantity": "2710.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "564628.498657",
+      "cost_max_currency": "USD",
+      "cost_max": "564628.498657"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 128,
+    "fields": {
+      "part": 92,
+      "item_count": 2,
+      "quantity": "110.12500",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "283.017660",
+      "cost_max_currency": "USD",
+      "cost_max": "283.017660"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 129,
+    "fields": {
+      "part": 93,
+      "item_count": 2,
+      "quantity": "213.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "362.531384",
+      "cost_max_currency": "USD",
+      "cost_max": "362.531384"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 130,
+    "fields": {
+      "part": 94,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "216.500000",
+      "cost_max_currency": "USD",
+      "cost_max": "404.322020"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 131,
+    "fields": {
+      "part": 99,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "230.832200",
+      "cost_max_currency": "USD",
+      "cost_max": "404.322020"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 132,
+    "fields": {
+      "part": 95,
+      "item_count": 2,
+      "quantity": "977.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "10356.200000",
+      "cost_max_currency": "USD",
+      "cost_max": "12456.750000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 133,
+    "fields": {
+      "part": 96,
+      "item_count": 1,
+      "quantity": "7.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 134,
+    "fields": {
+      "part": 97,
+      "item_count": 1,
+      "quantity": "123.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 135,
+    "fields": {
+      "part": 98,
+      "item_count": 2,
+      "quantity": "2384.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "178.800000",
+      "cost_max_currency": "USD",
+      "cost_max": "238.400000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 136,
+    "fields": {
+      "part": 102,
+      "item_count": 2,
+      "quantity": "45.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1948.500000",
+      "cost_max_currency": "USD",
+      "cost_max": "4928.796360"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 137,
+    "fields": {
+      "part": 103,
+      "item_count": 1,
+      "quantity": "3.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "147.098643",
+      "cost_max_currency": "USD",
+      "cost_max": "328.586424"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 138,
+    "fields": {
+      "part": 105,
+      "item_count": 1,
+      "quantity": "42.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1845.477900",
+      "cost_max_currency": "USD",
+      "cost_max": "2467.898244"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 139,
+    "fields": {
+      "part": 106,
+      "item_count": 4,
+      "quantity": "49.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "2095.975000",
+      "cost_max_currency": "USD",
+      "cost_max": "3225.777898"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 140,
+    "fields": {
+      "part": 107,
+      "item_count": 1,
+      "quantity": "25.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1105.205500",
+      "cost_max_currency": "USD",
+      "cost_max": "1645.805050"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 141,
+    "fields": {
+      "part": 108,
+      "item_count": 1,
+      "quantity": "14.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "603.609622",
+      "cost_max_currency": "USD",
+      "cost_max": "740.038502"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 142,
+    "fields": {
+      "part": 109,
+      "item_count": 2,
+      "quantity": "10.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "429.349870",
+      "cost_max_currency": "USD",
+      "cost_max": "531.398700"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 143,
+    "fields": {
+      "part": 111,
+      "item_count": 2,
+      "quantity": "31.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "5681.428187",
+      "cost_max_currency": "USD",
+      "cost_max": "18529.856455"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 144,
+    "fields": {
+      "part": 112,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "1257.919495",
+      "cost_max_currency": "USD",
+      "cost_max": "3601.410965"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 145,
+    "fields": {
+      "part": 601,
+      "item_count": 1,
+      "quantity": "374.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "283.083218",
+      "cost_max_currency": "USD",
+      "cost_max": "283.083218"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 146,
+    "fields": {
+      "part": 602,
+      "item_count": 1,
+      "quantity": "772.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "476.984832",
+      "cost_max_currency": "USD",
+      "cost_max": "476.984832"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 147,
+    "fields": {
+      "part": 603,
+      "item_count": 1,
+      "quantity": "281.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "173.170746",
+      "cost_max_currency": "USD",
+      "cost_max": "173.170746"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 148,
+    "fields": {
+      "part": 604,
+      "item_count": 1,
+      "quantity": "452.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "339.832584",
+      "cost_max_currency": "USD",
+      "cost_max": "339.832584"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 149,
+    "fields": {
+      "part": 605,
+      "item_count": 1,
+      "quantity": "104.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "54.474784",
+      "cost_max_currency": "USD",
+      "cost_max": "54.474784"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 150,
+    "fields": {
+      "part": 606,
+      "item_count": 1,
+      "quantity": "299.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "229.175427",
+      "cost_max_currency": "USD",
+      "cost_max": "229.175427"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 151,
+    "fields": {
+      "part": 607,
+      "item_count": 1,
+      "quantity": "386.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "222.627816",
+      "cost_max_currency": "USD",
+      "cost_max": "222.627816"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 152,
+    "fields": {
+      "part": 608,
+      "item_count": 1,
+      "quantity": "578.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "321.858144",
+      "cost_max_currency": "USD",
+      "cost_max": "321.858144"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 153,
+    "fields": {
+      "part": 609,
+      "item_count": 1,
+      "quantity": "872.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "521.680976",
+      "cost_max_currency": "USD",
+      "cost_max": "521.680976"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 154,
+    "fields": {
+      "part": 610,
+      "item_count": 1,
+      "quantity": "524.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "288.813080",
+      "cost_max_currency": "USD",
+      "cost_max": "288.813080"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 155,
+    "fields": {
+      "part": 611,
+      "item_count": 1,
+      "quantity": "687.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "325.372818",
+      "cost_max_currency": "USD",
+      "cost_max": "325.372818"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 156,
+    "fields": {
+      "part": 612,
+      "item_count": 1,
+      "quantity": "873.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "529.322598",
+      "cost_max_currency": "USD",
+      "cost_max": "529.322598"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 157,
+    "fields": {
+      "part": 613,
+      "item_count": 1,
+      "quantity": "734.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "475.193068",
+      "cost_max_currency": "USD",
+      "cost_max": "475.193068"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 158,
+    "fields": {
+      "part": 614,
+      "item_count": 1,
+      "quantity": "177.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "109.172361",
+      "cost_max_currency": "USD",
+      "cost_max": "109.172361"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 159,
+    "fields": {
+      "part": 615,
+      "item_count": 1,
+      "quantity": "706.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "466.967462",
+      "cost_max_currency": "USD",
+      "cost_max": "466.967462"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 160,
+    "fields": {
+      "part": 616,
+      "item_count": 1,
+      "quantity": "479.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "315.816196",
+      "cost_max_currency": "USD",
+      "cost_max": "315.816196"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 161,
+    "fields": {
+      "part": 617,
+      "item_count": 1,
+      "quantity": "888.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "427.552464",
+      "cost_max_currency": "USD",
+      "cost_max": "427.552464"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 162,
+    "fields": {
+      "part": 618,
+      "item_count": 1,
+      "quantity": "946.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "612.211468",
+      "cost_max_currency": "USD",
+      "cost_max": "612.211468"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 163,
+    "fields": {
+      "part": 619,
+      "item_count": 1,
+      "quantity": "517.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "399.413520",
+      "cost_max_currency": "USD",
+      "cost_max": "399.413520"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 164,
+    "fields": {
+      "part": 620,
+      "item_count": 1,
+      "quantity": "364.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "180.587316",
+      "cost_max_currency": "USD",
+      "cost_max": "180.587316"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 165,
+    "fields": {
+      "part": 621,
+      "item_count": 1,
+      "quantity": "594.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "341.475156",
+      "cost_max_currency": "USD",
+      "cost_max": "341.475156"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 166,
+    "fields": {
+      "part": 622,
+      "item_count": 1,
+      "quantity": "290.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "222.891100",
+      "cost_max_currency": "USD",
+      "cost_max": "222.891100"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 167,
+    "fields": {
+      "part": 623,
+      "item_count": 1,
+      "quantity": "239.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "158.489982",
+      "cost_max_currency": "USD",
+      "cost_max": "158.489982"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 168,
+    "fields": {
+      "part": 624,
+      "item_count": 1,
+      "quantity": "534.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "252.805746",
+      "cost_max_currency": "USD",
+      "cost_max": "252.805746"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 169,
+    "fields": {
+      "part": 625,
+      "item_count": 1,
+      "quantity": "911.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "678.202149",
+      "cost_max_currency": "USD",
+      "cost_max": "678.202149"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 170,
+    "fields": {
+      "part": 626,
+      "item_count": 1,
+      "quantity": "481.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "244.738572",
+      "cost_max_currency": "USD",
+      "cost_max": "244.738572"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 171,
+    "fields": {
+      "part": 627,
+      "item_count": 2,
+      "quantity": "1693.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "7824.106646",
+      "cost_max_currency": "USD",
+      "cost_max": "12782.150000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 172,
+    "fields": {
+      "part": 628,
+      "item_count": 1,
+      "quantity": "302.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "161.421114",
+      "cost_max_currency": "USD",
+      "cost_max": "161.421114"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 173,
+    "fields": {
+      "part": 629,
+      "item_count": 1,
+      "quantity": "950.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "479.233200",
+      "cost_max_currency": "USD",
+      "cost_max": "479.233200"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 174,
+    "fields": {
+      "part": 630,
+      "item_count": 1,
+      "quantity": "992.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "601.782912",
+      "cost_max_currency": "USD",
+      "cost_max": "601.782912"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 175,
+    "fields": {
+      "part": 631,
+      "item_count": 1,
+      "quantity": "216.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "131.358240",
+      "cost_max_currency": "USD",
+      "cost_max": "131.358240"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 176,
+    "fields": {
+      "part": 632,
+      "item_count": 1,
+      "quantity": "921.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "718.291584",
+      "cost_max_currency": "USD",
+      "cost_max": "718.291584"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 177,
+    "fields": {
+      "part": 633,
+      "item_count": 1,
+      "quantity": "306.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "226.244466",
+      "cost_max_currency": "USD",
+      "cost_max": "226.244466"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 178,
+    "fields": {
+      "part": 634,
+      "item_count": 1,
+      "quantity": "647.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "488.054098",
+      "cost_max_currency": "USD",
+      "cost_max": "488.054098"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 179,
+    "fields": {
+      "part": 635,
+      "item_count": 1,
+      "quantity": "656.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "505.690064",
+      "cost_max_currency": "USD",
+      "cost_max": "505.690064"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 180,
+    "fields": {
+      "part": 636,
+      "item_count": 1,
+      "quantity": "125.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "63.658875",
+      "cost_max_currency": "USD",
+      "cost_max": "63.658875"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 181,
+    "fields": {
+      "part": 637,
+      "item_count": 1,
+      "quantity": "553.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "282.233504",
+      "cost_max_currency": "USD",
+      "cost_max": "282.233504"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 182,
+    "fields": {
+      "part": 638,
+      "item_count": 1,
+      "quantity": "548.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "390.307520",
+      "cost_max_currency": "USD",
+      "cost_max": "390.307520"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 183,
+    "fields": {
+      "part": 639,
+      "item_count": 1,
+      "quantity": "523.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "366.788791",
+      "cost_max_currency": "USD",
+      "cost_max": "366.788791"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 184,
+    "fields": {
+      "part": 640,
+      "item_count": 1,
+      "quantity": "427.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "232.239322",
+      "cost_max_currency": "USD",
+      "cost_max": "232.239322"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 185,
+    "fields": {
+      "part": 641,
+      "item_count": 1,
+      "quantity": "694.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "420.010188",
+      "cost_max_currency": "USD",
+      "cost_max": "420.010188"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 186,
+    "fields": {
+      "part": 642,
+      "item_count": 1,
+      "quantity": "410.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "270.440100",
+      "cost_max_currency": "USD",
+      "cost_max": "270.440100"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 187,
+    "fields": {
+      "part": 643,
+      "item_count": 1,
+      "quantity": "752.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "364.595920",
+      "cost_max_currency": "USD",
+      "cost_max": "364.595920"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 188,
+    "fields": {
+      "part": 644,
+      "item_count": 1,
+      "quantity": "186.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "109.970826",
+      "cost_max_currency": "USD",
+      "cost_max": "109.970826"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 189,
+    "fields": {
+      "part": 645,
+      "item_count": 1,
+      "quantity": "401.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "227.907548",
+      "cost_max_currency": "USD",
+      "cost_max": "227.907548"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 190,
+    "fields": {
+      "part": 646,
+      "item_count": 1,
+      "quantity": "955.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "703.089145",
+      "cost_max_currency": "USD",
+      "cost_max": "703.089145"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 191,
+    "fields": {
+      "part": 647,
+      "item_count": 1,
+      "quantity": "777.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "538.920207",
+      "cost_max_currency": "USD",
+      "cost_max": "538.920207"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 192,
+    "fields": {
+      "part": 648,
+      "item_count": 1,
+      "quantity": "917.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "662.810351",
+      "cost_max_currency": "USD",
+      "cost_max": "662.810351"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 193,
+    "fields": {
+      "part": 649,
+      "item_count": 1,
+      "quantity": "697.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "358.829540",
+      "cost_max_currency": "USD",
+      "cost_max": "358.829540"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 194,
+    "fields": {
+      "part": 650,
+      "item_count": 1,
+      "quantity": "975.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "636.822225",
+      "cost_max_currency": "USD",
+      "cost_max": "636.822225"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 195,
+    "fields": {
+      "part": 651,
+      "item_count": 1,
+      "quantity": "894.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "595.669518",
+      "cost_max_currency": "USD",
+      "cost_max": "595.669518"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 196,
+    "fields": {
+      "part": 652,
+      "item_count": 1,
+      "quantity": "981.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "673.398621",
+      "cost_max_currency": "USD",
+      "cost_max": "673.398621"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 197,
+    "fields": {
+      "part": 653,
+      "item_count": 1,
+      "quantity": "399.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "229.051935",
+      "cost_max_currency": "USD",
+      "cost_max": "229.051935"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 198,
+    "fields": {
+      "part": 654,
+      "item_count": 1,
+      "quantity": "554.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "319.763260",
+      "cost_max_currency": "USD",
+      "cost_max": "319.763260"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 199,
+    "fields": {
+      "part": 655,
+      "item_count": 1,
+      "quantity": "196.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "147.742840",
+      "cost_max_currency": "USD",
+      "cost_max": "147.742840"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 200,
+    "fields": {
+      "part": 656,
+      "item_count": 1,
+      "quantity": "764.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "446.952988",
+      "cost_max_currency": "USD",
+      "cost_max": "446.952988"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 201,
+    "fields": {
+      "part": 657,
+      "item_count": 1,
+      "quantity": "170.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "113.643470",
+      "cost_max_currency": "USD",
+      "cost_max": "113.643470"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 202,
+    "fields": {
+      "part": 658,
+      "item_count": 1,
+      "quantity": "897.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "531.530805",
+      "cost_max_currency": "USD",
+      "cost_max": "531.530805"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 203,
+    "fields": {
+      "part": 659,
+      "item_count": 1,
+      "quantity": "887.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "451.623146",
+      "cost_max_currency": "USD",
+      "cost_max": "451.623146"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 204,
+    "fields": {
+      "part": 660,
+      "item_count": 1,
+      "quantity": "212.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "142.024100",
+      "cost_max_currency": "USD",
+      "cost_max": "142.024100"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 205,
+    "fields": {
+      "part": 661,
+      "item_count": 1,
+      "quantity": "560.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "415.028880",
+      "cost_max_currency": "USD",
+      "cost_max": "415.028880"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 206,
+    "fields": {
+      "part": 662,
+      "item_count": 1,
+      "quantity": "141.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "104.659929",
+      "cost_max_currency": "USD",
+      "cost_max": "104.659929"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 207,
+    "fields": {
+      "part": 663,
+      "item_count": 1,
+      "quantity": "381.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "206.789274",
+      "cost_max_currency": "USD",
+      "cost_max": "206.789274"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 208,
+    "fields": {
+      "part": 664,
+      "item_count": 1,
+      "quantity": "571.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "417.810407",
+      "cost_max_currency": "USD",
+      "cost_max": "417.810407"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 209,
+    "fields": {
+      "part": 665,
+      "item_count": 1,
+      "quantity": "532.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "398.918604",
+      "cost_max_currency": "USD",
+      "cost_max": "398.918604"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 210,
+    "fields": {
+      "part": 666,
+      "item_count": 1,
+      "quantity": "502.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "369.468988",
+      "cost_max_currency": "USD",
+      "cost_max": "369.468988"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 211,
+    "fields": {
+      "part": 667,
+      "item_count": 1,
+      "quantity": "543.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "255.182307",
+      "cost_max_currency": "USD",
+      "cost_max": "255.182307"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 212,
+    "fields": {
+      "part": 668,
+      "item_count": 1,
+      "quantity": "254.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "128.925828",
+      "cost_max_currency": "USD",
+      "cost_max": "128.925828"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 213,
+    "fields": {
+      "part": 669,
+      "item_count": 1,
+      "quantity": "797.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "467.235671",
+      "cost_max_currency": "USD",
+      "cost_max": "467.235671"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 214,
+    "fields": {
+      "part": 670,
+      "item_count": 1,
+      "quantity": "718.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "472.537340",
+      "cost_max_currency": "USD",
+      "cost_max": "472.537340"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 215,
+    "fields": {
+      "part": 671,
+      "item_count": 1,
+      "quantity": "249.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "182.194545",
+      "cost_max_currency": "USD",
+      "cost_max": "182.194545"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 216,
+    "fields": {
+      "part": 672,
+      "item_count": 1,
+      "quantity": "669.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "438.907485",
+      "cost_max_currency": "USD",
+      "cost_max": "438.907485"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 217,
+    "fields": {
+      "part": 673,
+      "item_count": 1,
+      "quantity": "602.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "363.152888",
+      "cost_max_currency": "USD",
+      "cost_max": "363.152888"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 218,
+    "fields": {
+      "part": 674,
+      "item_count": 1,
+      "quantity": "522.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "403.485642",
+      "cost_max_currency": "USD",
+      "cost_max": "403.485642"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 219,
+    "fields": {
+      "part": 675,
+      "item_count": 1,
+      "quantity": "387.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "257.747805",
+      "cost_max_currency": "USD",
+      "cost_max": "257.747805"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 220,
+    "fields": {
+      "part": 676,
+      "item_count": 1,
+      "quantity": "690.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "428.156730",
+      "cost_max_currency": "USD",
+      "cost_max": "428.156730"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 221,
+    "fields": {
+      "part": 677,
+      "item_count": 1,
+      "quantity": "413.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "224.064477",
+      "cost_max_currency": "USD",
+      "cost_max": "224.064477"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 222,
+    "fields": {
+      "part": 678,
+      "item_count": 1,
+      "quantity": "670.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "353.767370",
+      "cost_max_currency": "USD",
+      "cost_max": "353.767370"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 223,
+    "fields": {
+      "part": 679,
+      "item_count": 1,
+      "quantity": "924.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "646.577316",
+      "cost_max_currency": "USD",
+      "cost_max": "646.577316"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 224,
+    "fields": {
+      "part": 680,
+      "item_count": 1,
+      "quantity": "535.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "309.358935",
+      "cost_max_currency": "USD",
+      "cost_max": "309.358935"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 225,
+    "fields": {
+      "part": 681,
+      "item_count": 1,
+      "quantity": "762.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "398.027652",
+      "cost_max_currency": "USD",
+      "cost_max": "398.027652"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 226,
+    "fields": {
+      "part": 682,
+      "item_count": 1,
+      "quantity": "565.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "391.798685",
+      "cost_max_currency": "USD",
+      "cost_max": "391.798685"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 227,
+    "fields": {
+      "part": 683,
+      "item_count": 1,
+      "quantity": "666.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "508.794696",
+      "cost_max_currency": "USD",
+      "cost_max": "508.794696"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 228,
+    "fields": {
+      "part": 684,
+      "item_count": 1,
+      "quantity": "580.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "359.827940",
+      "cost_max_currency": "USD",
+      "cost_max": "359.827940"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 229,
+    "fields": {
+      "part": 685,
+      "item_count": 1,
+      "quantity": "424.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "325.948304",
+      "cost_max_currency": "USD",
+      "cost_max": "325.948304"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 230,
+    "fields": {
+      "part": 686,
+      "item_count": 1,
+      "quantity": "317.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "237.264673",
+      "cost_max_currency": "USD",
+      "cost_max": "237.264673"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 231,
+    "fields": {
+      "part": 687,
+      "item_count": 1,
+      "quantity": "860.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "491.426360",
+      "cost_max_currency": "USD",
+      "cost_max": "491.426360"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 232,
+    "fields": {
+      "part": 688,
+      "item_count": 1,
+      "quantity": "348.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "169.841400",
+      "cost_max_currency": "USD",
+      "cost_max": "169.841400"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 233,
+    "fields": {
+      "part": 689,
+      "item_count": 1,
+      "quantity": "500.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "284.969500",
+      "cost_max_currency": "USD",
+      "cost_max": "284.969500"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 234,
+    "fields": {
+      "part": 690,
+      "item_count": 1,
+      "quantity": "709.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "438.699422",
+      "cost_max_currency": "USD",
+      "cost_max": "438.699422"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 235,
+    "fields": {
+      "part": 691,
+      "item_count": 1,
+      "quantity": "847.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "525.324646",
+      "cost_max_currency": "USD",
+      "cost_max": "525.324646"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 236,
+    "fields": {
+      "part": 692,
+      "item_count": 1,
+      "quantity": "125.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "87.015250",
+      "cost_max_currency": "USD",
+      "cost_max": "87.015250"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 237,
+    "fields": {
+      "part": 693,
+      "item_count": 1,
+      "quantity": "792.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "440.309232",
+      "cost_max_currency": "USD",
+      "cost_max": "440.309232"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 238,
+    "fields": {
+      "part": 694,
+      "item_count": 1,
+      "quantity": "271.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "179.437230",
+      "cost_max_currency": "USD",
+      "cost_max": "179.437230"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 239,
+    "fields": {
+      "part": 695,
+      "item_count": 1,
+      "quantity": "265.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "204.520375",
+      "cost_max_currency": "USD",
+      "cost_max": "204.520375"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 240,
+    "fields": {
+      "part": 696,
+      "item_count": 1,
+      "quantity": "387.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "264.973482",
+      "cost_max_currency": "USD",
+      "cost_max": "264.973482"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 241,
+    "fields": {
+      "part": 697,
+      "item_count": 1,
+      "quantity": "159.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "91.133553",
+      "cost_max_currency": "USD",
+      "cost_max": "91.133553"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 242,
+    "fields": {
+      "part": 698,
+      "item_count": 1,
+      "quantity": "871.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "590.760105",
+      "cost_max_currency": "USD",
+      "cost_max": "590.760105"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 243,
+    "fields": {
+      "part": 699,
+      "item_count": 1,
+      "quantity": "269.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "206.673507",
+      "cost_max_currency": "USD",
+      "cost_max": "206.673507"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 244,
+    "fields": {
+      "part": 700,
+      "item_count": 1,
+      "quantity": "415.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "223.197375",
+      "cost_max_currency": "USD",
+      "cost_max": "223.197375"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 245,
+    "fields": {
+      "part": 701,
+      "item_count": 1,
+      "quantity": "702.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "442.933920",
+      "cost_max_currency": "USD",
+      "cost_max": "442.933920"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 246,
+    "fields": {
+      "part": 702,
+      "item_count": 1,
+      "quantity": "503.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "271.757319",
+      "cost_max_currency": "USD",
+      "cost_max": "271.757319"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 247,
+    "fields": {
+      "part": 703,
+      "item_count": 1,
+      "quantity": "976.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "520.746752",
+      "cost_max_currency": "USD",
+      "cost_max": "520.746752"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 248,
+    "fields": {
+      "part": 704,
+      "item_count": 1,
+      "quantity": "881.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "564.166851",
+      "cost_max_currency": "USD",
+      "cost_max": "564.166851"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 249,
+    "fields": {
+      "part": 705,
+      "item_count": 1,
+      "quantity": "816.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "612.851088",
+      "cost_max_currency": "USD",
+      "cost_max": "612.851088"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 250,
+    "fields": {
+      "part": 706,
+      "item_count": 1,
+      "quantity": "777.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "556.705737",
+      "cost_max_currency": "USD",
+      "cost_max": "556.705737"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 251,
+    "fields": {
+      "part": 707,
+      "item_count": 1,
+      "quantity": "657.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "314.092647",
+      "cost_max_currency": "USD",
+      "cost_max": "314.092647"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 252,
+    "fields": {
+      "part": 708,
+      "item_count": 1,
+      "quantity": "910.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "676.427570",
+      "cost_max_currency": "USD",
+      "cost_max": "676.427570"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 253,
+    "fields": {
+      "part": 709,
+      "item_count": 1,
+      "quantity": "785.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "585.569180",
+      "cost_max_currency": "USD",
+      "cost_max": "585.569180"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 254,
+    "fields": {
+      "part": 710,
+      "item_count": 1,
+      "quantity": "600.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "402.777600",
+      "cost_max_currency": "USD",
+      "cost_max": "402.777600"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 255,
+    "fields": {
+      "part": 711,
+      "item_count": 1,
+      "quantity": "995.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "664.349560",
+      "cost_max_currency": "USD",
+      "cost_max": "664.349560"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 256,
+    "fields": {
+      "part": 712,
+      "item_count": 1,
+      "quantity": "224.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "170.321088",
+      "cost_max_currency": "USD",
+      "cost_max": "170.321088"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 257,
+    "fields": {
+      "part": 713,
+      "item_count": 1,
+      "quantity": "327.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "211.138014",
+      "cost_max_currency": "USD",
+      "cost_max": "211.138014"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 258,
+    "fields": {
+      "part": 714,
+      "item_count": 1,
+      "quantity": "896.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "694.714496",
+      "cost_max_currency": "USD",
+      "cost_max": "694.714496"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 259,
+    "fields": {
+      "part": 715,
+      "item_count": 1,
+      "quantity": "473.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "334.072805",
+      "cost_max_currency": "USD",
+      "cost_max": "334.072805"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 260,
+    "fields": {
+      "part": 716,
+      "item_count": 1,
+      "quantity": "203.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "152.037662",
+      "cost_max_currency": "USD",
+      "cost_max": "152.037662"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 261,
+    "fields": {
+      "part": 717,
+      "item_count": 1,
+      "quantity": "907.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "686.881077",
+      "cost_max_currency": "USD",
+      "cost_max": "686.881077"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 262,
+    "fields": {
+      "part": 718,
+      "item_count": 1,
+      "quantity": "565.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "316.133885",
+      "cost_max_currency": "USD",
+      "cost_max": "316.133885"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 263,
+    "fields": {
+      "part": 719,
+      "item_count": 1,
+      "quantity": "318.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "167.462298",
+      "cost_max_currency": "USD",
+      "cost_max": "167.462298"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 264,
+    "fields": {
+      "part": 720,
+      "item_count": 1,
+      "quantity": "375.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "203.562000",
+      "cost_max_currency": "USD",
+      "cost_max": "203.562000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 265,
+    "fields": {
+      "part": 721,
+      "item_count": 1,
+      "quantity": "257.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "126.025604",
+      "cost_max_currency": "USD",
+      "cost_max": "126.025604"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 266,
+    "fields": {
+      "part": 722,
+      "item_count": 1,
+      "quantity": "854.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "644.287490",
+      "cost_max_currency": "USD",
+      "cost_max": "644.287490"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 267,
+    "fields": {
+      "part": 723,
+      "item_count": 1,
+      "quantity": "423.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "282.746736",
+      "cost_max_currency": "USD",
+      "cost_max": "282.746736"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 268,
+    "fields": {
+      "part": 724,
+      "item_count": 1,
+      "quantity": "369.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "247.504167",
+      "cost_max_currency": "USD",
+      "cost_max": "247.504167"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 269,
+    "fields": {
+      "part": 725,
+      "item_count": 1,
+      "quantity": "664.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "510.616664",
+      "cost_max_currency": "USD",
+      "cost_max": "510.616664"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 270,
+    "fields": {
+      "part": 726,
+      "item_count": 1,
+      "quantity": "226.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "130.994798",
+      "cost_max_currency": "USD",
+      "cost_max": "130.994798"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 271,
+    "fields": {
+      "part": 727,
+      "item_count": 1,
+      "quantity": "394.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "222.219546",
+      "cost_max_currency": "USD",
+      "cost_max": "222.219546"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 272,
+    "fields": {
+      "part": 728,
+      "item_count": 1,
+      "quantity": "987.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "736.786617",
+      "cost_max_currency": "USD",
+      "cost_max": "736.786617"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 273,
+    "fields": {
+      "part": 729,
+      "item_count": 1,
+      "quantity": "464.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "297.045840",
+      "cost_max_currency": "USD",
+      "cost_max": "297.045840"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 274,
+    "fields": {
+      "part": 730,
+      "item_count": 1,
+      "quantity": "383.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "264.130205",
+      "cost_max_currency": "USD",
+      "cost_max": "264.130205"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 275,
+    "fields": {
+      "part": 731,
+      "item_count": 1,
+      "quantity": "664.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "395.811064",
+      "cost_max_currency": "USD",
+      "cost_max": "395.811064"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 276,
+    "fields": {
+      "part": 732,
+      "item_count": 1,
+      "quantity": "823.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "556.654156",
+      "cost_max_currency": "USD",
+      "cost_max": "556.654156"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 277,
+    "fields": {
+      "part": 733,
+      "item_count": 1,
+      "quantity": "545.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "361.329005",
+      "cost_max_currency": "USD",
+      "cost_max": "361.329005"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 278,
+    "fields": {
+      "part": 734,
+      "item_count": 1,
+      "quantity": "534.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "254.861646",
+      "cost_max_currency": "USD",
+      "cost_max": "254.861646"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 279,
+    "fields": {
+      "part": 735,
+      "item_count": 1,
+      "quantity": "996.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "654.356064",
+      "cost_max_currency": "USD",
+      "cost_max": "654.356064"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 280,
+    "fields": {
+      "part": 736,
+      "item_count": 1,
+      "quantity": "934.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "609.556420",
+      "cost_max_currency": "USD",
+      "cost_max": "609.556420"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 281,
+    "fields": {
+      "part": 737,
+      "item_count": 1,
+      "quantity": "877.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "433.049445",
+      "cost_max_currency": "USD",
+      "cost_max": "433.049445"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 282,
+    "fields": {
+      "part": 738,
+      "item_count": 1,
+      "quantity": "267.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "155.271180",
+      "cost_max_currency": "USD",
+      "cost_max": "155.271180"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 283,
+    "fields": {
+      "part": 739,
+      "item_count": 1,
+      "quantity": "878.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "613.672832",
+      "cost_max_currency": "USD",
+      "cost_max": "613.672832"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 284,
+    "fields": {
+      "part": 740,
+      "item_count": 1,
+      "quantity": "767.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "491.778924",
+      "cost_max_currency": "USD",
+      "cost_max": "491.778924"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 285,
+    "fields": {
+      "part": 741,
+      "item_count": 1,
+      "quantity": "184.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "95.823520",
+      "cost_max_currency": "USD",
+      "cost_max": "95.823520"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 286,
+    "fields": {
+      "part": 742,
+      "item_count": 1,
+      "quantity": "573.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "390.637593",
+      "cost_max_currency": "USD",
+      "cost_max": "390.637593"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 287,
+    "fields": {
+      "part": 743,
+      "item_count": 1,
+      "quantity": "519.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "293.970942",
+      "cost_max_currency": "USD",
+      "cost_max": "293.970942"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 288,
+    "fields": {
+      "part": 744,
+      "item_count": 1,
+      "quantity": "923.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "600.189057",
+      "cost_max_currency": "USD",
+      "cost_max": "600.189057"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 289,
+    "fields": {
+      "part": 745,
+      "item_count": 1,
+      "quantity": "199.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "119.312838",
+      "cost_max_currency": "USD",
+      "cost_max": "119.312838"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 290,
+    "fields": {
+      "part": 746,
+      "item_count": 1,
+      "quantity": "161.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "88.971337",
+      "cost_max_currency": "USD",
+      "cost_max": "88.971337"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 291,
+    "fields": {
+      "part": 747,
+      "item_count": 1,
+      "quantity": "623.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "433.411132",
+      "cost_max_currency": "USD",
+      "cost_max": "433.411132"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 292,
+    "fields": {
+      "part": 748,
+      "item_count": 1,
+      "quantity": "254.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "124.053092",
+      "cost_max_currency": "USD",
+      "cost_max": "124.053092"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 293,
+    "fields": {
+      "part": 749,
+      "item_count": 1,
+      "quantity": "885.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "446.350635",
+      "cost_max_currency": "USD",
+      "cost_max": "446.350635"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 294,
+    "fields": {
+      "part": 750,
+      "item_count": 1,
+      "quantity": "386.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "249.495732",
+      "cost_max_currency": "USD",
+      "cost_max": "249.495732"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 295,
+    "fields": {
+      "part": 751,
+      "item_count": 1,
+      "quantity": "752.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "514.863568",
+      "cost_max_currency": "USD",
+      "cost_max": "514.863568"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 296,
+    "fields": {
+      "part": 752,
+      "item_count": 1,
+      "quantity": "398.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "192.427030",
+      "cost_max_currency": "USD",
+      "cost_max": "192.427030"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 297,
+    "fields": {
+      "part": 753,
+      "item_count": 1,
+      "quantity": "370.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "257.873350",
+      "cost_max_currency": "USD",
+      "cost_max": "257.873350"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 298,
+    "fields": {
+      "part": 754,
+      "item_count": 1,
+      "quantity": "210.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "131.860890",
+      "cost_max_currency": "USD",
+      "cost_max": "131.860890"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 299,
+    "fields": {
+      "part": 755,
+      "item_count": 1,
+      "quantity": "392.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "193.226208",
+      "cost_max_currency": "USD",
+      "cost_max": "193.226208"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 300,
+    "fields": {
+      "part": 756,
+      "item_count": 1,
+      "quantity": "171.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "126.487161",
+      "cost_max_currency": "USD",
+      "cost_max": "126.487161"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 301,
+    "fields": {
+      "part": 757,
+      "item_count": 1,
+      "quantity": "178.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "131.143280",
+      "cost_max_currency": "USD",
+      "cost_max": "131.143280"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 302,
+    "fields": {
+      "part": 758,
+      "item_count": 1,
+      "quantity": "528.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "323.505072",
+      "cost_max_currency": "USD",
+      "cost_max": "323.505072"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 303,
+    "fields": {
+      "part": 759,
+      "item_count": 1,
+      "quantity": "790.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "487.874770",
+      "cost_max_currency": "USD",
+      "cost_max": "487.874770"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 304,
+    "fields": {
+      "part": 760,
+      "item_count": 1,
+      "quantity": "156.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "80.372448",
+      "cost_max_currency": "USD",
+      "cost_max": "80.372448"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 305,
+    "fields": {
+      "part": 761,
+      "item_count": 1,
+      "quantity": "650.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "413.874500",
+      "cost_max_currency": "USD",
+      "cost_max": "413.874500"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 306,
+    "fields": {
+      "part": 762,
+      "item_count": 1,
+      "quantity": "507.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "349.223628",
+      "cost_max_currency": "USD",
+      "cost_max": "349.223628"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 307,
+    "fields": {
+      "part": 763,
+      "item_count": 1,
+      "quantity": "992.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "522.301888",
+      "cost_max_currency": "USD",
+      "cost_max": "522.301888"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 308,
+    "fields": {
+      "part": 764,
+      "item_count": 1,
+      "quantity": "177.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "129.519396",
+      "cost_max_currency": "USD",
+      "cost_max": "129.519396"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 309,
+    "fields": {
+      "part": 765,
+      "item_count": 1,
+      "quantity": "682.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "417.677942",
+      "cost_max_currency": "USD",
+      "cost_max": "417.677942"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 310,
+    "fields": {
+      "part": 766,
+      "item_count": 1,
+      "quantity": "412.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "202.292000",
+      "cost_max_currency": "USD",
+      "cost_max": "202.292000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 311,
+    "fields": {
+      "part": 767,
+      "item_count": 1,
+      "quantity": "489.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "331.890168",
+      "cost_max_currency": "USD",
+      "cost_max": "331.890168"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 312,
+    "fields": {
+      "part": 768,
+      "item_count": 1,
+      "quantity": "881.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "612.881746",
+      "cost_max_currency": "USD",
+      "cost_max": "612.881746"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 313,
+    "fields": {
+      "part": 769,
+      "item_count": 1,
+      "quantity": "309.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "225.381819",
+      "cost_max_currency": "USD",
+      "cost_max": "225.381819"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 314,
+    "fields": {
+      "part": 770,
+      "item_count": 1,
+      "quantity": "692.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "387.758740",
+      "cost_max_currency": "USD",
+      "cost_max": "387.758740"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 315,
+    "fields": {
+      "part": 771,
+      "item_count": 1,
+      "quantity": "692.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "451.795728",
+      "cost_max_currency": "USD",
+      "cost_max": "451.795728"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 316,
+    "fields": {
+      "part": 772,
+      "item_count": 1,
+      "quantity": "598.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "305.641388",
+      "cost_max_currency": "USD",
+      "cost_max": "305.641388"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 317,
+    "fields": {
+      "part": 773,
+      "item_count": 1,
+      "quantity": "498.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "293.359350",
+      "cost_max_currency": "USD",
+      "cost_max": "293.359350"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 318,
+    "fields": {
+      "part": 774,
+      "item_count": 1,
+      "quantity": "1000.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "556.488000",
+      "cost_max_currency": "USD",
+      "cost_max": "556.488000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 319,
+    "fields": {
+      "part": 775,
+      "item_count": 1,
+      "quantity": "574.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "301.399938",
+      "cost_max_currency": "USD",
+      "cost_max": "301.399938"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 320,
+    "fields": {
+      "part": 776,
+      "item_count": 1,
+      "quantity": "873.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "429.679251",
+      "cost_max_currency": "USD",
+      "cost_max": "429.679251"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 321,
+    "fields": {
+      "part": 777,
+      "item_count": 1,
+      "quantity": "324.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "200.308788",
+      "cost_max_currency": "USD",
+      "cost_max": "200.308788"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 322,
+    "fields": {
+      "part": 778,
+      "item_count": 1,
+      "quantity": "312.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "170.187264",
+      "cost_max_currency": "USD",
+      "cost_max": "170.187264"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 323,
+    "fields": {
+      "part": 779,
+      "item_count": 1,
+      "quantity": "408.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "214.165320",
+      "cost_max_currency": "USD",
+      "cost_max": "214.165320"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 324,
+    "fields": {
+      "part": 780,
+      "item_count": 1,
+      "quantity": "593.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "439.765242",
+      "cost_max_currency": "USD",
+      "cost_max": "439.765242"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 325,
+    "fields": {
+      "part": 781,
+      "item_count": 1,
+      "quantity": "900.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "639.778500",
+      "cost_max_currency": "USD",
+      "cost_max": "639.778500"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 326,
+    "fields": {
+      "part": 782,
+      "item_count": 1,
+      "quantity": "762.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "508.145034",
+      "cost_max_currency": "USD",
+      "cost_max": "508.145034"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 327,
+    "fields": {
+      "part": 783,
+      "item_count": 1,
+      "quantity": "800.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "491.651200",
+      "cost_max_currency": "USD",
+      "cost_max": "491.651200"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 328,
+    "fields": {
+      "part": 784,
+      "item_count": 1,
+      "quantity": "520.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "296.115560",
+      "cost_max_currency": "USD",
+      "cost_max": "296.115560"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 329,
+    "fields": {
+      "part": 785,
+      "item_count": 1,
+      "quantity": "495.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "288.011790",
+      "cost_max_currency": "USD",
+      "cost_max": "288.011790"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 330,
+    "fields": {
+      "part": 786,
+      "item_count": 1,
+      "quantity": "371.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "260.712088",
+      "cost_max_currency": "USD",
+      "cost_max": "260.712088"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 331,
+    "fields": {
+      "part": 787,
+      "item_count": 1,
+      "quantity": "655.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "376.199250",
+      "cost_max_currency": "USD",
+      "cost_max": "376.199250"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 332,
+    "fields": {
+      "part": 788,
+      "item_count": 1,
+      "quantity": "983.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "631.451676",
+      "cost_max_currency": "USD",
+      "cost_max": "631.451676"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 333,
+    "fields": {
+      "part": 789,
+      "item_count": 1,
+      "quantity": "585.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "278.898750",
+      "cost_max_currency": "USD",
+      "cost_max": "278.898750"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 334,
+    "fields": {
+      "part": 790,
+      "item_count": 1,
+      "quantity": "707.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "412.294120",
+      "cost_max_currency": "USD",
+      "cost_max": "412.294120"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 335,
+    "fields": {
+      "part": 791,
+      "item_count": 1,
+      "quantity": "529.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "264.667693",
+      "cost_max_currency": "USD",
+      "cost_max": "264.667693"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 336,
+    "fields": {
+      "part": 792,
+      "item_count": 1,
+      "quantity": "410.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "210.685880",
+      "cost_max_currency": "USD",
+      "cost_max": "210.685880"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 337,
+    "fields": {
+      "part": 793,
+      "item_count": 1,
+      "quantity": "134.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "72.132334",
+      "cost_max_currency": "USD",
+      "cost_max": "72.132334"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 338,
+    "fields": {
+      "part": 794,
+      "item_count": 1,
+      "quantity": "761.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "577.728370",
+      "cost_max_currency": "USD",
+      "cost_max": "577.728370"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 339,
+    "fields": {
+      "part": 795,
+      "item_count": 1,
+      "quantity": "149.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "96.797403",
+      "cost_max_currency": "USD",
+      "cost_max": "96.797403"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 340,
+    "fields": {
+      "part": 796,
+      "item_count": 1,
+      "quantity": "282.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "164.140638",
+      "cost_max_currency": "USD",
+      "cost_max": "164.140638"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 341,
+    "fields": {
+      "part": 797,
+      "item_count": 1,
+      "quantity": "430.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "306.480780",
+      "cost_max_currency": "USD",
+      "cost_max": "306.480780"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 342,
+    "fields": {
+      "part": 798,
+      "item_count": 1,
+      "quantity": "537.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "390.235752",
+      "cost_max_currency": "USD",
+      "cost_max": "390.235752"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 343,
+    "fields": {
+      "part": 799,
+      "item_count": 1,
+      "quantity": "227.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "128.921926",
+      "cost_max_currency": "USD",
+      "cost_max": "128.921926"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 344,
+    "fields": {
+      "part": 800,
+      "item_count": 1,
+      "quantity": "486.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "345.190248",
+      "cost_max_currency": "USD",
+      "cost_max": "345.190248"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 345,
+    "fields": {
+      "part": 801,
+      "item_count": 1,
+      "quantity": "498.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "363.697866",
+      "cost_max_currency": "USD",
+      "cost_max": "363.697866"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 346,
+    "fields": {
+      "part": 802,
+      "item_count": 1,
+      "quantity": "383.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "262.420876",
+      "cost_max_currency": "USD",
+      "cost_max": "262.420876"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 347,
+    "fields": {
+      "part": 803,
+      "item_count": 1,
+      "quantity": "209.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "131.624020",
+      "cost_max_currency": "USD",
+      "cost_max": "131.624020"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 348,
+    "fields": {
+      "part": 804,
+      "item_count": 1,
+      "quantity": "293.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "179.674339",
+      "cost_max_currency": "USD",
+      "cost_max": "179.674339"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 349,
+    "fields": {
+      "part": 805,
+      "item_count": 1,
+      "quantity": "448.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "263.711168",
+      "cost_max_currency": "USD",
+      "cost_max": "263.711168"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 350,
+    "fields": {
+      "part": 806,
+      "item_count": 1,
+      "quantity": "451.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "246.249157",
+      "cost_max_currency": "USD",
+      "cost_max": "246.249157"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 351,
+    "fields": {
+      "part": 807,
+      "item_count": 1,
+      "quantity": "665.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "359.012885",
+      "cost_max_currency": "USD",
+      "cost_max": "359.012885"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 352,
+    "fields": {
+      "part": 808,
+      "item_count": 1,
+      "quantity": "544.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "399.544608",
+      "cost_max_currency": "USD",
+      "cost_max": "399.544608"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 353,
+    "fields": {
+      "part": 809,
+      "item_count": 1,
+      "quantity": "663.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "392.450916",
+      "cost_max_currency": "USD",
+      "cost_max": "392.450916"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 354,
+    "fields": {
+      "part": 810,
+      "item_count": 1,
+      "quantity": "838.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "612.335818",
+      "cost_max_currency": "USD",
+      "cost_max": "612.335818"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 355,
+    "fields": {
+      "part": 811,
+      "item_count": 1,
+      "quantity": "631.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "331.770966",
+      "cost_max_currency": "USD",
+      "cost_max": "331.770966"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 356,
+    "fields": {
+      "part": 812,
+      "item_count": 1,
+      "quantity": "743.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "447.426427",
+      "cost_max_currency": "USD",
+      "cost_max": "447.426427"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 357,
+    "fields": {
+      "part": 813,
+      "item_count": 1,
+      "quantity": "504.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "378.393624",
+      "cost_max_currency": "USD",
+      "cost_max": "378.393624"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 358,
+    "fields": {
+      "part": 814,
+      "item_count": 1,
+      "quantity": "174.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "85.069818",
+      "cost_max_currency": "USD",
+      "cost_max": "85.069818"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 359,
+    "fields": {
+      "part": 815,
+      "item_count": 1,
+      "quantity": "978.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "501.838206",
+      "cost_max_currency": "USD",
+      "cost_max": "501.838206"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 360,
+    "fields": {
+      "part": 816,
+      "item_count": 1,
+      "quantity": "374.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "212.452570",
+      "cost_max_currency": "USD",
+      "cost_max": "212.452570"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 361,
+    "fields": {
+      "part": 817,
+      "item_count": 1,
+      "quantity": "551.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "419.853735",
+      "cost_max_currency": "USD",
+      "cost_max": "419.853735"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 362,
+    "fields": {
+      "part": 818,
+      "item_count": 1,
+      "quantity": "768.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "432.636672",
+      "cost_max_currency": "USD",
+      "cost_max": "432.636672"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 363,
+    "fields": {
+      "part": 819,
+      "item_count": 1,
+      "quantity": "628.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "466.032520",
+      "cost_max_currency": "USD",
+      "cost_max": "466.032520"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 364,
+    "fields": {
+      "part": 820,
+      "item_count": 1,
+      "quantity": "180.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "87.032700",
+      "cost_max_currency": "USD",
+      "cost_max": "87.032700"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 365,
+    "fields": {
+      "part": 821,
+      "item_count": 1,
+      "quantity": "958.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "617.556498",
+      "cost_max_currency": "USD",
+      "cost_max": "617.556498"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 366,
+    "fields": {
+      "part": 822,
+      "item_count": 1,
+      "quantity": "230.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "148.622320",
+      "cost_max_currency": "USD",
+      "cost_max": "148.622320"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 367,
+    "fields": {
+      "part": 823,
+      "item_count": 1,
+      "quantity": "478.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "330.869210",
+      "cost_max_currency": "USD",
+      "cost_max": "330.869210"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 368,
+    "fields": {
+      "part": 824,
+      "item_count": 1,
+      "quantity": "602.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "324.789234",
+      "cost_max_currency": "USD",
+      "cost_max": "324.789234"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 369,
+    "fields": {
+      "part": 825,
+      "item_count": 1,
+      "quantity": "314.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "171.770246",
+      "cost_max_currency": "USD",
+      "cost_max": "171.770246"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 370,
+    "fields": {
+      "part": 826,
+      "item_count": 1,
+      "quantity": "976.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "663.516032",
+      "cost_max_currency": "USD",
+      "cost_max": "663.516032"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 371,
+    "fields": {
+      "part": 827,
+      "item_count": 1,
+      "quantity": "976.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "515.155248",
+      "cost_max_currency": "USD",
+      "cost_max": "515.155248"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 372,
+    "fields": {
+      "part": 828,
+      "item_count": 1,
+      "quantity": "938.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "602.301994",
+      "cost_max_currency": "USD",
+      "cost_max": "602.301994"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 373,
+    "fields": {
+      "part": 829,
+      "item_count": 1,
+      "quantity": "519.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "321.567729",
+      "cost_max_currency": "USD",
+      "cost_max": "321.567729"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 374,
+    "fields": {
+      "part": 830,
+      "item_count": 1,
+      "quantity": "892.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "647.069288",
+      "cost_max_currency": "USD",
+      "cost_max": "647.069288"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 375,
+    "fields": {
+      "part": 831,
+      "item_count": 1,
+      "quantity": "369.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "228.829815",
+      "cost_max_currency": "USD",
+      "cost_max": "228.829815"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 376,
+    "fields": {
+      "part": 832,
+      "item_count": 1,
+      "quantity": "709.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "429.183933",
+      "cost_max_currency": "USD",
+      "cost_max": "429.183933"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 377,
+    "fields": {
+      "part": 833,
+      "item_count": 1,
+      "quantity": "636.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "409.988496",
+      "cost_max_currency": "USD",
+      "cost_max": "409.988496"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 378,
+    "fields": {
+      "part": 834,
+      "item_count": 1,
+      "quantity": "593.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "432.329615",
+      "cost_max_currency": "USD",
+      "cost_max": "432.329615"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 379,
+    "fields": {
+      "part": 835,
+      "item_count": 1,
+      "quantity": "819.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "522.654678",
+      "cost_max_currency": "USD",
+      "cost_max": "522.654678"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 380,
+    "fields": {
+      "part": 836,
+      "item_count": 1,
+      "quantity": "552.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "301.053624",
+      "cost_max_currency": "USD",
+      "cost_max": "301.053624"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 381,
+    "fields": {
+      "part": 837,
+      "item_count": 1,
+      "quantity": "940.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "605.720020",
+      "cost_max_currency": "USD",
+      "cost_max": "605.720020"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 382,
+    "fields": {
+      "part": 838,
+      "item_count": 1,
+      "quantity": "857.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "430.604792",
+      "cost_max_currency": "USD",
+      "cost_max": "430.604792"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 383,
+    "fields": {
+      "part": 839,
+      "item_count": 1,
+      "quantity": "300.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "190.856700",
+      "cost_max_currency": "USD",
+      "cost_max": "190.856700"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 384,
+    "fields": {
+      "part": 840,
+      "item_count": 1,
+      "quantity": "295.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "218.146010",
+      "cost_max_currency": "USD",
+      "cost_max": "218.146010"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 385,
+    "fields": {
+      "part": 842,
+      "item_count": 1,
+      "quantity": "11.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 386,
+    "fields": {
+      "part": 843,
+      "item_count": 1,
+      "quantity": "10.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 387,
+    "fields": {
+      "part": 844,
+      "item_count": 1,
+      "quantity": "25.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 388,
+    "fields": {
+      "part": 846,
+      "item_count": 1,
+      "quantity": "19.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 389,
+    "fields": {
+      "part": 847,
+      "item_count": 1,
+      "quantity": "21.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 390,
+    "fields": {
+      "part": 848,
+      "item_count": 1,
+      "quantity": "22.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 391,
+    "fields": {
+      "part": 849,
+      "item_count": 1,
+      "quantity": "8.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 392,
+    "fields": {
+      "part": 850,
+      "item_count": 1,
+      "quantity": "22.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 393,
+    "fields": {
+      "part": 851,
+      "item_count": 1,
+      "quantity": "25.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 394,
+    "fields": {
+      "part": 852,
+      "item_count": 1,
+      "quantity": "22.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 395,
+    "fields": {
+      "part": 854,
+      "item_count": 1,
+      "quantity": "18.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 396,
+    "fields": {
+      "part": 855,
+      "item_count": 1,
+      "quantity": "23.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 397,
+    "fields": {
+      "part": 856,
+      "item_count": 1,
+      "quantity": "6.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 398,
+    "fields": {
+      "part": 857,
+      "item_count": 1,
+      "quantity": "25.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 399,
+    "fields": {
+      "part": 858,
+      "item_count": 1,
+      "quantity": "18.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 400,
+    "fields": {
+      "part": 859,
+      "item_count": 1,
+      "quantity": "8.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 401,
+    "fields": {
+      "part": 860,
+      "item_count": 1,
+      "quantity": "15.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 402,
+    "fields": {
+      "part": 861,
+      "item_count": 1,
+      "quantity": "3.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 403,
+    "fields": {
+      "part": 863,
+      "item_count": 1,
+      "quantity": "8.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 404,
+    "fields": {
+      "part": 864,
+      "item_count": 1,
+      "quantity": "15.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 405,
+    "fields": {
+      "part": 865,
+      "item_count": 1,
+      "quantity": "24.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 406,
+    "fields": {
+      "part": 866,
+      "item_count": 1,
+      "quantity": "25.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 407,
+    "fields": {
+      "part": 867,
+      "item_count": 1,
+      "quantity": "18.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 408,
+    "fields": {
+      "part": 868,
+      "item_count": 1,
+      "quantity": "22.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 409,
+    "fields": {
+      "part": 870,
+      "item_count": 1,
+      "quantity": "15.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 410,
+    "fields": {
+      "part": 871,
+      "item_count": 1,
+      "quantity": "19.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 411,
+    "fields": {
+      "part": 872,
+      "item_count": 1,
+      "quantity": "23.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 412,
+    "fields": {
+      "part": 875,
+      "item_count": 1,
+      "quantity": "4.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 413,
+    "fields": {
+      "part": 876,
+      "item_count": 1,
+      "quantity": "10.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 414,
+    "fields": {
+      "part": 877,
+      "item_count": 1,
+      "quantity": "12.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 415,
+    "fields": {
+      "part": 879,
+      "item_count": 1,
+      "quantity": "8.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 416,
+    "fields": {
+      "part": 880,
+      "item_count": 1,
+      "quantity": "9.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 417,
+    "fields": {
+      "part": 881,
+      "item_count": 1,
+      "quantity": "5.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 418,
+    "fields": {
+      "part": 883,
+      "item_count": 1,
+      "quantity": "11.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 419,
+    "fields": {
+      "part": 884,
+      "item_count": 1,
+      "quantity": "15.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 420,
+    "fields": {
+      "part": 885,
+      "item_count": 1,
+      "quantity": "23.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 421,
+    "fields": {
+      "part": 886,
+      "item_count": 1,
+      "quantity": "9.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 422,
+    "fields": {
+      "part": 888,
+      "item_count": 1,
+      "quantity": "3.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 423,
+    "fields": {
+      "part": 889,
+      "item_count": 1,
+      "quantity": "20.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 424,
+    "fields": {
+      "part": 890,
+      "item_count": 1,
+      "quantity": "14.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 425,
+    "fields": {
+      "part": 892,
+      "item_count": 1,
+      "quantity": "17.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 426,
+    "fields": {
+      "part": 893,
+      "item_count": 1,
+      "quantity": "20.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 427,
+    "fields": {
+      "part": 894,
+      "item_count": 1,
+      "quantity": "2.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "0.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "0.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 428,
+    "fields": {
+      "part": 896,
+      "item_count": 2,
+      "quantity": "203.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "50009.000000",
+      "cost_max_currency": "USD",
+      "cost_max": "50009.000000"
+    }
+  },
+  {
+    "model": "part.partstocktake",
+    "pk": 429,
+    "fields": {
+      "part": 897,
+      "item_count": 2,
+      "quantity": "501.00000",
+      "date": "2023-02-21",
+      "note": "",
+      "user": 1,
+      "cost_min_currency": "USD",
+      "cost_min": "514503.550000",
+      "cost_max_currency": "USD",
+      "cost_max": "514503.550000"
     }
   },
   {
