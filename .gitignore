@@ -1,6 +1,7 @@
 # Ignore media files which are auto-generated
 /media/label/inventree/
 /media/report/inventree/
+/media/stocktake/report/
 
 # Ignore backup dir
 /backup/
