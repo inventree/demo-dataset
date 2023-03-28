@@ -2983,8 +2983,40 @@
     "model": "common.inventreesetting",
     "pk": 118,
     "fields": {
-      "value": "False",
+      "value": "True",
       "key": "RETURNORDER_ENABLED"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 119,
+    "fields": {
+      "value": "True",
+      "key": "PART_ENABLE_REVISION"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 120,
+    "fields": {
+      "value": "0",
+      "key": "PRICING_DECIMAL_PLACES_MIN"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 121,
+    "fields": {
+      "value": "RMA-{ref:04d}",
+      "key": "RETURNORDER_REFERENCE_PATTERN"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 122,
+    "fields": {
+      "value": "False",
+      "key": "RETURNORDER_EDIT_COMPLETED_ORDERS"
     }
   },
   {
@@ -3992,6 +4024,24 @@
     "fields": {
       "value": "",
       "key": "LABEL_DEFAULT_PRINTER",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 131,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
+      "user": 1
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 132,
+    "fields": {
+      "value": "True",
+      "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
       "user": 1
     }
   },
@@ -37838,6 +37888,219 @@
     }
   },
   {
+    "model": "order.returnorder",
+    "pk": 1,
+    "fields": {
+      "metadata": null,
+      "reference_int": 1,
+      "total_price_currency": "USD",
+      "total_price": "137.000000",
+      "description": "Returning some items for analysis",
+      "link": "",
+      "target_date": "2023-06-15",
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": 2,
+      "contact": 4,
+      "notes": null,
+      "reference": "RMA-0001",
+      "customer": 30,
+      "status": 10,
+      "customer_reference": "RO-123774",
+      "issue_date": null,
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.returnorder",
+    "pk": 2,
+    "fields": {
+      "metadata": null,
+      "reference_int": 2,
+      "total_price_currency": "USD",
+      "total_price": "0.000000",
+      "description": "Some units failed in the field",
+      "link": "",
+      "target_date": null,
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": 5,
+      "contact": 5,
+      "notes": null,
+      "reference": "RMA-0002",
+      "customer": 32,
+      "status": 20,
+      "customer_reference": "RR-99",
+      "issue_date": "2023-03-28",
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.returnorder",
+    "pk": 3,
+    "fields": {
+      "metadata": null,
+      "reference_int": 3,
+      "total_price_currency": "USD",
+      "total_price": "0.000000",
+      "description": "A second one",
+      "link": "",
+      "target_date": null,
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": null,
+      "contact": 40,
+      "notes": null,
+      "reference": "RMA-0003",
+      "customer": 32,
+      "status": 30,
+      "customer_reference": "",
+      "issue_date": "2023-03-28",
+      "complete_date": "2023-03-28"
+    }
+  },
+  {
+    "model": "order.returnorder",
+    "pk": 4,
+    "fields": {
+      "metadata": null,
+      "reference_int": 4,
+      "total_price_currency": "USD",
+      "total_price": "0.000000",
+      "description": "Items emitted the wrong sort of noise",
+      "link": "",
+      "target_date": null,
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": null,
+      "contact": 6,
+      "notes": null,
+      "reference": "RMA-0004",
+      "customer": 33,
+      "status": 10,
+      "customer_reference": "NOISE-COMPLAINT",
+      "issue_date": null,
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.returnorder",
+    "pk": 5,
+    "fields": {
+      "metadata": null,
+      "reference_int": 5,
+      "total_price_currency": "USD",
+      "total_price": "0.000000",
+      "description": "Cancelled order",
+      "link": "",
+      "target_date": null,
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": null,
+      "contact": null,
+      "notes": null,
+      "reference": "RMA-0005",
+      "customer": 35,
+      "status": 40,
+      "customer_reference": "",
+      "issue_date": null,
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.returnorder",
+    "pk": 6,
+    "fields": {
+      "metadata": null,
+      "reference_int": 6,
+      "total_price_currency": "USD",
+      "total_price": "0.000000",
+      "description": "Another cancelled order",
+      "link": "",
+      "target_date": null,
+      "creation_date": "2023-03-28",
+      "created_by": 1,
+      "responsible": null,
+      "contact": 8,
+      "notes": null,
+      "reference": "RMA-0006",
+      "customer": 35,
+      "status": 40,
+      "customer_reference": "",
+      "issue_date": null,
+      "complete_date": null
+    }
+  },
+  {
+    "model": "order.returnorderlineitem",
+    "pk": 1,
+    "fields": {
+      "metadata": null,
+      "quantity": "1.00000",
+      "reference": "",
+      "notes": "Apparently let out the magic smoke",
+      "target_date": "2023-04-20",
+      "order": 2,
+      "item": 1012,
+      "received_date": "2023-03-28",
+      "outcome": 10,
+      "price_currency": "USD",
+      "price": null,
+      "link": ""
+    }
+  },
+  {
+    "model": "order.returnorderlineitem",
+    "pk": 2,
+    "fields": {
+      "metadata": null,
+      "quantity": "1.00000",
+      "reference": "",
+      "notes": "Wrong color",
+      "target_date": "2023-06-23",
+      "order": 2,
+      "item": 1020,
+      "received_date": null,
+      "outcome": 10,
+      "price_currency": "USD",
+      "price": null,
+      "link": ""
+    }
+  },
+  {
+    "model": "order.returnorderlineitem",
+    "pk": 3,
+    "fields": {
+      "metadata": null,
+      "quantity": "1.00000",
+      "reference": "",
+      "notes": "",
+      "target_date": null,
+      "order": 3,
+      "item": 1017,
+      "received_date": "2023-03-28",
+      "outcome": 40,
+      "price_currency": "USD",
+      "price": null,
+      "link": ""
+    }
+  },
+  {
+    "model": "order.returnorderextraline",
+    "pk": 1,
+    "fields": {
+      "metadata": null,
+      "quantity": "1.00000",
+      "reference": "Shipping",
+      "notes": "Carrier pigeon",
+      "target_date": null,
+      "context": null,
+      "price_currency": "USD",
+      "price": "137.000000",
+      "order": 1
+    }
+  },
+  {
     "model": "part.partcategory",
     "pk": 1,
     "fields": {
@@ -57740,7 +58003,7 @@
     "model": "part.partpricing",
     "pk": 440,
     "fields": {
-      "updated": "2023-03-28T10:31:09.315Z",
+      "updated": "2023-03-28T10:56:16.765Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 113,
@@ -58958,7 +59221,7 @@
     "model": "part.partpricing",
     "pk": 469,
     "fields": {
-      "updated": "2023-03-28T10:31:08.750Z",
+      "updated": "2023-03-28T10:56:16.534Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 77,
@@ -59042,7 +59305,7 @@
     "model": "part.partpricing",
     "pk": 471,
     "fields": {
-      "updated": "2023-03-28T10:31:07.225Z",
+      "updated": "2023-03-28T10:56:16.134Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 81,
@@ -134271,17 +134534,17 @@
     "model": "stock.stockitem",
     "pk": 1012,
     "fields": {
-      "updated": "2022-11-12T00:00:00Z",
+      "updated": "2023-03-28T10:55:30.067Z",
       "metadata": null,
       "barcode_data": "",
       "barcode_hash": "",
       "parent": null,
       "part": 81,
       "supplier_part": null,
-      "location": null,
+      "location": 5,
       "packaging": "",
       "belongs_to": null,
-      "customer": 32,
+      "customer": null,
       "serial": "25",
       "serial_int": 25,
       "link": "",
@@ -134296,7 +134559,7 @@
       "stocktake_user": null,
       "review_needed": false,
       "delete_on_deplete": false,
-      "status": 10,
+      "status": 75,
       "notes": null,
       "purchase_price_currency": "USD",
       "purchase_price": null,
@@ -134471,17 +134734,17 @@
     "model": "stock.stockitem",
     "pk": 1017,
     "fields": {
-      "updated": "2022-11-12T00:00:00Z",
+      "updated": "2023-03-28T10:56:15.592Z",
       "metadata": null,
       "barcode_data": "",
       "barcode_hash": "",
       "parent": null,
       "part": 81,
       "supplier_part": null,
-      "location": null,
+      "location": 2,
       "packaging": "",
       "belongs_to": null,
-      "customer": 32,
+      "customer": null,
       "serial": "30",
       "serial_int": 30,
       "link": "",
@@ -134496,7 +134759,7 @@
       "stocktake_user": null,
       "review_needed": false,
       "delete_on_deplete": false,
-      "status": 10,
+      "status": 75,
       "notes": null,
       "purchase_price_currency": "USD",
       "purchase_price": null,
@@ -157289,6 +157552,40 @@
         "location": 3,
         "quantity": 1.0,
         "purchaseorder": 10
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1090,
+    "fields": {
+      "tracking_type": 80,
+      "item": 1012,
+      "date": "2023-03-28T10:55:30.095Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 75,
+        "customer": 32,
+        "location": 5,
+        "returnorder": 2
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1091,
+    "fields": {
+      "tracking_type": 80,
+      "item": 1017,
+      "date": "2023-03-28T10:56:15.619Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 75,
+        "customer": 32,
+        "location": 2,
+        "returnorder": 3
       }
     }
   },
