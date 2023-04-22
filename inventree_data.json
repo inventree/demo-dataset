@@ -158972,9 +158972,9 @@
       "name": "stocktake",
       "group": 3,
       "can_view": true,
-      "can_add": false,
-      "can_change": false,
-      "can_delete": false
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
     }
   },
   {
@@ -159008,9 +159008,9 @@
       "name": "return_order",
       "group": 3,
       "can_view": true,
-      "can_add": false,
-      "can_change": false,
-      "can_delete": false
+      "can_add": true,
+      "can_change": true,
+      "can_delete": true
     }
   },
   {
