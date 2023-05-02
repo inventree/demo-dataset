@@ -2331,14 +2331,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 16,
-    "fields": {
-      "value": "https://demo.inventree.org",
-      "key": "INVENTREE_BASE_URL"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 17,
     "fields": {
       "value": "InvenTree",
