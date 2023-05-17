@@ -95413,6 +95413,606 @@
     }
   },
   {
+    "model": "part.partparameter",
+    "pk": 1817,
+    "fields": {
+      "part": 49,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1818,
+    "fields": {
+      "part": 50,
+      "template": 3,
+      "data": "20",
+      "data_numeric": 20.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1819,
+    "fields": {
+      "part": 51,
+      "template": 3,
+      "data": "10",
+      "data_numeric": 10.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1820,
+    "fields": {
+      "part": 52,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1821,
+    "fields": {
+      "part": 53,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1822,
+    "fields": {
+      "part": 54,
+      "template": 3,
+      "data": "10",
+      "data_numeric": 10.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1823,
+    "fields": {
+      "part": 55,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1824,
+    "fields": {
+      "part": 56,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1825,
+    "fields": {
+      "part": 57,
+      "template": 3,
+      "data": "10",
+      "data_numeric": 10.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1826,
+    "fields": {
+      "part": 58,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1827,
+    "fields": {
+      "part": 59,
+      "template": 3,
+      "data": "5",
+      "data_numeric": 5.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1828,
+    "fields": {
+      "part": 60,
+      "template": 3,
+      "data": "20",
+      "data_numeric": 20.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1829,
+    "fields": {
+      "part": 1,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1830,
+    "fields": {
+      "part": 2,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1831,
+    "fields": {
+      "part": 3,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1832,
+    "fields": {
+      "part": 4,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1833,
+    "fields": {
+      "part": 5,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1834,
+    "fields": {
+      "part": 6,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1835,
+    "fields": {
+      "part": 7,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1836,
+    "fields": {
+      "part": 8,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1837,
+    "fields": {
+      "part": 9,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1838,
+    "fields": {
+      "part": 10,
+      "template": 17,
+      "data": "1/2",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1839,
+    "fields": {
+      "part": 11,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1840,
+    "fields": {
+      "part": 12,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1841,
+    "fields": {
+      "part": 13,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1842,
+    "fields": {
+      "part": 14,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1843,
+    "fields": {
+      "part": 15,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1844,
+    "fields": {
+      "part": 16,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1845,
+    "fields": {
+      "part": 17,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1846,
+    "fields": {
+      "part": 18,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1847,
+    "fields": {
+      "part": 19,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1848,
+    "fields": {
+      "part": 20,
+      "template": 17,
+      "data": "1/2",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1849,
+    "fields": {
+      "part": 21,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1850,
+    "fields": {
+      "part": 22,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1851,
+    "fields": {
+      "part": 23,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1852,
+    "fields": {
+      "part": 24,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1853,
+    "fields": {
+      "part": 25,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1854,
+    "fields": {
+      "part": 26,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1855,
+    "fields": {
+      "part": 27,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1856,
+    "fields": {
+      "part": 28,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1857,
+    "fields": {
+      "part": 29,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1858,
+    "fields": {
+      "part": 30,
+      "template": 17,
+      "data": "1/2",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1859,
+    "fields": {
+      "part": 31,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1860,
+    "fields": {
+      "part": 32,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1861,
+    "fields": {
+      "part": 33,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1862,
+    "fields": {
+      "part": 34,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1863,
+    "fields": {
+      "part": 35,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1864,
+    "fields": {
+      "part": 36,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1865,
+    "fields": {
+      "part": 37,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1866,
+    "fields": {
+      "part": 38,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1867,
+    "fields": {
+      "part": 39,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1868,
+    "fields": {
+      "part": 40,
+      "template": 17,
+      "data": "1/2",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1869,
+    "fields": {
+      "part": 41,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1870,
+    "fields": {
+      "part": 42,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1871,
+    "fields": {
+      "part": 43,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1872,
+    "fields": {
+      "part": 44,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1873,
+    "fields": {
+      "part": 45,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1874,
+    "fields": {
+      "part": 46,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1875,
+    "fields": {
+      "part": 47,
+      "template": 17,
+      "data": "1/10",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1876,
+    "fields": {
+      "part": 48,
+      "template": 17,
+      "data": "1/5",
+      "data_numeric": 0.0
+    }
+  },
+  {
     "model": "part.bomitem",
     "pk": 1,
     "fields": {
