@@ -84336,10 +84336,10 @@
     "model": "part.partparametertemplate",
     "pk": 2,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "name": "Resistance",
-      "units": "Ohms",
-      "description": ""
+      "units": "ohms",
+      "description": "Resistance value"
     }
   },
   {
@@ -84348,7 +84348,7 @@
     "fields": {
       "metadata": null,
       "name": "Tolerance",
-      "units": "%",
+      "units": "percent",
       "description": ""
     }
   },
@@ -84453,13 +84453,23 @@
     }
   },
   {
+    "model": "part.partparametertemplate",
+    "pk": 14,
+    "fields": {
+      "metadata": {},
+      "name": "Voltage",
+      "units": "V",
+      "description": "Rated voltage"
+    }
+  },
+  {
     "model": "part.partparameter",
     "pk": 1,
     "fields": {
       "part": 1,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84468,8 +84478,8 @@
     "fields": {
       "part": 1,
       "template": 2,
-      "data": "10R",
-      "data_numeric": 0.0
+      "data": "10",
+      "data_numeric": 10.0
     }
   },
   {
@@ -84479,7 +84489,7 @@
       "part": 1,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84489,7 +84499,7 @@
       "part": 2,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84498,8 +84508,8 @@
     "fields": {
       "part": 2,
       "template": 2,
-      "data": "10R",
-      "data_numeric": 0.0
+      "data": "10",
+      "data_numeric": 10.0
     }
   },
   {
@@ -84509,7 +84519,7 @@
       "part": 2,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84519,7 +84529,7 @@
       "part": 3,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84528,8 +84538,8 @@
     "fields": {
       "part": 3,
       "template": 2,
-      "data": "10R",
-      "data_numeric": 0.0
+      "data": "10",
+      "data_numeric": 10.0
     }
   },
   {
@@ -84539,7 +84549,7 @@
       "part": 3,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84549,7 +84559,7 @@
       "part": 4,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84558,8 +84568,8 @@
     "fields": {
       "part": 4,
       "template": 2,
-      "data": "100R",
-      "data_numeric": 0.0
+      "data": "100",
+      "data_numeric": 100.0
     }
   },
   {
@@ -84569,7 +84579,7 @@
       "part": 4,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84579,7 +84589,7 @@
       "part": 5,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84588,8 +84598,8 @@
     "fields": {
       "part": 5,
       "template": 2,
-      "data": "100R",
-      "data_numeric": 0.0
+      "data": "100",
+      "data_numeric": 100.0
     }
   },
   {
@@ -84599,7 +84609,7 @@
       "part": 5,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84609,7 +84619,7 @@
       "part": 6,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84618,8 +84628,8 @@
     "fields": {
       "part": 6,
       "template": 2,
-      "data": "100R",
-      "data_numeric": 0.0
+      "data": "100",
+      "data_numeric": 100.0
     }
   },
   {
@@ -84629,7 +84639,7 @@
       "part": 6,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84639,7 +84649,7 @@
       "part": 7,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84648,8 +84658,8 @@
     "fields": {
       "part": 7,
       "template": 2,
-      "data": "220R",
-      "data_numeric": 0.0
+      "data": "220",
+      "data_numeric": 220.0
     }
   },
   {
@@ -84659,7 +84669,7 @@
       "part": 7,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84669,7 +84679,7 @@
       "part": 8,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84678,8 +84688,8 @@
     "fields": {
       "part": 8,
       "template": 2,
-      "data": "220R",
-      "data_numeric": 0.0
+      "data": "220",
+      "data_numeric": 220.0
     }
   },
   {
@@ -84689,7 +84699,7 @@
       "part": 8,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84699,7 +84709,7 @@
       "part": 9,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84708,8 +84718,8 @@
     "fields": {
       "part": 9,
       "template": 2,
-      "data": "220R",
-      "data_numeric": 0.0
+      "data": "220",
+      "data_numeric": 220.0
     }
   },
   {
@@ -84719,7 +84729,7 @@
       "part": 9,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84729,7 +84739,7 @@
       "part": 10,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84738,8 +84748,8 @@
     "fields": {
       "part": 10,
       "template": 2,
-      "data": "470R",
-      "data_numeric": 0.0
+      "data": "470",
+      "data_numeric": 470.0
     }
   },
   {
@@ -84749,7 +84759,7 @@
       "part": 10,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84759,7 +84769,7 @@
       "part": 11,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84768,8 +84778,8 @@
     "fields": {
       "part": 11,
       "template": 2,
-      "data": "470R",
-      "data_numeric": 0.0
+      "data": "470",
+      "data_numeric": 470.0
     }
   },
   {
@@ -84779,7 +84789,7 @@
       "part": 11,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84789,7 +84799,7 @@
       "part": 12,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84798,8 +84808,8 @@
     "fields": {
       "part": 12,
       "template": 2,
-      "data": "470R",
-      "data_numeric": 0.0
+      "data": "470",
+      "data_numeric": 470.0
     }
   },
   {
@@ -84809,7 +84819,7 @@
       "part": 12,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84819,7 +84829,7 @@
       "part": 13,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84828,8 +84838,8 @@
     "fields": {
       "part": 13,
       "template": 2,
-      "data": "550R",
-      "data_numeric": 0.0
+      "data": "550",
+      "data_numeric": 550.0
     }
   },
   {
@@ -84839,7 +84849,7 @@
       "part": 13,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84849,7 +84859,7 @@
       "part": 14,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84858,8 +84868,8 @@
     "fields": {
       "part": 14,
       "template": 2,
-      "data": "550R",
-      "data_numeric": 0.0
+      "data": "550",
+      "data_numeric": 550.0
     }
   },
   {
@@ -84869,7 +84879,7 @@
       "part": 14,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84879,7 +84889,7 @@
       "part": 15,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84888,8 +84898,8 @@
     "fields": {
       "part": 15,
       "template": 2,
-      "data": "550R",
-      "data_numeric": 0.0
+      "data": "550",
+      "data_numeric": 550.0
     }
   },
   {
@@ -84899,7 +84909,7 @@
       "part": 15,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84909,7 +84919,7 @@
       "part": 16,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -84929,7 +84939,7 @@
       "part": 16,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84939,7 +84949,7 @@
       "part": 17,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -84959,7 +84969,7 @@
       "part": 17,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84969,7 +84979,7 @@
       "part": 18,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -84989,7 +84999,7 @@
       "part": 18,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -84999,7 +85009,7 @@
       "part": 19,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85019,7 +85029,7 @@
       "part": 19,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85029,7 +85039,7 @@
       "part": 20,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85049,7 +85059,7 @@
       "part": 20,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85059,7 +85069,7 @@
       "part": 21,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85079,7 +85089,7 @@
       "part": 21,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85089,7 +85099,7 @@
       "part": 22,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85109,7 +85119,7 @@
       "part": 22,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85119,7 +85129,7 @@
       "part": 23,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85139,7 +85149,7 @@
       "part": 23,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85149,7 +85159,7 @@
       "part": 24,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85169,7 +85179,7 @@
       "part": 24,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85179,7 +85189,7 @@
       "part": 25,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85199,7 +85209,7 @@
       "part": 25,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85209,7 +85219,7 @@
       "part": 26,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85229,7 +85239,7 @@
       "part": 26,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85239,7 +85249,7 @@
       "part": 27,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85259,7 +85269,7 @@
       "part": 27,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85269,7 +85279,7 @@
       "part": 28,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85289,7 +85299,7 @@
       "part": 28,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85299,7 +85309,7 @@
       "part": 29,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85319,7 +85329,7 @@
       "part": 29,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85329,7 +85339,7 @@
       "part": 30,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85349,7 +85359,7 @@
       "part": 30,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85359,7 +85369,7 @@
       "part": 31,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85379,7 +85389,7 @@
       "part": 31,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85389,7 +85399,7 @@
       "part": 32,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85409,7 +85419,7 @@
       "part": 32,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85419,7 +85429,7 @@
       "part": 33,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85439,7 +85449,7 @@
       "part": 33,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85449,7 +85459,7 @@
       "part": 34,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85469,7 +85479,7 @@
       "part": 34,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85479,7 +85489,7 @@
       "part": 35,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85499,7 +85509,7 @@
       "part": 35,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85509,7 +85519,7 @@
       "part": 36,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85529,7 +85539,7 @@
       "part": 36,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85539,7 +85549,7 @@
       "part": 37,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85559,7 +85569,7 @@
       "part": 37,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85569,7 +85579,7 @@
       "part": 38,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85589,7 +85599,7 @@
       "part": 38,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85599,7 +85609,7 @@
       "part": 39,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85619,7 +85629,7 @@
       "part": 39,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85629,7 +85639,7 @@
       "part": 40,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85649,7 +85659,7 @@
       "part": 40,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85659,7 +85669,7 @@
       "part": 41,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85679,7 +85689,7 @@
       "part": 41,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85689,7 +85699,7 @@
       "part": 42,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85709,7 +85719,7 @@
       "part": 42,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85719,7 +85729,7 @@
       "part": 43,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85739,7 +85749,7 @@
       "part": 43,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85749,7 +85759,7 @@
       "part": 44,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85769,7 +85779,7 @@
       "part": 44,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85779,7 +85789,7 @@
       "part": 45,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85799,7 +85809,7 @@
       "part": 45,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85809,7 +85819,7 @@
       "part": 46,
       "template": 1,
       "data": "0402",
-      "data_numeric": 0.0
+      "data_numeric": 402.0
     }
   },
   {
@@ -85829,7 +85839,7 @@
       "part": 46,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85839,7 +85849,7 @@
       "part": 47,
       "template": 1,
       "data": "0603",
-      "data_numeric": 0.0
+      "data_numeric": 603.0
     }
   },
   {
@@ -85859,7 +85869,7 @@
       "part": 47,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85869,7 +85879,7 @@
       "part": 48,
       "template": 1,
       "data": "0805",
-      "data_numeric": 0.0
+      "data_numeric": 805.0
     }
   },
   {
@@ -85889,7 +85899,7 @@
       "part": 48,
       "template": 3,
       "data": "1%",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -85899,7 +85909,7 @@
       "part": 63,
       "template": 4,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -85919,7 +85929,7 @@
       "part": 64,
       "template": 4,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -85939,7 +85949,7 @@
       "part": 65,
       "template": 4,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -85959,7 +85969,7 @@
       "part": 66,
       "template": 4,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -85979,7 +85989,7 @@
       "part": 67,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -85999,7 +86009,7 @@
       "part": 82,
       "template": 4,
       "data": "35",
-      "data_numeric": 0.0
+      "data_numeric": 35.0
     }
   },
   {
@@ -86009,7 +86019,7 @@
       "part": 82,
       "template": 6,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86019,7 +86029,7 @@
       "part": 82,
       "template": 7,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86029,7 +86039,7 @@
       "part": 83,
       "template": 7,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86039,7 +86049,7 @@
       "part": 83,
       "template": 4,
       "data": "35",
-      "data_numeric": 0.0
+      "data_numeric": 35.0
     }
   },
   {
@@ -86049,7 +86059,7 @@
       "part": 83,
       "template": 6,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86059,7 +86069,7 @@
       "part": 84,
       "template": 7,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86069,7 +86079,7 @@
       "part": 84,
       "template": 4,
       "data": "35",
-      "data_numeric": 0.0
+      "data_numeric": 35.0
     }
   },
   {
@@ -86079,7 +86089,7 @@
       "part": 84,
       "template": 6,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86089,7 +86099,7 @@
       "part": 86,
       "template": 4,
       "data": "147",
-      "data_numeric": 0.0
+      "data_numeric": 147.0
     }
   },
   {
@@ -86099,7 +86109,7 @@
       "part": 86,
       "template": 6,
       "data": "90",
-      "data_numeric": 0.0
+      "data_numeric": 90.0
     }
   },
   {
@@ -86109,7 +86119,7 @@
       "part": 86,
       "template": 7,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -86289,7 +86299,7 @@
       "part": 601,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -86319,7 +86329,7 @@
       "part": 602,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -86349,7 +86359,7 @@
       "part": 603,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86379,7 +86389,7 @@
       "part": 604,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86409,7 +86419,7 @@
       "part": 605,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -86439,7 +86449,7 @@
       "part": 606,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -86469,7 +86479,7 @@
       "part": 607,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -86499,7 +86509,7 @@
       "part": 608,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86529,7 +86539,7 @@
       "part": 609,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86559,7 +86569,7 @@
       "part": 610,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -86589,7 +86599,7 @@
       "part": 611,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -86619,7 +86629,7 @@
       "part": 612,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -86649,7 +86659,7 @@
       "part": 613,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86679,7 +86689,7 @@
       "part": 614,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86709,7 +86719,7 @@
       "part": 615,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -86739,7 +86749,7 @@
       "part": 616,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -86769,7 +86779,7 @@
       "part": 617,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -86799,7 +86809,7 @@
       "part": 618,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86829,7 +86839,7 @@
       "part": 619,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -86859,7 +86869,7 @@
       "part": 620,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -86889,7 +86899,7 @@
       "part": 621,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -86919,7 +86929,7 @@
       "part": 622,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -86949,7 +86959,7 @@
       "part": 623,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -86979,7 +86989,7 @@
       "part": 624,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87009,7 +87019,7 @@
       "part": 625,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87039,7 +87049,7 @@
       "part": 626,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87069,7 +87079,7 @@
       "part": 627,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87099,7 +87109,7 @@
       "part": 628,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87129,7 +87139,7 @@
       "part": 629,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87159,7 +87169,7 @@
       "part": 630,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87189,7 +87199,7 @@
       "part": 631,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87219,7 +87229,7 @@
       "part": 632,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87249,7 +87259,7 @@
       "part": 633,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87279,7 +87289,7 @@
       "part": 634,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87309,7 +87319,7 @@
       "part": 635,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87339,7 +87349,7 @@
       "part": 636,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87369,7 +87379,7 @@
       "part": 637,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87399,7 +87409,7 @@
       "part": 638,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87429,7 +87439,7 @@
       "part": 639,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87459,7 +87469,7 @@
       "part": 640,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87489,7 +87499,7 @@
       "part": 641,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87519,7 +87529,7 @@
       "part": 642,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87549,7 +87559,7 @@
       "part": 643,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87579,7 +87589,7 @@
       "part": 644,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87609,7 +87619,7 @@
       "part": 645,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87639,7 +87649,7 @@
       "part": 646,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87669,7 +87679,7 @@
       "part": 647,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87699,7 +87709,7 @@
       "part": 648,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87729,7 +87739,7 @@
       "part": 649,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87759,7 +87769,7 @@
       "part": 650,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87789,7 +87799,7 @@
       "part": 651,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87819,7 +87829,7 @@
       "part": 652,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87849,7 +87859,7 @@
       "part": 653,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -87879,7 +87889,7 @@
       "part": 654,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -87909,7 +87919,7 @@
       "part": 655,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -87939,7 +87949,7 @@
       "part": 656,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -87969,7 +87979,7 @@
       "part": 657,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -87999,7 +88009,7 @@
       "part": 658,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88029,7 +88039,7 @@
       "part": 659,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88059,7 +88069,7 @@
       "part": 660,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88089,7 +88099,7 @@
       "part": 661,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88119,7 +88129,7 @@
       "part": 662,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88149,7 +88159,7 @@
       "part": 663,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88179,7 +88189,7 @@
       "part": 664,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88209,7 +88219,7 @@
       "part": 665,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88239,7 +88249,7 @@
       "part": 666,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88269,7 +88279,7 @@
       "part": 667,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88299,7 +88309,7 @@
       "part": 668,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88329,7 +88339,7 @@
       "part": 669,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88359,7 +88369,7 @@
       "part": 670,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88389,7 +88399,7 @@
       "part": 671,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88419,7 +88429,7 @@
       "part": 672,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88449,7 +88459,7 @@
       "part": 673,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88479,7 +88489,7 @@
       "part": 674,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88509,7 +88519,7 @@
       "part": 675,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88539,7 +88549,7 @@
       "part": 676,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88569,7 +88579,7 @@
       "part": 677,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88599,7 +88609,7 @@
       "part": 678,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88629,7 +88639,7 @@
       "part": 679,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88659,7 +88669,7 @@
       "part": 680,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88689,7 +88699,7 @@
       "part": 681,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88719,7 +88729,7 @@
       "part": 682,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88749,7 +88759,7 @@
       "part": 683,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88779,7 +88789,7 @@
       "part": 684,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88809,7 +88819,7 @@
       "part": 685,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88839,7 +88849,7 @@
       "part": 686,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -88869,7 +88879,7 @@
       "part": 687,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -88899,7 +88909,7 @@
       "part": 688,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -88929,7 +88939,7 @@
       "part": 689,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -88959,7 +88969,7 @@
       "part": 690,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -88989,7 +88999,7 @@
       "part": 691,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89019,7 +89029,7 @@
       "part": 692,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89049,7 +89059,7 @@
       "part": 693,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89079,7 +89089,7 @@
       "part": 694,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89109,7 +89119,7 @@
       "part": 695,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89139,7 +89149,7 @@
       "part": 696,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89169,7 +89179,7 @@
       "part": 697,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89199,7 +89209,7 @@
       "part": 698,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89229,7 +89239,7 @@
       "part": 699,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89259,7 +89269,7 @@
       "part": 700,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89289,7 +89299,7 @@
       "part": 701,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89319,7 +89329,7 @@
       "part": 702,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89349,7 +89359,7 @@
       "part": 703,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89379,7 +89389,7 @@
       "part": 704,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89409,7 +89419,7 @@
       "part": 705,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89439,7 +89449,7 @@
       "part": 706,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89469,7 +89479,7 @@
       "part": 707,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89499,7 +89509,7 @@
       "part": 708,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89529,7 +89539,7 @@
       "part": 709,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89559,7 +89569,7 @@
       "part": 710,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89589,7 +89599,7 @@
       "part": 711,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89619,7 +89629,7 @@
       "part": 712,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89649,7 +89659,7 @@
       "part": 713,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89679,7 +89689,7 @@
       "part": 714,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89709,7 +89719,7 @@
       "part": 715,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89739,7 +89749,7 @@
       "part": 716,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89769,7 +89779,7 @@
       "part": 717,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89799,7 +89809,7 @@
       "part": 718,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89829,7 +89839,7 @@
       "part": 719,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -89859,7 +89869,7 @@
       "part": 720,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -89889,7 +89899,7 @@
       "part": 721,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -89919,7 +89929,7 @@
       "part": 722,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -89949,7 +89959,7 @@
       "part": 723,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -89979,7 +89989,7 @@
       "part": 724,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90009,7 +90019,7 @@
       "part": 725,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90039,7 +90049,7 @@
       "part": 726,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90069,7 +90079,7 @@
       "part": 727,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90099,7 +90109,7 @@
       "part": 728,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90129,7 +90139,7 @@
       "part": 729,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90159,7 +90169,7 @@
       "part": 730,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90189,7 +90199,7 @@
       "part": 731,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90219,7 +90229,7 @@
       "part": 732,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90249,7 +90259,7 @@
       "part": 733,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90279,7 +90289,7 @@
       "part": 734,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90309,7 +90319,7 @@
       "part": 735,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90339,7 +90349,7 @@
       "part": 736,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90369,7 +90379,7 @@
       "part": 737,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90399,7 +90409,7 @@
       "part": 738,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90429,7 +90439,7 @@
       "part": 739,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90459,7 +90469,7 @@
       "part": 740,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90489,7 +90499,7 @@
       "part": 741,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90519,7 +90529,7 @@
       "part": 742,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90549,7 +90559,7 @@
       "part": 743,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90579,7 +90589,7 @@
       "part": 744,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90609,7 +90619,7 @@
       "part": 745,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90639,7 +90649,7 @@
       "part": 746,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90669,7 +90679,7 @@
       "part": 747,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90699,7 +90709,7 @@
       "part": 748,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90729,7 +90739,7 @@
       "part": 749,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90759,7 +90769,7 @@
       "part": 750,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90789,7 +90799,7 @@
       "part": 751,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90819,7 +90829,7 @@
       "part": 752,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90849,7 +90859,7 @@
       "part": 753,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -90879,7 +90889,7 @@
       "part": 754,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -90909,7 +90919,7 @@
       "part": 755,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -90939,7 +90949,7 @@
       "part": 756,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -90969,7 +90979,7 @@
       "part": 757,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -90999,7 +91009,7 @@
       "part": 758,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91029,7 +91039,7 @@
       "part": 759,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91059,7 +91069,7 @@
       "part": 760,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91089,7 +91099,7 @@
       "part": 761,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91119,7 +91129,7 @@
       "part": 762,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91149,7 +91159,7 @@
       "part": 763,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91179,7 +91189,7 @@
       "part": 764,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91209,7 +91219,7 @@
       "part": 765,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91239,7 +91249,7 @@
       "part": 766,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91269,7 +91279,7 @@
       "part": 767,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91299,7 +91309,7 @@
       "part": 768,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91329,7 +91339,7 @@
       "part": 769,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91359,7 +91369,7 @@
       "part": 770,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91389,7 +91399,7 @@
       "part": 771,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91419,7 +91429,7 @@
       "part": 772,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91449,7 +91459,7 @@
       "part": 773,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91479,7 +91489,7 @@
       "part": 774,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91509,7 +91519,7 @@
       "part": 775,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91539,7 +91549,7 @@
       "part": 776,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91569,7 +91579,7 @@
       "part": 777,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91599,7 +91609,7 @@
       "part": 778,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91629,7 +91639,7 @@
       "part": 779,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91659,7 +91669,7 @@
       "part": 780,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91689,7 +91699,7 @@
       "part": 781,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91719,7 +91729,7 @@
       "part": 782,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91749,7 +91759,7 @@
       "part": 783,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91779,7 +91789,7 @@
       "part": 784,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91809,7 +91819,7 @@
       "part": 785,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91839,7 +91849,7 @@
       "part": 786,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -91869,7 +91879,7 @@
       "part": 787,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -91899,7 +91909,7 @@
       "part": 788,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -91929,7 +91939,7 @@
       "part": 789,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -91959,7 +91969,7 @@
       "part": 790,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -91989,7 +91999,7 @@
       "part": 791,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92019,7 +92029,7 @@
       "part": 792,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92049,7 +92059,7 @@
       "part": 793,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92079,7 +92089,7 @@
       "part": 794,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92109,7 +92119,7 @@
       "part": 795,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92139,7 +92149,7 @@
       "part": 796,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92169,7 +92179,7 @@
       "part": 797,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92199,7 +92209,7 @@
       "part": 798,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92229,7 +92239,7 @@
       "part": 799,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92259,7 +92269,7 @@
       "part": 800,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92289,7 +92299,7 @@
       "part": 801,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92319,7 +92329,7 @@
       "part": 802,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92349,7 +92359,7 @@
       "part": 803,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92379,7 +92389,7 @@
       "part": 804,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92409,7 +92419,7 @@
       "part": 805,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92439,7 +92449,7 @@
       "part": 806,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92469,7 +92479,7 @@
       "part": 807,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92499,7 +92509,7 @@
       "part": 808,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92529,7 +92539,7 @@
       "part": 809,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92559,7 +92569,7 @@
       "part": 810,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92589,7 +92599,7 @@
       "part": 811,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92619,7 +92629,7 @@
       "part": 812,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92649,7 +92659,7 @@
       "part": 813,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92679,7 +92689,7 @@
       "part": 814,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92709,7 +92719,7 @@
       "part": 815,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92739,7 +92749,7 @@
       "part": 816,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92769,7 +92779,7 @@
       "part": 817,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92799,7 +92809,7 @@
       "part": 818,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92829,7 +92839,7 @@
       "part": 819,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -92859,7 +92869,7 @@
       "part": 820,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -92889,7 +92899,7 @@
       "part": 821,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -92919,7 +92929,7 @@
       "part": 822,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -92949,7 +92959,7 @@
       "part": 823,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -92979,7 +92989,7 @@
       "part": 824,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -93009,7 +93019,7 @@
       "part": 825,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -93039,7 +93049,7 @@
       "part": 826,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -93069,7 +93079,7 @@
       "part": 827,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -93099,7 +93109,7 @@
       "part": 828,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -93129,7 +93139,7 @@
       "part": 829,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -93159,7 +93169,7 @@
       "part": 830,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -93189,7 +93199,7 @@
       "part": 831,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -93219,7 +93229,7 @@
       "part": 832,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -93249,7 +93259,7 @@
       "part": 833,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -93279,7 +93289,7 @@
       "part": 834,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -93309,7 +93319,7 @@
       "part": 835,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -93339,7 +93349,7 @@
       "part": 836,
       "template": 4,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -93369,7 +93379,7 @@
       "part": 837,
       "template": 4,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -93399,7 +93409,7 @@
       "part": 838,
       "template": 4,
       "data": "15",
-      "data_numeric": 0.0
+      "data_numeric": 15.0
     }
   },
   {
@@ -93429,7 +93439,7 @@
       "part": 839,
       "template": 4,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -93459,7 +93469,7 @@
       "part": 840,
       "template": 4,
       "data": "25",
-      "data_numeric": 0.0
+      "data_numeric": 25.0
     }
   },
   {
@@ -93489,7 +93499,7 @@
       "part": 841,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93499,7 +93509,7 @@
       "part": 841,
       "template": 12,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93509,7 +93519,7 @@
       "part": 841,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93519,7 +93529,7 @@
       "part": 842,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93529,7 +93539,7 @@
       "part": 842,
       "template": 12,
       "data": "3",
-      "data_numeric": 0.0
+      "data_numeric": 3.0
     }
   },
   {
@@ -93539,7 +93549,7 @@
       "part": 842,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93549,7 +93559,7 @@
       "part": 843,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93559,7 +93569,7 @@
       "part": 843,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -93569,7 +93579,7 @@
       "part": 843,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93579,7 +93589,7 @@
       "part": 844,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93589,7 +93599,7 @@
       "part": 844,
       "template": 12,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -93599,7 +93609,7 @@
       "part": 844,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93609,7 +93619,7 @@
       "part": 845,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93619,7 +93629,7 @@
       "part": 845,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -93629,7 +93639,7 @@
       "part": 845,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93639,7 +93649,7 @@
       "part": 846,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93649,7 +93659,7 @@
       "part": 846,
       "template": 12,
       "data": "7",
-      "data_numeric": 0.0
+      "data_numeric": 7.0
     }
   },
   {
@@ -93659,7 +93669,7 @@
       "part": 846,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93669,7 +93679,7 @@
       "part": 847,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93679,7 +93689,7 @@
       "part": 847,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -93689,7 +93699,7 @@
       "part": 847,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93699,7 +93709,7 @@
       "part": 848,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93709,7 +93719,7 @@
       "part": 848,
       "template": 12,
       "data": "9",
-      "data_numeric": 0.0
+      "data_numeric": 9.0
     }
   },
   {
@@ -93719,7 +93729,7 @@
       "part": 848,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93729,7 +93739,7 @@
       "part": 849,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -93739,7 +93749,7 @@
       "part": 849,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -93749,7 +93759,7 @@
       "part": 849,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93759,7 +93769,7 @@
       "part": 850,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93769,7 +93779,7 @@
       "part": 850,
       "template": 12,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93779,7 +93789,7 @@
       "part": 850,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93789,7 +93799,7 @@
       "part": 851,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93799,7 +93809,7 @@
       "part": 851,
       "template": 12,
       "data": "3",
-      "data_numeric": 0.0
+      "data_numeric": 3.0
     }
   },
   {
@@ -93809,7 +93819,7 @@
       "part": 851,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93819,7 +93829,7 @@
       "part": 852,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93829,7 +93839,7 @@
       "part": 852,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -93839,7 +93849,7 @@
       "part": 852,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93849,7 +93859,7 @@
       "part": 853,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93859,7 +93869,7 @@
       "part": 853,
       "template": 12,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -93869,7 +93879,7 @@
       "part": 853,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93879,7 +93889,7 @@
       "part": 854,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93889,7 +93899,7 @@
       "part": 854,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -93899,7 +93909,7 @@
       "part": 854,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93909,7 +93919,7 @@
       "part": 855,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93919,7 +93929,7 @@
       "part": 855,
       "template": 12,
       "data": "7",
-      "data_numeric": 0.0
+      "data_numeric": 7.0
     }
   },
   {
@@ -93929,7 +93939,7 @@
       "part": 855,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93939,7 +93949,7 @@
       "part": 856,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93949,7 +93959,7 @@
       "part": 856,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -93959,7 +93969,7 @@
       "part": 856,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93969,7 +93979,7 @@
       "part": 857,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -93979,7 +93989,7 @@
       "part": 857,
       "template": 12,
       "data": "9",
-      "data_numeric": 0.0
+      "data_numeric": 9.0
     }
   },
   {
@@ -93989,7 +93999,7 @@
       "part": 857,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -93999,7 +94009,7 @@
       "part": 858,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94009,7 +94019,7 @@
       "part": 858,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -94019,7 +94029,7 @@
       "part": 858,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94029,7 +94039,7 @@
       "part": 859,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94039,7 +94049,7 @@
       "part": 859,
       "template": 12,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94049,7 +94059,7 @@
       "part": 859,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94059,7 +94069,7 @@
       "part": 860,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94069,7 +94079,7 @@
       "part": 860,
       "template": 12,
       "data": "3",
-      "data_numeric": 0.0
+      "data_numeric": 3.0
     }
   },
   {
@@ -94079,7 +94089,7 @@
       "part": 860,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94089,7 +94099,7 @@
       "part": 861,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94099,7 +94109,7 @@
       "part": 861,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -94109,7 +94119,7 @@
       "part": 861,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94119,7 +94129,7 @@
       "part": 862,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94129,7 +94139,7 @@
       "part": 862,
       "template": 12,
       "data": "5",
-      "data_numeric": 0.0
+      "data_numeric": 5.0
     }
   },
   {
@@ -94139,7 +94149,7 @@
       "part": 862,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94149,7 +94159,7 @@
       "part": 863,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94159,7 +94169,7 @@
       "part": 863,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -94169,7 +94179,7 @@
       "part": 863,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94179,7 +94189,7 @@
       "part": 864,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94189,7 +94199,7 @@
       "part": 864,
       "template": 12,
       "data": "7",
-      "data_numeric": 0.0
+      "data_numeric": 7.0
     }
   },
   {
@@ -94199,7 +94209,7 @@
       "part": 864,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94209,7 +94219,7 @@
       "part": 865,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94219,7 +94229,7 @@
       "part": 865,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -94229,7 +94239,7 @@
       "part": 865,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94239,7 +94249,7 @@
       "part": 866,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94249,7 +94259,7 @@
       "part": 866,
       "template": 12,
       "data": "9",
-      "data_numeric": 0.0
+      "data_numeric": 9.0
     }
   },
   {
@@ -94259,7 +94269,7 @@
       "part": 866,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94269,7 +94279,7 @@
       "part": 867,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94279,7 +94289,7 @@
       "part": 867,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -94289,7 +94299,7 @@
       "part": 867,
       "template": 13,
       "data": "1",
-      "data_numeric": 0.0
+      "data_numeric": 1.0
     }
   },
   {
@@ -94299,7 +94309,7 @@
       "part": 868,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94309,7 +94319,7 @@
       "part": 868,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -94319,7 +94329,7 @@
       "part": 868,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94329,7 +94339,7 @@
       "part": 869,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94339,7 +94349,7 @@
       "part": 869,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -94349,7 +94359,7 @@
       "part": 869,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94359,7 +94369,7 @@
       "part": 870,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94369,7 +94379,7 @@
       "part": 870,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -94379,7 +94389,7 @@
       "part": 870,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94389,7 +94399,7 @@
       "part": 871,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94399,7 +94409,7 @@
       "part": 871,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -94409,7 +94419,7 @@
       "part": 871,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94419,7 +94429,7 @@
       "part": 872,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94429,7 +94439,7 @@
       "part": 872,
       "template": 12,
       "data": "12",
-      "data_numeric": 0.0
+      "data_numeric": 12.0
     }
   },
   {
@@ -94439,7 +94449,7 @@
       "part": 872,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94449,7 +94459,7 @@
       "part": 873,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94459,7 +94469,7 @@
       "part": 873,
       "template": 12,
       "data": "14",
-      "data_numeric": 0.0
+      "data_numeric": 14.0
     }
   },
   {
@@ -94469,7 +94479,7 @@
       "part": 873,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94479,7 +94489,7 @@
       "part": 874,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94489,7 +94499,7 @@
       "part": 874,
       "template": 12,
       "data": "16",
-      "data_numeric": 0.0
+      "data_numeric": 16.0
     }
   },
   {
@@ -94499,7 +94509,7 @@
       "part": 874,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94509,7 +94519,7 @@
       "part": 875,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94519,7 +94529,7 @@
       "part": 875,
       "template": 12,
       "data": "18",
-      "data_numeric": 0.0
+      "data_numeric": 18.0
     }
   },
   {
@@ -94529,7 +94539,7 @@
       "part": 875,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94539,7 +94549,7 @@
       "part": 876,
       "template": 11,
       "data": "1.27",
-      "data_numeric": 0.0
+      "data_numeric": 1.27
     }
   },
   {
@@ -94549,7 +94559,7 @@
       "part": 876,
       "template": 12,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -94559,7 +94569,7 @@
       "part": 876,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94569,7 +94579,7 @@
       "part": 877,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94579,7 +94589,7 @@
       "part": 877,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -94589,7 +94599,7 @@
       "part": 877,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94599,7 +94609,7 @@
       "part": 878,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94609,7 +94619,7 @@
       "part": 878,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -94619,7 +94629,7 @@
       "part": 878,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94629,7 +94639,7 @@
       "part": 879,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94639,7 +94649,7 @@
       "part": 879,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -94649,7 +94659,7 @@
       "part": 879,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94659,7 +94669,7 @@
       "part": 880,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94669,7 +94679,7 @@
       "part": 880,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -94679,7 +94689,7 @@
       "part": 880,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94689,7 +94699,7 @@
       "part": 881,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94699,7 +94709,7 @@
       "part": 881,
       "template": 12,
       "data": "12",
-      "data_numeric": 0.0
+      "data_numeric": 12.0
     }
   },
   {
@@ -94709,7 +94719,7 @@
       "part": 881,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94719,7 +94729,7 @@
       "part": 882,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94729,7 +94739,7 @@
       "part": 882,
       "template": 12,
       "data": "14",
-      "data_numeric": 0.0
+      "data_numeric": 14.0
     }
   },
   {
@@ -94739,7 +94749,7 @@
       "part": 882,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94749,7 +94759,7 @@
       "part": 883,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94759,7 +94769,7 @@
       "part": 883,
       "template": 12,
       "data": "16",
-      "data_numeric": 0.0
+      "data_numeric": 16.0
     }
   },
   {
@@ -94769,7 +94779,7 @@
       "part": 883,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94779,7 +94789,7 @@
       "part": 884,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94789,7 +94799,7 @@
       "part": 884,
       "template": 12,
       "data": "18",
-      "data_numeric": 0.0
+      "data_numeric": 18.0
     }
   },
   {
@@ -94799,7 +94809,7 @@
       "part": 884,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94809,7 +94819,7 @@
       "part": 885,
       "template": 11,
       "data": "2.0",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94819,7 +94829,7 @@
       "part": 885,
       "template": 12,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -94829,7 +94839,7 @@
       "part": 885,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94839,7 +94849,7 @@
       "part": 886,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94849,7 +94859,7 @@
       "part": 886,
       "template": 12,
       "data": "4",
-      "data_numeric": 0.0
+      "data_numeric": 4.0
     }
   },
   {
@@ -94859,7 +94869,7 @@
       "part": 886,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94869,7 +94879,7 @@
       "part": 887,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94879,7 +94889,7 @@
       "part": 887,
       "template": 12,
       "data": "6",
-      "data_numeric": 0.0
+      "data_numeric": 6.0
     }
   },
   {
@@ -94889,7 +94899,7 @@
       "part": 887,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94899,7 +94909,7 @@
       "part": 888,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94909,7 +94919,7 @@
       "part": 888,
       "template": 12,
       "data": "8",
-      "data_numeric": 0.0
+      "data_numeric": 8.0
     }
   },
   {
@@ -94919,7 +94929,7 @@
       "part": 888,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94929,7 +94939,7 @@
       "part": 889,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94939,7 +94949,7 @@
       "part": 889,
       "template": 12,
       "data": "10",
-      "data_numeric": 0.0
+      "data_numeric": 10.0
     }
   },
   {
@@ -94949,7 +94959,7 @@
       "part": 889,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94959,7 +94969,7 @@
       "part": 890,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94969,7 +94979,7 @@
       "part": 890,
       "template": 12,
       "data": "12",
-      "data_numeric": 0.0
+      "data_numeric": 12.0
     }
   },
   {
@@ -94979,7 +94989,7 @@
       "part": 890,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -94989,7 +94999,7 @@
       "part": 891,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -94999,7 +95009,7 @@
       "part": 891,
       "template": 12,
       "data": "14",
-      "data_numeric": 0.0
+      "data_numeric": 14.0
     }
   },
   {
@@ -95009,7 +95019,7 @@
       "part": 891,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -95019,7 +95029,7 @@
       "part": 892,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -95029,7 +95039,7 @@
       "part": 892,
       "template": 12,
       "data": "16",
-      "data_numeric": 0.0
+      "data_numeric": 16.0
     }
   },
   {
@@ -95039,7 +95049,7 @@
       "part": 892,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -95059,7 +95069,7 @@
       "part": 893,
       "template": 12,
       "data": "18",
-      "data_numeric": 0.0
+      "data_numeric": 18.0
     }
   },
   {
@@ -95069,7 +95079,7 @@
       "part": 893,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
@@ -95079,7 +95089,7 @@
       "part": 894,
       "template": 11,
       "data": "2.54",
-      "data_numeric": 0.0
+      "data_numeric": 2.54
     }
   },
   {
@@ -95089,7 +95099,7 @@
       "part": 894,
       "template": 12,
       "data": "20",
-      "data_numeric": 0.0
+      "data_numeric": 20.0
     }
   },
   {
@@ -95099,7 +95109,7 @@
       "part": 894,
       "template": 13,
       "data": "2",
-      "data_numeric": 0.0
+      "data_numeric": 2.0
     }
   },
   {
