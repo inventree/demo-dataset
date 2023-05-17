@@ -84326,10 +84326,10 @@
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "name": "Package",
       "units": "",
-      "description": ""
+      "description": "Component package code"
     }
   },
   {
@@ -84396,10 +84396,10 @@
     "model": "part.partparametertemplate",
     "pk": 8,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "name": "Color",
       "units": "",
-      "description": ""
+      "description": "Part color"
     }
   },
   {
@@ -95280,6 +95280,126 @@
       "template": 15,
       "data": "10uF",
       "data_numeric": 1.0000000000000003e-05
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1805,
+    "fields": {
+      "part": 49,
+      "template": 1,
+      "data": "0402",
+      "data_numeric": 402.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1806,
+    "fields": {
+      "part": 50,
+      "template": 1,
+      "data": "0603",
+      "data_numeric": 603.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1807,
+    "fields": {
+      "part": 51,
+      "template": 1,
+      "data": "0805",
+      "data_numeric": 805.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1808,
+    "fields": {
+      "part": 52,
+      "template": 1,
+      "data": "0402",
+      "data_numeric": 402.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1809,
+    "fields": {
+      "part": 53,
+      "template": 1,
+      "data": "0402",
+      "data_numeric": 402.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1810,
+    "fields": {
+      "part": 54,
+      "template": 1,
+      "data": "0402",
+      "data_numeric": 402.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1811,
+    "fields": {
+      "part": 55,
+      "template": 1,
+      "data": "0603",
+      "data_numeric": 603.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1812,
+    "fields": {
+      "part": 56,
+      "template": 1,
+      "data": "0603",
+      "data_numeric": 603.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1813,
+    "fields": {
+      "part": 57,
+      "template": 1,
+      "data": "0603",
+      "data_numeric": 603.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1814,
+    "fields": {
+      "part": 58,
+      "template": 1,
+      "data": "0805",
+      "data_numeric": 805.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1815,
+    "fields": {
+      "part": 59,
+      "template": 1,
+      "data": "0805",
+      "data_numeric": 805.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1816,
+    "fields": {
+      "part": 60,
+      "template": 1,
+      "data": "0805",
+      "data_numeric": 805.0
     }
   },
   {
