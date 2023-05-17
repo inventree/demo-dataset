@@ -39671,19 +39671,19 @@
     "model": "part.part",
     "pk": 21,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "notes": null,
       "barcode_data": "",
       "barcode_hash": "",
-      "name": "R_2.2K_0805_1%",
+      "name": "R_2.2K_0805_5%",
       "is_template": false,
       "variant_of": null,
       "description": "2.2K resistor in 0805 SMD package",
       "keywords": "resistor smd 0805",
       "category": 5,
-      "IPN": null,
-      "revision": null,
-      "link": null,
+      "IPN": "",
+      "revision": "",
+      "link": "",
       "image": "part_images/0805.jpg",
       "default_location": null,
       "default_supplier": null,
@@ -39716,19 +39716,19 @@
     "model": "part.part",
     "pk": 22,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "notes": null,
       "barcode_data": "",
       "barcode_hash": "",
-      "name": "R_4.7K_0402_1%",
+      "name": "R_4.7K_0402_10%",
       "is_template": false,
       "variant_of": null,
       "description": "4.7K resistor in 0402 SMD package",
       "keywords": "resistor smd 0402",
       "category": 5,
-      "IPN": null,
-      "revision": null,
-      "link": null,
+      "IPN": "",
+      "revision": "",
+      "link": "",
       "image": "part_images/0402.jpg",
       "default_location": null,
       "default_supplier": null,
@@ -39761,19 +39761,19 @@
     "model": "part.part",
     "pk": 23,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "notes": null,
       "barcode_data": "",
       "barcode_hash": "",
-      "name": "R_4.7K_0603_1%",
+      "name": "R_4.7K_0603_0.1%",
       "is_template": false,
       "variant_of": null,
       "description": "4.7K resistor in 0603 SMD package",
       "keywords": "resistor smd 0603",
       "category": 5,
-      "IPN": null,
-      "revision": null,
-      "link": null,
+      "IPN": "",
+      "revision": "",
+      "link": "",
       "image": "part_images/0603.jpg",
       "default_location": null,
       "default_supplier": null,
@@ -84483,6 +84483,16 @@
     }
   },
   {
+    "model": "part.partparametertemplate",
+    "pk": 17,
+    "fields": {
+      "metadata": {},
+      "name": "Power",
+      "units": "W",
+      "description": "Power Rating"
+    }
+  },
+  {
     "model": "part.partparameter",
     "pk": 1,
     "fields": {
@@ -84508,7 +84518,7 @@
     "fields": {
       "part": 1,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84538,7 +84548,7 @@
     "fields": {
       "part": 2,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84568,7 +84578,7 @@
     "fields": {
       "part": 3,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84598,7 +84608,7 @@
     "fields": {
       "part": 4,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84628,7 +84638,7 @@
     "fields": {
       "part": 5,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84658,7 +84668,7 @@
     "fields": {
       "part": 6,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84688,7 +84698,7 @@
     "fields": {
       "part": 7,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84718,7 +84728,7 @@
     "fields": {
       "part": 8,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84748,7 +84758,7 @@
     "fields": {
       "part": 9,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84778,7 +84788,7 @@
     "fields": {
       "part": 10,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84808,7 +84818,7 @@
     "fields": {
       "part": 11,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84838,7 +84848,7 @@
     "fields": {
       "part": 12,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84868,7 +84878,7 @@
     "fields": {
       "part": 13,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84898,7 +84908,7 @@
     "fields": {
       "part": 14,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84928,7 +84938,7 @@
     "fields": {
       "part": 15,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84958,7 +84968,7 @@
     "fields": {
       "part": 16,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -84988,7 +84998,7 @@
     "fields": {
       "part": 17,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85018,7 +85028,7 @@
     "fields": {
       "part": 18,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85048,7 +85058,7 @@
     "fields": {
       "part": 19,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85078,7 +85088,7 @@
     "fields": {
       "part": 20,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85108,8 +85118,8 @@
     "fields": {
       "part": 21,
       "template": 3,
-      "data": "1%",
-      "data_numeric": 1.0
+      "data": "5",
+      "data_numeric": 5.0
     }
   },
   {
@@ -85138,8 +85148,8 @@
     "fields": {
       "part": 22,
       "template": 3,
-      "data": "1%",
-      "data_numeric": 1.0
+      "data": "10",
+      "data_numeric": 10.0
     }
   },
   {
@@ -85168,8 +85178,8 @@
     "fields": {
       "part": 23,
       "template": 3,
-      "data": "1%",
-      "data_numeric": 1.0
+      "data": ".1",
+      "data_numeric": 0.1
     }
   },
   {
@@ -85198,7 +85208,7 @@
     "fields": {
       "part": 24,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85228,7 +85238,7 @@
     "fields": {
       "part": 25,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85258,7 +85268,7 @@
     "fields": {
       "part": 26,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85288,7 +85298,7 @@
     "fields": {
       "part": 27,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85318,7 +85328,7 @@
     "fields": {
       "part": 28,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85348,7 +85358,7 @@
     "fields": {
       "part": 29,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85378,7 +85388,7 @@
     "fields": {
       "part": 30,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85408,7 +85418,7 @@
     "fields": {
       "part": 31,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85438,7 +85448,7 @@
     "fields": {
       "part": 32,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85468,7 +85478,7 @@
     "fields": {
       "part": 33,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85498,7 +85508,7 @@
     "fields": {
       "part": 34,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85528,7 +85538,7 @@
     "fields": {
       "part": 35,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85558,7 +85568,7 @@
     "fields": {
       "part": 36,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85588,7 +85598,7 @@
     "fields": {
       "part": 37,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85618,7 +85628,7 @@
     "fields": {
       "part": 38,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85648,7 +85658,7 @@
     "fields": {
       "part": 39,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85678,7 +85688,7 @@
     "fields": {
       "part": 40,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85708,7 +85718,7 @@
     "fields": {
       "part": 41,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85738,7 +85748,7 @@
     "fields": {
       "part": 42,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85768,7 +85778,7 @@
     "fields": {
       "part": 43,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85798,7 +85808,7 @@
     "fields": {
       "part": 44,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85828,7 +85838,7 @@
     "fields": {
       "part": 45,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85858,7 +85868,7 @@
     "fields": {
       "part": 46,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85888,7 +85898,7 @@
     "fields": {
       "part": 47,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
@@ -85918,7 +85928,7 @@
     "fields": {
       "part": 48,
       "template": 3,
-      "data": "1%",
+      "data": "1",
       "data_numeric": 1.0
     }
   },
