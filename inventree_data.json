@@ -84463,6 +84463,26 @@
     }
   },
   {
+    "model": "part.partparametertemplate",
+    "pk": 15,
+    "fields": {
+      "metadata": {},
+      "name": "Capacitance",
+      "units": "F",
+      "description": "Capacitance value"
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 16,
+    "fields": {
+      "metadata": {},
+      "name": "Inductance",
+      "units": "H",
+      "description": "Inductance value"
+    }
+  },
+  {
     "model": "part.partparameter",
     "pk": 1,
     "fields": {
@@ -95140,6 +95160,126 @@
       "template": 13,
       "data": "2",
       "data_numeric": 2.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1792,
+    "fields": {
+      "part": 49,
+      "template": 15,
+      "data": "100pF",
+      "data_numeric": 1e-10
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1793,
+    "fields": {
+      "part": 50,
+      "template": 15,
+      "data": "100pF",
+      "data_numeric": 1e-10
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1794,
+    "fields": {
+      "part": 51,
+      "template": 15,
+      "data": "100pF",
+      "data_numeric": 1e-10
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1795,
+    "fields": {
+      "part": 52,
+      "template": 15,
+      "data": "100nF",
+      "data_numeric": 1.0000000000000002e-07
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1796,
+    "fields": {
+      "part": 53,
+      "template": 15,
+      "data": "1uF",
+      "data_numeric": 1.0000000000000002e-06
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1797,
+    "fields": {
+      "part": 54,
+      "template": 15,
+      "data": "10uF",
+      "data_numeric": 1.0000000000000003e-05
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1798,
+    "fields": {
+      "part": 55,
+      "template": 15,
+      "data": "100nF",
+      "data_numeric": 1.0000000000000002e-07
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1799,
+    "fields": {
+      "part": 56,
+      "template": 15,
+      "data": "1uF",
+      "data_numeric": 1.0000000000000002e-06
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1800,
+    "fields": {
+      "part": 57,
+      "template": 15,
+      "data": "10uF",
+      "data_numeric": 1.0000000000000003e-05
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1801,
+    "fields": {
+      "part": 58,
+      "template": 15,
+      "data": "100nF",
+      "data_numeric": 1.0000000000000002e-07
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1802,
+    "fields": {
+      "part": 59,
+      "template": 15,
+      "data": "1uF",
+      "data_numeric": 1.0000000000000002e-06
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1803,
+    "fields": {
+      "part": 60,
+      "template": 15,
+      "data": "10uF",
+      "data_numeric": 1.0000000000000003e-05
     }
   },
   {
