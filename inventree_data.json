@@ -84958,8 +84958,8 @@
     "fields": {
       "part": 16,
       "template": 2,
-      "data": "1K",
-      "data_numeric": 0.0
+      "data": "1kohm",
+      "data_numeric": 1000.0
     }
   },
   {
@@ -84988,8 +84988,8 @@
     "fields": {
       "part": 17,
       "template": 2,
-      "data": "1K",
-      "data_numeric": 0.0
+      "data": "1kohm",
+      "data_numeric": 1000.0
     }
   },
   {
@@ -85018,8 +85018,8 @@
     "fields": {
       "part": 18,
       "template": 2,
-      "data": "1K",
-      "data_numeric": 0.0
+      "data": "1kohm",
+      "data_numeric": 1000.0
     }
   },
   {
@@ -85048,8 +85048,8 @@
     "fields": {
       "part": 19,
       "template": 2,
-      "data": "2.2K",
-      "data_numeric": 0.0
+      "data": "2.2kohm",
+      "data_numeric": 2200.0
     }
   },
   {
@@ -85078,8 +85078,8 @@
     "fields": {
       "part": 20,
       "template": 2,
-      "data": "2.2K",
-      "data_numeric": 0.0
+      "data": "2.2kohm",
+      "data_numeric": 2200.0
     }
   },
   {
@@ -85108,8 +85108,8 @@
     "fields": {
       "part": 21,
       "template": 2,
-      "data": "2.2K",
-      "data_numeric": 0.0
+      "data": "2.2kohm",
+      "data_numeric": 2200.0
     }
   },
   {
@@ -85138,8 +85138,8 @@
     "fields": {
       "part": 22,
       "template": 2,
-      "data": "4.7K",
-      "data_numeric": 0.0
+      "data": "4.7kohm",
+      "data_numeric": 4700.0
     }
   },
   {
@@ -85168,8 +85168,8 @@
     "fields": {
       "part": 23,
       "template": 2,
-      "data": "4.7K",
-      "data_numeric": 0.0
+      "data": "4.7kohm",
+      "data_numeric": 4700.0
     }
   },
   {
@@ -85198,8 +85198,8 @@
     "fields": {
       "part": 24,
       "template": 2,
-      "data": "4.7K",
-      "data_numeric": 0.0
+      "data": "4.7kohm",
+      "data_numeric": 4700.0
     }
   },
   {
@@ -85228,8 +85228,8 @@
     "fields": {
       "part": 25,
       "template": 2,
-      "data": "5.6K",
-      "data_numeric": 0.0
+      "data": "5.6kohm",
+      "data_numeric": 5600.0
     }
   },
   {
@@ -85258,8 +85258,8 @@
     "fields": {
       "part": 26,
       "template": 2,
-      "data": "5.6K",
-      "data_numeric": 0.0
+      "data": "5.6kohm",
+      "data_numeric": 5600.0
     }
   },
   {
@@ -85288,8 +85288,8 @@
     "fields": {
       "part": 27,
       "template": 2,
-      "data": "5.6K",
-      "data_numeric": 0.0
+      "data": "5.6kohm",
+      "data_numeric": 5600.0
     }
   },
   {
@@ -85318,8 +85318,8 @@
     "fields": {
       "part": 28,
       "template": 2,
-      "data": "10K",
-      "data_numeric": 0.0
+      "data": "10kohm",
+      "data_numeric": 10000.0
     }
   },
   {
@@ -85348,8 +85348,8 @@
     "fields": {
       "part": 29,
       "template": 2,
-      "data": "10K",
-      "data_numeric": 0.0
+      "data": "10kohm",
+      "data_numeric": 10000.0
     }
   },
   {
@@ -85378,8 +85378,8 @@
     "fields": {
       "part": 30,
       "template": 2,
-      "data": "10K",
-      "data_numeric": 0.0
+      "data": "10kohm",
+      "data_numeric": 10000.0
     }
   },
   {
@@ -85408,8 +85408,8 @@
     "fields": {
       "part": 31,
       "template": 2,
-      "data": "22K",
-      "data_numeric": 0.0
+      "data": "22kohm",
+      "data_numeric": 22000.0
     }
   },
   {
@@ -85438,8 +85438,8 @@
     "fields": {
       "part": 32,
       "template": 2,
-      "data": "22K",
-      "data_numeric": 0.0
+      "data": "22kohm",
+      "data_numeric": 22000.0
     }
   },
   {
@@ -85468,8 +85468,8 @@
     "fields": {
       "part": 33,
       "template": 2,
-      "data": "22K",
-      "data_numeric": 0.0
+      "data": "22kohm",
+      "data_numeric": 22000.0
     }
   },
   {
@@ -85498,8 +85498,8 @@
     "fields": {
       "part": 34,
       "template": 2,
-      "data": "47K",
-      "data_numeric": 0.0
+      "data": "47kohm",
+      "data_numeric": 47000.0
     }
   },
   {
@@ -85528,8 +85528,8 @@
     "fields": {
       "part": 35,
       "template": 2,
-      "data": "47K",
-      "data_numeric": 0.0
+      "data": "47kohm",
+      "data_numeric": 47000.0
     }
   },
   {
@@ -85558,8 +85558,8 @@
     "fields": {
       "part": 36,
       "template": 2,
-      "data": "47K",
-      "data_numeric": 0.0
+      "data": "47kohm",
+      "data_numeric": 47000.0
     }
   },
   {
@@ -85588,8 +85588,8 @@
     "fields": {
       "part": 37,
       "template": 2,
-      "data": "56K",
-      "data_numeric": 0.0
+      "data": "56kohm",
+      "data_numeric": 56000.0
     }
   },
   {
@@ -85618,8 +85618,8 @@
     "fields": {
       "part": 38,
       "template": 2,
-      "data": "56K",
-      "data_numeric": 0.0
+      "data": "56kohm",
+      "data_numeric": 56000.0
     }
   },
   {
@@ -85648,8 +85648,8 @@
     "fields": {
       "part": 39,
       "template": 2,
-      "data": "56K",
-      "data_numeric": 0.0
+      "data": "56kohm",
+      "data_numeric": 56000.0
     }
   },
   {
@@ -85678,8 +85678,8 @@
     "fields": {
       "part": 40,
       "template": 2,
-      "data": "68K",
-      "data_numeric": 0.0
+      "data": "68kohm",
+      "data_numeric": 68000.0
     }
   },
   {
@@ -85708,8 +85708,8 @@
     "fields": {
       "part": 41,
       "template": 2,
-      "data": "68K",
-      "data_numeric": 0.0
+      "data": "68kohm",
+      "data_numeric": 68000.0
     }
   },
   {
@@ -85738,8 +85738,8 @@
     "fields": {
       "part": 42,
       "template": 2,
-      "data": "68K",
-      "data_numeric": 0.0
+      "data": "68kohm",
+      "data_numeric": 68000.0
     }
   },
   {
@@ -85768,8 +85768,8 @@
     "fields": {
       "part": 43,
       "template": 2,
-      "data": "100K",
-      "data_numeric": 0.0
+      "data": "100kohm",
+      "data_numeric": 100000.0
     }
   },
   {
@@ -85798,8 +85798,8 @@
     "fields": {
       "part": 44,
       "template": 2,
-      "data": "100K",
-      "data_numeric": 0.0
+      "data": "100kohm",
+      "data_numeric": 100000.0
     }
   },
   {
@@ -85828,8 +85828,8 @@
     "fields": {
       "part": 45,
       "template": 2,
-      "data": "100K",
-      "data_numeric": 0.0
+      "data": "100kohm",
+      "data_numeric": 100000.0
     }
   },
   {
@@ -85858,8 +85858,8 @@
     "fields": {
       "part": 46,
       "template": 2,
-      "data": "220K",
-      "data_numeric": 0.0
+      "data": "220kohm",
+      "data_numeric": 220000.0
     }
   },
   {
@@ -85888,8 +85888,8 @@
     "fields": {
       "part": 47,
       "template": 2,
-      "data": "220K",
-      "data_numeric": 0.0
+      "data": "220kohm",
+      "data_numeric": 220000.0
     }
   },
   {
@@ -85918,8 +85918,8 @@
     "fields": {
       "part": 48,
       "template": 2,
-      "data": "220K",
-      "data_numeric": 0.0
+      "data": "220kohm",
+      "data_numeric": 220000.0
     }
   },
   {
