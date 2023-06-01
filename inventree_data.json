@@ -4193,7 +4193,7 @@
     "model": "common.inventreesetting",
     "pk": 128,
     "fields": {
-      "value": "2023-05-26T04:56:32.980943",
+      "value": "2023-06-01T09:28:20.683862",
       "key": "_RUN_BACKUP_SUCCESS"
     }
   },
@@ -4201,7 +4201,7 @@
     "model": "common.inventreesetting",
     "pk": 129,
     "fields": {
-      "value": "2023-05-26T04:56:27.013487",
+      "value": "2023-06-01T09:28:17.231475",
       "key": "_RUN_BACKUP_ATTEMPT"
     }
   },
@@ -76902,6 +76902,90 @@
     }
   },
   {
+    "model": "part.partpricing",
+    "pk": 828,
+    "fields": {
+      "updated": "2023-06-01T09:28:18.203Z",
+      "currency": "USD",
+      "scheduled_for_update": false,
+      "part": 900,
+      "bom_cost_min_currency": "USD",
+      "bom_cost_min": null,
+      "bom_cost_max_currency": "USD",
+      "bom_cost_max": null,
+      "purchase_cost_min_currency": "USD",
+      "purchase_cost_min": null,
+      "purchase_cost_max_currency": "USD",
+      "purchase_cost_max": null,
+      "internal_cost_min_currency": "USD",
+      "internal_cost_min": null,
+      "internal_cost_max_currency": "USD",
+      "internal_cost_max": null,
+      "supplier_price_min_currency": "USD",
+      "supplier_price_min": null,
+      "supplier_price_max_currency": "USD",
+      "supplier_price_max": null,
+      "variant_cost_min_currency": "USD",
+      "variant_cost_min": null,
+      "variant_cost_max_currency": "USD",
+      "variant_cost_max": null,
+      "overall_min_currency": "USD",
+      "overall_min": null,
+      "overall_max_currency": "USD",
+      "overall_max": null,
+      "sale_price_min_currency": "USD",
+      "sale_price_min": null,
+      "sale_price_max_currency": "USD",
+      "sale_price_max": null,
+      "sale_history_min_currency": "USD",
+      "sale_history_min": null,
+      "sale_history_max_currency": "USD",
+      "sale_history_max": null
+    }
+  },
+  {
+    "model": "part.partpricing",
+    "pk": 829,
+    "fields": {
+      "updated": "2023-06-01T09:28:18.203Z",
+      "currency": "USD",
+      "scheduled_for_update": false,
+      "part": 901,
+      "bom_cost_min_currency": "USD",
+      "bom_cost_min": null,
+      "bom_cost_max_currency": "USD",
+      "bom_cost_max": null,
+      "purchase_cost_min_currency": "USD",
+      "purchase_cost_min": null,
+      "purchase_cost_max_currency": "USD",
+      "purchase_cost_max": null,
+      "internal_cost_min_currency": "USD",
+      "internal_cost_min": null,
+      "internal_cost_max_currency": "USD",
+      "internal_cost_max": null,
+      "supplier_price_min_currency": "USD",
+      "supplier_price_min": null,
+      "supplier_price_max_currency": "USD",
+      "supplier_price_max": null,
+      "variant_cost_min_currency": "USD",
+      "variant_cost_min": null,
+      "variant_cost_max_currency": "USD",
+      "variant_cost_max": null,
+      "overall_min_currency": "USD",
+      "overall_min": null,
+      "overall_max_currency": "USD",
+      "overall_max": null,
+      "sale_price_min_currency": "USD",
+      "sale_price_min": null,
+      "sale_price_max_currency": "USD",
+      "sale_price_max": null,
+      "sale_history_min_currency": "USD",
+      "sale_history_min": null,
+      "sale_history_max_currency": "USD",
+      "sale_history_max": null
+    }
+  },
+  {
     "model": "part.partstocktake",
     "pk": 1,
     "fields": {
@@ -86748,7 +86832,9 @@
       "metadata": {},
       "name": "Package",
       "units": "",
-      "description": "Component package code"
+      "description": "Component package code",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86758,7 +86844,9 @@
       "metadata": {},
       "name": "Resistance",
       "units": "ohms",
-      "description": "Resistance value"
+      "description": "Resistance value",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86768,7 +86856,9 @@
       "metadata": null,
       "name": "Tolerance",
       "units": "percent",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86778,7 +86868,9 @@
       "metadata": {},
       "name": "Length",
       "units": "km",
-      "description": "Part length"
+      "description": "Part length",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86788,7 +86880,9 @@
       "metadata": {},
       "name": "Thread",
       "units": "mm",
-      "description": "Metric thread pitch"
+      "description": "Metric thread pitch",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86798,7 +86892,9 @@
       "metadata": null,
       "name": "Width",
       "units": "mm",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86808,7 +86904,9 @@
       "metadata": null,
       "name": "Height",
       "units": "mm",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86818,7 +86916,9 @@
       "metadata": {},
       "name": "Color",
       "units": "",
-      "description": "Part color"
+      "description": "Part color",
+      "checkbox": false,
+      "choices": "Red, Blue, Green, Orange, Yellow, Black, White, Pink, Purple"
     }
   },
   {
@@ -86828,7 +86928,9 @@
       "metadata": {},
       "name": "Volume",
       "units": "m^3",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86838,7 +86940,9 @@
       "metadata": null,
       "name": "Material",
       "units": "",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86848,7 +86952,9 @@
       "metadata": null,
       "name": "Pitch",
       "units": "mm",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86858,17 +86964,21 @@
       "metadata": null,
       "name": "Positions",
       "units": "",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
     "model": "part.partparametertemplate",
     "pk": 13,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "name": "Rows",
       "units": "",
-      "description": ""
+      "description": "",
+      "checkbox": false,
+      "choices": "1, 2, 3, 4, 5, 6, 7"
     }
   },
   {
@@ -86878,7 +86988,9 @@
       "metadata": {},
       "name": "Voltage",
       "units": "V",
-      "description": "Rated voltage"
+      "description": "Rated voltage",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86888,7 +87000,9 @@
       "metadata": {},
       "name": "Capacitance",
       "units": "F",
-      "description": "Capacitance value"
+      "description": "Capacitance value",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86898,7 +87012,9 @@
       "metadata": {},
       "name": "Inductance",
       "units": "H",
-      "description": "Inductance value"
+      "description": "Inductance value",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86908,7 +87024,9 @@
       "metadata": {},
       "name": "Power",
       "units": "W",
-      "description": "Power Rating"
+      "description": "Power Rating",
+      "checkbox": false,
+      "choices": ""
     }
   },
   {
@@ -86918,7 +87036,21 @@
       "metadata": {},
       "name": "Wire Gauge",
       "units": "",
-      "description": "Wire gauge (conductor CSA)"
+      "description": "Wire gauge (conductor CSA)",
+      "checkbox": false,
+      "choices": ""
+    }
+  },
+  {
+    "model": "part.partparametertemplate",
+    "pk": 19,
+    "fields": {
+      "metadata": {},
+      "name": "Polarized",
+      "units": "",
+      "description": "Is this part polarized?",
+      "checkbox": true,
+      "choices": ""
     }
   },
   {
@@ -88587,7 +88719,7 @@
     "fields": {
       "part": 89,
       "template": 8,
-      "data": "blue",
+      "data": "Blue",
       "data_numeric": null
     }
   },
@@ -88597,7 +88729,7 @@
     "fields": {
       "part": 92,
       "template": 8,
-      "data": "green",
+      "data": "Green",
       "data_numeric": null
     }
   },
@@ -88607,7 +88739,7 @@
     "fields": {
       "part": 93,
       "template": 8,
-      "data": "pink",
+      "data": "Pink",
       "data_numeric": null
     }
   },
@@ -88617,7 +88749,7 @@
     "fields": {
       "part": 90,
       "template": 8,
-      "data": "red",
+      "data": "Red",
       "data_numeric": null
     }
   },
@@ -88627,7 +88759,7 @@
     "fields": {
       "part": 91,
       "template": 8,
-      "data": "yellow",
+      "data": "Yellow",
       "data_numeric": null
     }
   },
@@ -88637,7 +88769,7 @@
     "fields": {
       "part": 75,
       "template": 8,
-      "data": "pink",
+      "data": "Pink",
       "data_numeric": null
     }
   },
@@ -88647,7 +88779,7 @@
     "fields": {
       "part": 76,
       "template": 8,
-      "data": "purple",
+      "data": "Purple",
       "data_numeric": null
     }
   },
@@ -88657,7 +88789,7 @@
     "fields": {
       "part": 72,
       "template": 8,
-      "data": "red",
+      "data": "Red",
       "data_numeric": null
     }
   },
@@ -88667,7 +88799,7 @@
     "fields": {
       "part": 78,
       "template": 8,
-      "data": "red",
+      "data": "Red",
       "data_numeric": null
     }
   },
@@ -88677,7 +88809,7 @@
     "fields": {
       "part": 79,
       "template": 8,
-      "data": "red",
+      "data": "Red",
       "data_numeric": null
     }
   },
@@ -88687,7 +88819,7 @@
     "fields": {
       "part": 80,
       "template": 8,
-      "data": "red",
+      "data": "Red",
       "data_numeric": null
     }
   },
@@ -88697,7 +88829,7 @@
     "fields": {
       "part": 82,
       "template": 8,
-      "data": "black",
+      "data": "Black",
       "data_numeric": null
     }
   },
@@ -88707,7 +88839,7 @@
     "fields": {
       "part": 84,
       "template": 8,
-      "data": "clear",
+      "data": "White",
       "data_numeric": null
     }
   },
@@ -88717,7 +88849,7 @@
     "fields": {
       "part": 83,
       "template": 8,
-      "data": "gray",
+      "data": "White",
       "data_numeric": null
     }
   },
@@ -88727,7 +88859,7 @@
     "fields": {
       "part": 85,
       "template": 8,
-      "data": "blue",
+      "data": "Blue",
       "data_numeric": null
     }
   },
@@ -88737,7 +88869,7 @@
     "fields": {
       "part": 74,
       "template": 8,
-      "data": "blue",
+      "data": "Blue",
       "data_numeric": null
     }
   },
@@ -88747,7 +88879,7 @@
     "fields": {
       "part": 73,
       "template": 8,
-      "data": "green",
+      "data": "Green",
       "data_numeric": null
     }
   },
@@ -98649,6 +98781,126 @@
       "template": 18,
       "data": "12",
       "data_numeric": 12.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1898,
+    "fields": {
+      "part": 49,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1899,
+    "fields": {
+      "part": 50,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1900,
+    "fields": {
+      "part": 51,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1901,
+    "fields": {
+      "part": 52,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1902,
+    "fields": {
+      "part": 53,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1903,
+    "fields": {
+      "part": 54,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1904,
+    "fields": {
+      "part": 55,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1905,
+    "fields": {
+      "part": 56,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1906,
+    "fields": {
+      "part": 57,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1907,
+    "fields": {
+      "part": 58,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1908,
+    "fields": {
+      "part": 59,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1909,
+    "fields": {
+      "part": 60,
+      "template": 19,
+      "data": "False",
+      "data_numeric": 0.0
     }
   },
   {
@@ -147406,7 +147658,7 @@
       "purchase_price": null,
       "owner": null,
       "lft": 1,
-      "rght": 2,
+      "rght": 8,
       "tree_id": 1069,
       "level": 0
     }
@@ -147446,10 +147698,10 @@
       "purchase_price_currency": "USD",
       "purchase_price": null,
       "owner": null,
-      "lft": 1,
-      "rght": 2,
+      "lft": 2,
+      "rght": 3,
       "tree_id": 1069,
-      "level": 0
+      "level": 1
     }
   },
   {
@@ -147487,10 +147739,10 @@
       "purchase_price_currency": "USD",
       "purchase_price": null,
       "owner": null,
-      "lft": 1,
-      "rght": 2,
+      "lft": 4,
+      "rght": 5,
       "tree_id": 1069,
-      "level": 0
+      "level": 1
     }
   },
   {
@@ -147528,10 +147780,10 @@
       "purchase_price_currency": "USD",
       "purchase_price": null,
       "owner": null,
-      "lft": 1,
-      "rght": 2,
+      "lft": 6,
+      "rght": 7,
       "tree_id": 1069,
-      "level": 0
+      "level": 1
     }
   },
   {
@@ -165514,7 +165766,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2023-05-26T04:59:30.211Z",
+      "last_login": "2023-06-01T09:28:14.600Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
