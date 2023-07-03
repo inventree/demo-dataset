@@ -108607,6 +108607,20 @@
     }
   },
   {
+    "model": "report.stocklocationreport",
+    "pk": 1,
+    "fields": {
+      "metadata": {},
+      "name": "Inventree Stock Location",
+      "template": "report/report_template/slr/inventree_slr_report.html",
+      "description": "Inventree Stock Location Report",
+      "revision": 2,
+      "filename_pattern": "report.pdf",
+      "enabled": true,
+      "filters": ""
+    }
+  },
+  {
     "model": "stock.stocklocation",
     "pk": 1,
     "fields": {
@@ -170683,6 +170697,7 @@
     "model": "plugin.pluginconfig",
     "pk": 20,
     "fields": {
+      "metadata": null,
       "key": "simpleactionplugin",
       "name": "SimpleActionPlugin",
       "active": false
@@ -170692,6 +170707,7 @@
     "model": "plugin.pluginconfig",
     "pk": 21,
     "fields": {
+      "metadata": null,
       "key": "inventreebarcode",
       "name": "InvenTreeBarcode",
       "active": true
@@ -170701,6 +170717,7 @@
     "model": "plugin.pluginconfig",
     "pk": 22,
     "fields": {
+      "metadata": null,
       "key": "corenotificationsplugin",
       "name": "CoreNotificationsPlugin",
       "active": false
@@ -170710,6 +170727,7 @@
     "model": "plugin.pluginconfig",
     "pk": 23,
     "fields": {
+      "metadata": null,
       "key": "sampleevent",
       "name": "EventPlugin",
       "active": false
@@ -170719,6 +170737,7 @@
     "model": "plugin.pluginconfig",
     "pk": 24,
     "fields": {
+      "metadata": null,
       "key": "nointegrationplugin",
       "name": "NoIntegrationPlugin",
       "active": false
@@ -170728,6 +170747,7 @@
     "model": "plugin.pluginconfig",
     "pk": 25,
     "fields": {
+      "metadata": null,
       "key": "wrongintegrationplugin",
       "name": "WrongIntegrationPlugin",
       "active": false
@@ -170737,6 +170757,7 @@
     "model": "plugin.pluginconfig",
     "pk": 26,
     "fields": {
+      "metadata": null,
       "key": "sample-api-caller",
       "name": "Sample API Caller",
       "active": false
@@ -170746,6 +170767,7 @@
     "model": "plugin.pluginconfig",
     "pk": 27,
     "fields": {
+      "metadata": null,
       "key": "broken",
       "name": "Test",
       "active": false
@@ -170755,6 +170777,7 @@
     "model": "plugin.pluginconfig",
     "pk": 28,
     "fields": {
+      "metadata": null,
       "key": "samplepanel",
       "name": "CustomPanelExample",
       "active": false
@@ -170764,6 +170787,7 @@
     "model": "plugin.pluginconfig",
     "pk": 29,
     "fields": {
+      "metadata": null,
       "key": "samplelabel",
       "name": "Label Printer",
       "active": false
@@ -170773,6 +170797,7 @@
     "model": "plugin.pluginconfig",
     "pk": 30,
     "fields": {
+      "metadata": null,
       "key": "sample",
       "name": "SampleIntegrationPlugin",
       "active": false
@@ -170782,6 +170807,7 @@
     "model": "plugin.pluginconfig",
     "pk": 31,
     "fields": {
+      "metadata": null,
       "key": "schedule",
       "name": "ScheduledTasksPlugin",
       "active": false
@@ -170791,6 +170817,7 @@
     "model": "plugin.pluginconfig",
     "pk": 32,
     "fields": {
+      "metadata": null,
       "key": "version",
       "name": "version",
       "active": false
@@ -170800,6 +170827,7 @@
     "model": "plugin.pluginconfig",
     "pk": 33,
     "fields": {
+      "metadata": null,
       "key": "samplelocate",
       "name": "SampleLocatePlugin",
       "active": false
@@ -170809,6 +170837,7 @@
     "model": "plugin.pluginconfig",
     "pk": 34,
     "fields": {
+      "metadata": null,
       "key": "validator",
       "name": "CustomValidator",
       "active": false
@@ -170818,6 +170847,7 @@
     "model": "plugin.pluginconfig",
     "pk": 35,
     "fields": {
+      "metadata": null,
       "key": "sflserial",
       "name": "SFL Serial",
       "active": false
@@ -170827,6 +170857,7 @@
     "model": "plugin.pluginconfig",
     "pk": 36,
     "fields": {
+      "metadata": null,
       "key": "zapier",
       "name": "inventree_zapier",
       "active": false
@@ -170836,6 +170867,7 @@
     "model": "plugin.pluginconfig",
     "pk": 37,
     "fields": {
+      "metadata": null,
       "key": "brother",
       "name": "Brother Labels",
       "active": true
@@ -170845,6 +170877,7 @@
     "model": "plugin.pluginconfig",
     "pk": 38,
     "fields": {
+      "metadata": null,
       "key": "inventreecorenotificationsplugin",
       "name": "InvenTreeCoreNotificationsPlugin",
       "active": true
@@ -170854,6 +170887,7 @@
     "model": "plugin.pluginconfig",
     "pk": 39,
     "fields": {
+      "metadata": null,
       "key": "reportexample",
       "name": "Report Plugin",
       "active": false
@@ -170863,6 +170897,7 @@
     "model": "plugin.pluginconfig",
     "pk": 40,
     "fields": {
+      "metadata": null,
       "key": "poreports",
       "name": "Purchase Order Reports",
       "active": false
@@ -170872,6 +170907,7 @@
     "model": "plugin.pluginconfig",
     "pk": 42,
     "fields": {
+      "metadata": null,
       "key": "wireviz",
       "name": "Wireviz",
       "active": false
@@ -171033,7 +171069,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2023-06-01T09:28:14.600Z",
+      "last_login": "2023-07-03T11:30:20.986Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
