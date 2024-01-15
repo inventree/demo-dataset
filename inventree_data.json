@@ -45466,8 +45466,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 12,
-      "rght": 19,
+      "lft": 16,
+      "rght": 23,
       "tree_id": 1,
       "level": 1
     }
@@ -45485,8 +45485,8 @@
       "structural": false,
       "default_keywords": "passive resistor",
       "icon": "",
-      "lft": 17,
-      "rght": 18,
+      "lft": 21,
+      "rght": 22,
       "tree_id": 1,
       "level": 2
     }
@@ -45504,8 +45504,8 @@
       "structural": false,
       "default_keywords": "passive capacitor",
       "icon": "",
-      "lft": 13,
-      "rght": 14,
+      "lft": 17,
+      "rght": 18,
       "tree_id": 1,
       "level": 2
     }
@@ -45523,8 +45523,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 15,
-      "rght": 16,
+      "lft": 19,
+      "rght": 20,
       "tree_id": 1,
       "level": 2
     }
@@ -45599,8 +45599,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 20,
-      "rght": 21,
+      "lft": 12,
+      "rght": 13,
       "tree_id": 1,
       "level": 1
     }
@@ -45675,8 +45675,8 @@
       "structural": false,
       "default_keywords": "",
       "icon": "",
-      "lft": 22,
-      "rght": 23,
+      "lft": 14,
+      "rght": 15,
       "tree_id": 1,
       "level": 1
     }
@@ -173197,6 +173197,62 @@
     }
   },
   {
+    "model": "users.owner",
+    "pk": 1,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 1
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 2,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 2
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 3,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 3
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 4,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 1
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 5,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 2
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 6,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 3
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 7,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 4
+    }
+  },
+  {
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -173225,7 +173281,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2023-12-16T05:45:25.882Z",
+      "last_login": "2024-01-15T12:56:29.821Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
