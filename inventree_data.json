@@ -7319,6 +7319,14 @@
     }
   },
   {
+    "model": "common.inventreesetting",
+    "pk": 139,
+    "fields": {
+      "value": "False",
+      "key": "PURCHASEORDER_AUTO_COMPLETE"
+    }
+  },
+  {
     "model": "common.inventreeusersetting",
     "pk": 1,
     "fields": {
@@ -43110,328 +43118,6 @@
     }
   },
   {
-    "model": "plugin.pluginconfig",
-    "pk": 23,
-    "fields": {
-      "metadata": null,
-      "key": "sampleevent",
-      "name": "EventPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 24,
-    "fields": {
-      "metadata": null,
-      "key": "nointegrationplugin",
-      "name": "NoIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 25,
-    "fields": {
-      "metadata": null,
-      "key": "wrongintegrationplugin",
-      "name": "WrongIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 26,
-    "fields": {
-      "metadata": null,
-      "key": "sample-api-caller",
-      "name": "Sample API Caller",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 28,
-    "fields": {
-      "metadata": null,
-      "key": "samplepanel",
-      "name": "CustomPanelExample",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 30,
-    "fields": {
-      "metadata": null,
-      "key": "sample",
-      "name": "SampleIntegrationPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 31,
-    "fields": {
-      "metadata": null,
-      "key": "schedule",
-      "name": "ScheduledTasksPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 33,
-    "fields": {
-      "metadata": null,
-      "key": "samplelocate",
-      "name": "SampleLocatePlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 34,
-    "fields": {
-      "metadata": null,
-      "key": "validator",
-      "name": "CustomValidator",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 38,
-    "fields": {
-      "metadata": null,
-      "key": "inventreecorenotificationsplugin",
-      "name": "InvenTreeCoreNotificationsPlugin",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 43,
-    "fields": {
-      "metadata": {},
-      "key": "inventreecurrencyexchange",
-      "name": "InvenTreeCurrencyExchange",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 44,
-    "fields": {
-      "metadata": {},
-      "key": "inventreelabel",
-      "name": "InvenTreeLabel",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 45,
-    "fields": {
-      "metadata": {},
-      "key": "inventreelabelsheet",
-      "name": "InvenTreeLabelSheet",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 46,
-    "fields": {
-      "metadata": {},
-      "key": "digikeyplugin",
-      "name": "DigiKeyPlugin",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 47,
-    "fields": {
-      "metadata": {},
-      "key": "lcscplugin",
-      "name": "LCSCPlugin",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 48,
-    "fields": {
-      "metadata": {},
-      "key": "mouserplugin",
-      "name": "MouserPlugin",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 49,
-    "fields": {
-      "metadata": {},
-      "key": "tmeplugin",
-      "name": "TMEPlugin",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 50,
-    "fields": {
-      "metadata": {},
-      "key": "filteredsampleevent",
-      "name": "FilteredEventPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 51,
-    "fields": {
-      "metadata": {},
-      "key": "samplelabelprinter",
-      "name": "Sample Label Printer",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 52,
-    "fields": {
-      "metadata": {},
-      "key": "samplereport",
-      "name": "Sample Report Plugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 53,
-    "fields": {
-      "metadata": {},
-      "key": "samplecurrencyexchange",
-      "name": "Sample Exchange",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 54,
-    "fields": {
-      "metadata": {},
-      "key": "sampletransitionplugin",
-      "name": "SampleTransitionPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 55,
-    "fields": {
-      "metadata": {},
-      "key": "sampleversion",
-      "name": "Sample Version Plugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 56,
-    "fields": {
-      "metadata": {},
-      "key": "inventreebarcode",
-      "name": "InvenTreeBarcode",
-      "active": true
-    }
-  },
-  {
-    "model": "plugin.pluginconfig",
-    "pk": 57,
-    "fields": {
-      "metadata": {},
-      "key": "simpleactionplugin",
-      "name": "SimpleActionPlugin",
-      "active": false
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 11,
-    "fields": {
-      "key": "ENABLE_NOTIFICATION_EMAILS",
-      "value": "False",
-      "plugin": 38
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 12,
-    "fields": {
-      "key": "ENABLE_NOTIFICATION_SLACK",
-      "value": "False",
-      "plugin": 38
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 13,
-    "fields": {
-      "key": "NOTIFICATION_SLACK_URL",
-      "value": "",
-      "plugin": 38
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 14,
-    "fields": {
-      "key": "DEBUG",
-      "value": "False",
-      "plugin": 44
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 15,
-    "fields": {
-      "key": "SUPPLIER_ID",
-      "value": "",
-      "plugin": 46
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 16,
-    "fields": {
-      "key": "SUPPLIER_ID",
-      "value": "",
-      "plugin": 47
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 17,
-    "fields": {
-      "key": "SUPPLIER_ID",
-      "value": "",
-      "plugin": 48
-    }
-  },
-  {
-    "model": "plugin.pluginsetting",
-    "pk": 18,
-    "fields": {
-      "key": "SUPPLIER_ID",
-      "value": "",
-      "plugin": 49
-    }
-  },
-  {
     "model": "plugin.notificationusersetting",
     "pk": 1,
     "fields": {
@@ -43685,7 +43371,7 @@
     "model": "order.purchaseorder",
     "pk": 6,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "reference_int": 6,
       "notes": null,
       "barcode_data": "",
@@ -43703,12 +43389,12 @@
       "contact": null,
       "address": null,
       "reference": "PO0006",
-      "status": 20,
+      "status": 30,
       "supplier": 38,
       "supplier_reference": "",
       "received_by": null,
       "issue_date": "2022-09-07",
-      "complete_date": null
+      "complete_date": "2024-01-15"
     }
   },
   {
@@ -43853,12 +43539,12 @@
       "contact": null,
       "address": null,
       "reference": "PO0011",
-      "status": 20,
+      "status": 30,
       "supplier": 44,
       "supplier_reference": "",
-      "received_by": null,
+      "received_by": 1,
       "issue_date": "2023-05-26",
-      "complete_date": null
+      "complete_date": "2024-01-15"
     }
   },
   {
@@ -44339,7 +44025,7 @@
     "model": "order.purchaseorderlineitem",
     "pk": 17,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "quantity": "15.00000",
       "reference": "",
       "notes": "",
@@ -44347,7 +44033,7 @@
       "target_date": null,
       "order": 6,
       "part": 453,
-      "received": "0.00000",
+      "received": "15.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "12.500000",
       "destination": null
@@ -44357,7 +44043,7 @@
     "model": "order.purchaseorderlineitem",
     "pk": 18,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "quantity": "120.00000",
       "reference": "",
       "notes": "",
@@ -44365,7 +44051,7 @@
       "target_date": null,
       "order": 6,
       "part": 477,
-      "received": "97.00000",
+      "received": "120.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "7.550000",
       "destination": null
@@ -44375,7 +44061,7 @@
     "model": "order.purchaseorderlineitem",
     "pk": 19,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "quantity": "12.00000",
       "reference": "",
       "notes": "",
@@ -44383,7 +44069,7 @@
       "target_date": null,
       "order": 6,
       "part": 474,
-      "received": "0.00000",
+      "received": "12.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "15.780000",
       "destination": null
@@ -44527,7 +44213,7 @@
       "target_date": null,
       "order": 11,
       "part": 1034,
-      "received": "0.00000",
+      "received": "100.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "2.500000",
       "destination": null
@@ -44545,7 +44231,7 @@
       "target_date": null,
       "order": 11,
       "part": 1033,
-      "received": "5.00000",
+      "received": "10.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "135.000000",
       "destination": null
@@ -44563,7 +44249,7 @@
       "target_date": null,
       "order": 11,
       "part": 1028,
-      "received": "0.00000",
+      "received": "123.00000",
       "purchase_price_currency": "USD",
       "purchase_price": "1.000000",
       "destination": null
@@ -45466,8 +45152,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 12,
-      "rght": 19,
+      "lft": 16,
+      "rght": 23,
       "tree_id": 1,
       "level": 1
     }
@@ -45485,8 +45171,8 @@
       "structural": false,
       "default_keywords": "passive resistor",
       "icon": "",
-      "lft": 17,
-      "rght": 18,
+      "lft": 21,
+      "rght": 22,
       "tree_id": 1,
       "level": 2
     }
@@ -45504,8 +45190,8 @@
       "structural": false,
       "default_keywords": "passive capacitor",
       "icon": "",
-      "lft": 13,
-      "rght": 14,
+      "lft": 17,
+      "rght": 18,
       "tree_id": 1,
       "level": 2
     }
@@ -45523,8 +45209,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 15,
-      "rght": 16,
+      "lft": 19,
+      "rght": 20,
       "tree_id": 1,
       "level": 2
     }
@@ -45599,8 +45285,8 @@
       "structural": false,
       "default_keywords": null,
       "icon": "",
-      "lft": 20,
-      "rght": 21,
+      "lft": 12,
+      "rght": 13,
       "tree_id": 1,
       "level": 1
     }
@@ -45675,8 +45361,8 @@
       "structural": false,
       "default_keywords": "",
       "icon": "",
-      "lft": 22,
-      "rght": 23,
+      "lft": 14,
+      "rght": 15,
       "tree_id": 1,
       "level": 1
     }
@@ -69719,7 +69405,7 @@
     "model": "part.partpricing",
     "pk": 531,
     "fields": {
-      "updated": "2023-05-17T12:30:45.978Z",
+      "updated": "2024-01-15T13:29:23.575Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 603,
@@ -70685,7 +70371,7 @@
     "model": "part.partpricing",
     "pk": 552,
     "fields": {
-      "updated": "2023-05-17T12:30:47.885Z",
+      "updated": "2024-01-15T13:29:23.602Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 624,
@@ -70823,7 +70509,7 @@
     "model": "part.partpricing",
     "pk": 555,
     "fields": {
-      "updated": "2023-05-17T12:30:48.929Z",
+      "updated": "2024-01-15T13:29:23.613Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 627,
@@ -83243,7 +82929,7 @@
     "model": "part.partpricing",
     "pk": 825,
     "fields": {
-      "updated": "2023-05-26T04:56:39.788Z",
+      "updated": "2024-01-15T13:29:23.625Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 897,
@@ -83335,7 +83021,7 @@
     "model": "part.partpricing",
     "pk": 827,
     "fields": {
-      "updated": "2023-05-26T05:35:26.988Z",
+      "updated": "2024-01-15T13:29:23.636Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 899,
@@ -83427,7 +83113,7 @@
     "model": "part.partpricing",
     "pk": 829,
     "fields": {
-      "updated": "2023-06-01T09:28:18.203Z",
+      "updated": "2024-01-15T13:29:23.646Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 901,
@@ -155553,6 +155239,252 @@
     }
   },
   {
+    "model": "stock.stockitem",
+    "pk": 1188,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:22:37.918Z",
+      "parent": null,
+      "part": 897,
+      "supplier_part": 1034,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "30.48000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 11,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "8.202100",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1071,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1189,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:22:38.282Z",
+      "parent": null,
+      "part": 899,
+      "supplier_part": 1033,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "1524.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 11,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "0.442913",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1072,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1190,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:22:38.396Z",
+      "parent": null,
+      "part": 901,
+      "supplier_part": 1028,
+      "location": 8,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "37.49040",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 11,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "3.280840",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1073,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1191,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:23:04.904Z",
+      "parent": null,
+      "part": 603,
+      "supplier_part": 453,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "15.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 6,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "12.500000",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1074,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1192,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:23:05.004Z",
+      "parent": null,
+      "part": 627,
+      "supplier_part": 477,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "23.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 6,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "7.550000",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1075,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1193,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-01-15T13:23:05.164Z",
+      "parent": null,
+      "part": 624,
+      "supplier_part": 474,
+      "location": 10,
+      "packaging": null,
+      "belongs_to": null,
+      "customer": null,
+      "serial": null,
+      "serial_int": 0,
+      "link": "",
+      "batch": "",
+      "quantity": "12.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": 6,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": true,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": "15.780000",
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1076,
+      "level": 0
+    }
+  },
+  {
     "model": "stock.stockitemtracking",
     "pk": 2,
     "fields": {
@@ -171952,6 +171884,108 @@
     }
   },
   {
+    "model": "stock.stockitemtracking",
+    "pk": 1103,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1188,
+      "date": "2024-01-15T13:22:38.161Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 11,
+        "location": 8,
+        "quantity": 100.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1104,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1189,
+      "date": "2024-01-15T13:22:38.366Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 11,
+        "location": 8,
+        "quantity": 5.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1105,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1190,
+      "date": "2024-01-15T13:22:38.474Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 11,
+        "location": 8,
+        "quantity": 123.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1106,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1191,
+      "date": "2024-01-15T13:23:04.967Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 6,
+        "location": 10,
+        "quantity": 15.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1107,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1192,
+      "date": "2024-01-15T13:23:05.075Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 6,
+        "location": 10,
+        "quantity": 23.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1108,
+    "fields": {
+      "tracking_type": 70,
+      "item": 1193,
+      "date": "2024-01-15T13:23:05.289Z",
+      "notes": "",
+      "user": 1,
+      "deltas": {
+        "status": 10,
+        "purchaseorder": 6,
+        "location": 10,
+        "quantity": 12.0
+      }
+    }
+  },
+  {
     "model": "stock.stockitemtestresult",
     "pk": 1,
     "fields": {
@@ -173197,6 +173231,62 @@
     }
   },
   {
+    "model": "users.owner",
+    "pk": 1,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 1
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 2,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 2
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 3,
+    "fields": {
+      "owner_type": 84,
+      "owner_id": 3
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 4,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 1
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 5,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 2
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 6,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 3
+    }
+  },
+  {
+    "model": "users.owner",
+    "pk": 7,
+    "fields": {
+      "owner_type": 85,
+      "owner_id": 4
+    }
+  },
+  {
     "model": "auth.group",
     "pk": 1,
     "fields": {
@@ -173225,7 +173315,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2023-12-16T05:45:25.882Z",
+      "last_login": "2024-01-15T13:13:44.003Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
