@@ -9,6 +9,8 @@
 # Temp files
 *.json.tmp
 *.tmp.json
+*.auth.json
+*.data.json
 
 # InvenTree project files
 env/
