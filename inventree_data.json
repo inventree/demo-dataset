@@ -65276,6 +65276,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Paint",
+      "key": "paint",
       "description": "Paint has been applied",
       "required": true,
       "requires_value": true,
@@ -65289,6 +65290,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Sticker",
+      "key": "sticker",
       "description": "Applied QC sticker",
       "required": true,
       "requires_value": false,
@@ -65302,6 +65304,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Commissioning",
+      "key": "commissioning",
       "description": "Automated commissioning checks have been performed",
       "required": true,
       "requires_value": false,
@@ -65315,6 +65318,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Optional",
+      "key": "optional",
       "description": "An optional test (not required)",
       "required": false,
       "requires_value": false,
@@ -65328,6 +65332,7 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test A",
+      "key": "testa",
       "description": "This widget has passed test sequence A",
       "required": true,
       "requires_value": false,
@@ -65341,6 +65346,7 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test B",
+      "key": "testb",
       "description": "This widget has passed test sequence B",
       "required": true,
       "requires_value": false,
@@ -65354,6 +65360,7 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test C",
+      "key": "testc",
       "description": "This widget has passed test sequence C",
       "required": true,
       "requires_value": false,
@@ -83503,8 +83510,8 @@
     "model": "auth.user",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2024-01-30T02:07:44.721Z",
+      "password": "pbkdf2_sha256$600000$eW6hr1msXY3U1vkqy3K4wd$/egntyTaLBCUPnM1nM2LIbbDGjKfccvIOgexovlFKjo=",
+      "last_login": "2024-02-07T11:24:14.889Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -84009,7 +84016,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84026,7 +84033,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84043,7 +84050,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Red",
       "attachment": "",
@@ -84060,7 +84067,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 219,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84077,7 +84084,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 219,
-      "test": "Sticker",
+      "template": 2,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84094,7 +84101,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 218,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Blue",
       "attachment": "",
@@ -84111,7 +84118,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84128,7 +84135,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84145,7 +84152,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84162,7 +84169,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 215,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84179,7 +84186,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 215,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84196,7 +84203,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 217,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84213,7 +84220,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 217,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84230,7 +84237,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 212,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84247,7 +84254,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 212,
-      "test": "Paint",
+      "template": 1,
       "result": false,
       "value": "Painting failed",
       "attachment": "",
@@ -84264,7 +84271,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84281,7 +84288,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84298,7 +84305,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84315,7 +84322,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Red",
       "attachment": "",
@@ -84332,7 +84339,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 207,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84349,7 +84356,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 207,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84366,7 +84373,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84383,7 +84390,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84400,7 +84407,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84417,7 +84424,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84434,7 +84441,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84451,7 +84458,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test A",
+      "template": 5,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84468,7 +84475,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84485,7 +84492,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84502,7 +84509,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84519,7 +84526,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "12",
       "attachment": "",
@@ -84536,7 +84543,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "Finally passed",
       "attachment": "",
@@ -84553,7 +84560,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84570,7 +84577,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "0",
       "attachment": "",
@@ -84587,7 +84594,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 189,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84604,7 +84611,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 189,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84621,7 +84628,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 190,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "Test",
       "attachment": "",
@@ -84638,7 +84645,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84655,7 +84662,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "Failed",
       "attachment": "",
@@ -84672,7 +84679,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "Pass",
       "attachment": "",
@@ -84689,7 +84696,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 192,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84706,7 +84713,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84723,7 +84730,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 194,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84740,7 +84747,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 194,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84757,7 +84764,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 195,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84774,7 +84781,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 196,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84791,7 +84798,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 197,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84808,7 +84815,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 197,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84825,7 +84832,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 198,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84842,7 +84849,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 198,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84859,7 +84866,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 199,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84876,7 +84883,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 200,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84893,7 +84900,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 192,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84910,7 +84917,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 176,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84927,7 +84934,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 179,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84944,7 +84951,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 183,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84961,7 +84968,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 195,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84978,7 +84985,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 190,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84995,7 +85002,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 242,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
