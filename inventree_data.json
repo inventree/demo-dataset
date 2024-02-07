@@ -44565,9 +44565,9 @@
     "model": "part.partpricing",
     "pk": 441,
     "fields": {
-      "updated": "2024-02-07T11:30:58.352Z",
+      "updated": "2024-02-07T11:44:48.408Z",
       "currency": "USD",
-      "scheduled_for_update": true,
+      "scheduled_for_update": false,
       "part": 87,
       "bom_cost_min_currency": "USD",
       "bom_cost_min": "82.698427",
@@ -85074,23 +85074,6 @@
   },
   {
     "model": "stock.stockitemtestresult",
-    "pk": 62,
-    "fields": {
-      "metadata": {},
-      "stock_item": 1195,
-      "template": 10,
-      "result": true,
-      "value": "cc47510056958eadd92fd506a56607cd",
-      "attachment": "",
-      "notes": "",
-      "user": [
-        "admin"
-      ],
-      "date": "2024-02-07T11:39:56.302Z"
-    }
-  },
-  {
-    "model": "stock.stockitemtestresult",
     "pk": 63,
     "fields": {
       "metadata": {},
@@ -85733,6 +85716,74 @@
         "allaccess"
       ],
       "date": "2024-02-07T11:41:24.581Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 102,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 9,
+      "result": false,
+      "value": "N/A",
+      "attachment": "",
+      "notes": "Fail test",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:06:12.793Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 104,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 10,
+      "result": false,
+      "value": "Fail result",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:20:15.737Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 105,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 10,
+      "result": true,
+      "value": "12123412341234412341234",
+      "attachment": "",
+      "notes": "Finally passing",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:21:39.475Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 106,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 9,
+      "result": true,
+      "value": "1.23.45",
+      "attachment": "",
+      "notes": "Uploaded new firmware",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:21:52.654Z"
     }
   },
   {
