@@ -65410,6 +65410,20 @@
     }
   },
   {
+    "model": "part.parttesttemplate",
+    "pk": 11,
+    "fields": {
+      "metadata": {},
+      "part": 87,
+      "test_name": "Color",
+      "key": "color",
+      "description": "Optionally, what color was this item painted?",
+      "required": false,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
     "model": "part.partparametertemplate",
     "pk": 1,
     "fields": {
@@ -85784,6 +85798,40 @@
         "admin"
       ],
       "date": "2024-02-07T12:21:52.654Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 107,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 11,
+      "result": true,
+      "value": "Yellow",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:25:35.419Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 108,
+    "fields": {
+      "metadata": {},
+      "stock_item": 413,
+      "template": 11,
+      "result": false,
+      "value": "Green",
+      "attachment": "",
+      "notes": "The green paint was not applied very well",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:25:56.409Z"
     }
   },
   {
