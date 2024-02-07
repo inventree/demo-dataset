@@ -6648,62 +6648,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 125,
-    "fields": {
-      "value": "2023-06-14T20:10:54.536599",
-      "key": "_CHECK_FOR_UPDATES_SUCCESS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 126,
-    "fields": {
-      "value": "2023-06-14T20:10:54.037474",
-      "key": "_CHECK_FOR_UPDATES_ATTEMPT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 127,
-    "fields": {
-      "value": "0.11.3",
-      "key": "_INVENTREE_LATEST_VERSION"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 128,
-    "fields": {
-      "value": "2023-06-14T20:10:59.178508",
-      "key": "_RUN_BACKUP_SUCCESS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 129,
-    "fields": {
-      "value": "2023-06-14T20:10:56.042128",
-      "key": "_RUN_BACKUP_ATTEMPT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 130,
-    "fields": {
-      "value": "bbc60f347cbdbcf9f77ce387984237cf",
-      "key": "_PLUGIN_REGISTRY_HASH"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 131,
-    "fields": {
-      "value": "0",
-      "key": "_PENDING_MIGRATIONS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 132,
     "fields": {
       "value": "False",
@@ -83637,14 +83581,6 @@
         ]
       ],
       "user_permissions": []
-    }
-  },
-  {
-    "model": "sites.site",
-    "pk": 1,
-    "fields": {
-      "domain": "",
-      "name": "InvenTree Demo"
     }
   },
   {
