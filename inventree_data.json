@@ -6648,62 +6648,6 @@
   },
   {
     "model": "common.inventreesetting",
-    "pk": 125,
-    "fields": {
-      "value": "2023-06-14T20:10:54.536599",
-      "key": "_CHECK_FOR_UPDATES_SUCCESS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 126,
-    "fields": {
-      "value": "2023-06-14T20:10:54.037474",
-      "key": "_CHECK_FOR_UPDATES_ATTEMPT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 127,
-    "fields": {
-      "value": "0.11.3",
-      "key": "_INVENTREE_LATEST_VERSION"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 128,
-    "fields": {
-      "value": "2023-06-14T20:10:59.178508",
-      "key": "_RUN_BACKUP_SUCCESS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 129,
-    "fields": {
-      "value": "2023-06-14T20:10:56.042128",
-      "key": "_RUN_BACKUP_ATTEMPT"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 130,
-    "fields": {
-      "value": "bbc60f347cbdbcf9f77ce387984237cf",
-      "key": "_PLUGIN_REGISTRY_HASH"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
-    "pk": 131,
-    "fields": {
-      "value": "0",
-      "key": "_PENDING_MIGRATIONS"
-    }
-  },
-  {
-    "model": "common.inventreesetting",
     "pk": 132,
     "fields": {
       "value": "False",
@@ -44621,7 +44565,7 @@
     "model": "part.partpricing",
     "pk": 441,
     "fields": {
-      "updated": "2023-05-17T12:30:58.180Z",
+      "updated": "2024-02-07T11:44:48.408Z",
       "currency": "USD",
       "scheduled_for_update": false,
       "part": 87,
@@ -65332,6 +65276,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Paint",
+      "key": "paint",
       "description": "Paint has been applied",
       "required": true,
       "requires_value": true,
@@ -65345,6 +65290,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Sticker",
+      "key": "sticker",
       "description": "Applied QC sticker",
       "required": true,
       "requires_value": false,
@@ -65358,6 +65304,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Commissioning",
+      "key": "commissioning",
       "description": "Automated commissioning checks have been performed",
       "required": true,
       "requires_value": false,
@@ -65371,6 +65318,7 @@
       "metadata": null,
       "part": 77,
       "test_name": "Optional",
+      "key": "optional",
       "description": "An optional test (not required)",
       "required": false,
       "requires_value": false,
@@ -65384,6 +65332,7 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test A",
+      "key": "testa",
       "description": "This widget has passed test sequence A",
       "required": true,
       "requires_value": false,
@@ -65397,6 +65346,7 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test B",
+      "key": "testb",
       "description": "This widget has passed test sequence B",
       "required": true,
       "requires_value": false,
@@ -65410,8 +65360,65 @@
       "metadata": null,
       "part": 71,
       "test_name": "Test C",
+      "key": "testc",
       "description": "This widget has passed test sequence C",
       "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 8,
+    "fields": {
+      "metadata": {},
+      "part": 74,
+      "test_name": "Blue Paint Applied",
+      "key": "bluepaintapplied",
+      "description": "Blue paint must be applied to this specific part",
+      "required": true,
+      "requires_value": false,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 9,
+    "fields": {
+      "metadata": {},
+      "part": 87,
+      "test_name": "Firmware",
+      "key": "firmware",
+      "description": "Programmed with firmware - add version",
+      "required": true,
+      "requires_value": true,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 10,
+    "fields": {
+      "metadata": {},
+      "part": 87,
+      "test_name": "Checksum",
+      "key": "checksum",
+      "description": "Firmware checksum",
+      "required": true,
+      "requires_value": true,
+      "requires_attachment": false
+    }
+  },
+  {
+    "model": "part.parttesttemplate",
+    "pk": 11,
+    "fields": {
+      "metadata": {},
+      "part": 87,
+      "test_name": "Color",
+      "key": "color",
+      "description": "Optionally, what color was this item painted?",
+      "required": false,
       "requires_value": false,
       "requires_attachment": false
     }
@@ -83559,8 +83566,8 @@
     "model": "auth.user",
     "pk": 1,
     "fields": {
-      "password": "pbkdf2_sha256$260000$NNqALp0c36DPuISI5Q6iM3$+ILiuXGdDbEo4PXR5myUO/zHaNXhzHMPdtN2lZaKrg8=",
-      "last_login": "2024-01-30T02:07:44.721Z",
+      "password": "pbkdf2_sha256$600000$eW6hr1msXY3U1vkqy3K4wd$/egntyTaLBCUPnM1nM2LIbbDGjKfccvIOgexovlFKjo=",
+      "last_login": "2024-02-07T11:39:56.208Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -83621,8 +83628,8 @@
     "model": "auth.user",
     "pk": 4,
     "fields": {
-      "password": "pbkdf2_sha256$260000$pbHvzfVrKhB4pv6asbGt3h$DEkXQ/Jlv4LtQJyBhosGnDYRkN0cs+HUVcQYe3lOyA0=",
-      "last_login": "2022-12-31T12:57:57.241Z",
+      "password": "pbkdf2_sha256$600000$D9HxLyJ59a7P0FftXtfQRZ$Z0S7UCUhNoh52DlzoQ8jgXL6hHZm0JnWvicpbEHhZFI=",
+      "last_login": "2024-02-07T11:41:24.069Z",
       "is_superuser": false,
       "username": "allaccess",
       "first_name": "Ally",
@@ -83637,14 +83644,6 @@
         ]
       ],
       "user_permissions": []
-    }
-  },
-  {
-    "model": "sites.site",
-    "pk": 1,
-    "fields": {
-      "domain": "",
-      "name": "InvenTree Demo"
     }
   },
   {
@@ -84073,7 +84072,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84090,7 +84089,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84107,7 +84106,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 205,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Red",
       "attachment": "",
@@ -84124,7 +84123,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 219,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84141,7 +84140,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 219,
-      "test": "Sticker",
+      "template": 2,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84158,7 +84157,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 218,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Blue",
       "attachment": "",
@@ -84175,7 +84174,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84192,7 +84191,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84209,7 +84208,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 216,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84226,7 +84225,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 215,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84243,7 +84242,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 215,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84260,7 +84259,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 217,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84277,7 +84276,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 217,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84294,7 +84293,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 212,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84311,7 +84310,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 212,
-      "test": "Paint",
+      "template": 1,
       "result": false,
       "value": "Painting failed",
       "attachment": "",
@@ -84328,7 +84327,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84345,7 +84344,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84362,7 +84361,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84379,7 +84378,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 209,
-      "test": "Paint",
+      "template": 1,
       "result": true,
       "value": "Red",
       "attachment": "",
@@ -84396,7 +84395,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 207,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84413,7 +84412,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 207,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84430,7 +84429,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Optional",
+      "template": 4,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84447,7 +84446,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Sticker",
+      "template": 2,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84464,7 +84463,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 206,
-      "test": "Commissioning",
+      "template": 3,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84481,7 +84480,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84498,7 +84497,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84515,7 +84514,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test A",
+      "template": 5,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84532,7 +84531,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84549,7 +84548,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84566,7 +84565,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "",
       "attachment": "",
@@ -84583,7 +84582,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "12",
       "attachment": "",
@@ -84600,7 +84599,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 177,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "Finally passed",
       "attachment": "",
@@ -84617,7 +84616,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84634,7 +84633,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "0",
       "attachment": "",
@@ -84651,7 +84650,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 189,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84668,7 +84667,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 189,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84685,7 +84684,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 190,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "Test",
       "attachment": "",
@@ -84702,7 +84701,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84719,7 +84718,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test B",
+      "template": 6,
       "result": false,
       "value": "Failed",
       "attachment": "",
@@ -84736,7 +84735,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 191,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "Pass",
       "attachment": "",
@@ -84753,7 +84752,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 192,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84770,7 +84769,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 193,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84787,7 +84786,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 194,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84804,7 +84803,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 194,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84821,7 +84820,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 195,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84838,7 +84837,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 196,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84855,7 +84854,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 197,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84872,7 +84871,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 197,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84889,7 +84888,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 198,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84906,7 +84905,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 198,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84923,7 +84922,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 199,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84940,7 +84939,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 200,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84957,7 +84956,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 192,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84974,7 +84973,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 176,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -84991,7 +84990,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 179,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -85008,7 +85007,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 183,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -85025,7 +85024,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 195,
-      "test": "Test A",
+      "template": 5,
       "result": true,
       "value": "",
       "attachment": "",
@@ -85042,7 +85041,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 190,
-      "test": "Test C",
+      "template": 7,
       "result": true,
       "value": "",
       "attachment": "",
@@ -85059,7 +85058,7 @@
     "fields": {
       "metadata": null,
       "stock_item": 242,
-      "test": "Test B",
+      "template": 6,
       "result": true,
       "value": "",
       "attachment": "",
@@ -85068,6 +85067,771 @@
         "admin"
       ],
       "date": "2022-05-10T03:54:01.630Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 61,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1194,
+      "template": 10,
+      "result": true,
+      "value": "395c6d5586e5fb656901d047be27e1f7",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.283Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 63,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1196,
+      "template": 10,
+      "result": true,
+      "value": "b113cc5460f3568286f65832052b9c41",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.323Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 64,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1197,
+      "template": 10,
+      "result": true,
+      "value": "f4683686b052ade851c0c2c6d8697d68",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.350Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 65,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1198,
+      "template": 10,
+      "result": true,
+      "value": "f0796fefebce7e6449d09a8bdc3db7c5",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.379Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 66,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1199,
+      "template": 10,
+      "result": true,
+      "value": "91418938f2f0bd807535979871bb9179",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.403Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 67,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1200,
+      "template": 10,
+      "result": true,
+      "value": "26cf27c051c158b332c5122d5a349e5a",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.425Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 68,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1201,
+      "template": 10,
+      "result": true,
+      "value": "d5ad186fa6a028288e9c1659c32aa79f",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.450Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 69,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1202,
+      "template": 10,
+      "result": true,
+      "value": "cb3e0430b7eeabd4290ef8c9e65b92e6",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.476Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 70,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1203,
+      "template": 10,
+      "result": true,
+      "value": "2e41f4fde6c90fca99fb2fda4f51984e",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.495Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 71,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1204,
+      "template": 10,
+      "result": true,
+      "value": "8965d432816464808e0807d43cd65f08",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.513Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 72,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1205,
+      "template": 10,
+      "result": true,
+      "value": "8e08faec8262cb2f03199cb8d7d42e50",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.533Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 73,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1206,
+      "template": 10,
+      "result": true,
+      "value": "a00f8bf96fa05d15d496a8ed9135ae26",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.554Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 74,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1207,
+      "template": 10,
+      "result": true,
+      "value": "64fdf67b7e1fb4f201979757b775a370",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.574Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 75,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1208,
+      "template": 10,
+      "result": true,
+      "value": "acb8870ecba8f52043914d651b0f0279",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.593Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 76,
+    "fields": {
+      "metadata": {},
+      "stock_item": 409,
+      "template": 10,
+      "result": true,
+      "value": "2f676719a9d15b88b47b5187c25e1d6a",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.615Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 77,
+    "fields": {
+      "metadata": {},
+      "stock_item": 410,
+      "template": 10,
+      "result": true,
+      "value": "1edc01760bcf5ea3d8939384317292ac",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.634Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 78,
+    "fields": {
+      "metadata": {},
+      "stock_item": 411,
+      "template": 10,
+      "result": true,
+      "value": "7bf0635275e2db73da62c9ea266cb99d",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.654Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 79,
+    "fields": {
+      "metadata": {},
+      "stock_item": 412,
+      "template": 10,
+      "result": true,
+      "value": "458408f2b20dc96b3ccf3febcea47333",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.675Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 80,
+    "fields": {
+      "metadata": {},
+      "stock_item": 413,
+      "template": 10,
+      "result": true,
+      "value": "9982e8cbda1f4b9c4853f2b39f1c26e2",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T11:39:56.695Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 81,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1194,
+      "template": 9,
+      "result": true,
+      "value": "1.4.9",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.150Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 82,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 9,
+      "result": true,
+      "value": "3.8.3",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.173Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 83,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1196,
+      "template": 9,
+      "result": true,
+      "value": "1.3.0",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.193Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 84,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1197,
+      "template": 9,
+      "result": true,
+      "value": "1.0.10",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.215Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 85,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1198,
+      "template": 9,
+      "result": true,
+      "value": "6.5.6",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.251Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 86,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1199,
+      "template": 9,
+      "result": true,
+      "value": "7.9.0",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.284Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 87,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1200,
+      "template": 9,
+      "result": true,
+      "value": "5.1.9",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.312Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 88,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1201,
+      "template": 9,
+      "result": true,
+      "value": "2.10.8",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.332Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 89,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1202,
+      "template": 9,
+      "result": true,
+      "value": "2.3.8",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.353Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 90,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1203,
+      "template": 9,
+      "result": true,
+      "value": "6.8.7",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.374Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 91,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1204,
+      "template": 9,
+      "result": true,
+      "value": "0.3.5",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.394Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 92,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1205,
+      "template": 9,
+      "result": true,
+      "value": "4.6.9",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.415Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 93,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1206,
+      "template": 9,
+      "result": true,
+      "value": "6.7.6",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.435Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 94,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1207,
+      "template": 9,
+      "result": true,
+      "value": "10.9.8",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.454Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 95,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1208,
+      "template": 9,
+      "result": true,
+      "value": "7.10.4",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.475Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 96,
+    "fields": {
+      "metadata": {},
+      "stock_item": 409,
+      "template": 9,
+      "result": true,
+      "value": "9.6.6",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.497Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 97,
+    "fields": {
+      "metadata": {},
+      "stock_item": 410,
+      "template": 9,
+      "result": true,
+      "value": "7.10.7",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.519Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 98,
+    "fields": {
+      "metadata": {},
+      "stock_item": 411,
+      "template": 9,
+      "result": true,
+      "value": "9.2.4",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.540Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 99,
+    "fields": {
+      "metadata": {},
+      "stock_item": 412,
+      "template": 9,
+      "result": true,
+      "value": "3.0.9",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.560Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 100,
+    "fields": {
+      "metadata": {},
+      "stock_item": 413,
+      "template": 9,
+      "result": true,
+      "value": "3.2.8",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "allaccess"
+      ],
+      "date": "2024-02-07T11:41:24.581Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 102,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 9,
+      "result": false,
+      "value": "N/A",
+      "attachment": "",
+      "notes": "Fail test",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:06:12.793Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 104,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 10,
+      "result": false,
+      "value": "Fail result",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:20:15.737Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 105,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 10,
+      "result": true,
+      "value": "12123412341234412341234",
+      "attachment": "",
+      "notes": "Finally passing",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:21:39.475Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 106,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 9,
+      "result": true,
+      "value": "1.23.45",
+      "attachment": "",
+      "notes": "Uploaded new firmware",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:21:52.654Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 107,
+    "fields": {
+      "metadata": {},
+      "stock_item": 1195,
+      "template": 11,
+      "result": true,
+      "value": "Yellow",
+      "attachment": "",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:25:35.419Z"
+    }
+  },
+  {
+    "model": "stock.stockitemtestresult",
+    "pk": 108,
+    "fields": {
+      "metadata": {},
+      "stock_item": 413,
+      "template": 11,
+      "result": false,
+      "value": "Green",
+      "attachment": "",
+      "notes": "The green paint was not applied very well",
+      "user": [
+        "admin"
+      ],
+      "date": "2024-02-07T12:25:56.409Z"
     }
   },
   {
@@ -103286,6 +104050,261 @@
         "purchaseorder": 6,
         "location": 10,
         "quantity": 12.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1109,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1194,
+      "date": "2024-02-07T11:30:58.364Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1110,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1195,
+      "date": "2024-02-07T11:30:58.388Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1111,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1196,
+      "date": "2024-02-07T11:30:58.409Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1112,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1197,
+      "date": "2024-02-07T11:30:58.434Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1113,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1198,
+      "date": "2024-02-07T11:30:58.456Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1114,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1199,
+      "date": "2024-02-07T11:30:58.479Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1115,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1200,
+      "date": "2024-02-07T11:30:58.503Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1116,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1201,
+      "date": "2024-02-07T11:30:58.523Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1117,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1202,
+      "date": "2024-02-07T11:30:58.543Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1118,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1203,
+      "date": "2024-02-07T11:30:58.564Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1119,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1204,
+      "date": "2024-02-07T11:30:58.584Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1120,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1205,
+      "date": "2024-02-07T11:30:58.607Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1121,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1206,
+      "date": "2024-02-07T11:30:58.627Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1122,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1207,
+      "date": "2024-02-07T11:30:58.649Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
+      }
+    }
+  },
+  {
+    "model": "stock.stockitemtracking",
+    "pk": 1123,
+    "fields": {
+      "tracking_type": 1,
+      "item": 1208,
+      "date": "2024-02-07T11:30:58.666Z",
+      "notes": "",
+      "user": [
+        "admin"
+      ],
+      "deltas": {
+        "status": 10,
+        "quantity": 1.0
       }
     }
   },
@@ -147730,6 +148749,621 @@
       "lft": 1,
       "rght": 2,
       "tree_id": 1076,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1194,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.361Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "15",
+      "serial_int": 15,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1195,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.372Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "16",
+      "serial_int": 16,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1196,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.395Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "17",
+      "serial_int": 17,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1197,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.416Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "18",
+      "serial_int": 18,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1198,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.440Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "19",
+      "serial_int": 19,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1199,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.463Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "20",
+      "serial_int": 20,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1200,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.486Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "21",
+      "serial_int": 21,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1201,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.509Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "22",
+      "serial_int": 22,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1202,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.529Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "23",
+      "serial_int": 23,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1203,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.549Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "24",
+      "serial_int": 24,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1204,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.569Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "25",
+      "serial_int": 25,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1205,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.591Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "26",
+      "serial_int": 26,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1206,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.612Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "27",
+      "serial_int": 27,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1207,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.633Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "28",
+      "serial_int": 28,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
+      "level": 0
+    }
+  },
+  {
+    "model": "stock.stockitem",
+    "pk": 1208,
+    "fields": {
+      "metadata": {},
+      "notes": null,
+      "barcode_data": "",
+      "barcode_hash": "",
+      "updated": "2024-02-07T11:30:58.653Z",
+      "parent": null,
+      "part": 87,
+      "supplier_part": null,
+      "location": null,
+      "packaging": "",
+      "belongs_to": null,
+      "customer": null,
+      "serial": "29",
+      "serial_int": 29,
+      "link": "",
+      "batch": "BX-123-2024-2-7",
+      "quantity": "1.00000",
+      "build": null,
+      "consumed_by": null,
+      "is_building": false,
+      "purchase_order": null,
+      "sales_order": null,
+      "expiry_date": null,
+      "stocktake_date": null,
+      "stocktake_user": null,
+      "review_needed": false,
+      "delete_on_deplete": false,
+      "status": 10,
+      "purchase_price_currency": "USD",
+      "purchase_price": null,
+      "owner": null,
+      "lft": 1,
+      "rght": 2,
+      "tree_id": 1077,
       "level": 0
     }
   },
