@@ -6711,6 +6711,22 @@
     }
   },
   {
+    "model": "common.inventreesetting",
+    "pk": 141,
+    "fields": {
+      "value": "False",
+      "key": "PREVENT_BUILD_COMPLETION_HAVING_INCOMPLETED_TESTS"
+    }
+  },
+  {
+    "model": "common.inventreesetting",
+    "pk": 142,
+    "fields": {
+      "value": "True",
+      "key": "PLUGIN_UPDATE_CHECK"
+    }
+  },
+  {
     "model": "common.newsfeedentry",
     "pk": 1,
     "fields": {
@@ -41800,6 +41816,292 @@
     }
   },
   {
+    "model": "plugin.pluginconfig",
+    "pk": 1,
+    "fields": {
+      "metadata": {},
+      "key": "inventreebarcode",
+      "name": "InvenTreeBarcode",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 2,
+    "fields": {
+      "metadata": {},
+      "key": "inventreecorenotificationsplugin",
+      "name": "InvenTreeCoreNotificationsPlugin",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 3,
+    "fields": {
+      "metadata": {},
+      "key": "inventreecurrencyexchange",
+      "name": "InvenTreeCurrencyExchange",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 4,
+    "fields": {
+      "metadata": {},
+      "key": "inventreelabel",
+      "name": "InvenTreeLabel",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 5,
+    "fields": {
+      "metadata": {},
+      "key": "inventreelabelmachine",
+      "name": "InvenTreeLabelMachine",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 6,
+    "fields": {
+      "metadata": {},
+      "key": "inventreelabelsheet",
+      "name": "InvenTreeLabelSheet",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 7,
+    "fields": {
+      "metadata": {},
+      "key": "digikeyplugin",
+      "name": "DigiKeyPlugin",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 8,
+    "fields": {
+      "metadata": {},
+      "key": "lcscplugin",
+      "name": "LCSCPlugin",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 9,
+    "fields": {
+      "metadata": {},
+      "key": "mouserplugin",
+      "name": "MouserPlugin",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 10,
+    "fields": {
+      "metadata": {},
+      "key": "tmeplugin",
+      "name": "TMEPlugin",
+      "package_name": null,
+      "active": true
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 11,
+    "fields": {
+      "metadata": {},
+      "key": "sampleevent",
+      "name": "EventPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 12,
+    "fields": {
+      "metadata": {},
+      "key": "filteredsampleevent",
+      "name": "FilteredEventPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 13,
+    "fields": {
+      "metadata": {},
+      "key": "nointegrationplugin",
+      "name": "NoIntegrationPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 14,
+    "fields": {
+      "metadata": {},
+      "key": "wrongintegrationplugin",
+      "name": "WrongIntegrationPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 15,
+    "fields": {
+      "metadata": {},
+      "key": "sample-api-caller",
+      "name": "Sample API Caller",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 16,
+    "fields": {
+      "metadata": {},
+      "key": "samplepanel",
+      "name": "SamplePanel",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 17,
+    "fields": {
+      "metadata": {},
+      "key": "samplelabelprinter",
+      "name": "Sample Label Printer",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 18,
+    "fields": {
+      "metadata": {},
+      "key": "samplereport",
+      "name": "Sample Report Plugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 19,
+    "fields": {
+      "metadata": {},
+      "key": "sample",
+      "name": "SampleIntegrationPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 20,
+    "fields": {
+      "metadata": {},
+      "key": "samplecurrencyexchange",
+      "name": "Sample Exchange",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 21,
+    "fields": {
+      "metadata": {},
+      "key": "schedule",
+      "name": "ScheduledTasksPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 22,
+    "fields": {
+      "metadata": {},
+      "key": "simpleaction",
+      "name": "SimpleActionPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 23,
+    "fields": {
+      "metadata": {},
+      "key": "sampletransitionplugin",
+      "name": "SampleTransitionPlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 24,
+    "fields": {
+      "metadata": {},
+      "key": "validator",
+      "name": "SampleValidator",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 25,
+    "fields": {
+      "metadata": {},
+      "key": "sampleversion",
+      "name": "Sample Version Plugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
+    "model": "plugin.pluginconfig",
+    "pk": 26,
+    "fields": {
+      "metadata": {},
+      "key": "samplelocate",
+      "name": "SampleLocatePlugin",
+      "package_name": null,
+      "active": false
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -65278,6 +65580,7 @@
       "test_name": "Paint",
       "key": "paint",
       "description": "Paint has been applied",
+      "enabled": true,
       "required": true,
       "requires_value": true,
       "requires_attachment": false
@@ -65292,6 +65595,7 @@
       "test_name": "Sticker",
       "key": "sticker",
       "description": "Applied QC sticker",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65306,6 +65610,7 @@
       "test_name": "Commissioning",
       "key": "commissioning",
       "description": "Automated commissioning checks have been performed",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65320,6 +65625,7 @@
       "test_name": "Optional",
       "key": "optional",
       "description": "An optional test (not required)",
+      "enabled": true,
       "required": false,
       "requires_value": false,
       "requires_attachment": false
@@ -65334,6 +65640,7 @@
       "test_name": "Test A",
       "key": "testa",
       "description": "This widget has passed test sequence A",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65348,6 +65655,7 @@
       "test_name": "Test B",
       "key": "testb",
       "description": "This widget has passed test sequence B",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65362,6 +65670,7 @@
       "test_name": "Test C",
       "key": "testc",
       "description": "This widget has passed test sequence C",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65376,6 +65685,7 @@
       "test_name": "Blue Paint Applied",
       "key": "bluepaintapplied",
       "description": "Blue paint must be applied to this specific part",
+      "enabled": true,
       "required": true,
       "requires_value": false,
       "requires_attachment": false
@@ -65390,6 +65700,7 @@
       "test_name": "Firmware",
       "key": "firmware",
       "description": "Programmed with firmware - add version",
+      "enabled": true,
       "required": true,
       "requires_value": true,
       "requires_attachment": false
@@ -65404,6 +65715,7 @@
       "test_name": "Checksum",
       "key": "checksum",
       "description": "Firmware checksum",
+      "enabled": true,
       "required": true,
       "requires_value": true,
       "requires_attachment": false
@@ -65418,6 +65730,7 @@
       "test_name": "Color",
       "key": "color",
       "description": "Optionally, what color was this item painted?",
+      "enabled": true,
       "required": false,
       "requires_value": false,
       "requires_attachment": false
@@ -78687,6 +79000,105 @@
     }
   },
   {
+    "model": "part.partparameter",
+    "pk": 1910,
+    "fields": {
+      "metadata": {},
+      "part": 108,
+      "template": 8,
+      "data": "Blue",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1911,
+    "fields": {
+      "metadata": {},
+      "part": 100,
+      "template": 8,
+      "data": "Blue",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1912,
+    "fields": {
+      "metadata": {},
+      "part": 104,
+      "template": 8,
+      "data": "Blue",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1913,
+    "fields": {
+      "metadata": {},
+      "part": 109,
+      "template": 8,
+      "data": "Green",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1914,
+    "fields": {
+      "metadata": {},
+      "part": 101,
+      "template": 8,
+      "data": "Green",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1915,
+    "fields": {
+      "metadata": {},
+      "part": 105,
+      "template": 8,
+      "data": "Green",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1916,
+    "fields": {
+      "metadata": {},
+      "part": 107,
+      "template": 8,
+      "data": "Red",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1917,
+    "fields": {
+      "metadata": {},
+      "part": 99,
+      "template": 8,
+      "data": "Red",
+      "data_numeric": null
+    }
+  },
+  {
+    "model": "part.partparameter",
+    "pk": 1918,
+    "fields": {
+      "metadata": {},
+      "part": 103,
+      "template": 8,
+      "data": "Red",
+      "data_numeric": null
+    }
+  },
+  {
     "model": "part.bomitem",
     "pk": 1,
     "fields": {
@@ -83567,7 +83979,7 @@
     "pk": 1,
     "fields": {
       "password": "pbkdf2_sha256$600000$eW6hr1msXY3U1vkqy3K4wd$/egntyTaLBCUPnM1nM2LIbbDGjKfccvIOgexovlFKjo=",
-      "last_login": "2024-02-07T11:39:56.208Z",
+      "last_login": "2024-02-21T12:27:44.934Z",
       "is_superuser": true,
       "username": "admin",
       "first_name": "",
@@ -148830,7 +149242,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1078,
       "level": 0
     }
   },
@@ -148871,7 +149283,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1079,
       "level": 0
     }
   },
@@ -148912,7 +149324,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1080,
       "level": 0
     }
   },
@@ -148953,7 +149365,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1081,
       "level": 0
     }
   },
@@ -148994,7 +149406,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1082,
       "level": 0
     }
   },
@@ -149035,7 +149447,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1083,
       "level": 0
     }
   },
@@ -149076,7 +149488,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1084,
       "level": 0
     }
   },
@@ -149117,7 +149529,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1085,
       "level": 0
     }
   },
@@ -149158,7 +149570,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1086,
       "level": 0
     }
   },
@@ -149199,7 +149611,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1087,
       "level": 0
     }
   },
@@ -149240,7 +149652,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1088,
       "level": 0
     }
   },
@@ -149281,7 +149693,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1089,
       "level": 0
     }
   },
@@ -149322,7 +149734,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1090,
       "level": 0
     }
   },
@@ -149363,7 +149775,7 @@
       "owner": null,
       "lft": 1,
       "rght": 2,
-      "tree_id": 1077,
+      "tree_id": 1091,
       "level": 0
     }
   },
@@ -178342,6 +178754,17 @@
     "fields": {
       "value": "",
       "key": "DEFAULT_PART_LABEL_TEMPLATE",
+      "user": [
+        "admin"
+      ]
+    }
+  },
+  {
+    "model": "common.inventreeusersetting",
+    "pk": 141,
+    "fields": {
+      "value": "",
+      "key": "LAST_USED_PRINTING_MACHINES",
       "user": [
         "admin"
       ]
