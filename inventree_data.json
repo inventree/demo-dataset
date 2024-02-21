@@ -6779,6 +6779,15 @@
     }
   },
   {
+    "model": "common.customunit",
+    "pk": 1,
+    "fields": {
+      "name": "R",
+      "symbol": "",
+      "definition": "ohm"
+    }
+  },
+  {
     "model": "company.company",
     "pk": 1,
     "fields": {
@@ -42102,6 +42111,78 @@
     }
   },
   {
+    "model": "plugin.pluginsetting",
+    "pk": 1,
+    "fields": {
+      "key": "ENABLE_NOTIFICATION_SLACK",
+      "value": "False",
+      "plugin": 2
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 2,
+    "fields": {
+      "key": "ENABLE_NOTIFICATION_EMAILS",
+      "value": "False",
+      "plugin": 2
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 3,
+    "fields": {
+      "key": "NOTIFICATION_SLACK_URL",
+      "value": "",
+      "plugin": 2
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 4,
+    "fields": {
+      "key": "DEBUG",
+      "value": "False",
+      "plugin": 4
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 5,
+    "fields": {
+      "key": "SUPPLIER_ID",
+      "value": "",
+      "plugin": 7
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 6,
+    "fields": {
+      "key": "SUPPLIER_ID",
+      "value": "",
+      "plugin": 8
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 7,
+    "fields": {
+      "key": "SUPPLIER_ID",
+      "value": "",
+      "plugin": 9
+    }
+  },
+  {
+    "model": "plugin.pluginsetting",
+    "pk": 8,
+    "fields": {
+      "key": "SUPPLIER_ID",
+      "value": "",
+      "plugin": 10
+    }
+  },
+  {
     "model": "label.stockitemlabel",
     "pk": 1,
     "fields": {
@@ -66012,10 +66093,10 @@
     "model": "part.partparameter",
     "pk": 5,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 2,
       "template": 2,
-      "data": "10",
+      "data": "10R",
       "data_numeric": 10.0
     }
   },
@@ -66177,11 +66258,11 @@
     "model": "part.partparameter",
     "pk": 20,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 7,
       "template": 2,
-      "data": "220",
-      "data_numeric": 220.0
+      "data": "220R",
+      "data_numeric": 2.2e+29
     }
   },
   {
@@ -66474,10 +66555,10 @@
     "model": "part.partparameter",
     "pk": 47,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 16,
       "template": 2,
-      "data": "1kohm",
+      "data": "1k",
       "data_numeric": 1000.0
     }
   },
@@ -66573,10 +66654,10 @@
     "model": "part.partparameter",
     "pk": 56,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 19,
       "template": 2,
-      "data": "2.2kohm",
+      "data": "2k20",
       "data_numeric": 2200.0
     }
   },
@@ -66639,10 +66720,10 @@
     "model": "part.partparameter",
     "pk": 62,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 21,
       "template": 2,
-      "data": "2.2kohm",
+      "data": "2k2",
       "data_numeric": 2200.0
     }
   },
@@ -66705,10 +66786,10 @@
     "model": "part.partparameter",
     "pk": 68,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 23,
       "template": 2,
-      "data": "4.7kohm",
+      "data": "4k7",
       "data_numeric": 4700.0
     }
   },
@@ -66804,10 +66885,10 @@
     "model": "part.partparameter",
     "pk": 77,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 26,
       "template": 2,
-      "data": "5.6kohm",
+      "data": "5k6",
       "data_numeric": 5600.0
     }
   },
@@ -66969,10 +67050,10 @@
     "model": "part.partparameter",
     "pk": 92,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 31,
       "template": 2,
-      "data": "22kohm",
+      "data": "22k0R",
       "data_numeric": 22000.0
     }
   },
@@ -67035,10 +67116,10 @@
     "model": "part.partparameter",
     "pk": 98,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 33,
       "template": 2,
-      "data": "22kohm",
+      "data": "22kR",
       "data_numeric": 22000.0
     }
   },
@@ -67233,10 +67314,10 @@
     "model": "part.partparameter",
     "pk": 116,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 39,
       "template": 2,
-      "data": "56kohm",
+      "data": "56000",
       "data_numeric": 56000.0
     }
   },
@@ -67266,10 +67347,10 @@
     "model": "part.partparameter",
     "pk": 119,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 40,
       "template": 2,
-      "data": "68kohm",
+      "data": "68k",
       "data_numeric": 68000.0
     }
   },
@@ -67365,10 +67446,10 @@
     "model": "part.partparameter",
     "pk": 128,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 43,
       "template": 2,
-      "data": "100kohm",
+      "data": "100k",
       "data_numeric": 100000.0
     }
   },
@@ -67530,10 +67611,10 @@
     "model": "part.partparameter",
     "pk": 143,
     "fields": {
-      "metadata": null,
+      "metadata": {},
       "part": 48,
       "template": 2,
-      "data": "220kohm",
+      "data": "220kR",
       "data_numeric": 220000.0
     }
   },
