@@ -65615,7 +65615,7 @@
     "fields": {
       "metadata": {},
       "name": "Length",
-      "units": "km",
+      "units": "mm",
       "description": "Part length",
       "checkbox": false,
       "choices": ""
@@ -67547,7 +67547,7 @@
       "part": 83,
       "template": 4,
       "data": "2 inches",
-      "data_numeric": 5.08e-05
+      "data_numeric": 50.8
     }
   },
   {
@@ -67580,7 +67580,7 @@
       "part": 84,
       "template": 4,
       "data": "3.5cm",
-      "data_numeric": 3.5000000000000004e-05
+      "data_numeric": 35.0
     }
   },
   {
@@ -70594,7 +70594,7 @@
       "part": 685,
       "template": 4,
       "data": "2.7cm",
-      "data_numeric": 2.7000000000000002e-05
+      "data_numeric": 27.0
     }
   },
   {
@@ -78481,7 +78481,7 @@
       "part": 74,
       "template": 4,
       "data": "3 m",
-      "data_numeric": 0.003
+      "data_numeric": 3000.0
     }
   },
   {
@@ -78492,7 +78492,7 @@
       "part": 73,
       "template": 4,
       "data": "3.1m",
-      "data_numeric": 0.0031000000000000003
+      "data_numeric": 3100.0
     }
   },
   {
@@ -78503,7 +78503,7 @@
       "part": 75,
       "template": 4,
       "data": "2.9m",
-      "data_numeric": 0.0029
+      "data_numeric": 2900.0
     }
   },
   {
