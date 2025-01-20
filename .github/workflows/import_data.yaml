@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     
     env:
+      INVENTREE_SITE_URL: http://localhost:8000
       INVENTREE_DB_ENGINE: sqlite3
       INVENTREE_DB_NAME: inventree_db_stable.sqlite3
       INVENTREE_BACKUP_DIR: $GITHUB_WORKSPACE/path/to/backup
