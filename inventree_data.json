@@ -96292,6 +96292,18 @@
     }
   },
   {
+    "model": "account.emailaddress",
+    "pk": 5,
+    "fields": {
+      "user": [
+        "noaccess"
+      ],
+      "email": "norman@demo.inventree.org",
+      "verified": true,
+      "primary": true
+    }
+  },
+  {
     "model": "users.userprofile",
     "pk": 1,
     "fields": {
