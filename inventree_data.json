@@ -2,13 +2,13 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-09-21T23:49:29.692950",
-  "exported_at_utc": "2026-09-21T23:49:29.692960+00:00",
+  "exported_at": "2026-10-15T06:22:21.979492",
+  "exported_at_utc": "2026-10-15T06:22:21.979516+00:00",
   "source_version": "1.6.0 dev",
-  "api_version": 548,
+  "api_version": 556,
   "django_version": "5.2.17",
   "python_version": "3.12.13",
-  "source_commit": "94b24d4",
+  "source_commit": "9b8fdeb",
   "installed_apps": [
     "InvenTree",
     "allauth",
@@ -7331,1390 +7331,6 @@
     "description": "Project Infinity",
     "active": true,
     "responsible": null
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 1,
-  "fields": {
-    "value": "USD",
-    "key": "INVENTREE_DEFAULT_CURRENCY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 2,
-  "fields": {
-    "value": "True",
-    "key": "INVENTREE_INSTANCE_TITLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 3,
-  "fields": {
-    "value": "True",
-    "key": "BARCODE_ENABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 4,
-  "fields": {
-    "value": "True",
-    "key": "REPORT_ENABLE_TEST_REPORT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 7,
-  "fields": {
-    "value": "True",
-    "key": "STOCK_ENABLE_EXPIRY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 12,
-  "fields": {
-    "value": "90",
-    "key": "STOCK_STALE_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 13,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_DOWNLOAD_FROM_URL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 14,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_OWNERSHIP_CONTROL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 15,
-  "fields": {
-    "value": "InvenTree Demo Server",
-    "key": "INVENTREE_INSTANCE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 17,
-  "fields": {
-    "value": "InvenTree",
-    "key": "INVENTREE_COMPANY_NAME"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 18,
-  "fields": {
-    "value": "A4",
-    "key": "REPORT_DEFAULT_PAGE_SIZE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 19,
-  "fields": {
-    "value": "False",
-    "key": "REPORT_DEBUG_MODE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 20,
-  "fields": {
-    "value": "",
-    "key": "PART_IPN_REGEX"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 21,
-  "fields": {
-    "value": "True",
-    "key": "PART_ALLOW_DUPLICATE_IPN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 22,
-  "fields": {
-    "value": "True",
-    "key": "PART_ALLOW_EDIT_IPN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 24,
-  "fields": {
-    "value": "False",
-    "key": "PART_TEMPLATE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 25,
-  "fields": {
-    "value": "False",
-    "key": "PART_ASSEMBLY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 26,
-  "fields": {
-    "value": "True",
-    "key": "PART_COMPONENT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 27,
-  "fields": {
-    "value": "False",
-    "key": "PART_TRACKABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 28,
-  "fields": {
-    "value": "True",
-    "key": "PART_PURCHASEABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 29,
-  "fields": {
-    "value": "False",
-    "key": "PART_SALABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 30,
-  "fields": {
-    "value": "False",
-    "key": "PART_VIRTUAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 31,
-  "fields": {
-    "value": "True",
-    "key": "PART_COPY_BOM"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 32,
-  "fields": {
-    "value": "True",
-    "key": "PART_COPY_PARAMETERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 33,
-  "fields": {
-    "value": "True",
-    "key": "PART_COPY_TESTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 34,
-  "fields": {
-    "value": "True",
-    "key": "PART_CATEGORY_PARAMETERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 35,
-  "fields": {
-    "value": "True",
-    "key": "PART_INTERNAL_PRICE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 36,
-  "fields": {
-    "value": "False",
-    "key": "PART_BOM_USE_INTERNAL_PRICE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 37,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_ALLOW_EXPIRED_SALE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 38,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_ALLOW_EXPIRED_BUILD"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 41,
-  "fields": {
-    "value": "True",
-    "key": "PART_SHOW_RELATED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 42,
-  "fields": {
-    "value": "False",
-    "key": "PART_SHOW_IMPORT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 43,
-  "fields": {
-    "value": "False",
-    "key": "PART_CREATE_INITIAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 45,
-  "fields": {
-    "value": "{{ part.IPN if part.IPN }}{{ ' | ' if part.IPN }}{{ part.name }}{{ ' | ' if part.revision }}{{ part.revision if part.revision }}",
-    "key": "PART_NAME_FORMAT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 46,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENABLE_REG"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 47,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENABLE_PWD_FORGOT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 48,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENABLE_SSO"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 49,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_MAIL_REQUIRED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 50,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_SIGNUP_MAIL_TWICE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 51,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_SIGNUP_PWD_TWICE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 52,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_SIGNUP_SSO_AUTO"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 53,
-  "fields": {
-    "value": "3",
-    "key": "SIGNUP_GROUP"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 55,
-  "fields": {
-    "value": "True",
-    "key": "REPORT_ENABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 56,
-  "fields": {
-    "value": "False",
-    "key": "SERVER_RESTART_REQUIRED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 58,
-  "fields": {
-    "value": "True",
-    "key": "ENABLE_PLUGINS_SCHEDULE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 59,
-  "fields": {
-    "value": "True",
-    "key": "ENABLE_PLUGINS_EVENTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 60,
-  "fields": {
-    "value": "False",
-    "key": "ENABLE_PLUGINS_APP"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 61,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENFORCE_MFA"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 62,
-  "fields": {
-    "value": "False",
-    "key": "ENABLE_PLUGINS_NAVIGATION"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 64,
-  "fields": {
-    "value": "True",
-    "key": "ENABLE_PLUGINS_URL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 65,
-  "fields": {
-    "value": "{{ year }}-{{ month }}-{{ day }}",
-    "key": "STOCK_BATCH_CODE_TEMPLATE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 66,
-  "fields": {
-    "value": "True",
-    "key": "PLUGIN_ON_STARTUP"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 67,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_RESTRICT_ABOUT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 68,
-  "fields": {
-    "value": "True",
-    "key": "SALESORDER_DEFAULT_SHIPMENT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 70,
-  "fields": {
-    "value": "True",
-    "key": "BARCODE_WEBCAM_SUPPORT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 71,
-  "fields": {
-    "value": "BO{ref:04d}",
-    "key": "BUILDORDER_REFERENCE_PATTERN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 72,
-  "fields": {
-    "value": "SO{ref:04d}",
-    "key": "SALESORDER_REFERENCE_PATTERN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 73,
-  "fields": {
-    "value": "PO{ref:04d}",
-    "key": "PURCHASEORDER_REFERENCE_PATTERN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 74,
-  "fields": {
-    "value": "True",
-    "key": "LABEL_ENABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 75,
-  "fields": {
-    "value": "300",
-    "key": "LABEL_DPI"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 76,
-  "fields": {
-    "value": "False",
-    "key": "REPORT_ATTACH_TEST_REPORT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 77,
-  "fields": {
-    "value": "True",
-    "key": "INVENTREE_REQUIRE_CONFIRM"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 78,
-  "fields": {
-    "value": "1",
-    "key": "INVENTREE_DOWNLOAD_IMAGE_MAX_SIZE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 79,
-  "fields": {
-    "value": "",
-    "key": "PART_CATEGORY_DEFAULT_ICON"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 80,
-  "fields": {
-    "value": "1",
-    "key": "INVENTREE_TREE_DEPTH"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 81,
-  "fields": {
-    "value": "",
-    "key": "STOCK_LOCATION_DEFAULT_ICON"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 82,
-  "fields": {
-    "value": "False",
-    "key": "PLUGIN_CHECK_SIGNATURES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 83,
-  "fields": {
-    "value": "False",
-    "key": "SERIAL_NUMBER_GLOBALLY_UNIQUE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 84,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_BACKUP_ENABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 85,
-  "fields": {
-    "value": "30",
-    "key": "INVENTREE_DELETE_TASKS_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 86,
-  "fields": {
-    "value": "30",
-    "key": "INVENTREE_DELETE_ERRORS_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 87,
-  "fields": {
-    "value": "30",
-    "key": "INVENTREE_DELETE_NOTIFICATIONS_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 88,
-  "fields": {
-    "value": "150",
-    "key": "BARCODE_INPUT_DELAY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 89,
-  "fields": {
-    "value": "30",
-    "key": "PRICING_UPDATE_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 90,
-  "fields": {
-    "value": "False",
-    "key": "PURCHASEORDER_EDIT_COMPLETED_ORDERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 91,
-  "fields": {
-    "value": "False",
-    "key": "SALESORDER_EDIT_COMPLETED_ORDERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 92,
-  "fields": {
-    "value": "4",
-    "key": "PRICING_DECIMAL_PLACES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 93,
-  "fields": {
-    "value": "True",
-    "key": "PRICING_PURCHASE_HISTORY_OVERRIDES_SUPPLIER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 94,
-  "fields": {
-    "value": "True",
-    "key": "PRICING_USE_SUPPLIER_PRICING"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 95,
-  "fields": {
-    "value": "True",
-    "key": "PRICING_USE_VARIANT_PRICING"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 96,
-  "fields": {
-    "value": "False",
-    "key": "PRICING_ACTIVE_VARIANTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 97,
-  "fields": {
-    "value": "",
-    "key": "INVENTREE_DOWNLOAD_FROM_URL_USER_AGENT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 98,
-  "fields": {
-    "value": "False",
-    "key": "SERIAL_NUMBER_AUTOFILL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 99,
-  "fields": {
-    "value": "True",
-    "key": "STOCK_DELETE_DEPLETED_DEFAULT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 100,
-  "fields": {
-    "value": "True",
-    "key": "STOCKTAKE_ENABLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 101,
-  "fields": {
-    "value": "True",
-    "key": "PRICING_USE_STOCK_PRICING"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 102,
-  "fields": {
-    "value": "0",
-    "key": "PRICING_STOCK_ITEM_AGE_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 103,
-  "fields": {
-    "value": "1",
-    "key": "INVENTREE_BACKUP_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 104,
-  "fields": {
-    "value": "",
-    "key": "LOGIN_SIGNUP_MAIL_RESTRICTION"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 105,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENABLE_SSO_REG"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 106,
-  "fields": {
-    "value": "True",
-    "key": "PART_CREATE_SUPPLIER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 107,
-  "fields": {
-    "value": "0",
-    "key": "STOCKTAKE_AUTO_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 108,
-  "fields": {
-    "value": "30",
-    "key": "STOCKTAKE_DELETE_REPORT_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 112,
-  "fields": {
-    "value": "7",
-    "key": "INVENTREE_UPDATE_CHECK_INTERVAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 118,
-  "fields": {
-    "value": "True",
-    "key": "RETURNORDER_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 119,
-  "fields": {
-    "value": "True",
-    "key": "PART_ENABLE_REVISION"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 120,
-  "fields": {
-    "value": "0",
-    "key": "PRICING_DECIMAL_PLACES_MIN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 121,
-  "fields": {
-    "value": "RMA-{ref:04d}",
-    "key": "RETURNORDER_REFERENCE_PATTERN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 122,
-  "fields": {
-    "value": "False",
-    "key": "RETURNORDER_EDIT_COMPLETED_ORDERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 123,
-  "fields": {
-    "value": "True",
-    "key": "PROJECT_CODES_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 124,
-  "fields": {
-    "value": "http://localhost:8000",
-    "key": "INVENTREE_BASE_URL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 132,
-  "fields": {
-    "value": "False",
-    "key": "DISPLAY_FULL_NAMES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 133,
-  "fields": {
-    "value": "True",
-    "key": "INVENTREE_STRICT_URLS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 134,
-  "fields": {
-    "value": "True",
-    "key": "PARAMETER_ENFORCE_UNITS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 135,
-  "fields": {
-    "value": "False",
-    "key": "STOCKTAKE_EXCLUDE_EXTERNAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 136,
-  "fields": {
-    "value": "inventreecurrencyexchange",
-    "key": "CURRENCY_UPDATE_PLUGIN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 137,
-  "fields": {
-    "value": "5",
-    "key": "CURRENCY_UPDATE_INTERVAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 138,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_SHOW_INSTALLED_ITEMS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 139,
-  "fields": {
-    "value": "False",
-    "key": "PURCHASEORDER_AUTO_COMPLETE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 141,
-  "fields": {
-    "value": "False",
-    "key": "PREVENT_BUILD_COMPLETION_HAVING_INCOMPLETED_TESTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 142,
-  "fields": {
-    "value": "True",
-    "key": "PLUGIN_UPDATE_CHECK"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 146,
-  "fields": {
-    "value": "False",
-    "key": "TEST_STATION_DATA"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 147,
-  "fields": {
-    "value": "True",
-    "key": "STOCK_ENFORCE_BOM_INSTALLATION"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 148,
-  "fields": {
-    "value": "False",
-    "key": "REPORT_LOG_ERRORS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 152,
-  "fields": {
-    "value": "False",
-    "key": "PURCHASEORDER_REQUIRE_RESPONSIBLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 153,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_REQUIRE_RESPONSIBLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 154,
-  "fields": {
-    "value": "False",
-    "key": "SALESORDER_REQUIRE_RESPONSIBLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 155,
-  "fields": {
-    "value": "False",
-    "key": "RETURNORDER_REQUIRE_RESPONSIBLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 156,
-  "fields": {
-    "value": "False",
-    "key": "PART_ALLOW_DELETE_FROM_ASSEMBLY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 157,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_ALLOW_OUT_OF_STOCK_TRANSFER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 161,
-  "fields": {
-    "value": "AUD,CAD,CNY,EUR,GBP,JPY,NZD,USD",
-    "key": "CURRENCY_CODES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 163,
-  "fields": {
-    "value": "False",
-    "key": "SALESORDER_SHIP_COMPLETE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 167,
-  "fields": {
-    "value": "False",
-    "key": "BARCODE_SHOW_TEXT"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 168,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_REQUIRE_LOCKED_PART"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 169,
-  "fields": {
-    "value": "False",
-    "key": "LOGIN_ENABLE_SSO_GROUP_SYNC"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 170,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_REQUIRE_VALID_BOM"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 171,
-  "fields": {
-    "value": "True",
-    "key": "SSO_REMOVE_GROUPS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 172,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_REQUIRE_ACTIVE_PART"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 173,
-  "fields": {
-    "value": "groups",
-    "key": "SSO_GROUP_KEY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 174,
-  "fields": {
-    "value": "{}",
-    "key": "SSO_GROUP_MAP"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 178,
-  "fields": {
-    "value": "False",
-    "key": "PART_REVISION_ASSEMBLY_ONLY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 182,
-  "fields": {
-    "value": "inventreebarcode",
-    "key": "BARCODE_GENERATION_PLUGIN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 186,
-  "fields": {
-    "value": "True",
-    "key": "TEST_UPLOAD_CREATE_TEMPLATE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 187,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_REQUIRE_CLOSED_CHILDS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 188,
-  "fields": {
-    "value": "True",
-    "key": "ENABLE_PLUGINS_INTERFACE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 192,
-  "fields": {
-    "value": "False",
-    "key": "BARCODE_STORE_RESULTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 193,
-  "fields": {
-    "value": "100",
-    "key": "BARCODE_RESULTS_MAX_NUM"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 198,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_ANNOUNCE_ID"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 199,
-  "fields": {
-    "value": "True",
-    "key": "BUILDORDER_EXTERNAL_BUILDS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 200,
-  "fields": {
-    "value": "True",
-    "key": "DISPLAY_PROFILE_INFO"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 201,
-  "fields": {
-    "value": "74e962fb-3936-428a-b2c8-954af4f845b3",
-    "key": "INVENTREE_INSTANCE_ID"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 202,
-  "fields": {
-    "value": "False",
-    "key": "PURCHASEORDER_CONVERT_CURRENCY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 207,
-  "fields": {
-    "value": "False",
-    "key": "ENABLE_PLUGINS_MAILS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 208,
-  "fields": {
-    "value": "True",
-    "key": "PRICING_AUTO_UPDATE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 210,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_PROTECT_EMAIL_LOG"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 211,
-  "fields": {
-    "value": "30",
-    "key": "INVENTREE_DELETE_EMAIL_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 212,
-  "fields": {
-    "value": "False",
-    "key": "STOCKTAKE_DELETE_OLD_ENTRIES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 213,
-  "fields": {
-    "value": "365",
-    "key": "STOCKTAKE_DELETE_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 215,
-  "fields": {
-    "value": "False",
-    "key": "SALESORDER_SHIPMENT_REQUIRES_CHECK"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 216,
-  "fields": {
-    "value": "True",
-    "key": "MACHINE_PING_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 224,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_TRACKING_DELETE_OLD_ENTRIES"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 225,
-  "fields": {
-    "value": "365",
-    "key": "STOCK_TRACKING_DELETE_DAYS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 231,
-  "fields": {
-    "value": "False",
-    "key": "PART_BOM_ALLOW_ZERO_QUANTITY"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 237,
-  "fields": {
-    "value": "False",
-    "key": "INVENTREE_SHOW_ADMIN_BANNER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 238,
-  "fields": {
-    "value": "True",
-    "key": "INVENTREE_SHOW_SUPERUSER_BANNER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 243,
-  "fields": {
-    "value": "TO-{ref:04d}",
-    "key": "TRANSFERORDER_REFERENCE_PATTERN"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 244,
-  "fields": {
-    "value": "True",
-    "key": "TRANSFERORDER_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 245,
-  "fields": {
-    "value": "False",
-    "key": "TRANSFERORDER_REQUIRE_RESPONSIBLE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 250,
-  "fields": {
-    "value": "False",
-    "key": "SALESORDER_BLOCK_INCOMPLETE_ITEM_TESTS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 251,
-  "fields": {
-    "value": "True",
-    "key": "STOCK_ALLOW_DELETE_SERIALIZED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 252,
-  "fields": {
-    "value": "1",
-    "key": "WEEK_STARTS_ON"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 253,
-  "fields": {
-    "value": "False",
-    "key": "BUILDORDER_EXTERNAL_REQUIRED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 254,
-  "fields": {
-    "value": "10",
-    "key": "INVENTREE_UPLOAD_MAX_SIZE"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 255,
-  "fields": {
-    "value": "True",
-    "key": "STOCK_ALLOW_EDIT_SERIAL"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 256,
-  "fields": {
-    "value": "True",
-    "key": "PART_ENABLE_LOCKING"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 268,
-  "fields": {
-    "value": "False",
-    "key": "REPORT_FETCH_URLS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 269,
-  "fields": {
-    "value": "12",
-    "key": "CALENDAR_HORIZON_MONTHS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 274,
-  "fields": {
-    "value": "False",
-    "key": "STOCK_MERGE_ON_TRANSFER"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 280,
-  "fields": {
-    "value": "False",
-    "key": "TRANSFERORDER_EDIT_COMPLETED_ORDERS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 289,
-  "fields": {
-    "value": "True",
-    "key": "BUILDORDER_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 290,
-  "fields": {
-    "value": "True",
-    "key": "PURCHASEORDER_MERGE_LINE_ITEMS"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 291,
-  "fields": {
-    "value": "True",
-    "key": "SALESORDER_ENABLED"
-  }
-},
-{
-  "model": "common.inventreesetting",
-  "pk": 292,
-  "fields": {
-    "value": "True",
-    "key": "PURCHASEORDER_ENABLED"
   }
 },
 {
@@ -26828,6 +25444,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26849,6 +25466,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "AUD",
     "tax_id": ""
   }
@@ -26870,6 +25488,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "AUD",
     "tax_id": ""
   }
@@ -26891,6 +25510,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26912,6 +25532,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26933,6 +25554,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26954,6 +25576,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26975,6 +25598,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -26996,6 +25620,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27017,6 +25642,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27038,6 +25664,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27059,6 +25686,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27080,6 +25708,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27101,6 +25730,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27122,6 +25752,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27143,6 +25774,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27164,6 +25796,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27185,6 +25818,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27206,6 +25840,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27227,6 +25862,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27248,6 +25884,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27269,6 +25906,7 @@
     "is_customer": true,
     "is_supplier": false,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27290,6 +25928,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27311,6 +25950,7 @@
     "is_customer": true,
     "is_supplier": false,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27332,6 +25972,7 @@
     "is_customer": true,
     "is_supplier": false,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27353,6 +25994,7 @@
     "is_customer": true,
     "is_supplier": false,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27374,6 +26016,7 @@
     "is_customer": true,
     "is_supplier": false,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27395,6 +26038,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "EUR",
     "tax_id": ""
   }
@@ -27416,6 +26060,7 @@
     "is_customer": false,
     "is_supplier": false,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27437,6 +26082,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27458,6 +26104,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27479,6 +26126,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27500,6 +26148,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27521,6 +26170,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27542,6 +26192,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27563,6 +26214,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27584,6 +26236,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "EUR",
     "tax_id": ""
   }
@@ -27605,6 +26258,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "EUR",
     "tax_id": ""
   }
@@ -27626,6 +26280,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27647,6 +26302,7 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": true,
+    "is_internal": false,
     "currency": "USD",
     "tax_id": ""
   }
@@ -27668,7 +26324,52 @@
     "is_customer": false,
     "is_supplier": true,
     "is_manufacturer": false,
+    "is_internal": false,
     "currency": "AUD",
+    "tax_id": ""
+  }
+},
+{
+  "model": "company.company",
+  "pk": 50,
+  "fields": {
+    "metadata": {},
+    "image": "",
+    "name": "Internal Company",
+    "description": "Primary internal copmany",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "contact": "",
+    "link": "",
+    "active": true,
+    "is_customer": false,
+    "is_supplier": false,
+    "is_manufacturer": false,
+    "is_internal": true,
+    "currency": "USD",
+    "tax_id": ""
+  }
+},
+{
+  "model": "company.company",
+  "pk": 51,
+  "fields": {
+    "metadata": {},
+    "image": "",
+    "name": "Secondary Company",
+    "description": "Secondary internal company",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "contact": "",
+    "link": "",
+    "active": true,
+    "is_customer": false,
+    "is_supplier": false,
+    "is_manufacturer": false,
+    "is_internal": true,
+    "currency": "USD",
     "tax_id": ""
   }
 },
@@ -28525,6 +27226,8 @@
     "postal_city": "Dupuyer",
     "province": "",
     "country": "Haiti",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28543,6 +27246,8 @@
     "postal_city": "Bergoo",
     "province": "",
     "country": "Gabon",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28561,6 +27266,8 @@
     "postal_city": "Albany",
     "province": "",
     "country": "Bahamas",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28579,6 +27286,8 @@
     "postal_city": "Camas",
     "province": "",
     "country": "Congo",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28597,6 +27306,8 @@
     "postal_city": "Corinne",
     "province": "Alabama",
     "country": "France, Metropolitan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28615,6 +27326,8 @@
     "postal_city": "Teasdale",
     "province": "",
     "country": "Lebanon",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28633,6 +27346,8 @@
     "postal_city": "Staples",
     "province": "Montana",
     "country": "Argentina",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28651,6 +27366,8 @@
     "postal_city": "Wyano",
     "province": "",
     "country": "Eritrea",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28669,6 +27386,8 @@
     "postal_city": "Norfolk",
     "province": "",
     "country": "Reunion",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28687,6 +27406,8 @@
     "postal_city": "Walton",
     "province": "",
     "country": "Senegal",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28705,6 +27426,8 @@
     "postal_city": "Lindcove",
     "province": "",
     "country": "Costa Rica",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28723,6 +27446,8 @@
     "postal_city": "Navarre",
     "province": "",
     "country": "South Africa",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28741,6 +27466,8 @@
     "postal_city": "Corriganville",
     "province": "",
     "country": "Barbados",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28759,6 +27486,8 @@
     "postal_city": "Martinez",
     "province": "New York",
     "country": "St. Helena",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28777,6 +27506,8 @@
     "postal_city": "Coultervillle",
     "province": "Maine",
     "country": "Tanzania",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28795,6 +27526,8 @@
     "postal_city": "Sylvanite",
     "province": "",
     "country": "Cayman Islands",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28813,6 +27546,8 @@
     "postal_city": "Leland",
     "province": "",
     "country": "Jamaica",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28831,6 +27566,8 @@
     "postal_city": "Leeper",
     "province": "Idaho",
     "country": "Netherlands Antilles",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28849,6 +27586,8 @@
     "postal_city": "Harviell",
     "province": "",
     "country": "Albania",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28867,6 +27606,8 @@
     "postal_city": "Gulf",
     "province": "",
     "country": "Seychelles",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28885,6 +27626,8 @@
     "postal_city": "Dotsero",
     "province": "",
     "country": "Tajikistan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28903,6 +27646,8 @@
     "postal_city": "Emison",
     "province": "",
     "country": "Tuvalu",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28921,6 +27666,8 @@
     "postal_city": "Hegins",
     "province": "",
     "country": "Tunisia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28939,6 +27686,8 @@
     "postal_city": "Avoca",
     "province": "",
     "country": "Niger",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28957,6 +27706,8 @@
     "postal_city": "Kent",
     "province": "Palau",
     "country": "Belize",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28975,6 +27726,8 @@
     "postal_city": "Gerton",
     "province": "",
     "country": "Macau",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -28993,6 +27746,8 @@
     "postal_city": "Finderne",
     "province": "",
     "country": "France",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29011,6 +27766,8 @@
     "postal_city": "Nanafalia",
     "province": "Tennessee",
     "country": "Puerto Rico",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29029,6 +27786,8 @@
     "postal_city": "Foxworth",
     "province": "Minnesota",
     "country": "Norfolk Island",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29047,6 +27806,8 @@
     "postal_city": "Dola",
     "province": "",
     "country": "Liberia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29065,6 +27826,8 @@
     "postal_city": "Hollymead",
     "province": "",
     "country": "Djibouti",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29083,6 +27846,8 @@
     "postal_city": "Russellville",
     "province": "",
     "country": "Benin",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29101,6 +27866,8 @@
     "postal_city": "Hickory",
     "province": "",
     "country": "Bermuda",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29119,6 +27886,8 @@
     "postal_city": "Brownlee",
     "province": "",
     "country": "Sao Tome and Principe",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29137,6 +27906,8 @@
     "postal_city": "Manila",
     "province": "",
     "country": "Russian Federation",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29155,6 +27926,8 @@
     "postal_city": "Weedville",
     "province": "",
     "country": "Turkmenistan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29173,6 +27946,8 @@
     "postal_city": "Vaughn",
     "province": "",
     "country": "Italy",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29191,6 +27966,8 @@
     "postal_city": "Brantleyville",
     "province": "",
     "country": "American Samoa",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29209,6 +27986,8 @@
     "postal_city": "Morriston",
     "province": "",
     "country": "Niue",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29227,6 +28006,8 @@
     "postal_city": "Westwood",
     "province": "",
     "country": "Hungary",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29245,6 +28026,8 @@
     "postal_city": "Grandview",
     "province": "",
     "country": "Sierra Leone",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29263,6 +28046,8 @@
     "postal_city": "Hoehne",
     "province": "South Dakota",
     "country": "Belarus",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29281,6 +28066,8 @@
     "postal_city": "Limestone",
     "province": "",
     "country": "San Marino",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29299,6 +28086,8 @@
     "postal_city": "Greer",
     "province": "",
     "country": "Bulgaria",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29317,6 +28106,8 @@
     "postal_city": "Machias",
     "province": "",
     "country": "Saint Kitts and Nevis",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29335,6 +28126,8 @@
     "postal_city": "Otranto",
     "province": "",
     "country": "Jordan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29353,6 +28146,8 @@
     "postal_city": "Sunwest",
     "province": "",
     "country": "Svalbard and Jan Mayen Islands",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29371,6 +28166,8 @@
     "postal_city": "Bethpage",
     "province": "",
     "country": "Micronesia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29389,6 +28186,8 @@
     "postal_city": "Chaparrito",
     "province": "",
     "country": "Kyrgyzstan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29407,6 +28206,8 @@
     "postal_city": "Esmont",
     "province": "",
     "country": "Saint Lucia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29425,6 +28226,8 @@
     "postal_city": "South Joshua",
     "province": "Wisconsin",
     "country": "Lesotho",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29443,6 +28246,8 @@
     "postal_city": "Jenniferport",
     "province": "Arkansas",
     "country": "Holy See (Vatican City State)",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29461,6 +28266,8 @@
     "postal_city": "West Robert",
     "province": "Rhode Island",
     "country": "United Kingdom",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29479,6 +28286,8 @@
     "postal_city": "Wesleyport",
     "province": "Delaware",
     "country": "Bolivia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29497,6 +28306,8 @@
     "postal_city": "East Mary",
     "province": "Alaska",
     "country": "Sudan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29515,6 +28326,8 @@
     "postal_city": "West Darren",
     "province": "Louisiana",
     "country": "United States of America",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29533,6 +28346,8 @@
     "postal_city": "South Ronald",
     "province": "Rhode Island",
     "country": "Falkland Islands (Malvinas)",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29551,6 +28366,8 @@
     "postal_city": "North Elizabeth",
     "province": "Indiana",
     "country": "Dominican Republic",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29569,6 +28386,8 @@
     "postal_city": "Port Jeffreyton",
     "province": "Maryland",
     "country": "New Caledonia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29587,6 +28406,8 @@
     "postal_city": "North Cheryl",
     "province": "Hawaii",
     "country": "Portugal",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29605,6 +28426,8 @@
     "postal_city": "Katherinebury",
     "province": "North Carolina",
     "country": "Taiwan",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29623,6 +28446,8 @@
     "postal_city": "North Christopher",
     "province": "Maine",
     "country": "Saint Martin",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29641,6 +28466,8 @@
     "postal_city": "Jamesberg",
     "province": "Illinois",
     "country": "Faroe Islands",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29659,6 +28486,8 @@
     "postal_city": "South Catherine",
     "province": "Wisconsin",
     "country": "Netherlands",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29677,6 +28506,8 @@
     "postal_city": "Port Darren",
     "province": "Georgia",
     "country": "Netherlands",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29695,6 +28526,8 @@
     "postal_city": "Lake Curtistown",
     "province": "Pennsylvania",
     "country": "Monaco",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29713,6 +28546,8 @@
     "postal_city": "South Cesarborough",
     "province": "Texas",
     "country": "Haiti",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29731,6 +28566,8 @@
     "postal_city": "Lake Michael",
     "province": "New Mexico",
     "country": "Kenya",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29749,6 +28586,8 @@
     "postal_city": "Amandaton",
     "province": "Delaware",
     "country": "Montenegro",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29767,6 +28606,8 @@
     "postal_city": "Gibsonbury",
     "province": "New Mexico",
     "country": "Greenland",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29785,6 +28626,8 @@
     "postal_city": "North Benjamintown",
     "province": "Delaware",
     "country": "Yemen",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -29803,6 +28646,28 @@
     "postal_city": "New Adrianside",
     "province": "Mississippi",
     "country": "Turkey",
+    "phone": "",
+    "email": "",
+    "shipping_notes": "",
+    "internal_shipping_notes": "",
+    "link": ""
+  }
+},
+{
+  "model": "company.address",
+  "pk": 73,
+  "fields": {
+    "company": 50,
+    "title": "Primary Internal Address",
+    "primary": true,
+    "line1": "123 Avenue Street",
+    "line2": "",
+    "postal_code": "1234",
+    "postal_city": "Reegawn",
+    "province": "Prawvence",
+    "country": "Australia",
+    "phone": "",
+    "email": "",
     "shipping_notes": "",
     "internal_shipping_notes": "",
     "link": ""
@@ -109540,7 +108405,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$CWvgH2EOSzLLJgYY64YHjS$S5ppC9xcNnjL5GLQQh3oTTwahpM4yYK1HyOvXc0pyiE=",
-    "last_login": "2026-09-21T23:45:48.486Z",
+    "last_login": "2026-10-15T06:06:48.065Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "Adam",
@@ -208057,6 +206922,7 @@
     "barcode_hash": "",
     "order": 1,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2022-09-07",
     "delivery_date": null,
     "checked_by": null,
@@ -208075,6 +206941,7 @@
     "barcode_hash": "",
     "order": 5,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2024-10-17",
     "delivery_date": null,
     "checked_by": null,
@@ -208093,6 +206960,7 @@
     "barcode_hash": "",
     "order": 4,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2022-06-02",
     "delivery_date": null,
     "checked_by": null,
@@ -208111,6 +206979,7 @@
     "barcode_hash": "",
     "order": 6,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2022-11-12",
     "delivery_date": null,
     "checked_by": null,
@@ -208129,6 +206998,7 @@
     "barcode_hash": "",
     "order": 6,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2022-09-07",
     "delivery_date": null,
     "checked_by": null,
@@ -208147,6 +207017,7 @@
     "barcode_hash": "",
     "order": 7,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": null,
     "delivery_date": null,
     "checked_by": null,
@@ -208165,6 +207036,7 @@
     "barcode_hash": "",
     "order": 8,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": null,
     "delivery_date": null,
     "checked_by": null,
@@ -208183,6 +207055,7 @@
     "barcode_hash": "",
     "order": 9,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2024-07-10",
     "delivery_date": null,
     "checked_by": null,
@@ -208201,6 +207074,7 @@
     "barcode_hash": "",
     "order": 9,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2024-04-18",
     "delivery_date": null,
     "checked_by": null,
@@ -208219,6 +207093,7 @@
     "barcode_hash": "",
     "order": 10,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2022-12-15",
     "delivery_date": null,
     "checked_by": null,
@@ -208237,6 +207112,7 @@
     "barcode_hash": "",
     "order": 10,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2023-02-16",
     "delivery_date": null,
     "checked_by": null,
@@ -208255,6 +207131,7 @@
     "barcode_hash": "",
     "order": 11,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": null,
     "delivery_date": null,
     "checked_by": null,
@@ -208273,6 +207150,7 @@
     "barcode_hash": "",
     "order": 8,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": "2024-11-18",
     "delivery_date": null,
     "checked_by": null,
@@ -208291,6 +207169,7 @@
     "barcode_hash": "",
     "order": 11,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": null,
     "delivery_date": null,
     "checked_by": null,
@@ -208309,6 +207188,7 @@
     "barcode_hash": "",
     "order": 12,
     "shipment_address": null,
+    "contact": null,
     "shipment_date": null,
     "delivery_date": null,
     "checked_by": null,
@@ -231822,7 +230702,10 @@
   "model": "common.inventreeusersetting",
   "pk": 1,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "SEARCH_PREVIEW_RESULTS",
     "user": [
       "admin"
@@ -231833,7 +230716,10 @@
   "model": "common.inventreeusersetting",
   "pk": 2,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_STARRED",
     "user": [
       "admin"
@@ -231844,7 +230730,10 @@
   "model": "common.inventreeusersetting",
   "pk": 3,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_LATEST",
     "user": [
       "admin"
@@ -231855,7 +230744,10 @@
   "model": "common.inventreeusersetting",
   "pk": 5,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "PART_RECENT_COUNT",
     "user": [
       "admin"
@@ -231866,7 +230758,10 @@
   "model": "common.inventreeusersetting",
   "pk": 6,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_RECENT",
     "user": [
       "admin"
@@ -231877,7 +230772,10 @@
   "model": "common.inventreeusersetting",
   "pk": 7,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_LOW",
     "user": [
       "admin"
@@ -231888,7 +230786,10 @@
   "model": "common.inventreeusersetting",
   "pk": 10,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_EXPIRED",
     "user": [
       "admin"
@@ -231899,7 +230800,10 @@
   "model": "common.inventreeusersetting",
   "pk": 11,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_STALE",
     "user": [
       "admin"
@@ -231910,7 +230814,10 @@
   "model": "common.inventreeusersetting",
   "pk": 12,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "STOCK_RECENT_COUNT",
     "user": [
       "admin"
@@ -231921,7 +230828,10 @@
   "model": "common.inventreeusersetting",
   "pk": 13,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_PENDING",
     "user": [
       "admin"
@@ -231932,7 +230842,10 @@
   "model": "common.inventreeusersetting",
   "pk": 14,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_OVERDUE",
     "user": [
       "admin"
@@ -231943,7 +230856,10 @@
   "model": "common.inventreeusersetting",
   "pk": 15,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OUTSTANDING",
     "user": [
       "admin"
@@ -231954,7 +230870,10 @@
   "model": "common.inventreeusersetting",
   "pk": 16,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OVERDUE",
     "user": [
       "admin"
@@ -231965,7 +230884,10 @@
   "model": "common.inventreeusersetting",
   "pk": 17,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OUTSTANDING",
     "user": [
       "admin"
@@ -231976,7 +230898,10 @@
   "model": "common.inventreeusersetting",
   "pk": 18,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OVERDUE",
     "user": [
       "admin"
@@ -231987,7 +230912,10 @@
   "model": "common.inventreeusersetting",
   "pk": 19,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_HEADER",
     "user": [
       "admin"
@@ -231998,7 +230926,10 @@
   "model": "common.inventreeusersetting",
   "pk": 20,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_CATEGORY_STARRED",
     "user": [
       "admin"
@@ -232009,7 +230940,10 @@
   "model": "common.inventreeusersetting",
   "pk": 21,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_HEADER",
     "user": [
       "reader"
@@ -232020,7 +230954,10 @@
   "model": "common.inventreeusersetting",
   "pk": 22,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_STARRED",
     "user": [
       "reader"
@@ -232031,7 +230968,10 @@
   "model": "common.inventreeusersetting",
   "pk": 23,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_CATEGORY_STARRED",
     "user": [
       "reader"
@@ -232042,7 +230982,10 @@
   "model": "common.inventreeusersetting",
   "pk": 24,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_LATEST",
     "user": [
       "reader"
@@ -232053,7 +230996,10 @@
   "model": "common.inventreeusersetting",
   "pk": 26,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "PART_RECENT_COUNT",
     "user": [
       "reader"
@@ -232064,7 +231010,10 @@
   "model": "common.inventreeusersetting",
   "pk": 27,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_RECENT",
     "user": [
       "reader"
@@ -232075,7 +231024,10 @@
   "model": "common.inventreeusersetting",
   "pk": 28,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_LOW",
     "user": [
       "reader"
@@ -232086,7 +231038,10 @@
   "model": "common.inventreeusersetting",
   "pk": 31,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_EXPIRED",
     "user": [
       "reader"
@@ -232097,7 +231052,10 @@
   "model": "common.inventreeusersetting",
   "pk": 32,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_STALE",
     "user": [
       "reader"
@@ -232108,7 +231066,10 @@
   "model": "common.inventreeusersetting",
   "pk": 33,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "STOCK_RECENT_COUNT",
     "user": [
       "reader"
@@ -232119,7 +231080,10 @@
   "model": "common.inventreeusersetting",
   "pk": 34,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_PENDING",
     "user": [
       "reader"
@@ -232130,7 +231094,10 @@
   "model": "common.inventreeusersetting",
   "pk": 35,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_OVERDUE",
     "user": [
       "reader"
@@ -232141,7 +231108,10 @@
   "model": "common.inventreeusersetting",
   "pk": 36,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OUTSTANDING",
     "user": [
       "reader"
@@ -232152,7 +231122,10 @@
   "model": "common.inventreeusersetting",
   "pk": 37,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OVERDUE",
     "user": [
       "reader"
@@ -232163,7 +231136,10 @@
   "model": "common.inventreeusersetting",
   "pk": 38,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OUTSTANDING",
     "user": [
       "reader"
@@ -232174,7 +231150,10 @@
   "model": "common.inventreeusersetting",
   "pk": 39,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OVERDUE",
     "user": [
       "reader"
@@ -232185,7 +231164,10 @@
   "model": "common.inventreeusersetting",
   "pk": 40,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_HEADER",
     "user": [
       "engineer"
@@ -232196,7 +231178,10 @@
   "model": "common.inventreeusersetting",
   "pk": 41,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_STARRED",
     "user": [
       "engineer"
@@ -232207,7 +231192,10 @@
   "model": "common.inventreeusersetting",
   "pk": 42,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_CATEGORY_STARRED",
     "user": [
       "engineer"
@@ -232218,7 +231206,10 @@
   "model": "common.inventreeusersetting",
   "pk": 43,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_LATEST",
     "user": [
       "engineer"
@@ -232229,7 +231220,10 @@
   "model": "common.inventreeusersetting",
   "pk": 45,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "PART_RECENT_COUNT",
     "user": [
       "engineer"
@@ -232240,7 +231234,10 @@
   "model": "common.inventreeusersetting",
   "pk": 46,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_RECENT",
     "user": [
       "engineer"
@@ -232251,7 +231248,10 @@
   "model": "common.inventreeusersetting",
   "pk": 47,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_LOW",
     "user": [
       "engineer"
@@ -232262,7 +231262,10 @@
   "model": "common.inventreeusersetting",
   "pk": 50,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_EXPIRED",
     "user": [
       "engineer"
@@ -232273,7 +231276,10 @@
   "model": "common.inventreeusersetting",
   "pk": 51,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_STALE",
     "user": [
       "engineer"
@@ -232284,7 +231290,10 @@
   "model": "common.inventreeusersetting",
   "pk": 52,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "STOCK_RECENT_COUNT",
     "user": [
       "engineer"
@@ -232295,7 +231304,10 @@
   "model": "common.inventreeusersetting",
   "pk": 53,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_PENDING",
     "user": [
       "engineer"
@@ -232306,7 +231318,10 @@
   "model": "common.inventreeusersetting",
   "pk": 54,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_OVERDUE",
     "user": [
       "engineer"
@@ -232317,7 +231332,10 @@
   "model": "common.inventreeusersetting",
   "pk": 55,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OUTSTANDING",
     "user": [
       "engineer"
@@ -232328,7 +231346,10 @@
   "model": "common.inventreeusersetting",
   "pk": 56,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OVERDUE",
     "user": [
       "engineer"
@@ -232339,7 +231360,10 @@
   "model": "common.inventreeusersetting",
   "pk": 57,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OUTSTANDING",
     "user": [
       "engineer"
@@ -232350,7 +231374,10 @@
   "model": "common.inventreeusersetting",
   "pk": 58,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OVERDUE",
     "user": [
       "engineer"
@@ -232361,7 +231388,10 @@
   "model": "common.inventreeusersetting",
   "pk": 60,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_HIDE_INACTIVE_PARTS",
     "user": [
       "admin"
@@ -232372,7 +231402,10 @@
   "model": "common.inventreeusersetting",
   "pk": 61,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "LABEL_INLINE",
     "user": [
       "admin"
@@ -232383,7 +231416,10 @@
   "model": "common.inventreeusersetting",
   "pk": 62,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "REPORT_INLINE",
     "user": [
       "admin"
@@ -232394,7 +231430,10 @@
   "model": "common.inventreeusersetting",
   "pk": 63,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "FORMS_CLOSE_USING_ESCAPE",
     "user": [
       "admin"
@@ -232405,7 +231444,10 @@
   "model": "common.inventreeusersetting",
   "pk": 64,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "PART_SHOW_QUANTITY_IN_FORMS",
     "user": [
       "admin"
@@ -232416,7 +231458,10 @@
   "model": "common.inventreeusersetting",
   "pk": 65,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "STICKY_HEADER",
     "user": [
       "allaccess"
@@ -232427,7 +231472,10 @@
   "model": "common.inventreeusersetting",
   "pk": 66,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_STARRED",
     "user": [
       "allaccess"
@@ -232438,7 +231486,10 @@
   "model": "common.inventreeusersetting",
   "pk": 67,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_CATEGORY_STARRED",
     "user": [
       "allaccess"
@@ -232449,7 +231500,10 @@
   "model": "common.inventreeusersetting",
   "pk": 68,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_LATEST",
     "user": [
       "allaccess"
@@ -232460,7 +231514,10 @@
   "model": "common.inventreeusersetting",
   "pk": 70,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "PART_RECENT_COUNT",
     "user": [
       "allaccess"
@@ -232471,7 +231528,10 @@
   "model": "common.inventreeusersetting",
   "pk": 71,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_RECENT",
     "user": [
       "allaccess"
@@ -232482,7 +231542,10 @@
   "model": "common.inventreeusersetting",
   "pk": 72,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_LOW",
     "user": [
       "allaccess"
@@ -232493,7 +231556,10 @@
   "model": "common.inventreeusersetting",
   "pk": 75,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_EXPIRED",
     "user": [
       "allaccess"
@@ -232504,7 +231570,10 @@
   "model": "common.inventreeusersetting",
   "pk": 76,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_STALE",
     "user": [
       "allaccess"
@@ -232515,7 +231584,10 @@
   "model": "common.inventreeusersetting",
   "pk": 77,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "STOCK_RECENT_COUNT",
     "user": [
       "allaccess"
@@ -232526,7 +231598,10 @@
   "model": "common.inventreeusersetting",
   "pk": 78,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_PENDING",
     "user": [
       "allaccess"
@@ -232537,7 +231612,10 @@
   "model": "common.inventreeusersetting",
   "pk": 79,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_OVERDUE",
     "user": [
       "allaccess"
@@ -232548,7 +231626,10 @@
   "model": "common.inventreeusersetting",
   "pk": 80,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OUTSTANDING",
     "user": [
       "allaccess"
@@ -232559,7 +231640,10 @@
   "model": "common.inventreeusersetting",
   "pk": 81,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OVERDUE",
     "user": [
       "allaccess"
@@ -232570,7 +231654,10 @@
   "model": "common.inventreeusersetting",
   "pk": 82,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OUTSTANDING",
     "user": [
       "allaccess"
@@ -232581,7 +231668,10 @@
   "model": "common.inventreeusersetting",
   "pk": 83,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OVERDUE",
     "user": [
       "allaccess"
@@ -232592,7 +231682,10 @@
   "model": "common.inventreeusersetting",
   "pk": 84,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "SEARCH_PREVIEW_RESULTS",
     "user": [
       "allaccess"
@@ -232603,7 +231696,10 @@
   "model": "common.inventreeusersetting",
   "pk": 86,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_HIDE_INACTIVE_PARTS",
     "user": [
       "allaccess"
@@ -232614,7 +231710,10 @@
   "model": "common.inventreeusersetting",
   "pk": 87,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "LABEL_INLINE",
     "user": [
       "allaccess"
@@ -232625,7 +231724,10 @@
   "model": "common.inventreeusersetting",
   "pk": 88,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "REPORT_INLINE",
     "user": [
       "allaccess"
@@ -232636,7 +231738,10 @@
   "model": "common.inventreeusersetting",
   "pk": 89,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "FORMS_CLOSE_USING_ESCAPE",
     "user": [
       "allaccess"
@@ -232647,7 +231752,10 @@
   "model": "common.inventreeusersetting",
   "pk": 90,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "PART_SHOW_QUANTITY_IN_FORMS",
     "user": [
       "allaccess"
@@ -232658,7 +231766,10 @@
   "model": "common.inventreeusersetting",
   "pk": 91,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "YYYY-MM-DD",
+    "touched": false,
     "key": "DATE_DISPLAY_FORMAT",
     "user": [
       "admin"
@@ -232669,7 +231780,10 @@
   "model": "common.inventreeusersetting",
   "pk": 92,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_SCHEDULE_TAB",
     "user": [
       "admin"
@@ -232680,7 +231794,10 @@
   "model": "common.inventreeusersetting",
   "pk": 94,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PARTS",
     "user": [
       "admin"
@@ -232691,7 +231808,10 @@
   "model": "common.inventreeusersetting",
   "pk": 95,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
     "user": [
       "admin"
@@ -232702,7 +231822,10 @@
   "model": "common.inventreeusersetting",
   "pk": 96,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_STOCK",
     "user": [
       "admin"
@@ -232713,7 +231836,10 @@
   "model": "common.inventreeusersetting",
   "pk": 97,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
     "user": [
       "admin"
@@ -232724,7 +231850,10 @@
   "model": "common.inventreeusersetting",
   "pk": 98,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
     "user": [
       "admin"
@@ -232735,7 +231864,10 @@
   "model": "common.inventreeusersetting",
   "pk": 99,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
     "user": [
       "admin"
@@ -232746,7 +231878,10 @@
   "model": "common.inventreeusersetting",
   "pk": 100,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
     "user": [
       "admin"
@@ -232757,7 +231892,10 @@
   "model": "common.inventreeusersetting",
   "pk": 103,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "YYYY-MM-DD",
+    "touched": false,
     "key": "DATE_DISPLAY_FORMAT",
     "user": [
       "allaccess"
@@ -232768,7 +231906,10 @@
   "model": "common.inventreeusersetting",
   "pk": 104,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_SCHEDULE_TAB",
     "user": [
       "allaccess"
@@ -232779,7 +231920,10 @@
   "model": "common.inventreeusersetting",
   "pk": 105,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PARTS",
     "user": [
       "allaccess"
@@ -232790,7 +231934,10 @@
   "model": "common.inventreeusersetting",
   "pk": 106,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
     "user": [
       "allaccess"
@@ -232801,7 +231948,10 @@
   "model": "common.inventreeusersetting",
   "pk": 107,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_STOCK",
     "user": [
       "allaccess"
@@ -232812,7 +231962,10 @@
   "model": "common.inventreeusersetting",
   "pk": 108,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
     "user": [
       "allaccess"
@@ -232823,7 +231976,10 @@
   "model": "common.inventreeusersetting",
   "pk": 109,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
     "user": [
       "allaccess"
@@ -232834,7 +231990,10 @@
   "model": "common.inventreeusersetting",
   "pk": 110,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
     "user": [
       "allaccess"
@@ -232845,7 +232004,10 @@
   "model": "common.inventreeusersetting",
   "pk": 111,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
     "user": [
       "allaccess"
@@ -232856,7 +232018,10 @@
   "model": "common.inventreeusersetting",
   "pk": 113,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
     "user": [
       "admin"
@@ -232867,7 +232032,10 @@
   "model": "common.inventreeusersetting",
   "pk": 114,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
     "user": [
       "admin"
@@ -232878,7 +232046,10 @@
   "model": "common.inventreeusersetting",
   "pk": 115,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
     "user": [
       "admin"
@@ -232889,7 +232060,10 @@
   "model": "common.inventreeusersetting",
   "pk": 116,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
     "user": [
       "admin"
@@ -232900,7 +232074,10 @@
   "model": "common.inventreeusersetting",
   "pk": 117,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
     "user": [
       "admin"
@@ -232911,7 +232088,10 @@
   "model": "common.inventreeusersetting",
   "pk": 118,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_NEWS",
     "user": [
       "admin"
@@ -232922,7 +232102,10 @@
   "model": "common.inventreeusersetting",
   "pk": 119,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
     "user": [
       "admin"
@@ -232933,7 +232116,10 @@
   "model": "common.inventreeusersetting",
   "pk": 120,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "100",
+    "touched": false,
     "key": "TABLE_STRING_MAX_LENGTH",
     "user": [
       "admin"
@@ -232944,7 +232130,10 @@
   "model": "common.inventreeusersetting",
   "pk": 121,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BOM_REQUIRES_VALIDATION",
     "user": [
       "admin"
@@ -232955,7 +232144,10 @@
   "model": "common.inventreeusersetting",
   "pk": 122,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_SHOW_STOCK_DEPLETED",
     "user": [
       "admin"
@@ -232966,7 +232158,10 @@
   "model": "common.inventreeusersetting",
   "pk": 123,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_STOCK_NEEDED",
     "user": [
       "admin"
@@ -232977,7 +232172,10 @@
   "model": "common.inventreeusersetting",
   "pk": 124,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_STOCKTAKE_TAB",
     "user": [
       "admin"
@@ -232988,7 +232186,10 @@
   "model": "common.inventreeusersetting",
   "pk": 125,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BOM_REQUIRES_VALIDATION",
     "user": [
       "allaccess"
@@ -232999,7 +232200,10 @@
   "model": "common.inventreeusersetting",
   "pk": 126,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_SHOW_STOCK_DEPLETED",
     "user": [
       "allaccess"
@@ -233010,7 +232214,10 @@
   "model": "common.inventreeusersetting",
   "pk": 127,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_STOCK_NEEDED",
     "user": [
       "allaccess"
@@ -233021,7 +232228,10 @@
   "model": "common.inventreeusersetting",
   "pk": 128,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_NEWS",
     "user": [
       "allaccess"
@@ -233032,7 +232242,10 @@
   "model": "common.inventreeusersetting",
   "pk": 129,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_STOCKTAKE_TAB",
     "user": [
       "allaccess"
@@ -233043,7 +232256,10 @@
   "model": "common.inventreeusersetting",
   "pk": 130,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LABEL_DEFAULT_PRINTER",
     "user": [
       "admin"
@@ -233054,7 +232270,10 @@
   "model": "common.inventreeusersetting",
   "pk": 131,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
     "user": [
       "admin"
@@ -233065,7 +232284,10 @@
   "model": "common.inventreeusersetting",
   "pk": 132,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
     "user": [
       "admin"
@@ -233076,7 +232298,10 @@
   "model": "common.inventreeusersetting",
   "pk": 133,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_WHOLE",
     "user": [
       "admin"
@@ -233087,7 +232312,10 @@
   "model": "common.inventreeusersetting",
   "pk": 134,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_REGEX",
     "user": [
       "admin"
@@ -233098,7 +232326,10 @@
   "model": "common.inventreeusersetting",
   "pk": 135,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_HIDE_INACTIVE",
     "user": [
       "admin"
@@ -233109,7 +232340,10 @@
   "model": "common.inventreeusersetting",
   "pk": 136,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_SHIPMENTS_PENDING",
     "user": [
       "admin"
@@ -233120,7 +232354,10 @@
   "model": "common.inventreeusersetting",
   "pk": 137,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "NOTIFICATION_ERROR_REPORT",
     "user": [
       "admin"
@@ -233131,7 +232368,10 @@
   "model": "common.inventreeusersetting",
   "pk": 138,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_LOCATION_LABEL_TEMPLATE",
     "user": [
       "admin"
@@ -233142,7 +232382,10 @@
   "model": "common.inventreeusersetting",
   "pk": 139,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_ITEM_LABEL_TEMPLATE",
     "user": [
       "admin"
@@ -233153,7 +232396,10 @@
   "model": "common.inventreeusersetting",
   "pk": 140,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_PART_LABEL_TEMPLATE",
     "user": [
       "admin"
@@ -233164,7 +232410,10 @@
   "model": "common.inventreeusersetting",
   "pk": 141,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LAST_USED_PRINTING_MACHINES",
     "user": [
       "admin"
@@ -233175,7 +232424,10 @@
   "model": "common.inventreeusersetting",
   "pk": 142,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
     "user": [
       "allaccess"
@@ -233186,7 +232438,10 @@
   "model": "common.inventreeusersetting",
   "pk": 143,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "100",
+    "touched": false,
     "key": "TABLE_STRING_MAX_LENGTH",
     "user": [
       "allaccess"
@@ -233197,7 +232452,10 @@
   "model": "common.inventreeusersetting",
   "pk": 144,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
     "user": [
       "allaccess"
@@ -233208,7 +232466,10 @@
   "model": "common.inventreeusersetting",
   "pk": 145,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_HIDE_INACTIVE",
     "user": [
       "allaccess"
@@ -233219,7 +232480,10 @@
   "model": "common.inventreeusersetting",
   "pk": 146,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
     "user": [
       "allaccess"
@@ -233230,7 +232494,10 @@
   "model": "common.inventreeusersetting",
   "pk": 147,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LABEL_DEFAULT_PRINTER",
     "user": [
       "allaccess"
@@ -233241,7 +232508,10 @@
   "model": "common.inventreeusersetting",
   "pk": 148,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
     "user": [
       "allaccess"
@@ -233252,7 +232522,10 @@
   "model": "common.inventreeusersetting",
   "pk": 149,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
     "user": [
       "allaccess"
@@ -233263,7 +232536,10 @@
   "model": "common.inventreeusersetting",
   "pk": 150,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_WHOLE",
     "user": [
       "allaccess"
@@ -233274,7 +232550,10 @@
   "model": "common.inventreeusersetting",
   "pk": 151,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_PART_LABEL_TEMPLATE",
     "user": [
       "allaccess"
@@ -233285,7 +232564,10 @@
   "model": "common.inventreeusersetting",
   "pk": 152,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
     "user": [
       "allaccess"
@@ -233296,7 +232578,10 @@
   "model": "common.inventreeusersetting",
   "pk": 153,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
     "user": [
       "allaccess"
@@ -233307,7 +232592,10 @@
   "model": "common.inventreeusersetting",
   "pk": 154,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_ITEM_LABEL_TEMPLATE",
     "user": [
       "allaccess"
@@ -233318,7 +232606,10 @@
   "model": "common.inventreeusersetting",
   "pk": 155,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_SHIPMENTS_PENDING",
     "user": [
       "allaccess"
@@ -233329,7 +232620,10 @@
   "model": "common.inventreeusersetting",
   "pk": 156,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "DEFAULT_LOCATION_LABEL_TEMPLATE",
     "user": [
       "allaccess"
@@ -233340,7 +232634,10 @@
   "model": "common.inventreeusersetting",
   "pk": 157,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LAST_USED_PRINTING_MACHINES",
     "user": [
       "allaccess"
@@ -233351,7 +232648,10 @@
   "model": "common.inventreeusersetting",
   "pk": 158,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "NOTIFICATION_ERROR_REPORT",
     "user": [
       "allaccess"
@@ -233362,7 +232662,10 @@
   "model": "common.inventreeusersetting",
   "pk": 159,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_REGEX",
     "user": [
       "allaccess"
@@ -233373,7 +232676,10 @@
   "model": "common.inventreeusersetting",
   "pk": 160,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
     "user": [
       "allaccess"
@@ -233384,7 +232690,10 @@
   "model": "common.inventreeusersetting",
   "pk": 161,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_HEADER",
     "user": [
       "steven"
@@ -233395,7 +232704,10 @@
   "model": "common.inventreeusersetting",
   "pk": 162,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_HIDE_INACTIVE",
     "user": [
       "steven"
@@ -233406,7 +232718,10 @@
   "model": "common.inventreeusersetting",
   "pk": 163,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_STARRED",
     "user": [
       "steven"
@@ -233417,7 +232732,10 @@
   "model": "common.inventreeusersetting",
   "pk": 164,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_CATEGORY_STARRED",
     "user": [
       "steven"
@@ -233428,7 +232746,10 @@
   "model": "common.inventreeusersetting",
   "pk": 165,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PART_LATEST",
     "user": [
       "steven"
@@ -233439,7 +232760,10 @@
   "model": "common.inventreeusersetting",
   "pk": 166,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BOM_REQUIRES_VALIDATION",
     "user": [
       "steven"
@@ -233450,7 +232774,10 @@
   "model": "common.inventreeusersetting",
   "pk": 167,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_RECENT",
     "user": [
       "steven"
@@ -233461,7 +232788,10 @@
   "model": "common.inventreeusersetting",
   "pk": 168,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_LOW",
     "user": [
       "steven"
@@ -233472,7 +232802,10 @@
   "model": "common.inventreeusersetting",
   "pk": 169,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_SHOW_STOCK_DEPLETED",
     "user": [
       "steven"
@@ -233483,7 +232816,10 @@
   "model": "common.inventreeusersetting",
   "pk": 170,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_STOCK_NEEDED",
     "user": [
       "steven"
@@ -233494,7 +232830,10 @@
   "model": "common.inventreeusersetting",
   "pk": 171,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_EXPIRED",
     "user": [
       "steven"
@@ -233505,7 +232844,10 @@
   "model": "common.inventreeusersetting",
   "pk": 172,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_STOCK_STALE",
     "user": [
       "steven"
@@ -233516,7 +232858,10 @@
   "model": "common.inventreeusersetting",
   "pk": 173,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_PENDING",
     "user": [
       "steven"
@@ -233527,7 +232872,10 @@
   "model": "common.inventreeusersetting",
   "pk": 174,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_BUILD_OVERDUE",
     "user": [
       "steven"
@@ -233538,7 +232886,10 @@
   "model": "common.inventreeusersetting",
   "pk": 175,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OUTSTANDING",
     "user": [
       "steven"
@@ -233549,7 +232900,10 @@
   "model": "common.inventreeusersetting",
   "pk": 176,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_PO_OVERDUE",
     "user": [
       "steven"
@@ -233560,7 +232914,10 @@
   "model": "common.inventreeusersetting",
   "pk": 177,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OUTSTANDING",
     "user": [
       "steven"
@@ -233571,7 +232928,10 @@
   "model": "common.inventreeusersetting",
   "pk": 178,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_OVERDUE",
     "user": [
       "steven"
@@ -233582,7 +232942,10 @@
   "model": "common.inventreeusersetting",
   "pk": 179,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "HOMEPAGE_SO_SHIPMENTS_PENDING",
     "user": [
       "steven"
@@ -233593,7 +232956,10 @@
   "model": "common.inventreeusersetting",
   "pk": 180,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "HOMEPAGE_NEWS",
     "user": [
       "steven"
@@ -233604,7 +232970,10 @@
   "model": "common.inventreeusersetting",
   "pk": 181,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "NOTIFICATION_ERROR_REPORT",
     "user": [
       "steven"
@@ -233615,7 +232984,10 @@
   "model": "common.inventreeusersetting",
   "pk": 182,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LAST_USED_PRINTING_MACHINES",
     "user": [
       "steven"
@@ -233626,7 +232998,10 @@
   "model": "common.inventreeusersetting",
   "pk": 183,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "REPORT_INLINE",
     "user": [
       "steven"
@@ -233637,7 +233012,10 @@
   "model": "common.inventreeusersetting",
   "pk": 184,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "LABEL_INLINE",
     "user": [
       "steven"
@@ -233648,7 +233026,10 @@
   "model": "common.inventreeusersetting",
   "pk": 185,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "SEARCH_PREVIEW_RESULTS",
     "user": [
       "steven"
@@ -233659,7 +233040,10 @@
   "model": "common.inventreeusersetting",
   "pk": 186,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
     "user": [
       "steven"
@@ -233670,7 +233054,10 @@
   "model": "common.inventreeusersetting",
   "pk": 187,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_STOCKTAKE_TAB",
     "user": [
       "steven"
@@ -233681,7 +233068,10 @@
   "model": "common.inventreeusersetting",
   "pk": 188,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
     "user": [
       "steven"
@@ -233692,7 +233082,10 @@
   "model": "common.inventreeusersetting",
   "pk": 189,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "PART_SHOW_QUANTITY_IN_FORMS",
     "user": [
       "steven"
@@ -233703,7 +233096,10 @@
   "model": "common.inventreeusersetting",
   "pk": 190,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
     "user": [
       "steven"
@@ -233714,7 +233110,10 @@
   "model": "common.inventreeusersetting",
   "pk": 191,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_HIDE_INACTIVE_PARTS",
     "user": [
       "steven"
@@ -233725,7 +233124,10 @@
   "model": "common.inventreeusersetting",
   "pk": 192,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "100",
+    "touched": false,
     "key": "TABLE_STRING_MAX_LENGTH",
     "user": [
       "steven"
@@ -233736,7 +233138,10 @@
   "model": "common.inventreeusersetting",
   "pk": 193,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
     "user": [
       "steven"
@@ -233747,7 +233152,10 @@
   "model": "common.inventreeusersetting",
   "pk": 194,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "YYYY-MM-DD",
+    "touched": false,
     "key": "DATE_DISPLAY_FORMAT",
     "user": [
       "steven"
@@ -233758,7 +233166,10 @@
   "model": "common.inventreeusersetting",
   "pk": 195,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
     "user": [
       "steven"
@@ -233769,7 +233180,10 @@
   "model": "common.inventreeusersetting",
   "pk": 196,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
     "user": [
       "steven"
@@ -233780,7 +233194,10 @@
   "model": "common.inventreeusersetting",
   "pk": 197,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
     "user": [
       "steven"
@@ -233791,7 +233208,10 @@
   "model": "common.inventreeusersetting",
   "pk": 198,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_REGEX",
     "user": [
       "steven"
@@ -233802,7 +233222,10 @@
   "model": "common.inventreeusersetting",
   "pk": 199,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
     "user": [
       "steven"
@@ -233813,7 +233236,10 @@
   "model": "common.inventreeusersetting",
   "pk": 200,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PARTS",
     "user": [
       "steven"
@@ -233824,7 +233250,10 @@
   "model": "common.inventreeusersetting",
   "pk": 201,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "FORMS_CLOSE_USING_ESCAPE",
     "user": [
       "steven"
@@ -233835,7 +233264,10 @@
   "model": "common.inventreeusersetting",
   "pk": 202,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
     "user": [
       "steven"
@@ -233846,7 +233278,10 @@
   "model": "common.inventreeusersetting",
   "pk": 203,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
     "user": [
       "steven"
@@ -233857,7 +233292,10 @@
   "model": "common.inventreeusersetting",
   "pk": 204,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
     "user": [
       "steven"
@@ -233868,7 +233306,10 @@
   "model": "common.inventreeusersetting",
   "pk": 205,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LABEL_DEFAULT_PRINTER",
     "user": [
       "steven"
@@ -233879,7 +233320,10 @@
   "model": "common.inventreeusersetting",
   "pk": 206,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_WHOLE",
     "user": [
       "steven"
@@ -233890,7 +233334,10 @@
   "model": "common.inventreeusersetting",
   "pk": 207,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
     "user": [
       "steven"
@@ -233901,7 +233348,10 @@
   "model": "common.inventreeusersetting",
   "pk": 208,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_SCHEDULE_TAB",
     "user": [
       "steven"
@@ -233912,7 +233362,10 @@
   "model": "common.inventreeusersetting",
   "pk": 209,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_STOCK",
     "user": [
       "steven"
@@ -233923,7 +233376,10 @@
   "model": "common.inventreeusersetting",
   "pk": 210,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
     "user": [
       "steven"
@@ -233934,7 +233390,10 @@
   "model": "common.inventreeusersetting",
   "pk": 211,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_NOTES",
     "user": [
       "admin"
@@ -233945,7 +233404,10 @@
   "model": "common.inventreeusersetting",
   "pk": 212,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ICONS_IN_NAVBAR",
     "user": [
       "admin"
@@ -233956,7 +233418,10 @@
   "model": "common.inventreeusersetting",
   "pk": 213,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
     "user": [
       "admin"
@@ -233967,7 +233432,10 @@
   "model": "common.inventreeusersetting",
   "pk": 214,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_LAST_BREADCRUMB",
     "user": [
       "admin"
@@ -233978,7 +233446,10 @@
   "model": "common.inventreeusersetting",
   "pk": 215,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_NOTES",
     "user": [
       "allaccess"
@@ -233989,7 +233460,10 @@
   "model": "common.inventreeusersetting",
   "pk": 216,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ICONS_IN_NAVBAR",
     "user": [
       "allaccess"
@@ -234000,7 +233474,10 @@
   "model": "common.inventreeusersetting",
   "pk": 217,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
     "user": [
       "allaccess"
@@ -234011,7 +233488,10 @@
   "model": "common.inventreeusersetting",
   "pk": 218,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_LAST_BREADCRUMB",
     "user": [
       "allaccess"
@@ -234022,7 +233502,10 @@
   "model": "common.inventreeusersetting",
   "pk": 219,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
     "user": [
       "reader"
@@ -234033,7 +233516,10 @@
   "model": "common.inventreeusersetting",
   "pk": 220,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_REGEX",
     "user": [
       "reader"
@@ -234044,7 +233530,10 @@
   "model": "common.inventreeusersetting",
   "pk": 221,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ICONS_IN_NAVBAR",
     "user": [
       "reader"
@@ -234055,7 +233544,10 @@
   "model": "common.inventreeusersetting",
   "pk": 222,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "REPORT_INLINE",
     "user": [
       "reader"
@@ -234066,7 +233558,10 @@
   "model": "common.inventreeusersetting",
   "pk": 223,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
     "user": [
       "reader"
@@ -234077,7 +233572,10 @@
   "model": "common.inventreeusersetting",
   "pk": 224,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LAST_USED_PRINTING_MACHINES",
     "user": [
       "reader"
@@ -234088,7 +233586,10 @@
   "model": "common.inventreeusersetting",
   "pk": 225,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
     "user": [
       "reader"
@@ -234099,7 +233600,10 @@
   "model": "common.inventreeusersetting",
   "pk": 226,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_SCHEDULE_TAB",
     "user": [
       "reader"
@@ -234110,7 +233614,10 @@
   "model": "common.inventreeusersetting",
   "pk": 227,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "PART_SHOW_QUANTITY_IN_FORMS",
     "user": [
       "reader"
@@ -234121,7 +233628,10 @@
   "model": "common.inventreeusersetting",
   "pk": 228,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
     "user": [
       "reader"
@@ -234132,7 +233642,10 @@
   "model": "common.inventreeusersetting",
   "pk": 229,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PARTS",
     "user": [
       "reader"
@@ -234143,7 +233656,10 @@
   "model": "common.inventreeusersetting",
   "pk": 230,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
     "user": [
       "reader"
@@ -234154,7 +233670,10 @@
   "model": "common.inventreeusersetting",
   "pk": 231,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "100",
+    "touched": false,
     "key": "TABLE_STRING_MAX_LENGTH",
     "user": [
       "reader"
@@ -234165,7 +233684,10 @@
   "model": "common.inventreeusersetting",
   "pk": 232,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LABEL_DEFAULT_PRINTER",
     "user": [
       "reader"
@@ -234176,7 +233698,10 @@
   "model": "common.inventreeusersetting",
   "pk": 233,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
     "user": [
       "reader"
@@ -234187,7 +233712,10 @@
   "model": "common.inventreeusersetting",
   "pk": 234,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
     "user": [
       "reader"
@@ -234198,7 +233726,10 @@
   "model": "common.inventreeusersetting",
   "pk": 235,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_STOCK",
     "user": [
       "reader"
@@ -234209,7 +233740,10 @@
   "model": "common.inventreeusersetting",
   "pk": 236,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
     "user": [
       "reader"
@@ -234220,7 +233754,10 @@
   "model": "common.inventreeusersetting",
   "pk": 237,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "LABEL_INLINE",
     "user": [
       "reader"
@@ -234231,7 +233768,10 @@
   "model": "common.inventreeusersetting",
   "pk": 238,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_HIDE_INACTIVE_PARTS",
     "user": [
       "reader"
@@ -234242,7 +233782,10 @@
   "model": "common.inventreeusersetting",
   "pk": 239,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
     "user": [
       "reader"
@@ -234253,7 +233796,10 @@
   "model": "common.inventreeusersetting",
   "pk": 240,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_WHOLE",
     "user": [
       "reader"
@@ -234264,7 +233810,10 @@
   "model": "common.inventreeusersetting",
   "pk": 241,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
     "user": [
       "reader"
@@ -234275,7 +233824,10 @@
   "model": "common.inventreeusersetting",
   "pk": 242,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
     "user": [
       "reader"
@@ -234286,7 +233838,10 @@
   "model": "common.inventreeusersetting",
   "pk": 243,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
     "user": [
       "reader"
@@ -234297,7 +233852,10 @@
   "model": "common.inventreeusersetting",
   "pk": 244,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "FORMS_CLOSE_USING_ESCAPE",
     "user": [
       "reader"
@@ -234308,7 +233866,10 @@
   "model": "common.inventreeusersetting",
   "pk": 245,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_NOTES",
     "user": [
       "reader"
@@ -234319,7 +233880,10 @@
   "model": "common.inventreeusersetting",
   "pk": 246,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_LAST_BREADCRUMB",
     "user": [
       "reader"
@@ -234330,7 +233894,10 @@
   "model": "common.inventreeusersetting",
   "pk": 247,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "NOTIFICATION_ERROR_REPORT",
     "user": [
       "reader"
@@ -234341,7 +233908,10 @@
   "model": "common.inventreeusersetting",
   "pk": 248,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
     "user": [
       "reader"
@@ -234352,7 +233922,10 @@
   "model": "common.inventreeusersetting",
   "pk": 249,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "SEARCH_PREVIEW_RESULTS",
     "user": [
       "reader"
@@ -234363,7 +233936,10 @@
   "model": "common.inventreeusersetting",
   "pk": 250,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_STOCKTAKE_TAB",
     "user": [
       "reader"
@@ -234374,7 +233950,10 @@
   "model": "common.inventreeusersetting",
   "pk": 251,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
     "user": [
       "reader"
@@ -234385,7 +233964,10 @@
   "model": "common.inventreeusersetting",
   "pk": 252,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "YYYY-MM-DD",
+    "touched": false,
     "key": "DATE_DISPLAY_FORMAT",
     "user": [
       "reader"
@@ -234396,7 +233978,10 @@
   "model": "common.inventreeusersetting",
   "pk": 253,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_NOTES",
     "user": [
       "steven"
@@ -234407,7 +233992,10 @@
   "model": "common.inventreeusersetting",
   "pk": 254,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ICONS_IN_NAVBAR",
     "user": [
       "steven"
@@ -234418,7 +234006,10 @@
   "model": "common.inventreeusersetting",
   "pk": 255,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
     "user": [
       "steven"
@@ -234429,7 +234020,10 @@
   "model": "common.inventreeusersetting",
   "pk": 256,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_LAST_BREADCRUMB",
     "user": [
       "steven"
@@ -234440,7 +234034,10 @@
   "model": "common.inventreeusersetting",
   "pk": 257,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_CATEGORY_IN_TABLES",
     "user": [
       "admin"
@@ -234451,7 +234048,10 @@
   "model": "common.inventreeusersetting",
   "pk": 258,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_LOCATION_IN_TABLES",
     "user": [
       "admin"
@@ -234462,7 +234062,10 @@
   "model": "common.inventreeusersetting",
   "pk": 259,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_CATEGORY_IN_TABLES",
     "user": [
       "allaccess"
@@ -234473,7 +234076,10 @@
   "model": "common.inventreeusersetting",
   "pk": 260,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_LOCATION_IN_TABLES",
     "user": [
       "allaccess"
@@ -234484,7 +234090,10 @@
   "model": "common.inventreeusersetting",
   "pk": 261,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_CATEGORY_IN_TABLES",
     "user": [
       "reader"
@@ -234495,7 +234104,10 @@
   "model": "common.inventreeusersetting",
   "pk": 262,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_LOCATION_IN_TABLES",
     "user": [
       "reader"
@@ -234506,7 +234118,10 @@
   "model": "common.inventreeusersetting",
   "pk": 263,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_CATEGORY_IN_TABLES",
     "user": [
       "steven"
@@ -234517,7 +234132,10 @@
   "model": "common.inventreeusersetting",
   "pk": 264,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_LOCATION_IN_TABLES",
     "user": [
       "steven"
@@ -234528,7 +234146,10 @@
   "model": "common.inventreeusersetting",
   "pk": 265,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
     "user": [
       "engineer"
@@ -234539,7 +234160,10 @@
   "model": "common.inventreeusersetting",
   "pk": 266,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
     "user": [
       "engineer"
@@ -234550,7 +234174,10 @@
   "model": "common.inventreeusersetting",
   "pk": 267,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_STOCK",
     "user": [
       "engineer"
@@ -234561,7 +234188,10 @@
   "model": "common.inventreeusersetting",
   "pk": 268,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "10",
+    "touched": false,
     "key": "SEARCH_PREVIEW_RESULTS",
     "user": [
       "engineer"
@@ -234572,7 +234202,10 @@
   "model": "common.inventreeusersetting",
   "pk": 269,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
     "user": [
       "engineer"
@@ -234583,7 +234216,10 @@
   "model": "common.inventreeusersetting",
   "pk": 270,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "FORMS_CLOSE_USING_ESCAPE",
     "user": [
       "engineer"
@@ -234594,7 +234230,10 @@
   "model": "common.inventreeusersetting",
   "pk": 271,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PARTS",
     "user": [
       "engineer"
@@ -234605,7 +234244,10 @@
   "model": "common.inventreeusersetting",
   "pk": 272,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "LABEL_INLINE",
     "user": [
       "engineer"
@@ -234616,7 +234258,10 @@
   "model": "common.inventreeusersetting",
   "pk": 273,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
     "user": [
       "engineer"
@@ -234627,7 +234272,10 @@
   "model": "common.inventreeusersetting",
   "pk": 274,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "YYYY-MM-DD",
+    "touched": false,
     "key": "DATE_DISPLAY_FORMAT",
     "user": [
       "engineer"
@@ -234638,7 +234286,10 @@
   "model": "common.inventreeusersetting",
   "pk": 275,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
     "user": [
       "engineer"
@@ -234649,7 +234300,10 @@
   "model": "common.inventreeusersetting",
   "pk": 276,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LAST_USED_PRINTING_MACHINES",
     "user": [
       "engineer"
@@ -234660,7 +234314,10 @@
   "model": "common.inventreeusersetting",
   "pk": 277,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_NOTES",
     "user": [
       "engineer"
@@ -234671,7 +234328,10 @@
   "model": "common.inventreeusersetting",
   "pk": 278,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
     "user": [
       "engineer"
@@ -234682,7 +234342,10 @@
   "model": "common.inventreeusersetting",
   "pk": 279,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
     "user": [
       "engineer"
@@ -234693,7 +234356,10 @@
   "model": "common.inventreeusersetting",
   "pk": 280,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ICONS_IN_NAVBAR",
     "user": [
       "engineer"
@@ -234704,7 +234370,10 @@
   "model": "common.inventreeusersetting",
   "pk": 281,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
     "user": [
       "engineer"
@@ -234715,7 +234384,10 @@
   "model": "common.inventreeusersetting",
   "pk": 282,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
     "user": [
       "engineer"
@@ -234726,7 +234398,10 @@
   "model": "common.inventreeusersetting",
   "pk": 283,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
     "user": [
       "engineer"
@@ -234737,7 +234412,10 @@
   "model": "common.inventreeusersetting",
   "pk": 284,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "DISPLAY_STOCKTAKE_TAB",
     "user": [
       "engineer"
@@ -234748,7 +234426,10 @@
   "model": "common.inventreeusersetting",
   "pk": 285,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_HIDE_INACTIVE_PARTS",
     "user": [
       "engineer"
@@ -234759,7 +234440,10 @@
   "model": "common.inventreeusersetting",
   "pk": 286,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
     "user": [
       "engineer"
@@ -234770,7 +234454,10 @@
   "model": "common.inventreeusersetting",
   "pk": 287,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
     "user": [
       "engineer"
@@ -234781,7 +234468,10 @@
   "model": "common.inventreeusersetting",
   "pk": 288,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_REGEX",
     "user": [
       "engineer"
@@ -234792,7 +234482,10 @@
   "model": "common.inventreeusersetting",
   "pk": 289,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_LAST_BREADCRUMB",
     "user": [
       "engineer"
@@ -234803,7 +234496,10 @@
   "model": "common.inventreeusersetting",
   "pk": 290,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
     "user": [
       "engineer"
@@ -234814,7 +234510,10 @@
   "model": "common.inventreeusersetting",
   "pk": 291,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_WHOLE",
     "user": [
       "engineer"
@@ -234825,7 +234524,10 @@
   "model": "common.inventreeusersetting",
   "pk": 292,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "",
+    "touched": false,
     "key": "LABEL_DEFAULT_PRINTER",
     "user": [
       "engineer"
@@ -234836,7 +234538,10 @@
   "model": "common.inventreeusersetting",
   "pk": 293,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "REPORT_INLINE",
     "user": [
       "engineer"
@@ -234847,7 +234552,10 @@
   "model": "common.inventreeusersetting",
   "pk": 294,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_CATEGORY_IN_TABLES",
     "user": [
       "engineer"
@@ -234858,7 +234566,10 @@
   "model": "common.inventreeusersetting",
   "pk": 295,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_FULL_LOCATION_IN_TABLES",
     "user": [
       "engineer"
@@ -234869,7 +234580,10 @@
   "model": "common.inventreeusersetting",
   "pk": 296,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
     "user": [
       "engineer"
@@ -234880,7 +234594,10 @@
   "model": "common.inventreeusersetting",
   "pk": 297,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "NOTIFICATION_ERROR_REPORT",
     "user": [
       "engineer"
@@ -234891,7 +234608,10 @@
   "model": "common.inventreeusersetting",
   "pk": 298,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_SPOTLIGHT",
     "user": [
       "admin"
@@ -234902,7 +234622,10 @@
   "model": "common.inventreeusersetting",
   "pk": 299,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_TABLE_HEADER",
     "user": [
       "admin"
@@ -234913,7 +234636,10 @@
   "model": "common.inventreeusersetting",
   "pk": 300,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_TABLE_HEADER",
     "user": [
       "allaccess"
@@ -234924,7 +234650,10 @@
   "model": "common.inventreeusersetting",
   "pk": 301,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_SPOTLIGHT",
     "user": [
       "allaccess"
@@ -234935,7 +234664,10 @@
   "model": "common.inventreeusersetting",
   "pk": 302,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_TABLE_HEADER",
     "user": [
       "reader"
@@ -234946,7 +234678,10 @@
   "model": "common.inventreeusersetting",
   "pk": 303,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_SPOTLIGHT",
     "user": [
       "reader"
@@ -234957,7 +234692,10 @@
   "model": "common.inventreeusersetting",
   "pk": 304,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "STICKY_TABLE_HEADER",
     "user": [
       "steven"
@@ -234968,7 +234706,10 @@
   "model": "common.inventreeusersetting",
   "pk": 305,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_SPOTLIGHT",
     "user": [
       "steven"
@@ -234979,7 +234720,10 @@
   "model": "common.inventreeusersetting",
   "pk": 306,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "BARCODE_IN_FORM_FIELDS",
     "user": [
       "admin"
@@ -234990,7 +234734,10 @@
   "model": "common.inventreeusersetting",
   "pk": 307,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "BARCODE_IN_FORM_FIELDS",
     "user": [
       "allaccess"
@@ -235001,7 +234748,10 @@
   "model": "common.inventreeusersetting",
   "pk": 308,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "BARCODE_IN_FORM_FIELDS",
     "user": [
       "reader"
@@ -235012,7 +234762,10 @@
   "model": "common.inventreeusersetting",
   "pk": 309,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "BARCODE_IN_FORM_FIELDS",
     "user": [
       "steven"
@@ -235023,7 +234776,10 @@
   "model": "common.inventreeusersetting",
   "pk": 310,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_BOM_SUBASSEMBLY_LEVELS",
     "user": [
       "admin"
@@ -235034,7 +234790,10 @@
   "model": "common.inventreeusersetting",
   "pk": 311,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "DISPLAY_ITEMS_FINAL_LEVEL",
     "user": [
       "admin"
@@ -235045,7 +234804,10 @@
   "model": "common.inventreeusersetting",
   "pk": 312,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_EXTRA_MODEL_INFO",
     "user": [
       "admin"
@@ -235056,7 +234818,10 @@
   "model": "common.inventreeusersetting",
   "pk": 313,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_EXTRA_MODEL_INFO",
     "user": [
       "allaccess"
@@ -235067,7 +234832,10 @@
   "model": "common.inventreeusersetting",
   "pk": 314,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_BOM_SUBASSEMBLY_LEVELS",
     "user": [
       "allaccess"
@@ -235078,7 +234846,10 @@
   "model": "common.inventreeusersetting",
   "pk": 315,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "DISPLAY_ITEMS_FINAL_LEVEL",
     "user": [
       "allaccess"
@@ -235089,7 +234860,10 @@
   "model": "common.inventreeusersetting",
   "pk": 316,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_EXTRA_MODEL_INFO",
     "user": [
       "reader"
@@ -235100,7 +234874,10 @@
   "model": "common.inventreeusersetting",
   "pk": 317,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_BOM_SUBASSEMBLY_LEVELS",
     "user": [
       "reader"
@@ -235111,7 +234888,10 @@
   "model": "common.inventreeusersetting",
   "pk": 318,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "DISPLAY_ITEMS_FINAL_LEVEL",
     "user": [
       "reader"
@@ -235122,7 +234902,10 @@
   "model": "common.inventreeusersetting",
   "pk": 319,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SHOW_EXTRA_MODEL_INFO",
     "user": [
       "steven"
@@ -235133,7 +234916,10 @@
   "model": "common.inventreeusersetting",
   "pk": 320,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "SHOW_BOM_SUBASSEMBLY_LEVELS",
     "user": [
       "steven"
@@ -235144,7 +234930,10 @@
   "model": "common.inventreeusersetting",
   "pk": 321,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "DISPLAY_ITEMS_FINAL_LEVEL",
     "user": [
       "steven"
@@ -235155,7 +234944,10 @@
   "model": "common.inventreeusersetting",
   "pk": 322,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "ENABLE_PREVIEW_PANEL",
     "user": [
       "admin"
@@ -235166,7 +234958,10 @@
   "model": "common.inventreeusersetting",
   "pk": 323,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ENABLE_PREVIEW_PANEL",
     "user": [
       "allaccess"
@@ -235177,7 +234972,10 @@
   "model": "common.inventreeusersetting",
   "pk": 324,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "ENABLE_PREVIEW_PANEL",
     "user": [
       "reader"
@@ -235188,7 +234986,10 @@
   "model": "common.inventreeusersetting",
   "pk": 325,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "ENABLE_PREVIEW_PANEL",
     "user": [
       "steven"
@@ -235199,7 +235000,10 @@
   "model": "common.inventreeusersetting",
   "pk": 326,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "SEARCH_RESULTS_PREVIEW_PANEL",
     "user": [
       "admin"
@@ -235210,7 +235014,10 @@
   "model": "common.inventreeusersetting",
   "pk": 327,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "False",
+    "touched": false,
     "key": "ROTATE_TABLE_HEADERS",
     "user": [
       "admin"
@@ -235221,11 +235028,1955 @@
   "model": "common.inventreeusersetting",
   "pk": 328,
   "fields": {
+    "updated": null,
+    "updated_by": null,
     "value": "True",
+    "touched": false,
     "key": "USE_TABLE_NAVIGATION",
     "user": [
       "admin"
     ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 329,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "NAVIGATION_TREE_PINNED",
+    "user": [
+      "admin"
+    ]
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 1,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "USD",
+    "touched": false,
+    "key": "INVENTREE_DEFAULT_CURRENCY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 2,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "INVENTREE_INSTANCE_TITLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 3,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "BARCODE_ENABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 4,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "REPORT_ENABLE_TEST_REPORT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 7,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCK_ENABLE_EXPIRY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 12,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "90",
+    "touched": false,
+    "key": "STOCK_STALE_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 13,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_DOWNLOAD_FROM_URL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 14,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_OWNERSHIP_CONTROL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 15,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "InvenTree Demo Server",
+    "touched": false,
+    "key": "INVENTREE_INSTANCE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 17,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "InvenTree",
+    "touched": false,
+    "key": "INVENTREE_COMPANY_NAME"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 18,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "A4",
+    "touched": false,
+    "key": "REPORT_DEFAULT_PAGE_SIZE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 19,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "REPORT_DEBUG_MODE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 20,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "PART_IPN_REGEX"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 21,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_ALLOW_DUPLICATE_IPN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 22,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_ALLOW_EDIT_IPN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 24,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_TEMPLATE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 25,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_ASSEMBLY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 26,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_COMPONENT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 27,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_TRACKABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 28,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_PURCHASEABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 29,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_SALABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 30,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_VIRTUAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 31,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_COPY_BOM"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 32,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_COPY_PARAMETERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 33,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_COPY_TESTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 34,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_CATEGORY_PARAMETERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 35,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_INTERNAL_PRICE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 36,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_BOM_USE_INTERNAL_PRICE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 37,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_ALLOW_EXPIRED_SALE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 38,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_ALLOW_EXPIRED_BUILD"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 41,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_SHOW_RELATED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 42,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_SHOW_IMPORT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 43,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_CREATE_INITIAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 45,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "{{ part.IPN if part.IPN }}{{ ' | ' if part.IPN }}{{ part.name }}{{ ' | ' if part.revision }}{{ part.revision if part.revision }}",
+    "touched": false,
+    "key": "PART_NAME_FORMAT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 46,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENABLE_REG"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 47,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENABLE_PWD_FORGOT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 48,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENABLE_SSO"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 49,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_MAIL_REQUIRED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 50,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_SIGNUP_MAIL_TWICE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 51,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_SIGNUP_PWD_TWICE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 52,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_SIGNUP_SSO_AUTO"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 53,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "3",
+    "touched": false,
+    "key": "SIGNUP_GROUP"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 55,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "REPORT_ENABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 56,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SERVER_RESTART_REQUIRED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 58,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_SCHEDULE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 59,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_EVENTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 60,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_APP"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 61,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENFORCE_MFA"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 62,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_NAVIGATION"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 64,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_URL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 65,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "{{ year }}-{{ month }}-{{ day }}",
+    "touched": false,
+    "key": "STOCK_BATCH_CODE_TEMPLATE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 66,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PLUGIN_ON_STARTUP"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 67,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_RESTRICT_ABOUT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 68,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SALESORDER_DEFAULT_SHIPMENT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 70,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "BARCODE_WEBCAM_SUPPORT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 71,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "BO{ref:04d}",
+    "touched": false,
+    "key": "BUILDORDER_REFERENCE_PATTERN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 72,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "SO{ref:04d}",
+    "touched": false,
+    "key": "SALESORDER_REFERENCE_PATTERN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 73,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "PO{ref:04d}",
+    "touched": false,
+    "key": "PURCHASEORDER_REFERENCE_PATTERN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 74,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "LABEL_ENABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 75,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "300",
+    "touched": false,
+    "key": "LABEL_DPI"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 76,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "REPORT_ATTACH_TEST_REPORT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 77,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "INVENTREE_REQUIRE_CONFIRM"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 78,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "1",
+    "touched": false,
+    "key": "INVENTREE_DOWNLOAD_IMAGE_MAX_SIZE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 79,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "PART_CATEGORY_DEFAULT_ICON"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 80,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "1",
+    "touched": false,
+    "key": "INVENTREE_TREE_DEPTH"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 81,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "STOCK_LOCATION_DEFAULT_ICON"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 82,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PLUGIN_CHECK_SIGNATURES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 83,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SERIAL_NUMBER_GLOBALLY_UNIQUE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 84,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_BACKUP_ENABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 85,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "INVENTREE_DELETE_TASKS_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 86,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "INVENTREE_DELETE_ERRORS_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 87,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "INVENTREE_DELETE_NOTIFICATIONS_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 88,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "150",
+    "touched": false,
+    "key": "BARCODE_INPUT_DELAY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 89,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "PRICING_UPDATE_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 90,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PURCHASEORDER_EDIT_COMPLETED_ORDERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 91,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SALESORDER_EDIT_COMPLETED_ORDERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 92,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "4",
+    "touched": false,
+    "key": "PRICING_DECIMAL_PLACES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 93,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PRICING_PURCHASE_HISTORY_OVERRIDES_SUPPLIER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 94,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PRICING_USE_SUPPLIER_PRICING"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 95,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PRICING_USE_VARIANT_PRICING"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 96,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PRICING_ACTIVE_VARIANTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 97,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "INVENTREE_DOWNLOAD_FROM_URL_USER_AGENT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 98,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SERIAL_NUMBER_AUTOFILL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 99,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCK_DELETE_DEPLETED_DEFAULT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 100,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCKTAKE_ENABLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 101,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PRICING_USE_STOCK_PRICING"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 102,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "0",
+    "touched": false,
+    "key": "PRICING_STOCK_ITEM_AGE_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 103,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "1",
+    "touched": false,
+    "key": "INVENTREE_BACKUP_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 104,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "LOGIN_SIGNUP_MAIL_RESTRICTION"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 105,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENABLE_SSO_REG"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 106,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_CREATE_SUPPLIER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 107,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "0",
+    "touched": false,
+    "key": "STOCKTAKE_AUTO_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 108,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "STOCKTAKE_DELETE_REPORT_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 112,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "7",
+    "touched": false,
+    "key": "INVENTREE_UPDATE_CHECK_INTERVAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 118,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "RETURNORDER_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 119,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_ENABLE_REVISION"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 120,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "0",
+    "touched": false,
+    "key": "PRICING_DECIMAL_PLACES_MIN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 121,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "RMA-{ref:04d}",
+    "touched": false,
+    "key": "RETURNORDER_REFERENCE_PATTERN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 122,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "RETURNORDER_EDIT_COMPLETED_ORDERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 123,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PROJECT_CODES_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 124,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "http://localhost:8000",
+    "touched": false,
+    "key": "INVENTREE_BASE_URL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 132,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "DISPLAY_FULL_NAMES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 133,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "INVENTREE_STRICT_URLS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 134,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PARAMETER_ENFORCE_UNITS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 135,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCKTAKE_EXCLUDE_EXTERNAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 136,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "inventreecurrencyexchange",
+    "touched": false,
+    "key": "CURRENCY_UPDATE_PLUGIN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 137,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "5",
+    "touched": false,
+    "key": "CURRENCY_UPDATE_INTERVAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 138,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_SHOW_INSTALLED_ITEMS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 139,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PURCHASEORDER_AUTO_COMPLETE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 141,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PREVENT_BUILD_COMPLETION_HAVING_INCOMPLETED_TESTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 142,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PLUGIN_UPDATE_CHECK"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 146,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "TEST_STATION_DATA"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 147,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCK_ENFORCE_BOM_INSTALLATION"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 148,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "REPORT_LOG_ERRORS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 152,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PURCHASEORDER_REQUIRE_RESPONSIBLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 153,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_REQUIRE_RESPONSIBLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 154,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SALESORDER_REQUIRE_RESPONSIBLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 155,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "RETURNORDER_REQUIRE_RESPONSIBLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 156,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_ALLOW_DELETE_FROM_ASSEMBLY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 157,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_ALLOW_OUT_OF_STOCK_TRANSFER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 161,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "AUD,CAD,CNY,EUR,GBP,JPY,NZD,USD",
+    "touched": false,
+    "key": "CURRENCY_CODES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 163,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SALESORDER_SHIP_COMPLETE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 167,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BARCODE_SHOW_TEXT"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 168,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_REQUIRE_LOCKED_PART"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 169,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "LOGIN_ENABLE_SSO_GROUP_SYNC"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 170,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_REQUIRE_VALID_BOM"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 171,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SSO_REMOVE_GROUPS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 172,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_REQUIRE_ACTIVE_PART"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 173,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "groups",
+    "touched": false,
+    "key": "SSO_GROUP_KEY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 174,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "{}",
+    "touched": false,
+    "key": "SSO_GROUP_MAP"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 178,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_REVISION_ASSEMBLY_ONLY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 182,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "inventreebarcode",
+    "touched": false,
+    "key": "BARCODE_GENERATION_PLUGIN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 186,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "TEST_UPLOAD_CREATE_TEMPLATE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 187,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_REQUIRE_CLOSED_CHILDS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 188,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_INTERFACE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 192,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BARCODE_STORE_RESULTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 193,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "100",
+    "touched": false,
+    "key": "BARCODE_RESULTS_MAX_NUM"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 198,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_ANNOUNCE_ID"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 199,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "BUILDORDER_EXTERNAL_BUILDS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 200,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "DISPLAY_PROFILE_INFO"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 201,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "74e962fb-3936-428a-b2c8-954af4f845b3",
+    "touched": false,
+    "key": "INVENTREE_INSTANCE_ID"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 202,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PURCHASEORDER_CONVERT_CURRENCY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 207,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ENABLE_PLUGINS_MAILS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 208,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PRICING_AUTO_UPDATE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 210,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_PROTECT_EMAIL_LOG"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 211,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "30",
+    "touched": false,
+    "key": "INVENTREE_DELETE_EMAIL_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 212,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCKTAKE_DELETE_OLD_ENTRIES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 213,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "365",
+    "touched": false,
+    "key": "STOCKTAKE_DELETE_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 215,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SALESORDER_SHIPMENT_REQUIRES_CHECK"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 216,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "MACHINE_PING_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 224,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_TRACKING_DELETE_OLD_ENTRIES"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 225,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "365",
+    "touched": false,
+    "key": "STOCK_TRACKING_DELETE_DAYS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 231,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "PART_BOM_ALLOW_ZERO_QUANTITY"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 237,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "INVENTREE_SHOW_ADMIN_BANNER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 238,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "INVENTREE_SHOW_SUPERUSER_BANNER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 243,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "TO-{ref:04d}",
+    "touched": false,
+    "key": "TRANSFERORDER_REFERENCE_PATTERN"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 244,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "TRANSFERORDER_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 245,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "TRANSFERORDER_REQUIRE_RESPONSIBLE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 250,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SALESORDER_BLOCK_INCOMPLETE_ITEM_TESTS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 251,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCK_ALLOW_DELETE_SERIALIZED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 252,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "1",
+    "touched": false,
+    "key": "WEEK_STARTS_ON"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 253,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BUILDORDER_EXTERNAL_REQUIRED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 254,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "10",
+    "touched": false,
+    "key": "INVENTREE_UPLOAD_MAX_SIZE"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 255,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "STOCK_ALLOW_EDIT_SERIAL"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 256,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PART_ENABLE_LOCKING"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 268,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "REPORT_FETCH_URLS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 269,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "12",
+    "touched": false,
+    "key": "CALENDAR_HORIZON_MONTHS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 274,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STOCK_MERGE_ON_TRANSFER"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 280,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "TRANSFERORDER_EDIT_COMPLETED_ORDERS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 289,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "BUILDORDER_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 290,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PURCHASEORDER_MERGE_LINE_ITEMS"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 291,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SALESORDER_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 292,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "PURCHASEORDER_ENABLED"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 300,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "PURCHASEORDER_DEFAULT_RECEIVE_LOCATION"
+  }
+},
+{
+  "model": "common.inventreesetting",
+  "pk": 301,
+  "fields": {
+    "updated": "2026-10-15T06:08:22.725Z",
+    "updated_by": [
+      "admin"
+    ],
+    "value": "50",
+    "touched": true,
+    "key": "INVENTREE_DEFAULT_INTERNAL_COMPANY"
   }
 },
 {
