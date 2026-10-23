@@ -2,8 +2,8 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-10-23T23:37:34.478966",
-  "exported_at_utc": "2026-10-23T23:37:34.478977+00:00",
+  "exported_at": "2026-10-23T23:40:57.898095",
+  "exported_at_utc": "2026-10-23T23:40:57.898129+00:00",
   "source_version": "1.7.0 dev",
   "api_version": 564,
   "django_version": "5.2.17",
@@ -108408,7 +108408,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$CWvgH2EOSzLLJgYY64YHjS$S5ppC9xcNnjL5GLQQh3oTTwahpM4yYK1HyOvXc0pyiE=",
-    "last_login": "2026-10-23T22:02:01.375Z",
+    "last_login": "2026-10-23T23:39:15.078Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "Adam",
@@ -160852,6 +160852,108 @@
       "part"
     ],
     "parent_object_pk": "706",
+    "actor_username": "admin"
+  }
+},
+{
+  "model": "audit.auditlogentry",
+  "pk": 2605,
+  "fields": {
+    "content_type": [
+      "common",
+      "inventreesetting"
+    ],
+    "object_pk": "192",
+    "object_id": 192,
+    "object_repr": "BARCODE_STORE_RESULTS",
+    "serialized_data": null,
+    "action": 1,
+    "changes_text": "",
+    "changes": {
+      "value": [
+        "False",
+        true
+      ]
+    },
+    "actor": [
+      "admin"
+    ],
+    "cid": "868ebeff-7e86-433d-9f5c-d55e89414f4d",
+    "remote_addr": null,
+    "remote_port": null,
+    "timestamp": "2026-10-23T23:39:31.178Z",
+    "additional_data": null,
+    "actor_email": "admin@demo.inventree.org",
+    "parent_content_type": null,
+    "parent_object_pk": null,
+    "actor_username": "admin"
+  }
+},
+{
+  "model": "audit.auditlogentry",
+  "pk": 2606,
+  "fields": {
+    "content_type": [
+      "common",
+      "inventreesetting"
+    ],
+    "object_pk": "193",
+    "object_id": 193,
+    "object_repr": "BARCODE_RESULTS_MAX_NUM",
+    "serialized_data": null,
+    "action": 1,
+    "changes_text": "",
+    "changes": {
+      "value": [
+        "100",
+        250
+      ]
+    },
+    "actor": [
+      "admin"
+    ],
+    "cid": "47ab1b5d-b64a-4289-8d71-93b3cc306a1b",
+    "remote_addr": null,
+    "remote_port": null,
+    "timestamp": "2026-10-23T23:39:35.638Z",
+    "additional_data": null,
+    "actor_email": "admin@demo.inventree.org",
+    "parent_content_type": null,
+    "parent_object_pk": null,
+    "actor_username": "admin"
+  }
+},
+{
+  "model": "audit.auditlogentry",
+  "pk": 2607,
+  "fields": {
+    "content_type": [
+      "common",
+      "inventreesetting"
+    ],
+    "object_pk": "238",
+    "object_id": 238,
+    "object_repr": "INVENTREE_SHOW_SUPERUSER_BANNER",
+    "serialized_data": null,
+    "action": 1,
+    "changes_text": "",
+    "changes": {
+      "value": [
+        "True",
+        false
+      ]
+    },
+    "actor": [
+      "admin"
+    ],
+    "cid": "43afc55f-1b6c-418b-92ec-bf7693d0506f",
+    "remote_addr": null,
+    "remote_port": null,
+    "timestamp": "2026-10-23T23:40:09.000Z",
+    "additional_data": null,
+    "actor_email": "admin@demo.inventree.org",
+    "parent_content_type": null,
+    "parent_object_pk": null,
     "actor_username": "admin"
   }
 },
@@ -288952,10 +289054,12 @@
   "model": "common.inventreesetting",
   "pk": 192,
   "fields": {
-    "updated": null,
-    "updated_by": null,
-    "value": "False",
-    "touched": false,
+    "updated": "2026-10-23T23:39:31.177Z",
+    "updated_by": [
+      "admin"
+    ],
+    "value": "True",
+    "touched": true,
     "key": "BARCODE_STORE_RESULTS"
   }
 },
@@ -288963,10 +289067,12 @@
   "model": "common.inventreesetting",
   "pk": 193,
   "fields": {
-    "updated": null,
-    "updated_by": null,
-    "value": "100",
-    "touched": false,
+    "updated": "2026-10-23T23:39:35.636Z",
+    "updated_by": [
+      "admin"
+    ],
+    "value": "250",
+    "touched": true,
     "key": "BARCODE_RESULTS_MAX_NUM"
   }
 },
@@ -289161,10 +289267,12 @@
   "model": "common.inventreesetting",
   "pk": 238,
   "fields": {
-    "updated": null,
-    "updated_by": null,
-    "value": "True",
-    "touched": false,
+    "updated": "2026-10-23T23:40:08.998Z",
+    "updated_by": [
+      "admin"
+    ],
+    "value": "False",
+    "touched": true,
     "key": "INVENTREE_SHOW_SUPERUSER_BANNER"
   }
 },
