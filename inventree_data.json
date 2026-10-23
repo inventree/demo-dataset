@@ -2,13 +2,13 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-10-23T12:22:00.281690",
-  "exported_at_utc": "2026-10-23T12:22:00.281703+00:00",
+  "exported_at": "2026-10-23T13:41:37.231564",
+  "exported_at_utc": "2026-10-23T13:41:37.231585+00:00",
   "source_version": "1.7.0 dev",
   "api_version": 563,
   "django_version": "5.2.17",
   "python_version": "3.12.13",
-  "source_commit": "847c62c",
+  "source_commit": "d52bac7",
   "installed_apps": [
     "InvenTree",
     "allauth",
@@ -108408,7 +108408,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$CWvgH2EOSzLLJgYY64YHjS$S5ppC9xcNnjL5GLQQh3oTTwahpM4yYK1HyOvXc0pyiE=",
-    "last_login": "2026-10-23T11:41:56.541Z",
+    "last_login": "2026-10-23T12:30:18.133Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "Adam",
