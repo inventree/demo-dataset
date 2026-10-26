@@ -2,8 +2,8 @@
   "metadata": {
     "metadata": true,
     "comment": "This file contains a dump of the InvenTree database",
-    "exported_at": "2026-10-26T06:58:04.692470",
-    "exported_at_utc": "2026-10-26T06:58:04.692484+00:00",
+    "exported_at": "2026-10-26T07:04:09.353209",
+    "exported_at_utc": "2026-10-26T07:04:09.353220+00:00",
     "source_version": "1.7.0 dev",
     "api_version": 566,
     "django_version": "5.2.17",
