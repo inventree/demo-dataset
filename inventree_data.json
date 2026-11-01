@@ -2,13 +2,13 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-10-26T07:04:09.353209",
-  "exported_at_utc": "2026-10-26T07:04:09.353220+00:00",
+  "exported_at": "2026-11-01T09:11:12.971852",
+  "exported_at_utc": "2026-11-01T09:11:12.971865+00:00",
   "source_version": "1.7.0 dev",
-  "api_version": 566,
+  "api_version": 568,
   "django_version": "5.2.17",
   "python_version": "3.12.13",
-  "source_commit": "32e5f1c",
+  "source_commit": "c1cd45f",
   "installed_apps": [
     "InvenTree",
     "allauth",
@@ -85320,6 +85320,17 @@
   }
 },
 {
+  "model": "users.owner",
+  "pk": 13,
+  "fields": {
+    "owner_type": [
+      "auth",
+      "user"
+    ],
+    "owner_id": 9
+  }
+},
+{
   "model": "pricing.partpricing",
   "pk": 414,
   "fields": {
@@ -108408,7 +108419,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$CWvgH2EOSzLLJgYY64YHjS$S5ppC9xcNnjL5GLQQh3oTTwahpM4yYK1HyOvXc0pyiE=",
-    "last_login": "2026-10-25T21:19:46.661Z",
+    "last_login": "2026-11-01T09:00:47.744Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "Adam",
@@ -108572,6 +108583,24 @@
         "noaccess"
       ]
     ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ABxs1pLnbTqVEEWlaD2aRZ$fFt7/qz4yhXp2+185dTUwrizMp2ryJyUWCxymxi79ro=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "mfauser",
+    "first_name": "Multifactor",
+    "last_name": "Authentikation",
+    "email": "mfa.user@demo.inventree.org",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-01T09:10:07.950Z",
+    "groups": [],
     "user_permissions": []
   }
 },
@@ -108857,6 +108886,18 @@
       "salesordershipment"
     ],
     "object_id": 6
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "email": "mfa.user@demo.inventree.org",
+    "verified": false,
+    "primary": true
   }
 },
 {
@@ -121214,7 +121255,7 @@
     "cid": "f56e255fb11c4fe99934e53e9b0297ab",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-03-16T10:19:45.000Z",
+    "timestamp": "2026-03-16T10:19:45Z",
     "additional_data": null,
     "actor_email": "ally@demo.inventree.org",
     "parent_content_type": [
@@ -125045,7 +125086,7 @@
     "cid": "f52ceafada4644bb9960bdf04d0f54ef",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-04-01T14:06:01.000Z",
+    "timestamp": "2026-04-01T14:06:01Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": [
@@ -130438,7 +130479,7 @@
     "cid": "f5bcba5604174cd0afaf4c09838e0756",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-04-21T08:32:38.000Z",
+    "timestamp": "2026-04-21T08:32:38Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": null,
@@ -163567,7 +163608,7 @@
     "cid": "43afc55f-1b6c-418b-92ec-bf7693d0506f",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-10-23T23:40:09.000Z",
+    "timestamp": "2026-10-23T23:40:09Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": null,
@@ -229685,6 +229726,20 @@
   }
 },
 {
+  "model": "users.tipresult",
+  "pk": 9,
+  "fields": {
+    "metadata": null,
+    "user": [
+      "mfauser"
+    ],
+    "tip_id": "org.inventree.i.tip.ftug",
+    "shown": false,
+    "finished": false,
+    "updated": "2026-11-01T09:10:07.991Z"
+  }
+},
+{
   "model": "users.userprofile",
   "pk": 1,
   "fields": {
@@ -229862,6 +229917,28 @@
     "metadata": {},
     "user": [
       "noaccess"
+    ],
+    "language": null,
+    "theme": null,
+    "widgets": null,
+    "displayname": null,
+    "position": null,
+    "status": null,
+    "location": null,
+    "active": true,
+    "contact": null,
+    "type": "internal",
+    "organisation": null,
+    "primary_group": null
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 9,
+  "fields": {
+    "metadata": {},
+    "user": [
+      "mfauser"
     ],
     "language": null,
     "theme": null,

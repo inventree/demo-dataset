@@ -2,13 +2,13 @@
   "metadata": {
     "metadata": true,
     "comment": "This file contains a dump of the InvenTree database",
-    "exported_at": "2026-10-26T07:04:09.353209",
-    "exported_at_utc": "2026-10-26T07:04:09.353220+00:00",
+    "exported_at": "2026-11-01T09:11:12.971852",
+    "exported_at_utc": "2026-11-01T09:11:12.971865+00:00",
     "source_version": "1.7.0 dev",
-    "api_version": 566,
+    "api_version": 568,
     "django_version": "5.2.17",
     "python_version": "3.12.13",
-    "source_commit": "32e5f1c",
+    "source_commit": "c1cd45f",
     "installed_apps": [
       "InvenTree",
       "allauth",
@@ -73,11 +73,12 @@
       "whitenoise.runserver_nostatic"
     ]
   },
-  "total_records": 13073,
+  "total_records": 13078,
   "records": {
+    "account.emailaddress": 1,
     "audit.auditlogentry": 2709,
     "auth.group": 4,
-    "auth.user": 8,
+    "auth.user": 9,
     "build.build": 28,
     "build.builditem": 257,
     "build.buildline": 437,
@@ -133,9 +134,9 @@
     "stock.stocklocationtype": 5,
     "taggit.tag": 4,
     "taggit.taggeditem": 18,
-    "users.owner": 12,
+    "users.owner": 13,
     "users.ruleset": 48,
-    "users.tipresult": 8,
-    "users.userprofile": 8
+    "users.tipresult": 9,
+    "users.userprofile": 9
   }
 }
