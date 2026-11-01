@@ -2,8 +2,8 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-11-01T09:13:06.161511",
-  "exported_at_utc": "2026-11-01T09:13:06.161528+00:00",
+  "exported_at": "2026-11-01T09:17:57.423286",
+  "exported_at_utc": "2026-11-01T09:17:57.423313+00:00",
   "source_version": "1.7.0 dev",
   "api_version": 568,
   "django_version": "5.2.17",
@@ -108591,7 +108591,7 @@
   "pk": 9,
   "fields": {
     "password": "pbkdf2_sha256$1000000$ABxs1pLnbTqVEEWlaD2aRZ$fFt7/qz4yhXp2+185dTUwrizMp2ryJyUWCxymxi79ro=",
-    "last_login": "2026-11-01T09:11:47.494Z",
+    "last_login": "2026-11-01T09:15:18.471Z",
     "is_superuser": false,
     "username": "mfauser",
     "first_name": "Multifactor",
@@ -108600,7 +108600,11 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2026-11-01T09:10:07.950Z",
-    "groups": [],
+    "groups": [
+      [
+        "all access"
+      ]
+    ],
     "user_permissions": []
   }
 },
@@ -108898,6 +108902,37 @@
     "email": "mfa.user@demo.inventree.org",
     "verified": true,
     "primary": true
+  }
+},
+{
+  "model": "mfa.authenticator",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "type": "totp",
+    "data": {
+      "secret": "TFFPZIB4VAOKMNMYWIYVMPGBE24RZIHF"
+    },
+    "created_at": "2026-11-01T09:14:08.695Z",
+    "last_used_at": "2026-11-01T09:15:18.287Z"
+  }
+},
+{
+  "model": "mfa.authenticator",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "type": "recovery_codes",
+    "data": {
+      "seed": "610c6d4cc23a9b8e3fc52cbd83166303af2205f3d0b7d6d0b25e83f81e3f03b8398c6991c67ece7e",
+      "used_mask": 0
+    },
+    "created_at": "2026-11-01T09:14:08.702Z",
+    "last_used_at": null
   }
 },
 {
