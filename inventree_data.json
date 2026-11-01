@@ -2,13 +2,13 @@
 {
   "metadata": true,
   "comment": "This file contains a dump of the InvenTree database",
-  "exported_at": "2026-10-26T07:04:09.353209",
-  "exported_at_utc": "2026-10-26T07:04:09.353220+00:00",
+  "exported_at": "2026-11-01T09:17:57.423286",
+  "exported_at_utc": "2026-11-01T09:17:57.423313+00:00",
   "source_version": "1.7.0 dev",
-  "api_version": 566,
+  "api_version": 568,
   "django_version": "5.2.17",
   "python_version": "3.12.13",
-  "source_commit": "32e5f1c",
+  "source_commit": "c1cd45f",
   "installed_apps": [
     "InvenTree",
     "allauth",
@@ -85320,6 +85320,17 @@
   }
 },
 {
+  "model": "users.owner",
+  "pk": 13,
+  "fields": {
+    "owner_type": [
+      "auth",
+      "user"
+    ],
+    "owner_id": 9
+  }
+},
+{
   "model": "pricing.partpricing",
   "pk": 414,
   "fields": {
@@ -108408,7 +108419,7 @@
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$1000000$CWvgH2EOSzLLJgYY64YHjS$S5ppC9xcNnjL5GLQQh3oTTwahpM4yYK1HyOvXc0pyiE=",
-    "last_login": "2026-10-25T21:19:46.661Z",
+    "last_login": "2026-11-01T09:12:18.005Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "Adam",
@@ -108570,6 +108581,28 @@
     "groups": [
       [
         "noaccess"
+      ]
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$ABxs1pLnbTqVEEWlaD2aRZ$fFt7/qz4yhXp2+185dTUwrizMp2ryJyUWCxymxi79ro=",
+    "last_login": "2026-11-01T09:15:18.471Z",
+    "is_superuser": false,
+    "username": "mfauser",
+    "first_name": "Multifactor",
+    "last_name": "Authentikation",
+    "email": "mfa.user@demo.inventree.org",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2026-11-01T09:10:07.950Z",
+    "groups": [
+      [
+        "all access"
       ]
     ],
     "user_permissions": []
@@ -108857,6 +108890,49 @@
       "salesordershipment"
     ],
     "object_id": 6
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "email": "mfa.user@demo.inventree.org",
+    "verified": true,
+    "primary": true
+  }
+},
+{
+  "model": "mfa.authenticator",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "type": "totp",
+    "data": {
+      "secret": "TFFPZIB4VAOKMNMYWIYVMPGBE24RZIHF"
+    },
+    "created_at": "2026-11-01T09:14:08.695Z",
+    "last_used_at": "2026-11-01T09:15:18.287Z"
+  }
+},
+{
+  "model": "mfa.authenticator",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "mfauser"
+    ],
+    "type": "recovery_codes",
+    "data": {
+      "seed": "610c6d4cc23a9b8e3fc52cbd83166303af2205f3d0b7d6d0b25e83f81e3f03b8398c6991c67ece7e",
+      "used_mask": 0
+    },
+    "created_at": "2026-11-01T09:14:08.702Z",
+    "last_used_at": null
   }
 },
 {
@@ -121214,7 +121290,7 @@
     "cid": "f56e255fb11c4fe99934e53e9b0297ab",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-03-16T10:19:45.000Z",
+    "timestamp": "2026-03-16T10:19:45Z",
     "additional_data": null,
     "actor_email": "ally@demo.inventree.org",
     "parent_content_type": [
@@ -125045,7 +125121,7 @@
     "cid": "f52ceafada4644bb9960bdf04d0f54ef",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-04-01T14:06:01.000Z",
+    "timestamp": "2026-04-01T14:06:01Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": [
@@ -130438,7 +130514,7 @@
     "cid": "f5bcba5604174cd0afaf4c09838e0756",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-04-21T08:32:38.000Z",
+    "timestamp": "2026-04-21T08:32:38Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": null,
@@ -163567,7 +163643,7 @@
     "cid": "43afc55f-1b6c-418b-92ec-bf7693d0506f",
     "remote_addr": null,
     "remote_port": null,
-    "timestamp": "2026-10-23T23:40:09.000Z",
+    "timestamp": "2026-10-23T23:40:09Z",
     "additional_data": null,
     "actor_email": "admin@demo.inventree.org",
     "parent_content_type": null,
@@ -229685,6 +229761,20 @@
   }
 },
 {
+  "model": "users.tipresult",
+  "pk": 9,
+  "fields": {
+    "metadata": {},
+    "user": [
+      "mfauser"
+    ],
+    "tip_id": "org.inventree.i.tip.ftug",
+    "shown": false,
+    "finished": true,
+    "updated": "2026-11-01T09:12:02.123Z"
+  }
+},
+{
   "model": "users.userprofile",
   "pk": 1,
   "fields": {
@@ -229866,6 +229956,90 @@
     "language": null,
     "theme": null,
     "widgets": null,
+    "displayname": null,
+    "position": null,
+    "status": null,
+    "location": null,
+    "active": true,
+    "contact": null,
+    "type": "internal",
+    "organisation": null,
+    "primary_group": null
+  }
+},
+{
+  "model": "users.userprofile",
+  "pk": 9,
+  "fields": {
+    "metadata": {},
+    "user": [
+      "mfauser"
+    ],
+    "language": null,
+    "theme": null,
+    "widgets": {
+      "layouts": {
+        "lg": [
+          {
+            "h": 1,
+            "i": "sub-prt",
+            "w": 3,
+            "x": 3,
+            "y": 0,
+            "minH": 1,
+            "minW": 2
+          },
+          {
+            "h": 2,
+            "i": "sub-cat",
+            "w": 4,
+            "x": 3,
+            "y": 1,
+            "minH": 1,
+            "minW": 2
+          },
+          {
+            "h": 2,
+            "i": "latest-parts",
+            "w": 3,
+            "x": 0,
+            "y": 0,
+            "minH": 1,
+            "minW": 2
+          }
+        ],
+        "xxs": [
+          {
+            "h": 1,
+            "i": "sub-prt",
+            "w": 2,
+            "x": 0,
+            "y": 0,
+            "minH": 1,
+            "minW": 2
+          },
+          {
+            "h": 1,
+            "i": "sub-cat",
+            "w": 2,
+            "x": 0,
+            "y": 3,
+            "minH": 1,
+            "minW": 2
+          },
+          {
+            "h": 2,
+            "i": "latest-parts",
+            "w": 2,
+            "x": 0,
+            "y": 1,
+            "minH": 1,
+            "minW": 2
+          }
+        ]
+      },
+      "widgets": []
+    },
     "displayname": null,
     "position": null,
     "status": null,
@@ -330678,6 +330852,650 @@
     "key": "LANGUAGE",
     "user": [
       "steven"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 348,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_RESULTS_PREVIEW_PANEL",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 349,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "DISPLAY_HISTORY_TAB",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 350,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SHOW_SPOTLIGHT",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 351,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_COMPANIES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 352,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_SALES_ORDER_SHIPMENTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 353,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "FORMS_CLOSE_USING_ESCAPE",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 354,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_SUPPLIER_PARTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 355,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_HIDE_UNAVAILABLE_STOCK",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 356,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_WHOLE",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 357,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_BUILD_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 358,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "LABEL_DEFAULT_PRINTER",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 359,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "YYYY-MM-DD",
+    "touched": false,
+    "key": "DATE_DISPLAY_FORMAT",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 360,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_LOCATIONS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 361,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SHOW_FULL_LOCATION_IN_TABLES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 362,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_SALES_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 363,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_HIDE_INACTIVE_PARTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 364,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SHOW_EXTRA_MODEL_INFO",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 365,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "NAVIGATION_TREE_PINNED",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 366,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ROTATE_TABLE_HEADERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 367,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "LABEL_INLINE",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 368,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ENABLE_PREVIEW_PANEL",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 369,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_PARTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 370,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_CATEGORIES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 371,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "NOTIFICATION_ERROR_REPORT",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 372,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "DISPLAY_ITEMS_FINAL_LEVEL",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 373,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SHOW_BOM_SUBASSEMBLY_LEVELS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 374,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_NOTES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 375,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "USE_TABLE_NAVIGATION",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 376,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ENABLE_LAST_BREADCRUMB",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 377,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STICKY_TABLE_HEADER",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 378,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_PURCHASE_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 379,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_RETURN_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 380,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_PURCHASE_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 381,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_EXCLUDE_INACTIVE_RETURN_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 382,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "10",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_RESULTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 383,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_STOCK",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 384,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SEARCH_REGEX",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 385,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "STICKY_HEADER",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 386,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "DISPLAY_STOCKTAKE_TAB",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 387,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "SHOW_FULL_CATEGORY_IN_TABLES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 388,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "",
+    "touched": false,
+    "key": "LAST_USED_PRINTING_MACHINES",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 389,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_SALES_ORDERS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 390,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "BARCODE_IN_FORM_FIELDS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 391,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "True",
+    "touched": false,
+    "key": "SEARCH_PREVIEW_SHOW_MANUFACTURER_PARTS",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 392,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "REPORT_INLINE",
+    "user": [
+      "mfauser"
+    ]
+  }
+},
+{
+  "model": "common.inventreeusersetting",
+  "pk": 393,
+  "fields": {
+    "updated": null,
+    "updated_by": null,
+    "value": "False",
+    "touched": false,
+    "key": "ICONS_IN_NAVBAR",
+    "user": [
+      "mfauser"
     ]
   }
 },
