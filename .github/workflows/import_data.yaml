@@ -10,9 +10,9 @@ jobs:
 #      INVENTREE_SITE_URL: http://localhost:8000
 #      INVENTREE_DB_ENGINE: sqlite3
 #      INVENTREE_DB_NAME: inventree_db_stable.sqlite3
-#      INVENTREE_BACKUP_DIR: $GITHUB_WORKSPACE/path/to/backup
-#      INVENTREE_MEDIA_ROOT: $GITHUB_WORKSPACE/path/to/media
-#      INVENTREE_STATIC_ROOT: $GITHUB_WORKSPACE/path/to/static
+#      INVENTREE_BACKUP_DIR: ${{ github.workspace }}/path/to/backup
+#      INVENTREE_MEDIA_ROOT: ${{ github.workspace }}/path/to/media
+#      INVENTREE_STATIC_ROOT: ${{ github.workspace }}/path/to/static
 
 #    steps:
 #      - name: Checkout Code
@@ -41,9 +41,9 @@ jobs:
       INVENTREE_SITE_URL: http://localhost:8000
       INVENTREE_DB_ENGINE: sqlite3
       INVENTREE_DB_NAME: inventree_db_latest.sqlite3
-      INVENTREE_BACKUP_DIR: $GITHUB_WORKSPACE/path/to/backup
-      INVENTREE_MEDIA_ROOT: $GITHUB_WORKSPACE/path/to/media
-      INVENTREE_STATIC_ROOT: $GITHUB_WORKSPACE/path/to/static
+      INVENTREE_BACKUP_DIR: ${{ github.workspace }}/path/to/backup
+      INVENTREE_MEDIA_ROOT: ${{ github.workspace }}/path/to/media
+      INVENTREE_STATIC_ROOT: ${{ github.workspace }}/path/to/static
 
     steps:
       - name: Checkout Code
@@ -63,4 +63,6 @@ jobs:
         run: |
           cd inventree
           invoke migrate
-          invoke import-records --ignore-nonexistent -c -f $GITHUB_WORKSPACE/inventree_data.json
+          mkdir -p "$INVENTREE_MEDIA_ROOT"
+          cp -r "$GITHUB_WORKSPACE/media/." "$INVENTREE_MEDIA_ROOT"
+          invoke import-records --ignore-nonexistent -c -f $GITHUB_WORKSPACE/inventree_data.json --bulk
