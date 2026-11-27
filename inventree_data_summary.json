@@ -73,10 +73,10 @@
       "whitenoise.runserver_nostatic"
     ]
   },
-  "total_records": 25520,
+  "total_records": 25481,
   "records": {
     "account.emailaddress": 1,
-    "audit.auditlogentry": 4307,
+    "audit.auditlogentry": 4268,
     "auth.group": 4,
     "auth.user": 9,
     "build.build": 98,

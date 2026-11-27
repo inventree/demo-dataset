@@ -388240,42 +388240,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12200,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11297",
-    "object_id": 11297,
-    "object_repr": "FD-KES-1400 | Kestrel Standing Desk - Electric sit/stand desk, 1400 x 700 mm bamboo top, dual motor",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FD-KES-1400.jpg"
-      ]
-    },
-    "actor": [
-      "ian"
-    ],
-    "cid": "2bad7ee44e1e8ddcba666d327eeb597b",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-17T16:25:50Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "ian",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12201,
   "fields": {
     "content_type": [
@@ -388424,42 +388388,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12202,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11298",
-    "object_id": 11298,
-    "object_repr": "FD-KES-1800 | Kestrel Standing Desk XL - Electric sit/stand desk, 1800 x 800 mm bamboo top, triple motor, memory presets",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FD-KES-1800.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "e4a2379b79e8c0499db87633e6d7fb62",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-14T13:51:14Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12203,
   "fields": {
     "content_type": [
@@ -388593,42 +388521,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T13:26:53Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "ian",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12204,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11299",
-    "object_id": 11299,
-    "object_repr": "FD-BRM-1200 | Bramble Writing Desk - Solid oak writing desk with single drawer and cable tray",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FD-BRM-1200.jpg"
-      ]
-    },
-    "actor": [
-      "ian"
-    ],
-    "cid": "bb9d9f6a3c6fe05cfbbf3d0a1fc38b12",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-12T15:44:28Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -388860,42 +388752,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12208,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11300",
-    "object_id": 11300,
-    "object_repr": "FC-WRN-650 | Wren Bar Stool - Counter-height bar stool, walnut seat on powder-coated steel frame",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FC-WRN-650.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "df7ec4ca5ea83ed44d8189e7e4f4b952",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-15T09:02:00Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12209,
   "fields": {
     "content_type": [
@@ -389069,42 +388925,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T10:47:45Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12211,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11301",
-    "object_id": 11301,
-    "object_repr": "FC-PEL-01 | Pelican Lounge Chair - Low lounge chair upholstered in wool boucl\u00e9 with oak legs",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FC-PEL-01.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "a6b5a6a9394643e4aa85d2304a390b59",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-16T11:19:02Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -389296,42 +389116,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12214,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11302",
-    "object_id": 11302,
-    "object_repr": "FC-TRN-02 | Tern Stacking Chair - Lightweight polypropylene stacking chair, stacks 8 high",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FC-TRN-02.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "8ba0e287906ab19ffa56297be74dc349",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-13T10:37:53Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12215,
   "fields": {
     "content_type": [
@@ -389505,42 +389289,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T14:37:54Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12217,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11303",
-    "object_id": 11303,
-    "object_repr": "FT-ALB-3000 | Albatross Conference Table - 3.0 m boat-shaped conference table, seats 10, integrated power module",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FT-ALB-3000.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "a0c64a814c00a2603f887ba965b5d1f8",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-13T15:54:15Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -389772,42 +389520,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12221,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11304",
-    "object_id": 11304,
-    "object_repr": "FS-MAG-5T | Magpie Bookshelf - Five-tier open bookshelf, steel frame with plywood shelves",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FS-MAG-5T.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "6e672094958e5c039f7d0ac7a3706520",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-13T16:42:50Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12222,
   "fields": {
     "content_type": [
@@ -389945,42 +389657,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T13:18:26Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "allaccess",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12223,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11305",
-    "object_id": 11305,
-    "object_repr": "FS-QUO-2D | Quokka Storage Cabinet - Lockable two-door steel storage cabinet with four adjustable shelves",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FS-QUO-2D.jpg"
-      ]
-    },
-    "actor": [
-      "allaccess"
-    ],
-    "cid": "4be7fd0909db5ad5faa428efb5333e26",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-16T09:15:20Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -390176,42 +389852,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12226,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11306",
-    "object_id": 11306,
-    "object_repr": "FL-FFY-LED | Firefly Desk Lamp - Dimmable LED task lamp with USB-C charging port and adjustable colour temperature",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FL-FFY-LED.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "245e4660a251f0b38ace97a29d0d5bb8",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-17T15:53:45Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12227,
   "fields": {
     "content_type": [
@@ -390349,42 +389989,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T11:17:11Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "allaccess",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12228,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11307",
-    "object_id": 11307,
-    "object_repr": "FL-GLW-300 | Glowworm Pendant Light - 300 mm spun aluminium pendant light",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FL-GLW-300.jpg"
-      ]
-    },
-    "actor": [
-      "allaccess"
-    ],
-    "cid": "e3ebda1d79e96db691883d119c95af00",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-11T12:23:11Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -390584,42 +390188,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12231,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11308",
-    "object_id": 11308,
-    "object_repr": "EL-LYR-ENV | Lyrebird Environmental Sensor - Battery-powered LoRaWAN sensor: temperature, humidity, CO2 and pressure",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-LYR-ENV.jpg"
-      ]
-    },
-    "actor": [
-      "ian"
-    ],
-    "cid": "34937599b857efef794af02c706ead3f",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-14T14:45:55Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "ian",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12232,
   "fields": {
     "content_type": [
@@ -390768,42 +390336,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12233,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11309",
-    "object_id": 11309,
-    "object_repr": "EL-LYR-PRB | Lyrebird Probe Sensor - LoRaWAN sensor with external stainless temperature probe (-40 to +125 \u00b0C)",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-LYR-PRB.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "2b16c916f7805dcbf6a0ead87dad7692",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-16T09:06:43Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12234,
   "fields": {
     "content_type": [
@@ -390941,42 +390473,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T10:43:45Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12235,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11310",
-    "object_id": 11310,
-    "object_repr": "EL-CKT-GW8 | Cockatoo LoRaWAN Gateway - 8-channel outdoor LoRaWAN gateway with PoE, LTE backhaul and GPS",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-CKT-GW8.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "07c29d9cb6e3f15d20e78d5cb9107fb6",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-13T14:32:38Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -391172,42 +390668,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12238,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11311",
-    "object_id": 11311,
-    "object_repr": "EL-PLT-PM3 | Platypus Power Monitor - Three-phase DIN-rail energy meter with Modbus RTU and LoRaWAN uplink",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-PLT-PM3.jpg"
-      ]
-    },
-    "actor": [
-      "allaccess"
-    ],
-    "cid": "2c17f8811223025d32a4c732d9c2797f",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-11T15:44:05Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "allaccess",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12239,
   "fields": {
     "content_type": [
@@ -391356,42 +390816,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12240,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11312",
-    "object_id": 11312,
-    "object_repr": "EL-NUM-DEV | Numbat Development Kit - Microcontroller development board with USB-C, Wi-Fi/BLE and Qwiic connectors",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-NUM-DEV.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "f55a4c1e19641fa18bc4df0fe9341357",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-11T14:54:16Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12241,
   "fields": {
     "content_type": [
@@ -391529,42 +390953,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T13:42:39Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12242,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11313",
-    "object_id": 11313,
-    "object_repr": "EL-ECH-KIT | Echidna M12 Cable Kit - Assorted M12 A-coded sensor cables (0.5 m / 2 m / 5 m)",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "EL-ECH-KIT.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "7f41b56c1b5c2133f8a6d1095968f882",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-15T12:24:28Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -391796,42 +391184,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12246,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11314",
-    "object_id": 11314,
-    "object_repr": "ME-BIL-160 | Bilby IP67 Enclosure - ABS IP67 enclosure 160 x 120 x 60 mm with clear lid and DIN rail",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "ME-BIL-160.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "97725b5ec4c7d0d819ea1a80a12abed8",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-17T08:48:36Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12247,
   "fields": {
     "content_type": [
@@ -392005,42 +391357,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T14:23:55Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "allaccess",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12249,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11315",
-    "object_id": 11315,
-    "object_repr": "ME-BIL-250 | Bilby IP67 Enclosure Large - Polycarbonate IP67 enclosure 250 x 200 x 120 mm",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "ME-BIL-250.jpg"
-      ]
-    },
-    "actor": [
-      "allaccess"
-    ],
-    "cid": "49617b319bd5f775b2beaa85b34b8a79",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-14T14:03:49Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -392240,42 +391556,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12252,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11316",
-    "object_id": 11316,
-    "object_repr": "ME-POS-BRK | Possum Pole Mount Bracket - 316 stainless pole/wall mount bracket for sensors and gateways (40-60 mm poles)",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "ME-POS-BRK.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "1ad0ad08d408cc8a12b7273b07b07ac3",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-13T08:42:21Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12253,
   "fields": {
     "content_type": [
@@ -392413,42 +391693,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T10:36:38Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "ian",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12254,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11317",
-    "object_id": 11317,
-    "object_repr": "CN-WOM-500 | Wombat Furniture Polish - Beeswax and orange-oil furniture polish, 500 mL",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "CN-WOM-500_VyEtfsU.png"
-      ]
-    },
-    "actor": [
-      "ian"
-    ],
-    "cid": "630a8f20f29bdf72a748d3039ff1a61e",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-15T16:52:58Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -392640,42 +391884,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12257,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11318",
-    "object_id": 11318,
-    "object_repr": "SV-INSTALL | On-site Installation - On-site installation and commissioning by a certified technician (per hour)",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "SV-INSTALL.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "7fbead40e1d103c5c5e0d757e27ed08e",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-11T13:48:39Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12258,
   "fields": {
     "content_type": [
@@ -392809,42 +392017,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T11:20:56Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "steven",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12259,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11319",
-    "object_id": 11319,
-    "object_repr": "SV-WAR-24 | Extended Warranty - 24 Months - Extends standard warranty by a further 24 months",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "SV-WAR-24.jpg"
-      ]
-    },
-    "actor": [
-      "steven"
-    ],
-    "cid": "85ead97c8597ade41d834fdc9d65457c",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-17T15:10:35Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -393025,42 +392197,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2024-09-11T08:27:32Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "susan",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12262,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11320",
-    "object_id": 11320,
-    "object_repr": "SV-CLOUD-1Y | Cloud Dashboard Subscription - Annual per-device subscription to hosted dashboard",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "SV-CLOUD-1Y.jpg"
-      ]
-    },
-    "actor": [
-      "susan"
-    ],
-    "cid": "d376bb1715689f15e0d3da4db96db633",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2024-09-12T10:15:06Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -393253,42 +392389,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T12:24:47Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12265,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11321",
-    "object_id": 11321,
-    "object_repr": "PCB-CANIF | PCB - CAN Bus Interface | B - 2-layer FR4",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCB-CANIF.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "ecc8ee6e3ed7f362301f56dfae9bb1d7",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-07T16:33:06Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -393513,42 +392613,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T16:50:42Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12269,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11322",
-    "object_id": 11322,
-    "object_repr": "PCB-RS232 | PCB - RS-232 Adapter | A - 2-layer FR4",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCB-RS232.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "b342710f534f2fb373cc264a66e717c4",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-04T09:43:07Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -393816,42 +392880,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12274,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11323",
-    "object_id": 11323,
-    "object_repr": "PCB-PDB | PCB - Power Distribution | C - 4-layer FR4, 2 oz copper, ENIG, 80 x 60 mm",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCB-PDB.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "8c2738476cfafef1cc73d1f62b5a3c2d",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-06T11:47:01Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12275,
   "fields": {
     "content_type": [
@@ -394029,42 +393057,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T10:15:45Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12277,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11324",
-    "object_id": 11324,
-    "object_repr": "PCB-SNS | PCB - Sensor Breakout | A - 2-layer FR4",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCB-SNS.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "23d2762a0fc0756ce3a73ebc7d0e88ed",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-03T13:02:15Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -394304,42 +393296,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12281,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11325",
-    "object_id": 11325,
-    "object_repr": "PCB-LED | PCB - Status LED | A - 2-layer FR4",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCB-LED.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "815cb2669df8823eab57fba9c460ff67",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-06T11:44:49Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12282,
   "fields": {
     "content_type": [
@@ -394513,42 +393469,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T10:41:44Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12284,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11326",
-    "object_id": 11326,
-    "object_repr": "PCBA-CANIF | CAN Bus Interface PCBA | B - Isolated CAN-FD transceiver board with split termination and PicoBlade I/O",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCBA-CANIF.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "870996cbd406a03ee10f2bb0bf560889",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-05T11:59:03Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -394828,42 +393748,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12289,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11327",
-    "object_id": 11327,
-    "object_repr": "PCBA-RS232 | RS-232 Adapter PCBA | A - TTL to RS-232 level shifter with charge-pump supply",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCBA-RS232.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "6d05ff068ec23d5357f28f8e308f3957",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-04T10:26:32Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12290,
   "fields": {
     "content_type": [
@@ -395060,42 +393944,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12292,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11328",
-    "object_id": 11328,
-    "object_repr": "PCBA-PDB | Power Distribution PCBA | C - 60 A power distribution board, XT90 in/out, reverse-polarity and inrush protection",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCBA-PDB.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "8269ba00a5864d97d59a23fb6065ec7f",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-06T12:03:03Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12293,
   "fields": {
     "content_type": [
@@ -395281,42 +394129,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T16:37:45Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12295,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11329",
-    "object_id": 11329,
-    "object_repr": "PCBA-SNS | Sensor Breakout PCBA | A - I2C environmental sensor breakout with level shifting",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCBA-SNS.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "3c711a9a5fa9b52c395571b13a03908e",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-05T08:08:14Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -395545,42 +394357,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T08:06:50Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12299,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11330",
-    "object_id": 11330,
-    "object_repr": "PCBA-LED | Status LED PCBA | A - Six-channel status indicator board for front panels",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "PCBA-LED.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "1019d46c7dd68cea2d7df41ac5d8b880",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-04T12:58:24Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -395860,42 +394636,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12304,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11331",
-    "object_id": 11331,
-    "object_repr": "CBL-XT90-300 | Battery Lead XT90 - 300 mm | A - XT90 male to tinned leads, 10 AWG silicone, 300 mm",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "CBL-XT90-300.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "3c2b6f29d9f6031b52afd46c31c5801d",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-01T11:43:38Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12305,
   "fields": {
     "content_type": [
@@ -396117,42 +394857,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T16:18:48Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12308,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11332",
-    "object_id": 11332,
-    "object_repr": "CBL-COM-500 | Comms Harness 4-way - 500 mm | B - PicoBlade 4-way to PicoBlade 4-way harness",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "CBL-COM-500.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "3066e32b10e871adcc29744004c7fcfc",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-02T09:47:10Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -396436,42 +395140,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12313,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11333",
-    "object_id": 11333,
-    "object_repr": "ASM-EGC-100 | Edge Gateway Controller | B - Rugged edge controller: CAN + RS-232 interfaces",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "ASM-EGC-100.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "a02cfcbfb118583250f9a7f958c91381",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-02T12:40:36Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12314,
   "fields": {
     "content_type": [
@@ -396704,42 +395372,6 @@
 },
 {
   "model": "audit.auditlogentry",
-  "pk": 12317,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11334",
-    "object_id": 11334,
-    "object_repr": "ASM-FSN-200 | Field Sensor Node | A - Weatherproof sensor node: sensor breakout, status LEDs and comms harness in IP-rated housing",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "ASM-FSN-200.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "ffcb8058021c5ea046059e038d626d5e",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-03T16:04:06Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
   "pk": 12318,
   "fields": {
     "content_type": [
@@ -396925,42 +395557,6 @@
     "remote_addr": null,
     "remote_port": null,
     "timestamp": "2026-02-01T11:51:49Z",
-    "additional_data": null,
-    "actor_email": null,
-    "parent_content_type": null,
-    "parent_object_pk": null,
-    "actor_username": "engineer",
-    "event_type": null,
-    "notes": null
-  }
-},
-{
-  "model": "audit.auditlogentry",
-  "pk": 12320,
-  "fields": {
-    "content_type": [
-      "part",
-      "part"
-    ],
-    "object_pk": "11335",
-    "object_id": 11335,
-    "object_repr": "FT-WB-1500 | Workbench Table | A - Heavy-duty workshop bench, painted steel legs and hardwood top",
-    "serialized_data": null,
-    "action": 1,
-    "changes_text": "",
-    "changes": {
-      "image": [
-        "",
-        "FT-WB-1500.jpg"
-      ]
-    },
-    "actor": [
-      "engineer"
-    ],
-    "cid": "4a88943675fb8a7ec6078a1c2f14892e",
-    "remote_addr": null,
-    "remote_port": null,
-    "timestamp": "2026-02-02T12:48:53Z",
     "additional_data": null,
     "actor_email": null,
     "parent_content_type": null,
@@ -648054,15 +646650,9 @@
   "pk": 11297,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Office Desk",
-        "creator": "Rob Bye",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/office-desk-2ZCTPUPPBJ"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FD-KES-1400.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Kestrel Standing Desk",
@@ -648112,15 +646702,9 @@
   "pk": 11298,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Office Desk",
-        "creator": "Bench Accounting",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/office-desk-N7FUTW0RY5"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FD-KES-1800.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Kestrel Standing Desk XL",
@@ -648170,15 +646754,9 @@
   "pk": 11299,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Office Desk",
-        "creator": "Snappa.io",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/office-desk-QFLSQDYET6"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FD-BRM-1200.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Bramble Writing Desk",
@@ -648228,15 +646806,9 @@
   "pk": 11300,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Free old bar stools image",
-        "creator": null,
-        "license": "cc0",
-        "source_page": "https://www.rawpixel.com/image/5906250/photo-image-public-domain-wood-circle"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FC-WRN-650.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Wren Bar Stool",
@@ -648286,15 +646858,9 @@
   "pk": 11301,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Marcel Breuer's Lounge Chair (B35)",
-        "creator": null,
-        "license": "cc0",
-        "source_page": "https://www.rawpixel.com/image/8883387/lounge-chair-b35"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FC-PEL-01.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Pelican Lounge Chair",
@@ -648344,15 +646910,9 @@
   "pk": 11302,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Stackable. Original public domain image",
-        "creator": null,
-        "license": "cc0",
-        "source_page": "https://www.rawpixel.com/image/3305629/free-photo-image-chair-aluminium-cc0"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FC-TRN-02.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Tern Stacking Chair",
@@ -648402,15 +646962,9 @@
   "pk": 11303,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Conference Room at the Guy Bradley Visitor Center",
-        "creator": "evergladesnps",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/56295925@N07/53412536573"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FT-ALB-3000.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Albatross Conference Table",
@@ -648460,15 +647014,9 @@
   "pk": 11304,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Books Bookshelf",
-        "creator": "Startup Stock Photos",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/books-bookshelf-0SP70JWWOK"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FS-MAG-5T.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Magpie Bookshelf",
@@ -648518,15 +647066,9 @@
   "pk": 11305,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "File Cabinet, President's Secretary Chamber, Cincinnati Union Terminal, Queensgate, Cincinnati, OH",
-        "creator": "w_lemay",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/59081381@N03/47531333141"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FS-QUO-2D.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Quokka Storage Cabinet",
@@ -648576,15 +647118,9 @@
   "pk": 11306,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Macbook Laptop",
-        "creator": "Tatiana Lapina",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/macbook-laptop-DPZPTWJ07T"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FL-FFY-LED.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Firefly Desk Lamp",
@@ -648634,15 +647170,9 @@
   "pk": 11307,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Five pendant lights with black lampshades, featuring warm glowing bulbs, hang against a dark background.",
-        "creator": "vatoyiit",
-        "license": "cc0",
-        "source_page": "https://wordpress.org/photos/photo/5196367b0d/"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/FL-GLW-300.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Glowworm Pendant Light",
@@ -648692,15 +647222,9 @@
   "pk": 11308,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Garden Wall Weather Station, MT",
-        "creator": "U.S. Geological Survey",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/27784370@N05/16017540416"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-LYR-ENV.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Lyrebird Environmental Sensor",
@@ -648750,15 +647274,9 @@
   "pk": 11309,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Thermometer",
-        "creator": "volkspider",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/14543400@N04/8386571647"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-LYR-PRB.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Lyrebird Probe Sensor",
@@ -648808,15 +647326,9 @@
   "pk": 11310,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Antenna",
-        "creator": "pasukaru76",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/38451115@N04/3975101870"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-CKT-GW8.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Cockatoo LoRaWAN Gateway",
@@ -648866,15 +647378,9 @@
   "pk": 11311,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Two new electric meters, 2013 04 27 -b.JPG",
-        "creator": "booledozer",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/55289779@N00/8687862495"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-PLT-PM3.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Platypus Power Monitor",
@@ -648924,15 +647430,9 @@
   "pk": 11312,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Arduino Uno",
-        "creator": "redcctshirt",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/48660975@N02/10192572883"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-NUM-DEV.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Numbat Development Kit",
@@ -648982,15 +647482,9 @@
   "pk": 11313,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Arduino Uno Kit",
-        "creator": "redcctshirt",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/48660975@N02/10192467575"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/EL-ECH-KIT.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Echidna M12 Cable Kit",
@@ -649040,15 +647534,9 @@
   "pk": 11314,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Control panels of cooling tower at NERSC",
-        "creator": "D Coetzee",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/29507259@N02/6271229287"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/ME-BIL-160.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Bilby IP67 Enclosure",
@@ -649098,15 +647586,9 @@
   "pk": 11315,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "A wall with an electrical panel featuring a high-voltage warning symbol, mounted on a textured brick surface. The warning symbol prominently displays a lightning bolt, emphasizing danger.",
-        "creator": "David Plaza",
-        "license": "cc0",
-        "source_page": "https://wordpress.org/photos/photo/142674de97/"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/ME-BIL-250.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Bilby IP67 Enclosure Large",
@@ -649156,15 +647638,9 @@
   "pk": 11316,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Streetlight Surveillance Camera & Antenna, Jefferson Drive SW & 7th Street SW (Washington, DC)",
-        "creator": "takomabibelot",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/38782010@N00/323514828"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/ME-POS-BRK.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Possum Pole Mount Bracket",
@@ -649216,7 +647692,7 @@
     "metadata": {
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/CN-WOM-500_VyEtfsU.png",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Wombat Furniture Polish",
@@ -649266,15 +647742,9 @@
   "pk": 11318,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "20241120-FS-EQDL-1065",
-        "creator": "Forest Service Photography",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/140082569@N07/54187260119"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/SV-INSTALL.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "On-site Installation",
@@ -649324,15 +647794,9 @@
   "pk": 11319,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Computer repairs at Reading Repair Cafe",
-        "creator": "karenblakeman",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/11569642@N00/16473176888"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/SV-WAR-24.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Extended Warranty - 24 Months",
@@ -649382,15 +647846,9 @@
   "pk": 11320,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Sci Phi XVI Turns Off",
-        "creator": "Jefferson Lab",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/53950384@N02/55643768842"
-      },
       "demo_generator": "sales-orders"
     },
-    "image": "part_images/SV-CLOUD-1Y.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Cloud Dashboard Subscription",
@@ -649440,15 +647898,9 @@
   "pk": 11321,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Macro shot of a circuit board",
-        "creator": "D Coetzee",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/29507259@N02/3777753546"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCB-CANIF.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "PCB - CAN Bus Interface",
@@ -649498,15 +647950,9 @@
   "pk": 11322,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": null,
-        "creator": null,
-        "license": "cc0",
-        "source_page": "https://www.rawpixel.com/image/6069741/free-public-domain-cc0-photo"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCB-RS232.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "PCB - RS-232 Adapter",
@@ -649556,15 +648002,9 @@
   "pk": 11323,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Macro of circuit board closeup",
-        "creator": "D Coetzee",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/29507259@N02/3777805402"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCB-PDB.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "PCB - Power Distribution",
@@ -649614,15 +648054,9 @@
   "pk": 11324,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Macro shot of circuit board 3",
-        "creator": "D Coetzee",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/29507259@N02/3780604930"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCB-SNS.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "PCB - Sensor Breakout",
@@ -649672,15 +648106,9 @@
   "pk": 11325,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Greengate Interface BD DS4 - 1",
-        "creator": "SonicPixUK",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/204177634@N08/55646183887"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCB-LED.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "PCB - Status LED",
@@ -649730,15 +648158,9 @@
   "pk": 11326,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Computer Board",
-        "creator": "Lenharth Systems",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/computer-board-DWVHX92TAL"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCBA-CANIF.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "CAN Bus Interface PCBA",
@@ -649790,15 +648212,9 @@
   "pk": 11327,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Computer Board",
-        "creator": "Lenharth Systems",
-        "license": "cc0",
-        "source_page": "https://stocksnap.io/photo/computer-board-FVH1SDZJGI"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCBA-RS232.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "RS-232 Adapter PCBA",
@@ -649850,15 +648266,9 @@
   "pk": 11328,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "SPACE AGE 4-bit discrete CPU power supply",
-        "creator": "stiefkind",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/52924836@N00/15272312157"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCBA-PDB.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Power Distribution PCBA",
@@ -649910,15 +648320,9 @@
   "pk": 11329,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Sensores inteligentes detectar\u00e1n la poluci\u00f3n medioambiental a la velocidad de la luz",
-        "creator": "IBM Espa\u00f1a.",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/115281417@N03/32079892686"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCBA-SNS.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Sensor Breakout PCBA",
@@ -649970,15 +648374,9 @@
   "pk": 11330,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "led-boards-glued-to-base",
-        "creator": "geekabit",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/184075130@N04/52512073943"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/PCBA-LED.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Status LED PCBA",
@@ -650030,15 +648428,9 @@
   "pk": 11331,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Remove the negative battery terminal",
-        "creator": "royvanegas",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/7387328@N03/2702137067"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/CBL-XT90-300.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Battery Lead XT90 - 300 mm",
@@ -650090,15 +648482,9 @@
   "pk": 11332,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "2002-2005 KIA Sedona Spark Plug Coil Pack Wire Harness",
-        "creator": "1968GTO",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/43970176@N04/54910734525"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/CBL-COM-500.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Comms Harness 4-way - 500 mm",
@@ -650150,15 +648536,9 @@
   "pk": 11333,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Control panel of cooling tower at NERSC",
-        "creator": "D Coetzee",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/29507259@N02/6271753962"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/ASM-EGC-100.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Edge Gateway Controller",
@@ -650210,15 +648590,9 @@
   "pk": 11334,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "Sun Point Weather Station",
-        "creator": "GlacierNPS",
-        "license": "pdm",
-        "source_page": "https://www.flickr.com/photos/43288043@N04/4427591331"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/ASM-FSN-200.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Field Sensor Node",
@@ -650270,15 +648644,9 @@
   "pk": 11335,
   "fields": {
     "metadata": {
-      "image_source": {
-        "title": "electronics-workbench",
-        "creator": "geekabit",
-        "license": "cc0",
-        "source_page": "https://www.flickr.com/photos/184075130@N04/52512158193"
-      },
       "demo_generator": "build-orders"
     },
-    "image": "part_images/FT-WB-1500.jpg",
+    "image": "",
     "barcode_data": "",
     "barcode_hash": "",
     "name": "Workbench Table",
