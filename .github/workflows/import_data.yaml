@@ -63,4 +63,5 @@ jobs:
         run: |
           cd inventree
           invoke migrate
+          cp -r $GITHUB_WORKSPACE/media $INVENTREE_MEDIA_ROOT
           invoke import-records --ignore-nonexistent -c -f $GITHUB_WORKSPACE/inventree_data.json --bulk
