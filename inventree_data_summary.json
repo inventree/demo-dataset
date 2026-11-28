@@ -2,13 +2,13 @@
   "metadata": {
     "metadata": true,
     "comment": "This file contains a dump of the InvenTree database",
-    "exported_at": "2026-11-26T20:51:15.796613",
-    "exported_at_utc": "2026-11-26T20:51:15.796625+00:00",
+    "exported_at": "2026-11-28T07:41:58.888886",
+    "exported_at_utc": "2026-11-28T07:41:58.888908+00:00",
     "source_version": "1.8.0 dev",
-    "api_version": 584,
+    "api_version": 585,
     "django_version": "5.2.19",
     "python_version": "3.12.13",
-    "source_commit": "a7a0109",
+    "source_commit": "75bbd69",
     "installed_apps": [
       "InvenTree",
       "allauth",
@@ -73,7 +73,7 @@
       "whitenoise.runserver_nostatic"
     ]
   },
-  "total_records": 25481,
+  "total_records": 26915,
   "records": {
     "account.emailaddress": 1,
     "audit.auditlogentry": 4268,
@@ -129,6 +129,8 @@
     "pricing.partinternalpricebreak": 258,
     "pricing.partpricing": 477,
     "pricing.partsellpricebreak": 88,
+    "pricing.stockitemcost": 717,
+    "pricing.stockitemcostentry": 717,
     "report.labeltemplate": 6,
     "report.reporttemplate": 11,
     "stock.stockitem": 4853,
